@@ -1,0 +1,2401 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="6e96f41b-cda0-45ac-9d31-c8996065cfda" name="2022 - Daemons - Daemons of the Ruinstorm" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="77" revision="5" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink import="false" name="Daemons of the Ruinstorm" hidden="false" type="selectionEntry" id="e3ed1fcc-b0e4-477a-835c-da08ba542cd8" targetId="dba5d32d-6a82-456f-8635-87ab0786b686">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a01da4ae-0668-407a-ad04-d7f3eff9dcda"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink targetId="96aaefc9-bb4f-4101-8899-fc6c4ca4e102" id="27c7-e48-9b25-b38f" primary="true" name="Allegiance:"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="add" field="category" value="3e7a375a-7480-4ace-9dcc-df0b6940983a">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d9ebf7d1-83b7-46cb-af53-911c42424daa" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink import="false" name="01) Ruinstorm Daemon Sovereign" hidden="false" type="selectionEntry" id="063b7c98-dd54-4f81-a7d6-6cca0acd779b" targetId="26530429-6935-4f68-bd31-651aaa0ebe7d">
+      <categoryLinks>
+        <categoryLink targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" id="5bef-275-968-1f88" primary="false" name="Unit:"/>
+        <categoryLink targetId="19f64928-a1cc-433d-885c-6ebefbe8c517" id="9b39-aee6-628-7679" primary="false" name="Compulsory HQ:"/>
+        <categoryLink targetId="57062715-ec54-4808-9960-07ba13cc51e9" id="7d5a94a6-c9bc-4d1e-af84-9c08ecf544e4" primary="true" name="HQ:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="false" name="02) Ruinstorm Daemon Hierarch" hidden="false" type="selectionEntry" id="50a8-b11-67b1-26b5" targetId="843f9c8e-efb5-4e67-9283-dd9f2a193eda">
+      <categoryLinks>
+        <categoryLink targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" id="a03d3810-21b7-4889-ac03-d8efc736c842" primary="false" name="Unit:"/>
+        <categoryLink targetId="19f64928-a1cc-433d-885c-6ebefbe8c517" id="7876148e-a415-4dcf-a422-142afe10e08b" primary="false" name="Compulsory HQ:"/>
+        <categoryLink targetId="57062715-ec54-4808-9960-07ba13cc51e9" id="e5d3c794-8ef5-4bd1-b450-00ec2ef06775" primary="true" name="HQ:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="false" name="03) Ruinstorm Daemon Harbinger" hidden="false" type="selectionEntry" id="aaad-9ba0-9f12-f55" targetId="68140341-0fbf-4ffb-8b92-0dd6f69c5420">
+      <categoryLinks>
+        <categoryLink targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" id="c814510a-4c8e-426f-8b8e-bd845b9ab05d" primary="false" name="Unit:"/>
+        <categoryLink targetId="19f64928-a1cc-433d-885c-6ebefbe8c517" id="8ac4-47e5-8e06-a2f" primary="false" name="Compulsory HQ:"/>
+        <categoryLink targetId="57062715-ec54-4808-9960-07ba13cc51e9" id="a991bd9c-c388-4fa0-a5d9-e8827104f397" primary="true" name="HQ:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="false" name="04) Ruinstorm Daemon Brutes" hidden="false" type="selectionEntry" id="24b7-aabd-c772-ff9" targetId="2219-cb60-b52-a36c">
+      <categoryLinks>
+        <categoryLink targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" id="277f3b84-1ffc-46e7-9ed2-d1dfee13ed1a" primary="false" name="Unit:"/>
+        <categoryLink targetId="4b0dd5f1-7171-4558-a4cb-28d2b075687a" id="df715749-b218-4856-befc-2cb029d8be20" primary="false" name="Compulsory Elite:"/>
+        <categoryLink targetId="c142153b-5c2c-443d-9502-2c00888474ef" id="f3ae-a32c-5970-ecc" primary="true" name="Elites:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="false" name="05) Ruinstorm Daemon Beasts" hidden="false" type="selectionEntry" id="162dca2a-ffe7-4b5b-bf5c-52c7fa1d896a" targetId="69ad-927-c71b-6b24">
+      <categoryLinks>
+        <categoryLink targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" id="aa6e-9ff9-e76-7758" primary="false" name="Unit:"/>
+        <categoryLink targetId="4b0dd5f1-7171-4558-a4cb-28d2b075687a" id="30dd2554-874f-4ae7-adad-ceab12494658" primary="false" name="Compulsory Elite:"/>
+        <categoryLink targetId="c142153b-5c2c-443d-9502-2c00888474ef" id="87591256-97fb-4647-87ee-ad4900704a1f" primary="true" name="Elites:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="false" name="06) Ruinstorm Lesser Daemons" hidden="false" type="selectionEntry" id="6bf2c9fc-e989-4417-8ff1-1bd7e0fb49e4" targetId="157c-7592-a6b9-f96">
+      <categoryLinks>
+        <categoryLink targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" id="a9357b3a-1339-48e9-ac45-f79702fdac61" primary="false" name="Unit:"/>
+        <categoryLink targetId="1bfd7c23-4ad7-418a-8351-828b2da671e6" id="5b36bd96-3101-48e4-b8b0-d71d5804ef9f" primary="true" name="Troops:"/>
+        <categoryLink targetId="a9ded219-d94d-4bd0-b6a9-dd75915a39ad" id="c3e1-270c-5235-177" primary="false" name="Compulsory Troops:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="false" name="07) Ruinstorm Daemon Swarms" hidden="false" type="selectionEntry" id="98874560-db23-44cf-bce6-9bea0077b8f6" targetId="bb35-e585-a226-28e">
+      <categoryLinks>
+        <categoryLink targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" id="1d4d5755-21c4-4267-b62d-1e49629d0a9c" primary="false" name="Unit:"/>
+        <categoryLink targetId="1bfd7c23-4ad7-418a-8351-828b2da671e6" id="ec3ede23-11d7-41fd-9350-d90c9ff60c2a" primary="true" name="Troops:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="false" name="08) Ruinstorm Daemon Cavalry" hidden="false" type="selectionEntry" id="2a209c70-f4d2-4a84-a48d-1fc67489acb7" targetId="bb02d684-c357-4f2c-9358-1d8357e8396e">
+      <categoryLinks>
+        <categoryLink targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" id="f1c9-ed9e-71f-8fe9" primary="false" name="Unit:"/>
+        <categoryLink targetId="cadd8cf5-0564-4094-b367-3bf6222ad576" id="6f39ee01-ba94-48ce-92b1-60821cd4085f" primary="true" name="Fast Attack:"/>
+        <categoryLink targetId="36c4ecb5-7500-45e3-8f2f-18121e9a87e9" id="6dab1fcf-8d87-44d5-83d4-4628fb49e575" primary="false" name="Compulsory Fast Attack:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="false" name="09) Ruinstorm Daemon Harriers" hidden="false" type="selectionEntry" id="a487d546-843a-494a-b2af-33026e5fa215" targetId="6726adbe-ce51-4ee8-8fe5-3a6e9a71d795">
+      <categoryLinks>
+        <categoryLink targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" id="6cbcf978-e476-41ab-b324-0e078b5fc84f" primary="false" name="Unit:"/>
+        <categoryLink targetId="cadd8cf5-0564-4094-b367-3bf6222ad576" id="a8aa37e9-bff1-4622-8434-bfe67ea2fa1f" primary="true" name="Fast Attack:"/>
+        <categoryLink targetId="36c4ecb5-7500-45e3-8f2f-18121e9a87e9" id="8d4c39ee-33f4-46d3-9b4c-3b9465ef12da" primary="false" name="Compulsory Fast Attack:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="false" name="10) Greater Ruinstorm Daemon Beast" hidden="false" type="selectionEntry" id="6f6e6166-7196-4669-80ae-d1f49bfddc93" targetId="6cbb5d5f-8ecf-458a-945d-a308f78e500c">
+      <categoryLinks>
+        <categoryLink targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" id="6a9c985b-a40e-40f6-9c4a-3645c6c4962e" primary="false" name="Unit:"/>
+        <categoryLink targetId="39ee736f-bb6b-4c3d-a25d-7a905107d65a" id="e6c-80f3-6dcc-9285" primary="true" name="Heavy Support:"/>
+        <categoryLink targetId="82c80bca-c33b-4d10-8bfb-696a92a7778a" id="0ce2db03-8df7-4e00-b690-33b5dc7f5657" primary="false" name="Compulsory Heavy Support:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="false" name="11) Ruinstorm Daemon Behemoth" hidden="false" type="selectionEntry" id="59ea-d83-a465-2697" targetId="0365ff38-8001-43b9-95b8-76a21e3bf517">
+      <categoryLinks>
+        <categoryLink targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" id="8032a91d-4170-4d9b-b254-4017de425f23" primary="false" name="Unit:"/>
+        <categoryLink targetId="39ee736f-bb6b-4c3d-a25d-7a905107d65a" id="2a02199f-d736-4241-84da-e7232b93399b" primary="true" name="Heavy Support:"/>
+        <categoryLink targetId="82c80bca-c33b-4d10-8bfb-696a92a7778a" id="b2939d09-0a45-4438-a910-3f1e86485dab" primary="false" name="Compulsory Heavy Support:"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="false" name="12) Ruinstorm Arch-Daemon" hidden="false" type="selectionEntry" id="a1aa3f20-7fbf-4ceb-98a2-51d3786d79da" targetId="d504f4f7-6da8-4eca-a5b7-262a5bdf3351">
+      <categoryLinks>
+        <categoryLink targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" id="e53f3054-e614-456f-8156-ed0868486b65" primary="false" name="Unit:"/>
+        <categoryLink targetId="266ef4b9-8d43-4618-8e6f-aad3dd30ee90" id="b3f-ca75-5e86-c6fe" primary="true" name="Lords of War:"/>
+        <categoryLink targetId="a52b8023-d6f9-4955-a156-b8c24c94c874" id="c1470ecc-ac6e-4625-a649-8bc3f346889e" primary="false" name="LoW &amp; Primarchs (25% Limit)"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="false" name="13) Ka’bandha Unbound" hidden="false" type="selectionEntry" id="d606-d66-9d34-6fb4" targetId="056a58cf-d0de-4b84-b51a-1e744fcf9b8b">
+      <categoryLinks>
+        <categoryLink targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" id="a36d2cf8-2473-43da-8f89-57b788619dcb" primary="false" name="Unit:"/>
+        <categoryLink targetId="266ef4b9-8d43-4618-8e6f-aad3dd30ee90" id="6daa976f-876e-4647-8f68-31b933bc0e50" primary="true" name="Lords of War:"/>
+        <categoryLink targetId="a52b8023-d6f9-4955-a156-b8c24c94c874" id="9b12f40a-16b9-4c5e-b18f-3c1aa1297633" primary="false" name="LoW &amp; Primarchs (25% Limit)"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="false" name="14) Cor’bax Utterblight Unbound" hidden="false" type="selectionEntry" id="5bdeb4cb-9011-406f-abc7-faf4eb923924" targetId="e1fcea47-1331-4c94-bedc-7e50a946671b">
+      <categoryLinks>
+        <categoryLink targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" id="cc2c19d2-189a-413e-b045-7800717e1c48" primary="false" name="Unit:"/>
+        <categoryLink targetId="266ef4b9-8d43-4618-8e6f-aad3dd30ee90" id="c33f0d12-9dd6-4fbf-8622-813c16a43e76" primary="true" name="Lords of War:"/>
+        <categoryLink targetId="a52b8023-d6f9-4955-a156-b8c24c94c874" id="1eee799d-21ab-47c9-b1ce-98cfa158a735" primary="false" name="LoW &amp; Primarchs (25% Limit)"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="false" name="15) Samus Unbound" hidden="false" type="selectionEntry" id="6f48-b881-40f3-5da" targetId="4cfeb35a-606d-4bf0-8d1e-4405526f6123">
+      <categoryLinks>
+        <categoryLink targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" id="7edfa36f-35f3-4973-94dc-aaac7da299c1" primary="false" name="Unit:"/>
+        <categoryLink targetId="266ef4b9-8d43-4618-8e6f-aad3dd30ee90" id="e69568fe-84dc-464e-8741-f18b876f755f" primary="true" name="Lords of War:"/>
+        <categoryLink targetId="a52b8023-d6f9-4955-a156-b8c24c94c874" id="dcfad191-bade-4c0f-937a-afec6216fed1" primary="false" name="LoW &amp; Primarchs (25% Limit)"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry type="unit" import="true" name="Ruinstorm Daemon Sovereign" hidden="false" id="26530429-6935-4f68-bd31-651aaa0ebe7d" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="6">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Sovereign" hidden="false" id="1bde1e41-b896-4695-b616-0b82eca7717a" page="6" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="952cd24b-c41f-4d5b-adf8-f02389ce977f"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="276daa79-8a62-4f55-9911-93b4f0bcbf0f"/>
+          </constraints>
+          <profiles>
+            <profile name="Sovereign" typeId="2b6e799b-8afd-4ae9-b80a-234103442598" typeName="Unit" hidden="false" id="b21a-c8cb-fc4-6d43" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="6">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="36ce3f10-11e9-4add-ae15-3062f27946e7">Daemon (Character, Monstrous)</characteristic>
+                <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">8</characteristic>
+                <characteristic name="WS" typeId="d5a82d3a-18d1-48d0-a9e0-f752cb09e068">6</characteristic>
+                <characteristic name="BS" typeId="253b2a0a-577c-437a-9898-bfc1d22dcef8">5</characteristic>
+                <characteristic name="S" typeId="94c4fa7b-8480-4e99-84ad-92c9768f1472">7</characteristic>
+                <characteristic name="T" typeId="8a92af2d-103b-4847-b535-181cc323038e">6</characteristic>
+                <characteristic name="W" typeId="5e57eecc-4078-4b3a-9087-1cf0055bbabd">7</characteristic>
+                <characteristic name="I" typeId="ed32b28f-9bdc-4312-ba9b-e16cbc61db41">6</characteristic>
+                <characteristic name="A" typeId="4e9d7106-4cea-4d16-a7ea-f2f8f2957234">5</characteristic>
+                <characteristic name="Ld" typeId="9c8deb64-055e-4d01-b341-924389963feb">9</characteristic>
+                <characteristic name="Save" typeId="d8f3cf40-ebb8-45e1-8f50-074a0475a7ed">3+</characteristic>
+              </characteristics>
+              <modifiers>
+                <modifier type="append" field="36ce3f10-11e9-4add-ae15-3062f27946e7" value="(Heavy)">
+                  <conditions>
+                    <condition field="selections" scope="26530429-6935-4f68-bd31-651aaa0ebe7d" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="301215de-00bd-4e22-a60a-b7fb3c74c57c" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="350"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="The Ætheric Dominion (Unit)" hidden="false" type="selectionEntryGroup" id="d12d-ef33-dfdb-2ec" targetId="d4f3cb16-5405-4564-bb9f-f9125c44200c"/>
+        <entryLink import="true" name="Warlord" hidden="false" type="selectionEntry" id="c7e9-b5ee-aac-92c0" targetId="1887d318-5716-41f5-8b3e-1e6dff0c8e4c"/>
+        <entryLink import="true" name="Warlord Traits (Ruinstorm Daemons)" hidden="false" type="selectionEntryGroup" id="2a1-8be4-17b-75ca" targetId="09101244-3ff6-4bd0-a625-e28780f072f4"/>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="477c7f82-c21d-4df4-ac10-fe28ce47df1f" id="5aec4395-8d4d-473b-bb9c-a9cee332511a" primary="false" name="Daemon Unit-type:"/>
+        <categoryLink targetId="546a8d3f-47d4-4c80-b30e-e6addf1298f2" id="4991556e-24ce-49a9-9aa8-b71e0869c7d3" primary="false" name="Character"/>
+        <categoryLink targetId="ca7cbae2-3b57-4a83-8965-8bb8c5aa9d9a" id="3b60b770-00aa-4dee-b048-53e5bfe94b0f" primary="false" name="Monstrous Sub-type:"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink id="3bfbad81-8cd1-4415-afd5-66eabb97d1f8" name="Traitor" hidden="false" targetId="cfdf5692-0bbf-4678-a6f8-1af4be67730b" type="rule"/>
+        <infoLink id="c3cfc07e-fc4f-4ae7-b387-25ca7ff908e9" name="Bulky (X)" hidden="false" targetId="1e7612dc-20f4-4c63-9297-8884e8c765e6" type="rule">
+          <modifiers>
+            <modifier type="set" value="Bulky (7)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="eea0a58e-fea4-4c65-978e-4a51d4500552" name="It Will Not Die (X)" hidden="false" targetId="6cfc9354-2a62-43ec-87aa-137862c8c7bb" type="rule">
+          <modifiers>
+            <modifier type="set" value="It Will Not Die (5+)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Empyrean Avatar" hidden="false" type="rule" id="dffaa18d-e333-4f4e-9883-2e0fa8c1fe5c" targetId="c694-20c8-455-baca"/>
+        <infoLink id="5ea43a76-e4c6-40a9-b20b-f000ce43e8f4" name="Æthereal Invulnerability (X)" hidden="false" targetId="3f6b6f63-44f0-40bf-96e6-bb5979a82ba2" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Æthereal Invulnerability (4+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="53848473-8e4c-4571-bcdf-fdbedd11f40b" name="Hammer of Wrath (X)" hidden="false" targetId="38d7dec9-d961-47f7-935b-341ef71888d4" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Hammer of Wrath (1)">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="26530429-6935-4f68-bd31-651aaa0ebe7d" childId="850b8d60-5882-4c37-9871-6ed2a0c9f323" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Weapon" hidden="false" id="a34b1086-c667-4278-adbd-3c6b3e3f92bd" defaultSelectionEntryId="61eb8048-bfa3-4c62-95bd-46937afbccb2">
+          <entryLinks>
+            <entryLink import="true" name="Sovereign Armaments" hidden="false" type="selectionEntry" id="61eb8048-bfa3-4c62-95bd-46937afbccb2" targetId="c859-2be-6d66-d3da">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="885144d8-24ae-432b-86e9-b3330cb003ce"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Sovereign Greatblade" hidden="false" type="selectionEntry" id="3881-3c88-43f-bdac" targetId="c9882217-b4d1-430e-b60e-3eb8a41169c6">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="67714658-902d-4385-84f5-81a7e692de88"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="10"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2bd977ed-a8ea-44ad-a3c2-1e076069f4c0"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3090553f-d642-477a-87a9-db9180e15352"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="May take up to three of the following options:" hidden="false" id="222405dd-f1ea-4de3-993b-4d1397528131">
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="a31-7ef5-8250-2f15"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Ætheric Conduit" hidden="false" type="selectionEntry" id="048c6e59-5a6e-4d7b-b18c-634769a1510a" targetId="9c2-edf8-c9bd-ec05">
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="30"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Immaterial Wings" hidden="false" type="selectionEntry" id="bc4-6f59-2af1-116d" targetId="8166e2f1-6d96-467b-b463-bb2074ddf303">
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="30"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Ætheric Flight" hidden="false" type="selectionEntry" id="cfc-f8bc-d665-7c0c" targetId="8a656b44-4769-4db5-a671-61ec5f41b1f2">
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="15"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Miasma of Rage" hidden="false" type="selectionEntry" id="ef301897-ca41-4d71-a28e-2a568438aeea" targetId="ce6-3fae-8519-e10d">
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="25"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Dark Flame" hidden="false" type="selectionEntry" id="522-facb-e9c2-c114" targetId="41732654-ce31-4ac4-852a-79e2597e3649">
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="15"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="The Unmaking" hidden="false" type="selectionEntry" id="c7df19b5-f73d-41e4-925a-b0e8141d113f" targetId="bea515ac-7283-4e66-a915-5253edb08aa8">
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="15"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Warp-forged Flesh" hidden="false" type="selectionEntry" id="b51d13a7-d27d-40c5-9028-7898e10f2dec" targetId="fe38-e422-d5c-2ed3">
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="25"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <modifiers>
+        <modifier type="add" field="category" value="11eb08d3-52e5-4c7a-823b-de5c08945939">
+          <conditions>
+            <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="301215de-00bd-4e22-a60a-b7fb3c74c57c" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Ruinstorm Daemon Hierarch" hidden="false" id="843f9c8e-efb5-4e67-9283-dd9f2a193eda" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="7">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Hierarch" hidden="false" id="66084172-7410-4d0a-aad7-4c6009374803" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="7">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="37745180-cbe9-4f8c-a436-4398ff512ef0"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7909c8b1-1f61-4e8c-9ab2-2874f9199aba"/>
+          </constraints>
+          <profiles>
+            <profile name="Hierarch" typeId="2b6e799b-8afd-4ae9-b80a-234103442598" typeName="Unit" hidden="false" id="353a32e2-cae5-472e-b588-f9f0c69b9861" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="7">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="36ce3f10-11e9-4add-ae15-3062f27946e7">Daemon (Character)</characteristic>
+                <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">8</characteristic>
+                <characteristic name="WS" typeId="d5a82d3a-18d1-48d0-a9e0-f752cb09e068">5</characteristic>
+                <characteristic name="BS" typeId="253b2a0a-577c-437a-9898-bfc1d22dcef8">4</characteristic>
+                <characteristic name="S" typeId="94c4fa7b-8480-4e99-84ad-92c9768f1472">5</characteristic>
+                <characteristic name="T" typeId="8a92af2d-103b-4847-b535-181cc323038e">5</characteristic>
+                <characteristic name="W" typeId="5e57eecc-4078-4b3a-9087-1cf0055bbabd">4</characteristic>
+                <characteristic name="I" typeId="ed32b28f-9bdc-4312-ba9b-e16cbc61db41">5</characteristic>
+                <characteristic name="A" typeId="4e9d7106-4cea-4d16-a7ea-f2f8f2957234">4</characteristic>
+                <characteristic name="Ld" typeId="9c8deb64-055e-4d01-b341-924389963feb">8</characteristic>
+                <characteristic name="Save" typeId="d8f3cf40-ebb8-45e1-8f50-074a0475a7ed">3+</characteristic>
+              </characteristics>
+              <modifiers>
+                <modifier type="append" field="36ce3f10-11e9-4add-ae15-3062f27946e7" value="(Heavy)">
+                  <conditions>
+                    <condition field="selections" scope="843f9c8e-efb5-4e67-9283-dd9f2a193eda" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="301215de-00bd-4e22-a60a-b7fb3c74c57c" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="250"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="The Ætheric Dominion (Unit)" hidden="false" type="selectionEntryGroup" id="1e4361af-c421-409c-a883-d837fdf6bc8c" targetId="d4f3cb16-5405-4564-bb9f-f9125c44200c"/>
+        <entryLink import="true" name="Infernal Armaments" hidden="false" type="selectionEntry" id="eb421580-5ce2-4a99-8aa6-f1c4058889a9" targetId="3f3d16c0-8b00-42f9-9aae-584c9c44528d">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="de9-d9cd-9f99-404d"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e0243f28-d01c-4e99-bcfa-941f21635650"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Warlord" hidden="false" type="selectionEntry" id="412ed80c-159a-4993-9b11-7dbdb09cfdf4" targetId="1887d318-5716-41f5-8b3e-1e6dff0c8e4c"/>
+        <entryLink import="true" name="Warlord Traits (Ruinstorm Daemons)" hidden="false" type="selectionEntryGroup" id="a26a0bc8-96f7-4527-8e57-1e07739b344c" targetId="09101244-3ff6-4bd0-a625-e28780f072f4"/>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="477c7f82-c21d-4df4-ac10-fe28ce47df1f" id="d62b083b-5688-4323-a4ef-88fc5bc4a3fe" primary="false" name="Daemon Unit-type:"/>
+        <categoryLink targetId="546a8d3f-47d4-4c80-b30e-e6addf1298f2" id="0a074e60-32c4-4a4c-ba8b-d0e6e3439188" primary="false" name="Character"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink id="91bd38c3-f413-4636-bf26-0a8974791962" name="Traitor" hidden="false" targetId="cfdf5692-0bbf-4678-a6f8-1af4be67730b" type="rule"/>
+        <infoLink id="e2e5b89f-a8b1-4198-9160-2b0dcc75b0fa" name="It Will Not Die (X)" hidden="false" targetId="6cfc9354-2a62-43ec-87aa-137862c8c7bb" type="rule">
+          <modifiers>
+            <modifier type="set" value="It Will Not Die (6+)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="e58c-5ff-1303-2110" name="Bulky (X)" hidden="false" targetId="1e7612dc-20f4-4c63-9297-8884e8c765e6" type="rule">
+          <modifiers>
+            <modifier type="set" value="Bulky (5)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Empyrean Avatar" hidden="false" type="rule" id="2715-642a-2a25-12" targetId="c694-20c8-455-baca"/>
+        <infoLink id="7a8286ce-0548-449b-8c91-b2cdc5fe71b9" name="Æthereal Invulnerability (X)" hidden="false" targetId="3f6b6f63-44f0-40bf-96e6-bb5979a82ba2" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Æthereal Invulnerability (4+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="285e3bb7-29b2-403b-a52a-2a348f882313" name="Hammer of Wrath (X)" hidden="false" targetId="38d7dec9-d961-47f7-935b-341ef71888d4" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Hammer of Wrath (1)">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="843f9c8e-efb5-4e67-9283-dd9f2a193eda" childId="850b8d60-5882-4c37-9871-6ed2a0c9f323" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="May take up to two of the following options:" hidden="false" id="ea1-884d-4e8a-4a66">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="3f1d-ba8-9fb3-ff7c"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Ætheric Conduit" hidden="false" type="selectionEntry" id="bf49-853-57f1-f88f" targetId="9c2-edf8-c9bd-ec05">
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="25"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Immaterial Wings" hidden="false" type="selectionEntry" id="fa4b84f7-4d5a-4466-a682-b06de9cbc1eb" targetId="8166e2f1-6d96-467b-b463-bb2074ddf303">
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="25"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Ætheric Flight" hidden="false" type="selectionEntry" id="a4e0cdc5-f3f0-4c3f-b30d-3ad1726175d0" targetId="8a656b44-4769-4db5-a671-61ec5f41b1f2">
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="15"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Miasma of Rage" hidden="false" type="selectionEntry" id="cbed91c4-92b3-4736-9912-c72d77ab334b" targetId="ce6-3fae-8519-e10d">
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="25"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Dark Flame" hidden="false" type="selectionEntry" id="6338d16a-06e1-427a-b1e9-bb0bc819b4be" targetId="41732654-ce31-4ac4-852a-79e2597e3649">
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="15"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="The Unmaking" hidden="false" type="selectionEntry" id="8e15-9876-464-91bc" targetId="bea515ac-7283-4e66-a915-5253edb08aa8">
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="15"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Warp-forged Flesh" hidden="false" type="selectionEntry" id="d5747c83-1998-4bdc-9e58-6c7f2ed27c26" targetId="fe38-e422-d5c-2ed3">
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="25"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <modifiers>
+        <modifier type="add" field="category" value="11eb08d3-52e5-4c7a-823b-de5c08945939">
+          <conditions>
+            <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="301215de-00bd-4e22-a60a-b7fb3c74c57c" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Ruinstorm Daemon Harbinger" hidden="false" id="68140341-0fbf-4ffb-8b92-0dd6f69c5420" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="8">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Harbinger" hidden="false" id="45fa-e6f-ff0-9c02" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="8">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="db58418d-381d-44b9-996b-a07d286f45d8"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b24a-ef08-ec9-aab1"/>
+          </constraints>
+          <profiles>
+            <profile name="Harbinger" typeId="2b6e799b-8afd-4ae9-b80a-234103442598" typeName="Unit" hidden="false" id="b25c2d28-269e-47b6-8ec2-c4b714c452f6" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="8">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="36ce3f10-11e9-4add-ae15-3062f27946e7">Daemon (Character)</characteristic>
+                <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">8</characteristic>
+                <characteristic name="WS" typeId="d5a82d3a-18d1-48d0-a9e0-f752cb09e068">5</characteristic>
+                <characteristic name="BS" typeId="253b2a0a-577c-437a-9898-bfc1d22dcef8">3</characteristic>
+                <characteristic name="S" typeId="94c4fa7b-8480-4e99-84ad-92c9768f1472">4</characteristic>
+                <characteristic name="T" typeId="8a92af2d-103b-4847-b535-181cc323038e">5</characteristic>
+                <characteristic name="W" typeId="5e57eecc-4078-4b3a-9087-1cf0055bbabd">3</characteristic>
+                <characteristic name="I" typeId="ed32b28f-9bdc-4312-ba9b-e16cbc61db41">5</characteristic>
+                <characteristic name="A" typeId="4e9d7106-4cea-4d16-a7ea-f2f8f2957234">3</characteristic>
+                <characteristic name="Ld" typeId="9c8deb64-055e-4d01-b341-924389963feb">8</characteristic>
+                <characteristic name="Save" typeId="d8f3cf40-ebb8-45e1-8f50-074a0475a7ed">4+</characteristic>
+              </characteristics>
+              <modifiers>
+                <modifier type="append" field="36ce3f10-11e9-4add-ae15-3062f27946e7" value="(Heavy)">
+                  <conditions>
+                    <condition field="selections" scope="68140341-0fbf-4ffb-8b92-0dd6f69c5420" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="301215de-00bd-4e22-a60a-b7fb3c74c57c" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink targetId="546a8d3f-47d4-4c80-b30e-e6addf1298f2" id="a16f2864-92c8-450f-ada6-7f3f06e128e1" primary="false" name="Character"/>
+          </categoryLinks>
+          <infoLinks>
+            <infoLink id="4bcd8f2b-2b26-470b-a2e2-8a71a8245291" name="Æthereal Invulnerability (X)" hidden="false" targetId="3f6b6f63-44f0-40bf-96e6-bb5979a82ba2" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Æthereal Invulnerability (5+)"/>
+              </modifiers>
+            </infoLink>
+            <infoLink id="ae51-3edb-f81-998e" name="Traitor" hidden="false" targetId="cfdf5692-0bbf-4678-a6f8-1af4be67730b" type="rule"/>
+            <infoLink id="040bbe05-c61c-4733-ac5e-a3d8c5778543" name="Hammer of Wrath (X)" hidden="false" targetId="38d7dec9-d961-47f7-935b-341ef71888d4" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Hammer of Wrath (1)">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="68140341-0fbf-4ffb-8b92-0dd6f69c5420" childId="850b8d60-5882-4c37-9871-6ed2a0c9f323" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="May take one of the following options:" hidden="false" id="989a2a5c-c7de-44b4-bef4-5c6877d5c17b">
+              <entryLinks>
+                <entryLink import="true" name="Ætheric Conduit" hidden="false" type="selectionEntry" id="7ae8-2f36-eea0-5d7" targetId="9c2-edf8-c9bd-ec05">
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="25"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Miasma of Rage" hidden="false" type="selectionEntry" id="153ec94b-d686-4e50-bd0b-0b1391fe8507" targetId="ce6-3fae-8519-e10d">
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="25"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Warp-forged Flesh" hidden="false" type="selectionEntry" id="54dd1c62-20c9-46f0-a502-0cfc1376943d" targetId="fe38-e422-d5c-2ed3">
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="25"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a5f38482-b911-463d-b61e-25b8eca48da4"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink import="true" name="Warlord" hidden="false" type="selectionEntry" id="ee907761-14b2-4411-a1ed-5393fa766091" targetId="1887d318-5716-41f5-8b3e-1e6dff0c8e4c"/>
+            <entryLink import="true" name="Warlord Traits (Ruinstorm Daemons)" hidden="false" type="selectionEntryGroup" id="319abdd3-c466-43d6-9e89-98f53b282ccd" targetId="09101244-3ff6-4bd0-a625-e28780f072f4"/>
+          </entryLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Daemon Attendant" hidden="false" id="33c9744a-b56e-4b54-920f-e121e3e6a5ce" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="8">
+          <costs>
+            <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="45"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="5d107fca-5ca5-498a-8051-03a3f421dda0"/>
+          </constraints>
+          <profiles>
+            <profile name="Daemon Attendant" typeId="2b6e799b-8afd-4ae9-b80a-234103442598" typeName="Unit" hidden="false" id="83bb-9589-fdd-3d4d" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="8">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="36ce3f10-11e9-4add-ae15-3062f27946e7">Daemon</characteristic>
+                <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">8</characteristic>
+                <characteristic name="WS" typeId="d5a82d3a-18d1-48d0-a9e0-f752cb09e068">5</characteristic>
+                <characteristic name="BS" typeId="253b2a0a-577c-437a-9898-bfc1d22dcef8">3</characteristic>
+                <characteristic name="S" typeId="94c4fa7b-8480-4e99-84ad-92c9768f1472">5</characteristic>
+                <characteristic name="T" typeId="8a92af2d-103b-4847-b535-181cc323038e">5</characteristic>
+                <characteristic name="W" typeId="5e57eecc-4078-4b3a-9087-1cf0055bbabd">3</characteristic>
+                <characteristic name="I" typeId="ed32b28f-9bdc-4312-ba9b-e16cbc61db41">5</characteristic>
+                <characteristic name="A" typeId="4e9d7106-4cea-4d16-a7ea-f2f8f2957234">3</characteristic>
+                <characteristic name="Ld" typeId="9c8deb64-055e-4d01-b341-924389963feb">7</characteristic>
+                <characteristic name="Save" typeId="d8f3cf40-ebb8-45e1-8f50-074a0475a7ed">4+</characteristic>
+              </characteristics>
+              <modifiers>
+                <modifier type="append" field="36ce3f10-11e9-4add-ae15-3062f27946e7" value="(Heavy)">
+                  <conditions>
+                    <condition field="selections" scope="68140341-0fbf-4ffb-8b92-0dd6f69c5420" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="301215de-00bd-4e22-a60a-b7fb3c74c57c" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="e76a4e4a-30c8-4060-a0c8-afed9d55c45f" name="Bulky (X)" hidden="false" targetId="1e7612dc-20f4-4c63-9297-8884e8c765e6" type="rule">
+              <modifiers>
+                <modifier type="set" value="Bulky (3)" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Chosen Warriors" hidden="false" type="rule" id="e26610e6-d3e4-4838-a458-55e591fbd629" targetId="bc365bcf-5c54-4126-8c45-dfec4b8e6bd5"/>
+            <infoLink id="135e-8ae-843-b2a0" name="Æthereal Invulnerability (X)" hidden="false" targetId="3f6b6f63-44f0-40bf-96e6-bb5979a82ba2" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Æthereal Invulnerability (5+)"/>
+              </modifiers>
+            </infoLink>
+            <infoLink id="4a506f81-166f-4524-92dd-705bb80a4fc0" name="Traitor" hidden="false" targetId="cfdf5692-0bbf-4678-a6f8-1af4be67730b" type="rule"/>
+            <infoLink id="1b3a7954-72fc-405b-84f5-3e1fd4de1877" name="Hammer of Wrath (X)" hidden="false" targetId="38d7dec9-d961-47f7-935b-341ef71888d4" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Hammer of Wrath (1)">
+                  <conditions>
+                    <condition type="equalTo" value="0" field="selections" scope="68140341-0fbf-4ffb-8b92-0dd6f69c5420" childId="850b8d60-5882-4c37-9871-6ed2a0c9f323" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="name" value="Hammer of Wrath (2)">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="68140341-0fbf-4ffb-8b92-0dd6f69c5420" childId="850b8d60-5882-4c37-9871-6ed2a0c9f323" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="135"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="The Ætheric Dominion (Unit)" hidden="false" type="selectionEntryGroup" id="5d3d-4561-ca3-1b5a" targetId="d4f3cb16-5405-4564-bb9f-f9125c44200c"/>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="477c7f82-c21d-4df4-ac10-fe28ce47df1f" id="863ec7a5-e0fc-4dc7-bafb-6fc41d9c56ea" primary="false" name="Daemon Unit-type:"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="add" field="category" value="11eb08d3-52e5-4c7a-823b-de5c08945939">
+          <conditions>
+            <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="301215de-00bd-4e22-a60a-b7fb3c74c57c" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Ruinstorm Daemon Brutes" hidden="false" id="2219-cb60-b52-a36c" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="9">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Daemon Brute" hidden="false" id="e3e-4f46-2300-a35" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="9">
+          <costs>
+            <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="40"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="b41f2595-ec18-43c9-9b1d-f0127f5aab4a"/>
+            <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="d9b32ff6-960f-452a-a1ea-4361f2fc08ea"/>
+          </constraints>
+          <profiles>
+            <profile name="Daemon Brute" typeId="2b6e799b-8afd-4ae9-b80a-234103442598" typeName="Unit" hidden="false" id="e032de05-7b04-4be9-af82-f374910a5278" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="9">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="36ce3f10-11e9-4add-ae15-3062f27946e7">Daemon</characteristic>
+                <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">8</characteristic>
+                <characteristic name="WS" typeId="d5a82d3a-18d1-48d0-a9e0-f752cb09e068">5</characteristic>
+                <characteristic name="BS" typeId="253b2a0a-577c-437a-9898-bfc1d22dcef8">3</characteristic>
+                <characteristic name="S" typeId="94c4fa7b-8480-4e99-84ad-92c9768f1472">5</characteristic>
+                <characteristic name="T" typeId="8a92af2d-103b-4847-b535-181cc323038e">5</characteristic>
+                <characteristic name="W" typeId="5e57eecc-4078-4b3a-9087-1cf0055bbabd">3</characteristic>
+                <characteristic name="I" typeId="ed32b28f-9bdc-4312-ba9b-e16cbc61db41">5</characteristic>
+                <characteristic name="A" typeId="4e9d7106-4cea-4d16-a7ea-f2f8f2957234">3</characteristic>
+                <characteristic name="Ld" typeId="9c8deb64-055e-4d01-b341-924389963feb">7</characteristic>
+                <characteristic name="Save" typeId="d8f3cf40-ebb8-45e1-8f50-074a0475a7ed">4+</characteristic>
+              </characteristics>
+              <modifiers>
+                <modifier type="append" field="36ce3f10-11e9-4add-ae15-3062f27946e7" value="(Heavy)">
+                  <conditions>
+                    <condition field="selections" scope="2219-cb60-b52-a36c" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="301215de-00bd-4e22-a60a-b7fb3c74c57c" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="15"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="The Ætheric Dominion (Unit)" hidden="false" type="selectionEntryGroup" id="63cfaf3b-2f24-42ca-b325-8f6d640ba3f0" targetId="d4f3cb16-5405-4564-bb9f-f9125c44200c"/>
+        <entryLink import="true" name="Infernal Armaments" hidden="false" type="selectionEntry" id="c041-717-ac3f-5f0b" targetId="3f3d16c0-8b00-42f9-9aae-584c9c44528d">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="89c19a40-bdcc-4eae-93f3-d0ffe5396012"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9a63ae35-c5e2-4ccb-bf1d-bf6006524dd6"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="477c7f82-c21d-4df4-ac10-fe28ce47df1f" id="332a45f3-e8d4-468d-94ac-485057293060" primary="false" name="Daemon Unit-type:"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink id="2191-ca7d-4b7-721b" name="Traitor" hidden="false" targetId="cfdf5692-0bbf-4678-a6f8-1af4be67730b" type="rule"/>
+        <infoLink id="1539d114-c275-4ba9-a129-0770ba2c95ee" name="Bulky (X)" hidden="false" targetId="1e7612dc-20f4-4c63-9297-8884e8c765e6" type="rule">
+          <modifiers>
+            <modifier type="set" value="Bulky (3)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="44383b8b-03d5-465a-accb-8e1d3d760bcd" name="Æthereal Invulnerability (X)" hidden="false" targetId="3f6b6f63-44f0-40bf-96e6-bb5979a82ba2" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Æthereal Invulnerability (5+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="3e3f5845-c28c-407a-8ce0-63e1308a6663" name="Hammer of Wrath (X)" hidden="false" targetId="38d7dec9-d961-47f7-935b-341ef71888d4" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Hammer of Wrath (1)">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="parent" childId="850b8d60-5882-4c37-9871-6ed2a0c9f323" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="name" value="Hammer of Wrath (2)">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="850b8d60-5882-4c37-9871-6ed2a0c9f323" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="add" field="category" value="11eb08d3-52e5-4c7a-823b-de5c08945939">
+          <conditions>
+            <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="301215de-00bd-4e22-a60a-b7fb3c74c57c" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Ruinstorm Daemon Beasts" hidden="false" id="69ad-927-c71b-6b24" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="10">
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="20"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="The Ætheric Dominion (Unit)" hidden="false" type="selectionEntryGroup" id="db7d-815a-fd7-6518" targetId="d4f3cb16-5405-4564-bb9f-f9125c44200c"/>
+        <entryLink import="true" name="Ætheric Flight" hidden="false" type="selectionEntry" id="7f27-c850-ccf-95ab" targetId="8a656b44-4769-4db5-a671-61ec5f41b1f2">
+          <modifiers>
+            <modifier type="increment" value="5" field="1c476931-8303-47b7-ac43-7eff8c4583c4">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="69ad-927-c71b-6b24" childId="4b33d89b-85e2-487a-b457-9d5aaa8e36c7" shared="true" roundUp="false" id="91b0e102-38cc-48fc-b20d-38309778b934"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="477c7f82-c21d-4df4-ac10-fe28ce47df1f" id="75229179-b317-46f4-9576-86ab06e8fe72" primary="false" name="Daemon Unit-type:"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink id="46e9c60b-7776-4631-89e8-919054559d21" name="Bulky (X)" hidden="false" targetId="1e7612dc-20f4-4c63-9297-8884e8c765e6" type="rule">
+          <modifiers>
+            <modifier type="set" value="Bulky (3)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="37499d21-7746-4913-8e9d-04a385c535d4" name="Æthereal Invulnerability (X)" hidden="false" targetId="3f6b6f63-44f0-40bf-96e6-bb5979a82ba2" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Æthereal Invulnerability (5+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="4b95d779-c22e-47a7-a968-5ada7e1366cc" name="Traitor" hidden="false" targetId="cfdf5692-0bbf-4678-a6f8-1af4be67730b" type="rule"/>
+        <infoLink id="8cc2cafe-5402-4bf9-9a69-d1f93e9923d6" name="Hammer of Wrath (X)" hidden="false" targetId="38d7dec9-d961-47f7-935b-341ef71888d4" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Hammer of Wrath (1)">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="850b8d60-5882-4c37-9871-6ed2a0c9f323" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Daemon Beasts" hidden="false" id="4b33d89b-85e2-487a-b457-9d5aaa8e36c7" defaultSelectionEntryId="9c9be4bd-4197-4635-b1b6-146e11be455f">
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Daemon Beast w/ Daemon Armaments" hidden="false" id="9c9be4bd-4197-4635-b1b6-146e11be455f" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="10">
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="30"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="d3e7910d-b7d9-49c0-b71d-7fa5518a141d"/>
+                <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="e343-4e07-35a4-9ab"/>
+              </constraints>
+              <profiles>
+                <profile name="Daemon Beast" typeId="2b6e799b-8afd-4ae9-b80a-234103442598" typeName="Unit" hidden="false" id="769e-9cd1-a53-a4c0" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="10">
+                  <characteristics>
+                    <characteristic name="Unit Type" typeId="36ce3f10-11e9-4add-ae15-3062f27946e7">Daemon</characteristic>
+                    <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">10</characteristic>
+                    <characteristic name="WS" typeId="d5a82d3a-18d1-48d0-a9e0-f752cb09e068">4</characteristic>
+                    <characteristic name="BS" typeId="253b2a0a-577c-437a-9898-bfc1d22dcef8">3</characteristic>
+                    <characteristic name="S" typeId="94c4fa7b-8480-4e99-84ad-92c9768f1472">5</characteristic>
+                    <characteristic name="T" typeId="8a92af2d-103b-4847-b535-181cc323038e">4</characteristic>
+                    <characteristic name="W" typeId="5e57eecc-4078-4b3a-9087-1cf0055bbabd">3</characteristic>
+                    <characteristic name="I" typeId="ed32b28f-9bdc-4312-ba9b-e16cbc61db41">4</characteristic>
+                    <characteristic name="A" typeId="4e9d7106-4cea-4d16-a7ea-f2f8f2957234">3</characteristic>
+                    <characteristic name="Ld" typeId="9c8deb64-055e-4d01-b341-924389963feb">7</characteristic>
+                    <characteristic name="Save" typeId="d8f3cf40-ebb8-45e1-8f50-074a0475a7ed">5+</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="append" field="36ce3f10-11e9-4add-ae15-3062f27946e7" value="(Heavy)">
+                      <conditions>
+                        <condition field="selections" scope="69ad-927-c71b-6b24" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="301215de-00bd-4e22-a60a-b7fb3c74c57c" type="atLeast"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <entryLinks>
+                <entryLink import="true" name="Daemon Armaments" hidden="false" type="selectionEntry" id="58865f0c-e3e0-42b5-a4d5-b24ba12c7143" targetId="3a7e8d73-e2ab-48f6-9e42-1a450cba5fa7">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3fd-785b-b658-d779"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="40aa3f2a-7aa5-4b9a-b63f-b3d9650077d5"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <modifiers>
+                <modifier type="decrement" value="3" field="e343-4e07-35a4-9ab"/>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="model" import="true" name="Daemon Beast w/ Immaterial Flame" hidden="false" id="2ddee0a9-1a5e-4437-bfd6-16b754ee115d" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="10">
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="30"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="bc972f5a-47b6-45bc-9961-df66a8160310"/>
+              </constraints>
+              <profiles>
+                <profile name="Daemon Beast" typeId="2b6e799b-8afd-4ae9-b80a-234103442598" typeName="Unit" hidden="false" id="1504ed1c-f4b0-4796-a7da-141c63ad0a4b" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="10">
+                  <characteristics>
+                    <characteristic name="Unit Type" typeId="36ce3f10-11e9-4add-ae15-3062f27946e7">Daemon</characteristic>
+                    <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">10</characteristic>
+                    <characteristic name="WS" typeId="d5a82d3a-18d1-48d0-a9e0-f752cb09e068">4</characteristic>
+                    <characteristic name="BS" typeId="253b2a0a-577c-437a-9898-bfc1d22dcef8">3</characteristic>
+                    <characteristic name="S" typeId="94c4fa7b-8480-4e99-84ad-92c9768f1472">5</characteristic>
+                    <characteristic name="T" typeId="8a92af2d-103b-4847-b535-181cc323038e">4</characteristic>
+                    <characteristic name="W" typeId="5e57eecc-4078-4b3a-9087-1cf0055bbabd">3</characteristic>
+                    <characteristic name="I" typeId="ed32b28f-9bdc-4312-ba9b-e16cbc61db41">4</characteristic>
+                    <characteristic name="A" typeId="4e9d7106-4cea-4d16-a7ea-f2f8f2957234">3</characteristic>
+                    <characteristic name="Ld" typeId="9c8deb64-055e-4d01-b341-924389963feb">7</characteristic>
+                    <characteristic name="Save" typeId="d8f3cf40-ebb8-45e1-8f50-074a0475a7ed">5+</characteristic>
+                  </characteristics>
+                  <modifiers>
+                    <modifier type="append" field="36ce3f10-11e9-4add-ae15-3062f27946e7" value="(Heavy)">
+                      <conditions>
+                        <condition field="selections" scope="69ad-927-c71b-6b24" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="301215de-00bd-4e22-a60a-b7fb3c74c57c" type="atLeast"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </profile>
+              </profiles>
+              <entryLinks>
+                <entryLink import="true" name="Immaterial Flame" hidden="false" type="selectionEntry" id="ab874eda-7ea3-480a-9af8-1d86804d21b5" targetId="72fa42f5-6606-464a-a854-f489d5dff0da">
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="5"/>
+                  </costs>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="32cc-8826-e1ca-73"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d51fbf2b-a113-4c07-9468-04e0772d2fea"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="2b3def73-f61f-4d36-bb0e-b56110c9f1aa"/>
+            <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="f09-f2e2-9697-c2e"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <modifiers>
+        <modifier type="add" field="category" value="11eb08d3-52e5-4c7a-823b-de5c08945939">
+          <conditions>
+            <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="301215de-00bd-4e22-a60a-b7fb3c74c57c" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Ruinstorm Lesser Daemons" hidden="false" id="157c-7592-a6b9-f96" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="11">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Lesser Daemon" hidden="false" id="c087754f-f4a7-4a1a-9c57-ec9d1e5e9faa" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="11">
+          <costs>
+            <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="10"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="9b29a2ac-8d7d-4f0b-81ac-b067d5df7f84"/>
+            <constraint type="max" value="20" field="selections" scope="parent" shared="true" id="82e-bbd5-df4b-dcd1"/>
+          </constraints>
+          <profiles>
+            <profile name="Lesser Daemon" typeId="2b6e799b-8afd-4ae9-b80a-234103442598" typeName="Unit" hidden="false" id="9c66-e95c-8370-225" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="11">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="36ce3f10-11e9-4add-ae15-3062f27946e7">Daemon (Line)</characteristic>
+                <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">7</characteristic>
+                <characteristic name="WS" typeId="d5a82d3a-18d1-48d0-a9e0-f752cb09e068">4</characteristic>
+                <characteristic name="BS" typeId="253b2a0a-577c-437a-9898-bfc1d22dcef8">3</characteristic>
+                <characteristic name="S" typeId="94c4fa7b-8480-4e99-84ad-92c9768f1472">4</characteristic>
+                <characteristic name="T" typeId="8a92af2d-103b-4847-b535-181cc323038e">4</characteristic>
+                <characteristic name="W" typeId="5e57eecc-4078-4b3a-9087-1cf0055bbabd">1</characteristic>
+                <characteristic name="I" typeId="ed32b28f-9bdc-4312-ba9b-e16cbc61db41">4</characteristic>
+                <characteristic name="A" typeId="4e9d7106-4cea-4d16-a7ea-f2f8f2957234">2</characteristic>
+                <characteristic name="Ld" typeId="9c8deb64-055e-4d01-b341-924389963feb">7</characteristic>
+                <characteristic name="Save" typeId="d8f3cf40-ebb8-45e1-8f50-074a0475a7ed">5+</characteristic>
+              </characteristics>
+              <modifiers>
+                <modifier type="append" field="36ce3f10-11e9-4add-ae15-3062f27946e7" value="(Heavy)">
+                  <conditions>
+                    <condition field="selections" scope="157c-7592-a6b9-f96" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="301215de-00bd-4e22-a60a-b7fb3c74c57c" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="20"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="The Ætheric Dominion (Unit)" hidden="false" type="selectionEntryGroup" id="984b-1653-1706-eaf" targetId="d4f3cb16-5405-4564-bb9f-f9125c44200c"/>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="477c7f82-c21d-4df4-ac10-fe28ce47df1f" id="49211586-8ac7-4c14-8814-9c18a6e53cde" primary="false" name="Daemon Unit-type:"/>
+        <categoryLink targetId="974ceae8-d66b-4076-bc90-d608e048fa7b" id="7bf1-d30-86a3-e2e5" primary="false" name="Line Sub-type:"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink id="5a21c861-e986-4176-aa09-9fbbc8b045b4" name="Traitor" hidden="false" targetId="cfdf5692-0bbf-4678-a6f8-1af4be67730b" type="rule"/>
+        <infoLink id="e70-800b-7e94-4943" name="Æthereal Invulnerability (X)" hidden="false" targetId="3f6b6f63-44f0-40bf-96e6-bb5979a82ba2" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Æthereal Invulnerability (5+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="d818a321-a1df-46ae-a074-8352ddd347c4" name="Hammer of Wrath (X)" hidden="false" targetId="38d7dec9-d961-47f7-935b-341ef71888d4" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Hammer of Wrath (1)">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="850b8d60-5882-4c37-9871-6ed2a0c9f323" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Weapons" hidden="false" id="ea35d5f4-a061-4744-bbf7-7f913dc69cef" defaultSelectionEntryId="8b6b-f0e0-821-b328">
+          <entryLinks>
+            <entryLink import="true" name="Daemon Armaments" hidden="false" type="selectionEntry" id="8b6b-f0e0-821-b328" targetId="d2fc0df2-f52f-472e-83db-b0c5a595231a"/>
+            <entryLink import="true" name="Immaterial Projectiles" hidden="false" type="selectionEntry" id="f809a207-81fc-49b2-905d-8d49b91d1d91" targetId="6f4591c1-87b6-4bd1-8829-5e53e6e2b68b">
+              <modifiers>
+                <modifier type="increment" value="1" field="1c476931-8303-47b7-ac43-7eff8c4583c4">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="157c-7592-a6b9-f96" childId="c087754f-f4a7-4a1a-9c57-ec9d1e5e9faa" shared="true" roundUp="false" id="052e7662-f167-4258-b49d-5b31bf766ffc"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5b7e4afb-616e-452c-acc2-d1ec60738a3d"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4bf1-c44-6fcb-2db5"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <modifiers>
+        <modifier type="add" field="category" value="11eb08d3-52e5-4c7a-823b-de5c08945939">
+          <conditions>
+            <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="301215de-00bd-4e22-a60a-b7fb3c74c57c" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Ruinstorm Daemon Swarms" hidden="false" id="bb35-e585-a226-28e" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="12">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Daemon Swarm" hidden="false" id="cde633f6-4a09-48b6-bad8-510ee21ef50a" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="12">
+          <costs>
+            <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="15"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="59aee3ea-d7c4-4f12-85dc-5ed5cd4dfb93"/>
+            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="1481abc3-9514-43e1-94c0-2eddb83e1ba0"/>
+          </constraints>
+          <profiles>
+            <profile name="Daemon Swarm" typeId="2b6e799b-8afd-4ae9-b80a-234103442598" typeName="Unit" hidden="false" id="136f-bd4f-b28f-24" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="12">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="36ce3f10-11e9-4add-ae15-3062f27946e7">Daemon (Line, Skirmish)</characteristic>
+                <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">8</characteristic>
+                <characteristic name="WS" typeId="d5a82d3a-18d1-48d0-a9e0-f752cb09e068">3</characteristic>
+                <characteristic name="BS" typeId="253b2a0a-577c-437a-9898-bfc1d22dcef8">3</characteristic>
+                <characteristic name="S" typeId="94c4fa7b-8480-4e99-84ad-92c9768f1472">3</characteristic>
+                <characteristic name="T" typeId="8a92af2d-103b-4847-b535-181cc323038e">3</characteristic>
+                <characteristic name="W" typeId="5e57eecc-4078-4b3a-9087-1cf0055bbabd">4</characteristic>
+                <characteristic name="I" typeId="ed32b28f-9bdc-4312-ba9b-e16cbc61db41">3</characteristic>
+                <characteristic name="A" typeId="4e9d7106-4cea-4d16-a7ea-f2f8f2957234">2</characteristic>
+                <characteristic name="Ld" typeId="9c8deb64-055e-4d01-b341-924389963feb">6</characteristic>
+                <characteristic name="Save" typeId="d8f3cf40-ebb8-45e1-8f50-074a0475a7ed">6+</characteristic>
+              </characteristics>
+              <modifiers>
+                <modifier type="append" field="36ce3f10-11e9-4add-ae15-3062f27946e7" value="(Heavy)">
+                  <conditions>
+                    <condition field="selections" scope="bb35-e585-a226-28e" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="301215de-00bd-4e22-a60a-b7fb3c74c57c" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="5"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="The Ætheric Dominion (Unit)" hidden="false" type="selectionEntryGroup" id="fbb71091-844e-487d-89a8-a24150a73e9f" targetId="d4f3cb16-5405-4564-bb9f-f9125c44200c"/>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="477c7f82-c21d-4df4-ac10-fe28ce47df1f" id="7e4d-5d59-2dfb-7bc" primary="false" name="Daemon Unit-type:"/>
+        <categoryLink targetId="974ceae8-d66b-4076-bc90-d608e048fa7b" id="360b6381-c1d3-45e0-8401-f3f0a214835d" primary="false" name="Line Sub-type:"/>
+        <categoryLink targetId="618b71a7-f24d-4c7b-8ef5-3fc07400abde" id="8383-cf65-5d5-bd9c" primary="false" name="Skirmish Sub-type:"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink id="66cd-5d7d-91d-c58b" name="Traitor" hidden="false" targetId="cfdf5692-0bbf-4678-a6f8-1af4be67730b" type="rule"/>
+        <infoLink id="c8c6-a50-d43b-576f" name="Æthereal Invulnerability (X)" hidden="false" targetId="3f6b6f63-44f0-40bf-96e6-bb5979a82ba2" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Æthereal Invulnerability (6+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Swarm" hidden="false" type="rule" id="eea2-a8c-2c72-49ba" targetId="58a65bc4-6726-42ab-a56e-c60b41f3f462"/>
+        <infoLink name="Support Squad" hidden="false" type="rule" id="186f090a-5994-42ad-aeb3-57300bac0264" targetId="15dfc394-2396-439b-a347-3ececbd6ff3e"/>
+        <infoLink id="3b33-b4b-6bb0-8cce" name="Hammer of Wrath (X)" hidden="false" targetId="38d7dec9-d961-47f7-935b-341ef71888d4" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Hammer of Wrath (1)">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="850b8d60-5882-4c37-9871-6ed2a0c9f323" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="add" field="category" value="11eb08d3-52e5-4c7a-823b-de5c08945939">
+          <conditions>
+            <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="301215de-00bd-4e22-a60a-b7fb3c74c57c" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Ruinstorm Daemon Cavalry" hidden="false" id="bb02d684-c357-4f2c-9358-1d8357e8396e" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="13">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Daemon Cavalry" hidden="false" id="e668fbd8-e4c3-4aa9-baee-03e76aa81892" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="13">
+          <costs>
+            <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="20"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="c78a-a2c-a302-dd3c"/>
+            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="49bd47ce-5e5b-4a0b-9dff-f2da49893bc8"/>
+          </constraints>
+          <profiles>
+            <profile name="Daemon Cavalry" typeId="2b6e799b-8afd-4ae9-b80a-234103442598" typeName="Unit" hidden="false" id="37f96f0d-969e-4dc4-90e6-b474108b31eb" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="13">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="36ce3f10-11e9-4add-ae15-3062f27946e7">Daemon</characteristic>
+                <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">12</characteristic>
+                <characteristic name="WS" typeId="d5a82d3a-18d1-48d0-a9e0-f752cb09e068">4</characteristic>
+                <characteristic name="BS" typeId="253b2a0a-577c-437a-9898-bfc1d22dcef8">3</characteristic>
+                <characteristic name="S" typeId="94c4fa7b-8480-4e99-84ad-92c9768f1472">4</characteristic>
+                <characteristic name="T" typeId="8a92af2d-103b-4847-b535-181cc323038e">4</characteristic>
+                <characteristic name="W" typeId="5e57eecc-4078-4b3a-9087-1cf0055bbabd">2</characteristic>
+                <characteristic name="I" typeId="ed32b28f-9bdc-4312-ba9b-e16cbc61db41">4</characteristic>
+                <characteristic name="A" typeId="4e9d7106-4cea-4d16-a7ea-f2f8f2957234">2</characteristic>
+                <characteristic name="Ld" typeId="9c8deb64-055e-4d01-b341-924389963feb">6</characteristic>
+                <characteristic name="Save" typeId="d8f3cf40-ebb8-45e1-8f50-074a0475a7ed">4+</characteristic>
+              </characteristics>
+              <modifiers>
+                <modifier type="append" field="36ce3f10-11e9-4add-ae15-3062f27946e7" value="(Heavy)">
+                  <conditions>
+                    <condition field="selections" scope="bb02d684-c357-4f2c-9358-1d8357e8396e" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="301215de-00bd-4e22-a60a-b7fb3c74c57c" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="50"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="The Ætheric Dominion (Unit)" hidden="false" type="selectionEntryGroup" id="9090-c089-e5b6-db5" targetId="d4f3cb16-5405-4564-bb9f-f9125c44200c"/>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="477c7f82-c21d-4df4-ac10-fe28ce47df1f" id="9407-be20-96bd-e31" primary="false" name="Daemon Unit-type:"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Weapons" hidden="false" id="30809582-ed0e-4f01-9193-6e9083dfd0b7" defaultSelectionEntryId="833-36e7-dd0a-72da">
+          <entryLinks>
+            <entryLink import="true" name="Daemon Armaments" hidden="false" type="selectionEntry" id="833-36e7-dd0a-72da" targetId="d2fc0df2-f52f-472e-83db-b0c5a595231a"/>
+            <entryLink import="true" name="Immaterial Projectiles" hidden="false" type="selectionEntry" id="d9e95d45-da5d-4aac-8222-dc29e085ea07" targetId="6f4591c1-87b6-4bd1-8829-5e53e6e2b68b">
+              <modifiers>
+                <modifier type="increment" value="2" field="1c476931-8303-47b7-ac43-7eff8c4583c4">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="bb02d684-c357-4f2c-9358-1d8357e8396e" childId="e668fbd8-e4c3-4aa9-baee-03e76aa81892" shared="true" roundUp="false" id="9e7bb700-5f2e-4ebb-a7f4-8f3d57d08aed"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="660a-c722-53d-fac5"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7a439bc1-de5f-40ca-a7b7-ee40935b04bb"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink id="cd2f1538-954f-46f6-8e9d-438b8d194e4a" name="Æthereal Invulnerability (X)" hidden="false" targetId="3f6b6f63-44f0-40bf-96e6-bb5979a82ba2" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Æthereal Invulnerability (5+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="a845cdba-255e-45b3-bbf8-b1e5c0bff766" name="Traitor" hidden="false" targetId="cfdf5692-0bbf-4678-a6f8-1af4be67730b" type="rule"/>
+        <infoLink id="ca32f469-e6ab-402d-ab8a-d6db03128b53" name="Hammer of Wrath (X)" hidden="false" targetId="38d7dec9-d961-47f7-935b-341ef71888d4" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Hammer of Wrath (1)">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="850b8d60-5882-4c37-9871-6ed2a0c9f323" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="add" field="category" value="11eb08d3-52e5-4c7a-823b-de5c08945939">
+          <conditions>
+            <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="301215de-00bd-4e22-a60a-b7fb3c74c57c" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Ruinstorm Daemon Harriers" hidden="false" id="6726adbe-ce51-4ee8-8fe5-3a6e9a71d795" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="14">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Daemon Harriers" hidden="false" id="cd23b973-e0a6-4824-83fd-237f8b9c0337" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="14">
+          <constraints>
+            <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="dbc28cdc-5a00-4900-b700-a976cc0abbcf"/>
+            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="4ae6a675-7937-4e26-b917-b86e2c184b47"/>
+          </constraints>
+          <profiles>
+            <profile name="Daemon Harriers" typeId="2b6e799b-8afd-4ae9-b80a-234103442598" typeName="Unit" hidden="false" id="1ddd516c-e12d-462f-b7ba-ca79cd44db92" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="14">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="36ce3f10-11e9-4add-ae15-3062f27946e7">Daemon</characteristic>
+                <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">7</characteristic>
+                <characteristic name="WS" typeId="d5a82d3a-18d1-48d0-a9e0-f752cb09e068">4</characteristic>
+                <characteristic name="BS" typeId="253b2a0a-577c-437a-9898-bfc1d22dcef8">4</characteristic>
+                <characteristic name="S" typeId="94c4fa7b-8480-4e99-84ad-92c9768f1472">4</characteristic>
+                <characteristic name="T" typeId="8a92af2d-103b-4847-b535-181cc323038e">4</characteristic>
+                <characteristic name="W" typeId="5e57eecc-4078-4b3a-9087-1cf0055bbabd">1</characteristic>
+                <characteristic name="I" typeId="ed32b28f-9bdc-4312-ba9b-e16cbc61db41">4</characteristic>
+                <characteristic name="A" typeId="4e9d7106-4cea-4d16-a7ea-f2f8f2957234">1</characteristic>
+                <characteristic name="Ld" typeId="9c8deb64-055e-4d01-b341-924389963feb">7</characteristic>
+                <characteristic name="Save" typeId="d8f3cf40-ebb8-45e1-8f50-074a0475a7ed">5+</characteristic>
+              </characteristics>
+              <modifiers>
+                <modifier type="append" field="36ce3f10-11e9-4add-ae15-3062f27946e7" value="(Heavy)">
+                  <conditions>
+                    <condition field="selections" scope="6726adbe-ce51-4ee8-8fe5-3a6e9a71d795" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="301215de-00bd-4e22-a60a-b7fb3c74c57c" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="150"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="The Ætheric Dominion (Unit)" hidden="false" type="selectionEntryGroup" id="e5484599-083e-4d77-a29a-d3248069a79f" targetId="d4f3cb16-5405-4564-bb9f-f9125c44200c"/>
+        <entryLink import="true" name="Immaterial Wings" hidden="false" type="selectionEntry" id="05cf17c8-a972-4a6a-bcf2-f4076b56ad60" targetId="8166e2f1-6d96-467b-b463-bb2074ddf303">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a4d67e14-02d0-4cfb-b49a-5724a6dac18c"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="477c7f82-c21d-4df4-ac10-fe28ce47df1f" id="c88161e1-a4a7-456b-8d1d-a0724e4a05c6" primary="false" name="Daemon Unit-type:"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink id="fd98d77e-ac52-40bd-82f5-b63590e46aec" name="Æthereal Invulnerability (X)" hidden="false" targetId="3f6b6f63-44f0-40bf-96e6-bb5979a82ba2" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Æthereal Invulnerability (5+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="117122ec-20c3-432c-bd90-821b817362f0" name="Traitor" hidden="false" targetId="cfdf5692-0bbf-4678-a6f8-1af4be67730b" type="rule"/>
+        <infoLink id="7b38512c-436e-4bb6-ac42-f0fef882babc" name="Hammer of Wrath (X)" hidden="false" targetId="38d7dec9-d961-47f7-935b-341ef71888d4" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Hammer of Wrath (1)">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="850b8d60-5882-4c37-9871-6ed2a0c9f323" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Weapons" hidden="false" id="c68f4ec7-3953-4996-8b48-34a1e9dd5100" defaultSelectionEntryId="00b6ad63-3b52-46a5-9876-60af7c677bb2">
+          <entryLinks>
+            <entryLink import="true" name="Daemon Armaments" hidden="false" type="selectionEntry" id="00b6ad63-3b52-46a5-9876-60af7c677bb2" targetId="d2fc0df2-f52f-472e-83db-b0c5a595231a"/>
+            <entryLink import="true" name="Immaterial Projectiles" hidden="false" type="selectionEntry" id="7bba-37f5-e36-9ed7" targetId="6f4591c1-87b6-4bd1-8829-5e53e6e2b68b">
+              <modifiers>
+                <modifier type="increment" value="1" field="1c476931-8303-47b7-ac43-7eff8c4583c4">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="6726adbe-ce51-4ee8-8fe5-3a6e9a71d795" childId="cd23b973-e0a6-4824-83fd-237f8b9c0337" shared="true" roundUp="false" id="616b77a0-5d2b-446a-b824-0603288743ef"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fa7c-5491-9130-720"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cb498fcb-fd90-44fb-a573-c37c0ad35516"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <modifiers>
+        <modifier type="add" field="category" value="11eb08d3-52e5-4c7a-823b-de5c08945939">
+          <conditions>
+            <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="301215de-00bd-4e22-a60a-b7fb3c74c57c" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Greater Ruinstorm Daemon Beast" hidden="false" id="6cbb5d5f-8ecf-458a-945d-a308f78e500c" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="15">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Greater Beast" hidden="false" id="7f0c4da0-c559-4914-bcec-76369fa50144" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="15">
+          <costs>
+            <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="125"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b308729e-c143-48a8-ba90-1c3d92c5b7fb"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="e0a8c9ca-7676-4b5a-80cf-7f0a05e83e79"/>
+          </constraints>
+          <profiles>
+            <profile name="Greater Beast" typeId="2b6e799b-8afd-4ae9-b80a-234103442598" typeName="Unit" hidden="false" id="d50561d2-e2a0-4d08-a550-c22453ad3a17" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="15">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="36ce3f10-11e9-4add-ae15-3062f27946e7">Daemon (Monstrous)</characteristic>
+                <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">8</characteristic>
+                <characteristic name="WS" typeId="d5a82d3a-18d1-48d0-a9e0-f752cb09e068">4</characteristic>
+                <characteristic name="BS" typeId="253b2a0a-577c-437a-9898-bfc1d22dcef8">3</characteristic>
+                <characteristic name="S" typeId="94c4fa7b-8480-4e99-84ad-92c9768f1472">5</characteristic>
+                <characteristic name="T" typeId="8a92af2d-103b-4847-b535-181cc323038e">5</characteristic>
+                <characteristic name="W" typeId="5e57eecc-4078-4b3a-9087-1cf0055bbabd">5</characteristic>
+                <characteristic name="I" typeId="ed32b28f-9bdc-4312-ba9b-e16cbc61db41">3</characteristic>
+                <characteristic name="A" typeId="4e9d7106-4cea-4d16-a7ea-f2f8f2957234">4</characteristic>
+                <characteristic name="Ld" typeId="9c8deb64-055e-4d01-b341-924389963feb">6</characteristic>
+                <characteristic name="Save" typeId="d8f3cf40-ebb8-45e1-8f50-074a0475a7ed">4+</characteristic>
+              </characteristics>
+              <modifiers>
+                <modifier type="append" field="36ce3f10-11e9-4add-ae15-3062f27946e7" value="(Heavy)">
+                  <conditions>
+                    <condition field="selections" scope="6cbb5d5f-8ecf-458a-945d-a308f78e500c" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="301215de-00bd-4e22-a60a-b7fb3c74c57c" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="25"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="The Ætheric Dominion (Unit)" hidden="false" type="selectionEntryGroup" id="90a0b087-4a7b-4b56-85c7-187b438482c7" targetId="d4f3cb16-5405-4564-bb9f-f9125c44200c"/>
+        <entryLink import="true" name="Infernal Armaments" hidden="false" type="selectionEntry" id="17355844-11ab-450c-b902-ee2e58db8ce5" targetId="3f3d16c0-8b00-42f9-9aae-584c9c44528d">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="47402136-ba6a-4b1d-9bfd-e4c098fe54c8"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b0062cc9-2007-465e-bf9e-a6fcc7ac873f"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="477c7f82-c21d-4df4-ac10-fe28ce47df1f" id="d6-76f8-1463-2952" primary="false" name="Daemon Unit-type:"/>
+        <categoryLink targetId="ca7cbae2-3b57-4a83-8965-8bb8c5aa9d9a" id="8f500a92-a352-49a7-bde9-14d1c9b876dc" primary="false" name="Monstrous Sub-type:"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink id="2704-6b9-50c6-8f8b" name="Æthereal Invulnerability (X)" hidden="false" targetId="3f6b6f63-44f0-40bf-96e6-bb5979a82ba2" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Æthereal Invulnerability (5+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="16bb484a-528c-4fb4-a9a5-a772843192ff" name="Hammer of Wrath (X)" hidden="false" targetId="38d7dec9-d961-47f7-935b-341ef71888d4" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Hammer of Wrath (3)">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="parent" childId="850b8d60-5882-4c37-9871-6ed2a0c9f323" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="name" value="Hammer of Wrath (3+1)">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="850b8d60-5882-4c37-9871-6ed2a0c9f323" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="3fca-6f8-15aa-91c0" name="Traitor" hidden="false" targetId="cfdf5692-0bbf-4678-a6f8-1af4be67730b" type="rule"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="add" field="category" value="11eb08d3-52e5-4c7a-823b-de5c08945939">
+          <conditions>
+            <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="301215de-00bd-4e22-a60a-b7fb3c74c57c" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Ruinstorm Daemon Behemoth" hidden="false" id="0365ff38-8001-43b9-95b8-76a21e3bf517" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="16">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Ruinstorm Behemoth" hidden="false" id="b128-73e-2b19-55c8" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="16">
+          <profiles>
+            <profile name="Ruinstorm Behemoth" typeId="2b6e799b-8afd-4ae9-b80a-234103442598" typeName="Unit" hidden="false" id="a7727daf-69d9-41c1-8c71-e7dfc8db93ce">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="36ce3f10-11e9-4add-ae15-3062f27946e7">Daemon (Monstrous)</characteristic>
+                <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">8</characteristic>
+                <characteristic name="WS" typeId="d5a82d3a-18d1-48d0-a9e0-f752cb09e068">4</characteristic>
+                <characteristic name="BS" typeId="253b2a0a-577c-437a-9898-bfc1d22dcef8">4</characteristic>
+                <characteristic name="S" typeId="94c4fa7b-8480-4e99-84ad-92c9768f1472">7</characteristic>
+                <characteristic name="T" typeId="8a92af2d-103b-4847-b535-181cc323038e">6</characteristic>
+                <characteristic name="W" typeId="5e57eecc-4078-4b3a-9087-1cf0055bbabd">7</characteristic>
+                <characteristic name="I" typeId="ed32b28f-9bdc-4312-ba9b-e16cbc61db41">3</characteristic>
+                <characteristic name="A" typeId="4e9d7106-4cea-4d16-a7ea-f2f8f2957234">5</characteristic>
+                <characteristic name="Ld" typeId="9c8deb64-055e-4d01-b341-924389963feb">7</characteristic>
+                <characteristic name="Save" typeId="d8f3cf40-ebb8-45e1-8f50-074a0475a7ed">3+</characteristic>
+              </characteristics>
+              <modifiers>
+                <modifier type="append" field="36ce3f10-11e9-4add-ae15-3062f27946e7" value="(Heavy)">
+                  <conditions>
+                    <condition field="selections" scope="0365ff38-8001-43b9-95b8-76a21e3bf517" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="301215de-00bd-4e22-a60a-b7fb3c74c57c" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="63c-704a-32c3-2279"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="651a2930-5bf1-433a-9ee2-a1a3dbdf812a"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="350"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="477c7f82-c21d-4df4-ac10-fe28ce47df1f" id="62f8df86-ea23-44c9-95bb-5d8797201ac6" primary="false" name="Daemon Unit-type:"/>
+        <categoryLink targetId="ca7cbae2-3b57-4a83-8965-8bb8c5aa9d9a" id="678150ea-a115-4532-9e50-cd0e9b1f73c8" primary="false" name="Monstrous Sub-type:"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Weapon" hidden="false" id="0fe3ce49-77d0-42d6-b9a5-134548193a5e" defaultSelectionEntryId="efd60fe5-e3de-4d3d-8944-ce789cbccf43">
+          <entryLinks>
+            <entryLink import="true" name="Infernal Armaments" hidden="false" type="selectionEntry" id="efd60fe5-e3de-4d3d-8944-ce789cbccf43" targetId="3f3d16c0-8b00-42f9-9aae-584c9c44528d"/>
+            <entryLink import="true" name="Behemoth Blade" hidden="false" type="selectionEntry" id="e0250644-c9f1-4446-9792-b6cbe5d60609" targetId="8bffc538-cebb-48fc-b118-a5643df4ae25">
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="30"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bdc51ad3-fbeb-4b9d-8019-db7db2c96905"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9800ad04-a9d3-457a-a330-fadb9d6d57cb"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="May take up to two of the following options:" hidden="false" id="98ce-5174-21c-546a">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="c2c95371-fe08-47fb-8e3f-69f1c5c9b24f"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Immaterial Wings" hidden="false" type="selectionEntry" id="b03c2b30-e759-4993-9a81-c2da8f6ceaff" targetId="8166e2f1-6d96-467b-b463-bb2074ddf303">
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="25"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Ætheric Flight" hidden="false" type="selectionEntry" id="05326606-a8a1-4273-8af2-74e494eff1a6" targetId="8a656b44-4769-4db5-a671-61ec5f41b1f2">
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="15"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Miasma of Rage" hidden="false" type="selectionEntry" id="678f9492-7995-46b8-b3e4-a8699ef13a2a" targetId="ce6-3fae-8519-e10d">
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="25"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Dark Flame" hidden="false" type="selectionEntry" id="2bd85c5b-47c2-4ea7-bb56-188ff8974d38" targetId="41732654-ce31-4ac4-852a-79e2597e3649">
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="15"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Warp-forged Flesh" hidden="false" type="selectionEntry" id="bc5d-dfa-dbdf-1bc7" targetId="fe38-e422-d5c-2ed3">
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="25"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink import="true" name="The Ætheric Dominion (Unit)" hidden="false" type="selectionEntryGroup" id="06324db5-a46c-4f4c-ad70-b999fc17ef7e" targetId="d4f3cb16-5405-4564-bb9f-f9125c44200c"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink id="bcff4914-b14d-481a-a2f7-6e535f0a0e8c" name="Æthereal Invulnerability (X)" hidden="false" targetId="3f6b6f63-44f0-40bf-96e6-bb5979a82ba2" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Æthereal Invulnerability (4+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Empyrean Avatar" hidden="false" type="rule" id="257f0d62-d392-4b87-a530-5d6e55f0e735" targetId="c694-20c8-455-baca"/>
+        <infoLink id="4a8c4b72-f66d-472f-aa71-a13a8dade59c" name="Hammer of Wrath (X)" hidden="false" targetId="38d7dec9-d961-47f7-935b-341ef71888d4" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Hammer of Wrath (3)">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="parent" childId="850b8d60-5882-4c37-9871-6ed2a0c9f323" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="name" value="Hammer of Wrath (3+1)">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="850b8d60-5882-4c37-9871-6ed2a0c9f323" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="e9b48c30-993c-424a-bb39-18dbd8f7fbc7" name="It Will Not Die (X)" hidden="false" targetId="6cfc9354-2a62-43ec-87aa-137862c8c7bb" type="rule">
+          <modifiers>
+            <modifier type="set" value="It Will Not Die (5+)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="f93e713a-92b5-4666-b951-af0444ca53e7" name="Traitor" hidden="false" targetId="cfdf5692-0bbf-4678-a6f8-1af4be67730b" type="rule"/>
+        <infoLink id="8308-d21c-fdb-c7d7" name="Bulky (X)" hidden="false" targetId="1e7612dc-20f4-4c63-9297-8884e8c765e6" type="rule">
+          <modifiers>
+            <modifier type="set" value="Bulky (7)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="add" field="category" value="11eb08d3-52e5-4c7a-823b-de5c08945939">
+          <conditions>
+            <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="301215de-00bd-4e22-a60a-b7fb3c74c57c" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Ruinstorm Arch-Daemon" hidden="false" id="d504f4f7-6da8-4eca-a5b7-262a5bdf3351" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="17">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Ruinstorm Arch-Daemon" hidden="false" id="f450de87-f324-4e27-85d8-0796288f0762" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="17">
+          <profiles>
+            <profile name="Ruinstorm Arch-Daemon" typeId="2b6e799b-8afd-4ae9-b80a-234103442598" typeName="Unit" hidden="false" id="799f8eb2-2830-49db-bb25-49ebcc0803cc" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="17">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="36ce3f10-11e9-4add-ae15-3062f27946e7">Daemon (Gargantuan)</characteristic>
+                <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">8</characteristic>
+                <characteristic name="WS" typeId="d5a82d3a-18d1-48d0-a9e0-f752cb09e068">7</characteristic>
+                <characteristic name="BS" typeId="253b2a0a-577c-437a-9898-bfc1d22dcef8">5</characteristic>
+                <characteristic name="S" typeId="94c4fa7b-8480-4e99-84ad-92c9768f1472">8</characteristic>
+                <characteristic name="T" typeId="8a92af2d-103b-4847-b535-181cc323038e">8</characteristic>
+                <characteristic name="W" typeId="5e57eecc-4078-4b3a-9087-1cf0055bbabd">8</characteristic>
+                <characteristic name="I" typeId="ed32b28f-9bdc-4312-ba9b-e16cbc61db41">6</characteristic>
+                <characteristic name="A" typeId="4e9d7106-4cea-4d16-a7ea-f2f8f2957234">6</characteristic>
+                <characteristic name="Ld" typeId="9c8deb64-055e-4d01-b341-924389963feb">9</characteristic>
+                <characteristic name="Save" typeId="d8f3cf40-ebb8-45e1-8f50-074a0475a7ed">3+</characteristic>
+              </characteristics>
+              <modifiers>
+                <modifier type="append" field="36ce3f10-11e9-4add-ae15-3062f27946e7" value="(Heavy)">
+                  <conditions>
+                    <condition field="selections" scope="d504f4f7-6da8-4eca-a5b7-262a5bdf3351" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="301215de-00bd-4e22-a60a-b7fb3c74c57c" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="587b1f9b-1ae5-4941-b65b-c35de37d2071"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c0-232e-ef53-a68f"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="500"/>
+      </costs>
+      <infoLinks>
+        <infoLink id="e720437b-90b1-4f18-aa2d-ddd498cc6905" name="Æthereal Invulnerability (X)" hidden="false" targetId="3f6b6f63-44f0-40bf-96e6-bb5979a82ba2" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Æthereal Invulnerability (4+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="c41901cf-3c94-4d00-a6e8-85ffc349ac5f" name="Eternal Warrior" hidden="false" targetId="bfd092f3-3168-4b75-bbcf-a9f1f94ddf06" type="rule"/>
+        <infoLink id="1f97-86e8-6bf8-a02" name="Hammer of Wrath (X)" hidden="false" targetId="38d7dec9-d961-47f7-935b-341ef71888d4" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Hammer of Wrath (D3)">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="parent" childId="850b8d60-5882-4c37-9871-6ed2a0c9f323" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="name" value="Hammer of Wrath (D3+1)">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="850b8d60-5882-4c37-9871-6ed2a0c9f323" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="ef2201a1-7125-488e-927a-5ccdef46f85b" name="It Will Not Die (X)" hidden="false" targetId="6cfc9354-2a62-43ec-87aa-137862c8c7bb" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="It Will Not Die (5+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="c8e7438a-37a7-48c9-9353-6e0fbe03f1b9" name="Bulky (X)" hidden="false" targetId="1e7612dc-20f4-4c63-9297-8884e8c765e6" type="rule">
+          <modifiers>
+            <modifier type="set" value="Bulky (9)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="20df-2bd-59c2-ae77" name="Traitor" hidden="false" targetId="cfdf5692-0bbf-4678-a6f8-1af4be67730b" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Behemoth Blade" hidden="false" type="selectionEntry" id="d3a48f63-bcfd-4488-8ffe-7519a55a654d" targetId="8bffc538-cebb-48fc-b118-a5643df4ae25">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5c4b-f149-18e-e33"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dd8868f7-aa8b-4416-b79e-cd8dc5a53773"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="The Ætheric Dominion (Unit)" hidden="false" type="selectionEntryGroup" id="33c7f0b9-ebff-4299-b913-dd2a17cbedeb" targetId="d4f3cb16-5405-4564-bb9f-f9125c44200c"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Ruinstorm Arch-Daemon may take up to three of the following options" hidden="false" id="f4bf98e2-aeaa-40f8-9123-97783a6bd3ec">
+          <entryLinks>
+            <entryLink import="true" name="Ætheric Conduit" hidden="false" type="selectionEntry" id="3ec97438-cdf5-4557-96da-36b68ec7b315" targetId="9c2-edf8-c9bd-ec05">
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="40"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Immaterial Wings" hidden="false" type="selectionEntry" id="a312d084-87d1-41f1-970f-2e58a5865b67" targetId="8166e2f1-6d96-467b-b463-bb2074ddf303">
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="30"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Ætheric Flight" hidden="false" type="selectionEntry" id="b0e29ff1-ff58-4542-aedc-ae6ca2c22f51" targetId="8a656b44-4769-4db5-a671-61ec5f41b1f2">
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="15"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Miasma of Rage" hidden="false" type="selectionEntry" id="d7a36d76-eb43-4801-b225-a81aa91c203d" targetId="ce6-3fae-8519-e10d">
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="25"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Dark Flame" hidden="false" type="selectionEntry" id="c2748ff8-cb66-4db3-9d8d-58eb46f55219" targetId="41732654-ce31-4ac4-852a-79e2597e3649">
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="15"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="The Unmaking" hidden="false" type="selectionEntry" id="daee1111-fab6-49f7-bb49-b99c44599f11" targetId="bea515ac-7283-4e66-a915-5253edb08aa8">
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="15"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Warp-forged Flesh" hidden="false" type="selectionEntry" id="ccad-fb42-1187-5b5" targetId="fe38-e422-d5c-2ed3">
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="25"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="7d8fe930-8c03-4c83-9255-55607cb8aec2"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <categoryLinks>
+        <categoryLink targetId="7fa5958a-af1a-4e6c-aa03-519842f41253" id="65fcaf66-d573-491a-9d5d-0225de3b014a" primary="false" name="Gargantuan Unit Sub-type"/>
+        <categoryLink targetId="477c7f82-c21d-4df4-ac10-fe28ce47df1f" id="d4495764-0dc1-47a0-ba0c-b278bcaaa6ac" primary="false" name="Daemon Unit-type:"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="add" field="category" value="11eb08d3-52e5-4c7a-823b-de5c08945939">
+          <conditions>
+            <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="301215de-00bd-4e22-a60a-b7fb3c74c57c" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Ka’bandha Unbound" hidden="false" id="056a58cf-d0de-4b84-b51a-1e744fcf9b8b" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="18">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Ka’bandha" hidden="false" id="a7200b64-e58d-4110-bbdc-70cc72226856" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="18">
+          <profiles>
+            <profile id="2550f974-563f-44f0-b1f9-80a7f05c81af" name="Ka’bandha" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="18" hidden="false" typeId="2b6e799b-8afd-4ae9-b80a-234103442598" typeName="Unit">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="36ce3f10-11e9-4add-ae15-3062f27946e7">Daemon (Bound, Character, Gargantuan, Unique)</characteristic>
+                <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">8</characteristic>
+                <characteristic name="WS" typeId="d5a82d3a-18d1-48d0-a9e0-f752cb09e068">8</characteristic>
+                <characteristic name="BS" typeId="253b2a0a-577c-437a-9898-bfc1d22dcef8">5</characteristic>
+                <characteristic name="S" typeId="94c4fa7b-8480-4e99-84ad-92c9768f1472">8</characteristic>
+                <characteristic name="T" typeId="8a92af2d-103b-4847-b535-181cc323038e">8</characteristic>
+                <characteristic name="W" typeId="5e57eecc-4078-4b3a-9087-1cf0055bbabd">8</characteristic>
+                <characteristic name="I" typeId="ed32b28f-9bdc-4312-ba9b-e16cbc61db41">6</characteristic>
+                <characteristic name="A" typeId="4e9d7106-4cea-4d16-a7ea-f2f8f2957234">7</characteristic>
+                <characteristic name="Ld" typeId="9c8deb64-055e-4d01-b341-924389963feb">10</characteristic>
+                <characteristic name="Save" typeId="d8f3cf40-ebb8-45e1-8f50-074a0475a7ed">3+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="beba4493-a7e4-4a59-875b-6879175004c5"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="96f15684-a8bc-4553-b54c-5d55bc1da966"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry id="d115f2b6-5d09-4a28-84cf-a70a18fa4429" name="Warlord Trait: Skull Keeper" publicationId="656d16f0-92e4-424e-975e-ee128bc8ae57" page="19" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="b190f1b7-f89a-4bcf-8bd1-9350baccd651" value="1">
+              <conditions>
+                <condition field="selections" scope="056a58cf-d0de-4b84-b51a-1e744fcf9b8b" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1887d318-5716-41f5-8b3e-1e6dff0c8e4c" type="greaterThan"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="056a58cf-d0de-4b84-b51a-1e744fcf9b8b" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1887d318-5716-41f5-8b3e-1e6dff0c8e4c" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f1c7342-85c7-43a6-9b80-07a3dc3e3183" type="max"/>
+            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b190f1b7-f89a-4bcf-8bd1-9350baccd651" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="dce0b089-2e67-4da0-bc7a-25674e2cd4ec" name="Warlord Trait: Skull Keeper" publicationId="656d16f0-92e4-424e-975e-ee128bc8ae57" page="19" hidden="false" typeId="76330902-abd6-45ce-aaa8-e2a11b820e1e" typeName="Warlord Trait">
+              <characteristics>
+                <characteristic name="Text" typeId="73a9dc44-a6eb-4b9b-9e3c-7961608831a8">Ka’bandha Unbound may always be selected as an Army’s Warlord even if it is not part of the Primary Detachment or an HQ choice. If chosen as the army’s Warlord, Ka&apos;bandha  Unbound automatically has Skull Keeper as its Warlord Trait and may not select any other.
+
+Skull Keeper – All models with the Daemon Unit Type and the Ætheric Dominion (Heedless Slaughter) special rule within 12&quot; of Ka&apos;bandha gain the Rage (3) special rule. In addition, an army whose Warlord has this Trait may make an additional Reaction in the Movement phase as long as Ka&apos;bandha Unbound has not been removed as a casualty.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="110061dc-77ad-435e-a0d2-d814294e30ef" name="Incarnadine Wings" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1c0a0af-5f57-4123-907a-2d2a34a9da48" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="929cc86b-9829-48f7-a881-690ad51cc423" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="38949390-cd18-42e4-b1c4-b1a85a2f87aa" name="Incarnadine Wings" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="18" hidden="false" typeId="04ae4d9f-9a14-4ace-8f86-56ec1229c5a1" typeName="Wargear Item">
+              <characteristics>
+                <characteristic name="Description" typeId="b041e7a3-08e8-4a60-a7e7-e50e963bc010">At the start of the controlling player’s Movement phase, a model with Incarnadine Wings may set its Movement Characteristic to a value of 14 for the duration of the controlling player’s turn (sometimes referred to as ‘activating’ this special rule). This allows a model with Incarnadine Wings to move up to 14&quot;, regardless of the Movement Characteristic shown on their profile and gain any other benefits of a Movement Characteristic of 14 (including the bonus to Charge distance). In addition, models with Incarnadine Wings that have been activated ignore terrain while Moving and Charging. A model with Incarnadine Wings that has been activated may move over both friendly and enemy models or units without penalty – but must end its Movement at least 1&quot; away from any model from another unit.
+
+
+A model with Incarnadine Wings may still Run if it would normally be able to Run (this does not allow units that include any models with the Heavy Sub-type to Run). When making a Run move for a model with activated Incarnadine Wings, add the Initiative Characteristic of the model to 14 to determine how far it may move – the model ignores terrain and models from other units while making a Run move with Incarnadine Wings as previously noted, but may not make Shooting Attacks or declare a Charge in the same turn in which it has Run as per the normal rules for Running.
+
+
+During a Reaction made in any Phase, a player may not choose to activate a model’s Incarnadine Wings to gain any bonus to its Movement Characteristic.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d4e726af-b956-4a68-af23-28b0d127bfaa" name="The Armaments of Ka’bandha" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f587fbd-65e4-412d-b170-508ee7e902fb" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fddd596c-6050-41f4-a3d1-e502d687557d" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="648d65fb-10ac-4757-b62e-ca52eb8a3b38" name="Armaments of Ka’bandha (Melee)" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="19" hidden="false" typeId="6525dede-e40b-4bd7-939d-60de13a16105" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">-</characteristic>
+                <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">+4</characteristic>
+                <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">2</characteristic>
+                <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Melee, Two-handed, Sunder, Immaterial Blades (AP1)</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="f410d0d3-de23-40ff-a2fd-ef5032222d0d" name="Armaments of Ka’bandha (Ranged)" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="19" hidden="false" typeId="6525dede-e40b-4bd7-939d-60de13a16105" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">6&quot;</characteristic>
+                <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">6</characteristic>
+                <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">2</characteristic>
+                <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Assault 7</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="2bbedd13-0ebb-4895-bd02-92b9eeca67a8" name="Two-handed" hidden="false" targetId="3dbdb43d-6d66-4b3e-ba30-d356f27563dc" type="rule"/>
+            <infoLink id="91757ca5-e44f-478f-90d1-e8eb3610883c" name="Sunder" hidden="false" targetId="b856617a-b392-496c-a898-f09ae49d1d94" type="rule"/>
+            <infoLink name="Immaterial Blades (X)" hidden="false" type="rule" id="74be8598-f9d4-4da4-85f8-d0e0ad03e62e" targetId="8d0-4d35-7d40-bc09">
+              <modifiers>
+                <modifier type="set" value="Immaterial Blades (AP1)" field="name"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <costs>
+            <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="575"/>
+      </costs>
+      <infoLinks>
+        <infoLink id="9cf0d8bc-b5e9-4d30-b40c-1471cb1f6181" name="Eternal Warrior" hidden="false" targetId="bfd092f3-3168-4b75-bbcf-a9f1f94ddf06" type="rule"/>
+        <infoLink id="88f63570-8072-4cd9-b6f1-c98b165905a2" name="Unbound" hidden="false" targetId="64a94bfe-bf6b-401c-826e-0e0eb0314465" type="rule"/>
+        <infoLink id="5d0069b4-415a-4b97-a110-0b3b3e8adc89" name="Traitor" hidden="false" targetId="cfdf5692-0bbf-4678-a6f8-1af4be67730b" type="rule"/>
+        <infoLink id="f227bde8-7c9c-490d-a0ea-914d3fbb88c7" name="Rampage (X)" hidden="false" targetId="f839bcc8-df11-440d-b5ee-6da40b0a3d51" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Rampage (D3+1)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="26609da0-a9df-4e55-9b3d-2e992178f494" name="Adamantium Will (X+)" hidden="false" targetId="89c5a987-2605-4b27-bf6e-6a31025e5577" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Adamantium Will (3+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="0574ba4c-36c4-48bc-b7ea-0085e6be02a5" name="Æthereal Invulnerability (X)" hidden="false" targetId="3f6b6f63-44f0-40bf-96e6-bb5979a82ba2" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Æthereal Invulnerability (4+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="e950e147-accf-40bd-abc9-44d4d5ab7d2c" name="Hammer of Wrath (X)" hidden="false" targetId="38d7dec9-d961-47f7-935b-341ef71888d4" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Hammer of Wrath (D3)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="ee8652b2-ef60-48a5-9348-92b377e27c67" name="Hatred (X)" hidden="false" targetId="157baf1d-d9be-4198-ada7-4894c84796fe" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Hatred (Sanguinius)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="ddbe54bb-3482-4b62-bd71-36f1d0ef18a1" name="It Will Not Die (X)" hidden="false" targetId="6cfc9354-2a62-43ec-87aa-137862c8c7bb" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="It Will Not Die (5+)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <rules>
+        <rule id="d0e2202e-afda-4e2a-8b4d-23a4d68ed9c7" name="Eternal Rivalry" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="19" hidden="false">
+          <description>If any enemy army includes Sanguinius, the following Secondary Objective comes into effect:
+
+
+If Sanguinius is removed as a casualty while fighting in a Challenge against Ka&apos;bandha Unbound, Ka&apos;bandha Unbound&apos;s controlling player scores 2 Victory points – this is in addition to any points scored for Slay the Warlord. However, if Ka&apos;bandha Unbound is removed as a casualty while it is fighting in a Challenge against Sanguinius, Ka&apos;bandha Unbound&apos;s controlling player instead loses 1 Victory point.</description>
+        </rule>
+        <rule id="9d1a-b131-9bc-6bb8" name="Scythe of Hatred" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="19" hidden="false">
+          <description>At the end of any Assault phase, after the results of any combats have been worked out and Sweeping Advances and Consolidations have been completed, Ka&apos;bandha Unbound may make a special Scythe of Hatred attack. To resolve this attack, the controlling player places a Hellstorm template with the narrow end in contact with Ka&apos;bandha Unbound&apos;s base. Any unit with models underneath the template suffers a number of automatic S6, AP- Hits equal to the number of unsaved Wounds caused by Melee Attacks made by Ka&apos;bandha during the preceding Assault phase (this does not include any modifiers to the score used to determine who won a Combat).</description>
+        </rule>
+      </rules>
+      <constraints>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3bcb-8b8-f0c5-5866" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="139117ec-953e-40ee-8ecf-8e58d3626640" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="4422b9d9-61ba-4e9c-b4bd-1ba05ea3ee09" name="Warlord" hidden="false" collective="false" import="true" targetId="1887d318-5716-41f5-8b3e-1e6dff0c8e4c" type="selectionEntry"/>
+        <entryLink import="true" name="Heedless Slaughter" hidden="false" type="selectionEntry" id="0c1f5ce7-7f37-431a-8658-54462ba99b3a" targetId="2a99d2b7-f72b-4609-ade3-d049ccf9682e">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9eaa08a1-1fee-4272-a02f-472279de515a"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink targetId="477c7f82-c21d-4df4-ac10-fe28ce47df1f" id="a169d344-69e0-4de8-b3bd-e8f226153334" primary="false" name="Daemon Unit-type:"/>
+        <categoryLink targetId="546a8d3f-47d4-4c80-b30e-e6addf1298f2" id="650d7565-6752-49dd-a270-7e5b5092f488" primary="false" name="Character"/>
+        <categoryLink targetId="7fa5958a-af1a-4e6c-aa03-519842f41253" id="104187cd-5144-4aef-8422-9a72a254acbb" primary="false" name="Gargantuan Unit Sub-type"/>
+        <categoryLink targetId="6eb1062b-2fae-49d2-aaa7-569c39fa3324" id="002fe73c-7400-41e1-b23a-9f93e2301c79" primary="false" name="Unique Sub-type"/>
+        <categoryLink targetId="53046ee5-6c89-4b0b-9b40-f2508fcf73d0" id="e9b56e69-433a-47ac-a857-a6c92f988bc3" primary="false" name="Heedless Slaughter"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Cor’bax Utterblight Unbound" hidden="false" id="e1fcea47-1331-4c94-bedc-7e50a946671b" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="20">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Cor’bax Utterblight" hidden="false" id="b053ee26-6f2b-4883-998d-69dc8abe17cd" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="20">
+          <profiles>
+            <profile name="Cor’bax Utterblight" typeId="2b6e799b-8afd-4ae9-b80a-234103442598" typeName="Unit" hidden="false" id="ad64-2dca-c52-6242" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="20">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="36ce3f10-11e9-4add-ae15-3062f27946e7">Daemon (Character, Monstrous, Psyker, Unique, Heavy)</characteristic>
+                <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">7</characteristic>
+                <characteristic name="WS" typeId="d5a82d3a-18d1-48d0-a9e0-f752cb09e068">7</characteristic>
+                <characteristic name="BS" typeId="253b2a0a-577c-437a-9898-bfc1d22dcef8">5</characteristic>
+                <characteristic name="S" typeId="94c4fa7b-8480-4e99-84ad-92c9768f1472">7</characteristic>
+                <characteristic name="T" typeId="8a92af2d-103b-4847-b535-181cc323038e">8</characteristic>
+                <characteristic name="W" typeId="5e57eecc-4078-4b3a-9087-1cf0055bbabd">9</characteristic>
+                <characteristic name="I" typeId="ed32b28f-9bdc-4312-ba9b-e16cbc61db41">5</characteristic>
+                <characteristic name="A" typeId="4e9d7106-4cea-4d16-a7ea-f2f8f2957234">5</characteristic>
+                <characteristic name="Ld" typeId="9c8deb64-055e-4d01-b341-924389963feb">10</characteristic>
+                <characteristic name="Save" typeId="d8f3cf40-ebb8-45e1-8f50-074a0475a7ed">4+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7d5ebe10-1ca8-47d8-955b-1fc57bd19ece"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1991c1b7-3c86-4dbb-8789-f70c2ed32d0c"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry id="401-d57-6162-f869" name="Warlord Trait: Lord of Decay" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="13ce68f2-a141-475d-9461-870d3284e813" value="1">
+              <conditions>
+                <condition field="selections" scope="e1fcea47-1331-4c94-bedc-7e50a946671b" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1887d318-5716-41f5-8b3e-1e6dff0c8e4c" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="e1fcea47-1331-4c94-bedc-7e50a946671b" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1887d318-5716-41f5-8b3e-1e6dff0c8e4c" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4d4e172-3f81-4237-b5cd-93355509fd3a" type="max"/>
+            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13ce68f2-a141-475d-9461-870d3284e813" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="cc4d6b62-8c28-412d-95be-ac0f2f9b6e97" name="Warlord Trait: Lord of Decay" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="20" hidden="false" typeId="76330902-abd6-45ce-aaa8-e2a11b820e1e" typeName="Warlord Trait">
+              <characteristics>
+                <characteristic name="Text" typeId="73a9dc44-a6eb-4b9b-9e3c-7961608831a8">Cor’bax Utterblight Unbound may always be selected as an army’s Warlord even if it is not part of the Primary Detachment or an HQ choice. If chosen as the army’s Warlord, Cor’bax Utterblight Unbound automatically has Lord of Decay as its Warlord Trait and may not select any other.
+
+
+Lord of Decay – All units with the Daemon Unit Type and the Ætheric Dominion (Putrid Corruption) special rule within 3&quot; of Cor’bax Utterblight Unbound can re-roll failed Damage Mitigation rolls provided to them by the Ætheric Dominion (Putrid Corruption) and Feel No Pain (X) special rules. In addition, an army whose Warlord has this Trait may make an additional Reaction in the Movement phase as long as Cor’bax Utterblight Unbound has not been removed as a casualty.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Noxious Maw" hidden="false" id="561a21d5-e76d-4da8-8cb8-5b061a09fa3b" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="20">
+          <profiles>
+            <profile name="Noxious Maw" typeId="6525dede-e40b-4bd7-939d-60de13a16105" typeName="Weapon" hidden="false" id="9cb03c31-6d83-47b2-b312-e433ff5c9b60" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="20">
+              <characteristics>
+                <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">-</characteristic>
+                <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">+1</characteristic>
+                <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">2</characteristic>
+                <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Melee, Murderous Strike (4+)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Murderous Strike (X)" hidden="false" type="rule" id="ae62b379-d4fe-495e-bd38-db7d708f65a4" targetId="636fbcd9-9112-4453-be88-e98b44c8f24d">
+              <modifiers>
+                <modifier type="set" value="Murderous Strike (4+)" field="name"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c37-28fe-4e9-c566"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e462bc39-053a-498c-a6a0-fef83dc15702"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="430"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Putrid Corruption" hidden="false" type="selectionEntry" id="8a1a8b11-c226-4232-8b1a-e07b8395078d" targetId="301215de-00bd-4e22-a60a-b7fb3c74c57c">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a20f72e8-6483-4b20-ba6b-299cfea9d725"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="499-6206-31d0-28be" name="Warlord" hidden="false" collective="false" import="true" targetId="1887d318-5716-41f5-8b3e-1e6dff0c8e4c" type="selectionEntry"/>
+        <entryLink id="b76ef525-176d-40ec-9d33-82400d683e5e" name="Samus or Ka’bandha Warlord stuff" hidden="false" collective="false" import="true" targetId="ec9f3770-8c4c-4674-8cd9-8d32bc8fc242" type="selectionEntry"/>
+        <entryLink import="true" name="Psychic Discipline: Biomancy" hidden="false" type="selectionEntry" id="b1609b7e-97e4-470c-ba18-fede9e8f588e" targetId="67864b11-c95a-4e96-86f4-0fa8923d5143">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="00405f63-f747-46ae-8c15-ac8b56848f01"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6494-d02b-d76e-8c6"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink id="f64c37f9-8f58-44f8-8cff-6951d0d290a6" name="Æthereal Invulnerability (X)" hidden="false" targetId="3f6b6f63-44f0-40bf-96e6-bb5979a82ba2" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Æthereal Invulnerability (4+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Empyrean Avatar" hidden="false" type="rule" id="fcf81590-ed36-49a1-bb85-d6f296b4aad4" targetId="c694-20c8-455-baca"/>
+        <infoLink id="77a18816-074d-405e-be98-edd72404289a" name="It Will Not Die (X)" hidden="false" targetId="6cfc9354-2a62-43ec-87aa-137862c8c7bb" type="rule">
+          <modifiers>
+            <modifier type="set" value="It Will Not Die (4+)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="d6e3f402-25bf-4309-8d7e-808155732b80" name="Traitor" hidden="false" targetId="cfdf5692-0bbf-4678-a6f8-1af4be67730b" type="rule"/>
+        <infoLink name="Unbound" hidden="false" type="rule" id="6e685b5c-de1b-4115-9526-676af8efcae8" targetId="64a94bfe-bf6b-401c-826e-0e0eb0314465"/>
+        <infoLink id="c221-f90-243c-7cf4" name="Adamantium Will (X+)" hidden="false" targetId="89c5a987-2605-4b27-bf6e-6a31025e5577" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Adamantium Will (3+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="ce143549-44c7-43fc-ad06-7343dd710551" name="Hammer of Wrath (X)" hidden="false" targetId="38d7dec9-d961-47f7-935b-341ef71888d4" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Hammer of Wrath (D3+1)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <rules>
+        <rule name="Herald of Pestilence" hidden="false" id="bf969767-3967-48c8-8c40-de78b4bebe4b" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="20">
+          <description>Cor’bax Utterblight Unbound is a Psyker and gains the Biomancy Disciplines from the Core Psychic Discipline (see the Warhammer: The Horus Heresy – Age of Darkness Rulebook, page 325) at no additional points cost and may not select any other Psychic Disciplines.</description>
+        </rule>
+        <rule name="Noisome Tide of Flesh" hidden="false" id="ee21a267-e76e-48b6-921a-e3c1e8d4af7a" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="20">
+          <description>Cor’bax Utterblight Unbound suffers no penalty for moving or  charging through Difficult Terrain. In addition, when Cor’bax Utterblight Unbound is  destroyed, nearby units suffer a Strength 6, AP- Hit for each model within 5&quot; that does not have the Daemon Unit Type. Any unit that suffers one or more Hits from this effect must take an immediate Pinning test. Once all Hits and Pinning tests are resolved, Cor’bax Utterblight Unbound is  then removed from the battlefield.</description>
+        </rule>
+      </rules>
+      <constraints>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c3818ee5-6c2e-41ff-8b26-5d396001ac46" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1c7-68b2-ae8d-4797" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink targetId="477c7f82-c21d-4df4-ac10-fe28ce47df1f" id="00431a5a-3c57-471d-96ec-2777143f0e50" primary="false" name="Daemon Unit-type:"/>
+        <categoryLink targetId="546a8d3f-47d4-4c80-b30e-e6addf1298f2" id="e58261b4-a347-4060-a949-c7703d7ad6d9" primary="false" name="Character"/>
+        <categoryLink targetId="ca7cbae2-3b57-4a83-8965-8bb8c5aa9d9a" id="e548b837-efe3-488b-ba39-08e2c03f6564" primary="false" name="Monstrous Sub-type:"/>
+        <categoryLink targetId="6882c586-9de3-4f18-97e4-edc841825a02" id="d7f9f5e2-a8cb-4ba7-8982-913147636f08" primary="false" name="Psyker:"/>
+        <categoryLink targetId="6eb1062b-2fae-49d2-aaa7-569c39fa3324" id="4940-9ca9-42dc-4dd" primary="false" name="Unique Sub-type"/>
+        <categoryLink targetId="aa0dd183-aac7-4c9e-babe-f7e55435990b" id="f1c09c4e-e65f-49b3-8c84-a23d43c143b8" primary="false" name="Putrid Corruption"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="add" field="category" value="11eb08d3-52e5-4c7a-823b-de5c08945939">
+          <conditions>
+            <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="301215de-00bd-4e22-a60a-b7fb3c74c57c" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Samus Unbound" hidden="false" id="4cfeb35a-606d-4bf0-8d1e-4405526f6123" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="21">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Samus" hidden="false" id="4a79a3d9-450e-44fc-b610-124bc0316298" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="21">
+          <profiles>
+            <profile id="5a93-40d6-b99-1218" name="Samus" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="21" hidden="false" typeId="2b6e799b-8afd-4ae9-b80a-234103442598" typeName="Unit">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="36ce3f10-11e9-4add-ae15-3062f27946e7">Daemon (Monstrous, Character, Unique)</characteristic>
+                <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">8</characteristic>
+                <characteristic name="WS" typeId="d5a82d3a-18d1-48d0-a9e0-f752cb09e068">6</characteristic>
+                <characteristic name="BS" typeId="253b2a0a-577c-437a-9898-bfc1d22dcef8">5</characteristic>
+                <characteristic name="S" typeId="94c4fa7b-8480-4e99-84ad-92c9768f1472">8</characteristic>
+                <characteristic name="T" typeId="8a92af2d-103b-4847-b535-181cc323038e">7</characteristic>
+                <characteristic name="W" typeId="5e57eecc-4078-4b3a-9087-1cf0055bbabd">7</characteristic>
+                <characteristic name="I" typeId="ed32b28f-9bdc-4312-ba9b-e16cbc61db41">7</characteristic>
+                <characteristic name="A" typeId="4e9d7106-4cea-4d16-a7ea-f2f8f2957234">4</characteristic>
+                <characteristic name="Ld" typeId="9c8deb64-055e-4d01-b341-924389963feb">10</characteristic>
+                <characteristic name="Save" typeId="d8f3cf40-ebb8-45e1-8f50-074a0475a7ed">3+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="85c7c628-696e-4038-a7f0-e2c5affd9e8c"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bd49c673-5fd7-4a38-b255-f1a44dce3b4f"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry id="52ddbde4-5986-4d24-92b2-3210a43e1fa5" name="Blades of Samus" hidden="false" collective="false" import="true" type="upgrade" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="21">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc3f9368-21d7-48e1-9ed5-26b7098dead4" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a13de9f-fdd1-4f29-b11e-a23ca9d02d1e" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="51927699-c42f-43ad-82ee-a3f226880731" name="Blades of Samus" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="21" hidden="false" typeId="6525dede-e40b-4bd7-939d-60de13a16105" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">-</characteristic>
+                <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">User</characteristic>
+                <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">2</characteristic>
+                <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Melee, Armourbane (Melee), Murderous Strike (5+), Immaterial Blades (AP1)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="6425f209-d2fc-40a6-b666-45b9652b9894" name="Armourbane (X)" hidden="false" targetId="cb0668e0-00d9-40ab-8573-75df410767c9" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Armourbane (Melee)"/>
+              </modifiers>
+            </infoLink>
+            <infoLink id="d7eecc8c-a6d7-4c11-ba3d-993467632079" name="Murderous Strike (X)" hidden="false" targetId="636fbcd9-9112-4453-be88-e98b44c8f24d" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Murderous Strike (5+)"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Immaterial Blades (X)" hidden="false" type="rule" id="d784a9df-ecd3-4874-9c41-410d53d4cc3d" targetId="8d0-4d35-7d40-bc09">
+              <modifiers>
+                <modifier type="set" field="name" value="Immaterial Blades (AP1)"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <costs>
+            <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f8af43f6-d5b7-4a9a-b529-f8f0529cdae0" name="Warlord Trait: The End and the Death" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="3368cf3b-a3f9-4b1f-bf1b-38e7263389a6" value="1">
+              <conditions>
+                <condition field="selections" scope="4cfeb35a-606d-4bf0-8d1e-4405526f6123" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1887d318-5716-41f5-8b3e-1e6dff0c8e4c" type="greaterThan"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="4cfeb35a-606d-4bf0-8d1e-4405526f6123" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1887d318-5716-41f5-8b3e-1e6dff0c8e4c" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="824c-9053-1ac2-7ff" type="max"/>
+            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3368cf3b-a3f9-4b1f-bf1b-38e7263389a6" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="ed1d0662-4922-4361-ad8c-81bba99d0aff" name="Warlord Trait: The End and the Death" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="21" hidden="false" typeId="76330902-abd6-45ce-aaa8-e2a11b820e1e" typeName="Warlord Trait">
+              <characteristics>
+                <characteristic name="Text" typeId="73a9dc44-a6eb-4b9b-9e3c-7961608831a8">Samus Unbound may always be selected as an army’s Warlord even if it is not part of the Primary Detachment or a HQ choice. If chosen as the army’s  Warlord, Samus Unbound replaces the Empyrean Avatar special rule with the Eternal Warrior  special rule and automatically has The End and the Death as its Warlord Trait and may not select any other.
+
+The End and the Death – When fighting in a Challenge, successful Invulnerable Saves taken against Samus Unbound’s attacks must be re-rolled. In addition, an army with Samus Unbound as its Warlord may make an additional Reaction during the opposing player&apos;s Movement phase as long as Samus Unbound has not been removed as a casualty.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink import="true" name="Encroaching Ruin" hidden="false" type="selectionEntry" id="8dfaa29a-ef92-4ce3-92af-5656d23288a4" targetId="c1644f22-aea5-4949-8d24-f112c8b463e9">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fd5dd266-a2cc-4ed5-bc4d-d705c9e440bd"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="1605ba3c-abdf-4db4-a3bc-6824a48749df" name="Samus or Ka’bandha Warlord stuff" hidden="false" collective="false" import="true" targetId="ec9f3770-8c4c-4674-8cd9-8d32bc8fc242" type="selectionEntry"/>
+        <entryLink id="616f78a6-f83b-4bcb-a99c-739e94883a8d" name="Warlord" hidden="false" collective="false" import="true" targetId="1887d318-5716-41f5-8b3e-1e6dff0c8e4c" type="selectionEntry"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink id="6b83ba69-fc55-4492-9f25-76d1b5633b53" name="Æthereal Invulnerability (X)" hidden="false" targetId="3f6b6f63-44f0-40bf-96e6-bb5979a82ba2" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Æthereal Invulnerability (4+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="3600423b-d923-4da3-ab00-8394a80e437e" name="Bulky (X)" hidden="false" targetId="1e7612dc-20f4-4c63-9297-8884e8c765e6" type="rule">
+          <modifiers>
+            <modifier type="set" value="Bulky (7)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="0c6e3290-b6b6-4b6b-9cba-c84a33b94cd6" name="Fleet (X)" hidden="false" targetId="9e9d2317-533f-4a93-9468-1a189a524a36" type="rule">
+          <modifiers>
+            <modifier type="set" value="Fleet (2)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="652f40bb-7f51-498b-abfb-cf9e0b5b5825" name="It Will Not Die (X)" hidden="false" targetId="6cfc9354-2a62-43ec-87aa-137862c8c7bb" type="rule">
+          <modifiers>
+            <modifier type="set" value="It Will Not Die (5+)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="1ede-9a3-9e85-307f" name="Move Through Cover" hidden="false" targetId="124ebb40-5baf-46b1-9e21-a4cbf4b3cedb" type="rule"/>
+        <infoLink id="a7d2-f5c5-e25-d1bc" name="Rage (X)" hidden="false" targetId="0cc8c1af-d222-450e-85b2-710155b7787f" type="rule">
+          <modifiers>
+            <modifier type="set" value="Rage (3)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="8b24-dd59-44be-302" name="Traitor" hidden="false" targetId="cfdf5692-0bbf-4678-a6f8-1af4be67730b" type="rule"/>
+        <infoLink name="Empyrean Avatar" hidden="false" type="rule" id="6b70018d-da13-44e2-b270-6e5a6f70eda7" targetId="c694-20c8-455-baca">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition field="selections" scope="4cfeb35a-606d-4bf0-8d1e-4405526f6123" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1887d318-5716-41f5-8b3e-1e6dff0c8e4c" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Eternal Warrior" hidden="false" type="rule" id="a8a67c5a-ab96-4f4f-a768-c61a9b06dae4" targetId="bfd092f3-3168-4b75-bbcf-a9f1f94ddf06">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition field="selections" scope="4cfeb35a-606d-4bf0-8d1e-4405526f6123" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1887d318-5716-41f5-8b3e-1e6dff0c8e4c" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Unbound" hidden="false" type="rule" id="97e04889-3595-422e-96fe-0070b1546d02" targetId="64a94bfe-bf6b-401c-826e-0e0eb0314465"/>
+      </infoLinks>
+      <constraints>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2c49-3373-354a-f28" type="max"/>
+        <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4ea-a4eb-1ce9-c1a" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="5e11-449-7dab-87f5" name="Whispers of Madness" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="21" hidden="false">
+          <description>• If Samus Unbound has been placed in Reserves and has not yet arrived on the battlefield, Reserves rolls made by an opposing player to bring units into play from Reserve are modified by -1. This modifier does not stack with any other negative modifiers to Reserves rolls – use the highest single modifier instead.
+• Any model within 18&quot; of Samus Unbound must reduce its Leadership by -2 when making Psychic checks. This modifier is cumulative with other effects that reduce Leadership for the purposes of making Psychic checks.
+• While locked in combat, Samus Unbound increases the value of its Fear (1) special rule to Fear (2).</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink targetId="477c7f82-c21d-4df4-ac10-fe28ce47df1f" id="fe99e2bd-9c34-4078-997a-e3a644b7010e" primary="false" name="Daemon Unit-type:"/>
+        <categoryLink targetId="546a8d3f-47d4-4c80-b30e-e6addf1298f2" id="1f7e46cc-11de-4d57-a435-8bac7048ae58" primary="false" name="Character"/>
+        <categoryLink targetId="ca7cbae2-3b57-4a83-8965-8bb8c5aa9d9a" id="a1b-c3a9-26cc-8d9a" primary="false" name="Monstrous Sub-type:"/>
+        <categoryLink targetId="6eb1062b-2fae-49d2-aaa7-569c39fa3324" id="5d4e-5442-b05a-85d" primary="false" name="Unique Sub-type"/>
+        <categoryLink targetId="c42-1919-c37e-51f0" id="7c82f483-7fad-491e-a7b6-bc63508b040a" primary="false" name="Encroaching Ruin"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="380"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Ætheric Conduit" hidden="false" id="9c2-edf8-c9bd-ec05">
+      <profiles>
+        <profile name="Ætheric Conduit" hidden="false" id="90f0eb88-17da-4952-b837-828f843b2920" typeId="04ae4d9f-9a14-4ace-8f86-56ec1229c5a1" typeName="Wargear Item" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="23">
+          <characteristics>
+            <characteristic name="Description" typeId="b041e7a3-08e8-4a60-a7e7-e50e963bc010">A model with this upgrade gains the Psyker Sub-type and may select a single Core Psychic Discipline from the following list: Biomancy, Diabolism, Pyromancy, Telepathy.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="99033394-a867-4016-a67f-1e465a2237a5"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Ætheric Flight" hidden="false" id="8a656b44-4769-4db5-a671-61ec5f41b1f2">
+      <profiles>
+        <profile name="Ætheric Flight" hidden="false" id="2549a7f1-5f50-428f-8c3d-6d9f82f360f7" typeId="04ae4d9f-9a14-4ace-8f86-56ec1229c5a1" typeName="Wargear Item" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="23">
+          <characteristics>
+            <characteristic name="Description" typeId="b041e7a3-08e8-4a60-a7e7-e50e963bc010">A unit entirely with ætheric flight may choose to increase its Movement Characteristic by +3, move over friendly and enemy models or units, and ignore terrain while moving during the Movement phase. A unit that ends or begins its movement in Dangerous Terrain will still need to take Dangerous Terrain tests as normal, even when employing ætheric flight and treats Difficult Terrain as Dangerous Terrain.
+
+
+Any model with ætheric flight also gains the Bulky (2) special rule, or if it already has the Bulky (X) special rule, it increases the value of X by 1 instead.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="34fa-e904-f33-e630"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Immaterial Wings" hidden="false" id="8166e2f1-6d96-467b-b463-bb2074ddf303">
+      <profiles>
+        <profile name="Immaterial Wings" hidden="false" id="2e448701-214a-40b7-96cf-05c1b25456de" typeId="04ae4d9f-9a14-4ace-8f86-56ec1229c5a1" typeName="Wargear Item" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="23">
+          <characteristics>
+            <characteristic name="Description" typeId="b041e7a3-08e8-4a60-a7e7-e50e963bc010">At the start of the controlling player’s Movement phase, a model with immaterial wings may set its Move Characteristic to a value of 14 for the duration of the controlling player’s turn (sometimes referred to as ‘activating’ the immaterial wings). This allows a model with immaterial wings to move up to 14&quot;, regardless of the Movement Characteristic shown on its profile and gain any other benefits of a Movement Characteristic of 14 (including the bonus to Charge distance). In addition, all models with immaterial wings that have been activated ignore terrain while Moving and Charging, but must take Dangerous Terrain tests as normal when beginning or ending their Movement in Dangerous Terrain.
+
+
+A model with activated immaterial wings treats all Difficult Terrain as Dangerous Terrain and may move over both friendly and enemy models or units without penalty – but must end its Movement at least 1&quot; away from any model from another unit. A model with immaterial wings may still Run if it would normally be able to Run (this does not allow units that include any models with the Heavy Sub-type to Run). When making a Run move for a model with activated immaterial wings, add the Initiative Characteristic of that model to 14 to determine how far it may move – the model ignores terrain and models from other units while making a Run move with immaterial wings as previously noted, but may not make Shooting Attacks or declare a Charge in the same turn in which it has Run as per the normal rules for Running.
+
+
+Any model with immaterial wings also gains the Bulky (2) and Hammer of Wrath (1) – if it already has the Bulky (X) and/or Hammer of Wrath (X) special rule, it increases the value of X for the respective special rule by 1.
+
+
+During a Reaction made in any Phase, a player may not choose to activate a model’s immaterial wings to gain any bonus to its Movement Characteristic. Any models with immaterial wings that arrive from reserve are considered to have activated their immaterial wings the turn that they enter play.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="79d03d85-fffc-4cca-bc7e-4735b5160e66"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Miasma of Rage" hidden="false" id="ce6-3fae-8519-e10d">
+      <profiles>
+        <profile name="Miasma of Rage" hidden="false" id="1ac90e13-d5bd-4ab7-bf26-cba1b45a7dc6" typeId="04ae4d9f-9a14-4ace-8f86-56ec1229c5a1" typeName="Wargear Item" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="23">
+          <characteristics>
+            <characteristic name="Description" typeId="b041e7a3-08e8-4a60-a7e7-e50e963bc010">A unit that contains at least one model with this upgrade gains the Rage (2) special rule, unless a model would already have a higher value of Rage (X).</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Rage (X)" hidden="false" type="rule" id="7aac2e80-ab4c-44f7-9950-a001da2b41ac" targetId="0cc8c1af-d222-450e-85b2-710155b7787f">
+          <modifiers>
+            <modifier type="set" value="Rage (2)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ddeb77da-6cfc-4e03-a661-2d346206d8fe"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Dark Flame" hidden="false" id="41732654-ce31-4ac4-852a-79e2597e3649">
+      <profiles>
+        <profile name="Dark Flame" hidden="false" id="a52d4bb6-df8e-41c0-86b1-b9976c110542" typeId="6525dede-e40b-4bd7-939d-60de13a16105" typeName="Weapon" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="23">
+          <characteristics>
+            <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">Template</characteristic>
+            <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">5</characteristic>
+            <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">5</characteristic>
+            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Assault, Torrent (5&quot;), Fleshbane</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ace4-e5e3-a30b-f25"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="The Unmaking" hidden="false" id="bea515ac-7283-4e66-a915-5253edb08aa8">
+      <profiles>
+        <profile name="The Unmaking" hidden="false" id="35ece2f6-e471-468e-ba2c-fca7471db4ed" typeId="6525dede-e40b-4bd7-939d-60de13a16105" typeName="Weapon" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="23">
+          <characteristics>
+            <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">12&quot;</characteristic>
+            <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">8</characteristic>
+            <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">1</characteristic>
+            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Assault 2, Armourbane (Ranged)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armourbane (X)" hidden="false" type="rule" id="36dc3d1d-c346-4a26-94a3-fcd9ba9b7604" targetId="cb0668e0-00d9-40ab-8573-75df410767c9">
+          <modifiers>
+            <modifier type="set" value="Armourbane (Ranged)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0e143ffd-ea69-430c-929e-87dd5cd360e3"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Warp-forged Flesh" hidden="false" id="fe38-e422-d5c-2ed3">
+      <profiles>
+        <profile name="Warp-forged Flesh" hidden="false" id="e3cb8751-8780-483f-9104-56067f20c5e8" typeId="04ae4d9f-9a14-4ace-8f86-56ec1229c5a1" typeName="Wargear Item" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="23">
+          <characteristics>
+            <characteristic name="Description" typeId="b041e7a3-08e8-4a60-a7e7-e50e963bc010">A model with this upgrade improves its Armour Save Characteristic by 1, to a maximum of 2+.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dd9dace6-9e23-4a6c-a4f4-f584af30dc32"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Infernal Armaments" hidden="false" id="3f3d16c0-8b00-42f9-9aae-584c9c44528d">
+      <profiles>
+        <profile name="Infernal Armaments" typeId="6525dede-e40b-4bd7-939d-60de13a16105" typeName="Weapon" hidden="false" id="94627497-e6bd-4bfa-9e14-562d39f5315e" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="24">
+          <characteristics>
+            <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">-</characteristic>
+            <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">User</characteristic>
+            <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">3</characteristic>
+            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Melee, Brutal (2), Immaterial Blades (AP2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Immaterial Blades (X)" hidden="false" type="rule" id="db3-e361-4a60-a795" targetId="8d0-4d35-7d40-bc09">
+          <modifiers>
+            <modifier type="set" value="Immaterial Blades (AP2)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Brutal (X)" hidden="false" type="rule" id="594ae0d3-80b2-4e24-9ed6-cd7626681e1d" targetId="d3e7a32a-93be-4480-a8e4-d3af5d4cb856">
+          <modifiers>
+            <modifier type="set" value="Brutal (2)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Sovereign Armaments" hidden="false" id="c859-2be-6d66-d3da">
+      <profiles>
+        <profile name="Sovereign Armaments" typeId="6525dede-e40b-4bd7-939d-60de13a16105" typeName="Weapon" hidden="false" id="2097-4831-c3c-35fd" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="24">
+          <characteristics>
+            <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">-</characteristic>
+            <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">User</characteristic>
+            <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">2</characteristic>
+            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Melee, Brutal (2), Murderous Strike (5+), Immaterial Blades (AP1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Brutal (X)" hidden="false" type="rule" id="3296-b38-8cc-a00" targetId="d3e7a32a-93be-4480-a8e4-d3af5d4cb856">
+          <modifiers>
+            <modifier type="set" value="Brutal (2)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Immaterial Blades (X)" hidden="false" type="rule" id="e470c222-89a9-414c-942c-fc7f40fd18cf" targetId="8d0-4d35-7d40-bc09">
+          <modifiers>
+            <modifier type="set" value="Immaterial Blades (AP1)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Murderous Strike (X)" hidden="false" type="rule" id="e0e-211d-a0fc-1824" targetId="636fbcd9-9112-4453-be88-e98b44c8f24d">
+          <modifiers>
+            <modifier type="set" value="Murderous Strike (5+)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Sovereign Greatblade" hidden="false" id="c9882217-b4d1-430e-b60e-3eb8a41169c6">
+      <profiles>
+        <profile name="Sovereign Greatblade" typeId="6525dede-e40b-4bd7-939d-60de13a16105" typeName="Weapon" hidden="false" id="e7737583-5cb0-4ff8-a361-afb61a8f315d" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="24">
+          <characteristics>
+            <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">-</characteristic>
+            <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">User</characteristic>
+            <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">1</characteristic>
+            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Melee, Brutal (3), Murderous Strike (5+), Unwieldy</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Murderous Strike (X)" hidden="false" type="rule" id="8b5ce3a3-93df-42d5-ba47-f93af5e6ecaf" targetId="636fbcd9-9112-4453-be88-e98b44c8f24d">
+          <modifiers>
+            <modifier type="set" value="Murderous Strike (5+)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Brutal (X)" hidden="false" type="rule" id="269765c0-9a6c-4872-8fff-14649915a8dc" targetId="d3e7a32a-93be-4480-a8e4-d3af5d4cb856">
+          <modifiers>
+            <modifier type="set" value="Brutal (2)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Unwieldy" hidden="false" type="rule" id="9fbd01c9-4a1e-47f3-8700-fe6101925bf2" targetId="b7840f2c-55f9-4706-9d08-8d2244a6670a"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Harbinger Blade" hidden="false" id="f39a42b2-60d2-4ac2-bb06-d347e13b3502">
+      <profiles>
+        <profile name="Harbinger Blade" typeId="6525dede-e40b-4bd7-939d-60de13a16105" typeName="Weapon" hidden="false" id="e39-b5cf-b7ac-bc06" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="24">
+          <characteristics>
+            <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">-</characteristic>
+            <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">User</characteristic>
+            <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">3</characteristic>
+            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Melee, Murderous Strike (6+), Immaterial Blades (AP2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Immaterial Blades (X)" hidden="false" type="rule" id="48b04b1a-b674-498c-9458-c1a7986a0ce8" targetId="8d0-4d35-7d40-bc09">
+          <modifiers>
+            <modifier type="set" value="Immaterial Blades (AP2)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Murderous Strike (X)" hidden="false" type="rule" id="582f6ae6-5153-4b12-96b5-36727413d4ea" targetId="636fbcd9-9112-4453-be88-e98b44c8f24d">
+          <modifiers>
+            <modifier type="set" value="Murderous Strike (6+)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Daemon Armaments" hidden="false" id="d2fc0df2-f52f-472e-83db-b0c5a595231a">
+      <profiles>
+        <profile name="Daemon Armaments" typeId="6525dede-e40b-4bd7-939d-60de13a16105" typeName="Weapon" hidden="false" id="e1419639-731d-4f8f-8b41-6067e3b0b2e3" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="24">
+          <characteristics>
+            <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">-</characteristic>
+            <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">User</characteristic>
+            <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">4</characteristic>
+            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Melee, Immaterial Blades (AP3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Immaterial Blades (X)" hidden="false" type="rule" id="e2eace3e-5608-46c7-a90d-829bd98c7341" targetId="8d0-4d35-7d40-bc09">
+          <modifiers>
+            <modifier type="set" value="Immaterial Blades (AP3)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Immaterial Projectiles" hidden="false" id="6f4591c1-87b6-4bd1-8829-5e53e6e2b68b">
+      <profiles>
+        <profile name="Immaterial Projectiles" typeId="6525dede-e40b-4bd7-939d-60de13a16105" typeName="Weapon" hidden="false" id="a1f3b583-4320-4913-aa4f-d6edce8dbe2f" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="24">
+          <characteristics>
+            <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">18&quot;</characteristic>
+            <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">User</characteristic>
+            <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">4</characteristic>
+            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Assault 2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Immaterial Flame" hidden="false" id="7eb6af04-5855-4cc6-87a2-5658dd8c921d">
+      <profiles>
+        <profile name="Immaterial Flame" typeId="6525dede-e40b-4bd7-939d-60de13a16105" typeName="Weapon" hidden="false" id="543e26b5-841c-4c56-b95f-6b273b285cfc" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="24">
+          <characteristics>
+            <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">Template</characteristic>
+            <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">User</characteristic>
+            <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">4</characteristic>
+            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Assault 1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Behemoth Blade" hidden="false" id="8bffc538-cebb-48fc-b118-a5643df4ae25">
+      <profiles>
+        <profile name="Behemoth Blade" typeId="6525dede-e40b-4bd7-939d-60de13a16105" typeName="Weapon" hidden="false" id="463e-e46-bf6f-c18a" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="24">
+          <characteristics>
+            <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">-</characteristic>
+            <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">User</characteristic>
+            <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">2</characteristic>
+            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Melee, Brutal (3), Sunder, Immaterial Blades (AP1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Brutal (X)" hidden="false" type="rule" id="f8398c04-6ace-4336-b0da-8fa102ca27bb" targetId="d3e7a32a-93be-4480-a8e4-d3af5d4cb856">
+          <modifiers>
+            <modifier type="set" value="Brutal (3)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Sunder" hidden="false" type="rule" id="7e4d43d0-0ca6-4438-9d51-51ea592edf16" targetId="b856617a-b392-496c-a898-f09ae49d1d94"/>
+        <infoLink name="Immaterial Blades (X)" hidden="false" type="rule" id="2f39-a0f8-dbae-6b7" targetId="8d0-4d35-7d40-bc09">
+          <modifiers>
+            <modifier type="set" value="Immaterial Blades (AP1)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Immaterial Flame" hidden="false" id="72fa42f5-6606-464a-a854-f489d5dff0da" collective="true">
+      <infoLinks>
+        <infoLink name="Immaterial Flame" hidden="false" type="profile" id="a8b0-c598-8c02-9b2" targetId="543e26b5-841c-4c56-b95f-6b273b285cfc"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Daemon Armaments" hidden="false" id="3a7e8d73-e2ab-48f6-9e42-1a450cba5fa7" collective="true">
+      <infoLinks>
+        <infoLink name="Immaterial Blades (X)" hidden="false" type="rule" id="b4c33588-a347-45f5-8433-499ab136f627" targetId="8d0-4d35-7d40-bc09">
+          <modifiers>
+            <modifier type="set" value="Immaterial Blades (AP3)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Daemon Armaments" hidden="false" type="profile" id="884cab45-5a0c-497e-a6e7-15c3da015251" targetId="e1419639-731d-4f8f-8b41-6067e3b0b2e3"/>
+      </infoLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="2022 - Daemon Library" id="74f12c69-8abb-4821-bb13-44eee9991f87" targetId="31bf-eb23-33a-3d65"/>
+  </catalogueLinks>
+  <sharedRules>
+    <rule name="Immaterial Blades (X)" hidden="false" id="8d0-4d35-7d40-bc09" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="22">
+      <description>When rolling To Wound for a model that has the Immaterial Blades (X) special rule, or is attacking with a weapon that has the Immaterial Blades (X) special rule, for each To Wound roll or Armour Penetration roll of 6 or higher, the controlling player resolves these Wounds or any Penetrating Hits at the AP value listed in brackets, instead of the weapon’s normal AP value.</description>
+    </rule>
+    <rule name="Unbound" hidden="false" id="64a94bfe-bf6b-401c-826e-0e0eb0314465" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="22">
+      <description>Some Daemons, such as Ka’bandha or Samus, have multiple profiles, presenting the different manners in which they manifest. A model with this rule cannot be included in the same army as its Bound version – an army that includes Samus Unbound cannot also include Samus Bound.</description>
+    </rule>
+    <rule name="Herald of Unreality" hidden="false" id="6b001ef1-b2dd-448b-bb7a-47d7970b65e2" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="22">
+      <description>An army that includes a model with this rule may select up to two units from the same Detachment that have the Daemon Unit Type to be deployed in Reserve at the beginning of the battle. If an army includes more than one model with this rule, they may select one additional unit that has the Daemon Unit Type to place in Reserve for each model in the army with this rule beyond the first. The chosen units may only enter play by means of a Warp Rift – no Reserves rolls are made for these units.
+
+
+For example, an army with three models with the Herald of Unreality special rule would be able to select up to four non-Lords of War choices with the Daemon Unit Type to be deployed in Reserve.Instead of making a Shooting Attack, the controlling player of a model with this special rule may place a Blast (3&quot;) Marker in base contact with that model and not over any other models to represent the Warp Rift.
+
+
+The model’s controlling player may then choose to move one of the Daemon units that were placed into Reserves using this special rule onto the battlefield. That unit moves onto the battlefield from any point along the edge of the Blast marker placed to represent the Warp Rift as if it was entering play from Reserves, treating the Warp Rift marker as though it was the controlling player’s battlefield edge (note that it is not treated as the controlling player’s battlefield edge for any other purposes).
+
+
+Once all models in the selected units have moved onto the battlefield, the Warp Rift marker is removed from play. The Daemon unit brought into play by use of this power may act as normal in the Shooting phase in which it arrives and may declare a Charge in the Assault phase of the turn in which it enters play.</description>
+    </rule>
+  </sharedRules>
+  <selectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Ætheric Dominion (Whole Army)" hidden="false" id="f16120b1-119c-4f17-a572-6c634a71b50e">
+      <categoryLinks>
+        <categoryLink targetId="5d31-e5d-67bd-1083" id="9925ad50-4305-42e3-85ce-aba9f85b4509" primary="true" name="Ruinstorm Ætheric Dominion (Whole Army)"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="The Ætheric Dominion (X)" hidden="false" type="selectionEntryGroup" id="17287385-c9e4-49cc-9caf-a53967b3ac10" targetId="adb9c6b5-550c-4bb9-b96b-18ef3ab38755"/>
+      </entryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7f449395-6a6f-4365-9b3f-ceb34403076b"/>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b19cad95-8746-48ef-9b5e-c71a9e8a13c6"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="a49b3f76-abea-45cc-a5eb-9c1d44e81993"/>
+      </constraints>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="09101244-3ff6-4bd0-a625-e28780f072f4" name="Warlord Traits (Ruinstorm Daemons)" hidden="true" collective="false" import="true">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1887d318-5716-41f5-8b3e-1e6dff0c8e4c" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="b166-ea7-b5d4-d09b" value="1">
+          <conditions>
+            <condition field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1887d318-5716-41f5-8b3e-1e6dff0c8e4c" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b166-ea7-b5d4-d09b" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9e694eb-7c3d-4220-baba-e1457947436a" type="max"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="87ec03a1-7eac-4dcd-a6d3-0b535adadfef" name="Ruinstorm Daemons Warlord Traits" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="554-8210-6ec7-1913" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Conqueror of Kings" hidden="false" id="e904-3af4-3acb-635" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="5">
+              <profiles>
+                <profile name="Conqueror of Kings" typeId="76330902-abd6-45ce-aaa8-e2a11b820e1e" typeName="Warlord Trait" hidden="false" id="47a23027-60cc-4469-af08-7f0b45a04a43" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="5">
+                  <characteristics>
+                    <characteristic name="Text" typeId="73a9dc44-a6eb-4b9b-9e3c-7961608831a8">A Warlord with this Trait gains +1 Attacks when locked in combat with a model that has the Independent Character special rule or with any unit that such a model has joined. All models within a unit a Warlord with this Trait has joined, including the Warlord itself, gains +1 Strength when locked in combat with a model that has the Independent Character special rule or with any unit that such a model has joined. In addition, an army whose Warlord has this Trait may make an additional Reaction during the opposing player’s Movement phase as long as the Warlord has not been removed as a casualty.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Entropic Force" hidden="false" id="724a0ccd-1741-4bf1-a2e1-1539297adf29" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="5">
+              <profiles>
+                <profile name="Entropic Force" typeId="76330902-abd6-45ce-aaa8-e2a11b820e1e" typeName="Warlord Trait" hidden="false" id="11862498-0113-4570-9968-e4dd1ea37278" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="5">
+                  <characteristics>
+                    <characteristic name="Text" typeId="73a9dc44-a6eb-4b9b-9e3c-7961608831a8">Damage Mitigation rolls taken against Wounds inflicted by a Warlord with this Trait, and all models within a unit it has joined, can only succeed on a roll of a 6, regardless of the value of the roll. In addition, an army whose Warlord has this Trait may make an additional Reaction during the opposing player’s Movement phase as long as the Warlord has not been removed as a casualty.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Eternal Reveller" hidden="false" id="9fd-af9c-bf91-737c" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="5">
+              <profiles>
+                <profile name="Eternal Reveller" typeId="76330902-abd6-45ce-aaa8-e2a11b820e1e" typeName="Warlord Trait" hidden="false" id="90a9fc79-216d-439e-afe6-709f96053b7a" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="5">
+                  <characteristics>
+                    <characteristic name="Text" typeId="73a9dc44-a6eb-4b9b-9e3c-7961608831a8">A Warlord with this Trait, and all models within a unit it has joined, may declare Charges during the Assault phase even if they have Run that turn. When Charging, a Warlord with this Trait, and all models within a unit it has joined, may choose to not roll for Charge Distance – instead, they count the Charge Distance as equal to the Initiative characteristic of the Warlord. If it does so, the Charge Distance cannot be increased in any way. In addition, an army whose Warlord has this Trait may make an additional Reaction during the opposing player’s Movement phase as long as the Warlord has not been removed as a casualty.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Walker of Paths" hidden="false" id="16a2764e-fda7-4361-8e77-a160a8004796" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="5">
+              <profiles>
+                <profile name="Walker of Paths" typeId="76330902-abd6-45ce-aaa8-e2a11b820e1e" typeName="Warlord Trait" hidden="false" id="d94f0b64-9e4d-42bd-9d5e-f389e427f47c" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="5">
+                  <characteristics>
+                    <characteristic name="Text" typeId="73a9dc44-a6eb-4b9b-9e3c-7961608831a8">An army whose Warlord has this Trait may, at the start of the battle once all players have deployed all of their units onto the battlefield (including Infiltrators and Scouts) and any rolls to Seize the Initiative have been made, select up to two units with the Daemon Unit Type that are under their control and deployed on the battlefield. The selected unit(s) may be removed from the battlefield and placed in Reserve. For each unit removed from the battlefield in this way, the controlling player must deploy a unit with the Daemon Unit Type from Reserve on the battlefield, following the constraints of the mission being played. The units chosen to be placed in Reserve may enter the battlefield as normal or via the Herald of Unreality special rule, if a model within the army has that special rule. In addition, an army whose Warlord has this Trait may make an additional Reaction during the opposing player’s Shooting phase as long as the Warlord has not been removed as a casualty.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="03edef0e-1e0e-456a-b9ca-93f31073d65f" name="Generic Warlord Traits" hidden="false" collective="false" import="true" targetId="98f4bc71-e80b-4c38-b9f4-2ac899826727" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>

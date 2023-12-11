@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="a12f6895-73ac-49fe-96a7-249e7b1f4815" name="2022 - Questoris Household" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="66" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+  <forceEntries>
+    <forceEntry id="4648990f-38d1-4047-bd06-2e026c15d949" name="Questoris Household Force Organisation Chart" hidden="false">
+      <categoryLinks>
+        <categoryLink id="2de03487-3241-4887-afe8-e1c9a2ab258a" name="Expanded Army Lists" hidden="false" targetId="aac8ccc7-565c-411a-9168-c9b60725c329" primary="false"/>
+        <categoryLink id="b897a43d-ee9c-49e5-b931-c10b08b9631a" name="Allegiance:" hidden="false" targetId="96aaefc9-bb4f-4101-8899-fc6c4ca4e102" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c9a5ab95-d3fa-4fdc-9d19-f2c8b26375c6" type="min"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7517e525-c5fb-4107-9621-a2863e0d0158" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="69fa624a-079b-4d79-9944-97c315d9fbd4" name="Troops:" hidden="false" targetId="1bfd7c23-4ad7-418a-8351-828b2da671e6" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6f92833f-a5ce-4d27-8d80-2094db1cd227" type="min"/>
+            <constraint field="selections" scope="force" value="10" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d9900f37-415b-43e2-b9ff-7e9c3d6105ae" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="836ab5ce-b9ac-455a-8b80-a1fcdb69bc65" name="Lords of War:" hidden="false" targetId="266ef4b9-8d43-4618-8e6f-aad3dd30ee90" primary="false">
+          <modifiers>
+            <modifier type="increment" field="233e7b5c-9e06-4f7b-9186-f4fc0586881d" value="1">
+              <repeats>
+                <repeat field="selections" scope="force" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1bfd7c23-4ad7-418a-8351-828b2da671e6" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="dc5867f2-a2b4-4d4e-89f4-0be05a6acda5" type="min"/>
+            <constraint field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="233e7b5c-9e06-4f7b-9186-f4fc0586881d" type="max"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="forces" scope="roster" shared="true" id="6fed-1e9-64f8-40e3"/>
+      </constraints>
+    </forceEntry>
+  </forceEntries>
+  <entryLinks>
+    <entryLink id="26bda962-7731-4832-892e-9379ddf78044" name="Divisio Tactica: Questoris Household" hidden="false" collective="false" import="false" targetId="0f37e96b-825a-4fd9-99fa-fb73c29bba9d" type="selectionEntry">
+      <modifiers>
+        <modifier type="add" field="category" value="3e7a375a-7480-4ace-9dcc-df0b6940983a">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d9ebf7d1-83b7-46cb-af53-911c42424daa" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d77d272-8d88-40a6-b93e-f1d1f777b5e4" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="ce626cda-ab6b-4e9a-930f-62d38f34fcc7" name="New CategoryLink" hidden="false" targetId="96aaefc9-bb4f-4101-8899-fc6c4ca4e102" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b3525b8c-cde7-44a7-93c3-81aac42a81f8" name="Armiger Helverin Talon" hidden="false" collective="false" import="false" targetId="bf51d649-7156-44a0-80ba-26f34dae3c42" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="92cbf418-574b-49f2-aba9-0d65adab51fd" name="Unit:" hidden="false" targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" primary="false"/>
+        <categoryLink id="58f74a05-1bbf-4d87-b2e2-ddadd027ffab" name="New CategoryLink" hidden="false" targetId="1bfd7c23-4ad7-418a-8351-828b2da671e6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3d936623-abf3-422b-9b9b-0ae98791b7b2" name="Knight Questoris" hidden="false" collective="false" import="true" targetId="2756c55a-c4b8-4bf6-8e80-1f77cbfa54b8" type="selectionEntry">
+      <modifiers>
+        <modifier type="add" field="category" value="a52b8023-d6f9-4955-a156-b8c24c94c874">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e4d27aa2-344f-46ac-a67b-75d7802dff80" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="58a7-8821-3cd9-c73" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="add" value="5f7-c0fa-4d3-180c" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="4648990f-38d1-4047-bd06-2e026c15d949" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="7a6b4bda-815c-4597-a263-e5e23457e9ad" name="New CategoryLink" hidden="false" targetId="266ef4b9-8d43-4618-8e6f-aad3dd30ee90" primary="true"/>
+        <categoryLink id="15284c24-d50c-48dc-a47e-29c2ff429135" name="Vehicle Unit:" hidden="false" targetId="451232c8-6963-43cd-8af6-fd506055598b" primary="false"/>
+        <categoryLink id="99988c15-cb63-4c3a-bc25-6d21f3ebf54d" name="Unit:" hidden="false" targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e8f473a3-9c98-46f2-a784-bc16ed188b5c" name="Armiger Warglaive Talon" hidden="false" collective="false" import="false" targetId="a158a77e-0555-4b36-a818-dabc9ef0e5ac" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="9f63ca92-cd88-45dc-9638-667cfb9e04a6" name="Unit:" hidden="false" targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" primary="false"/>
+        <categoryLink id="9dce5f8a-e3d5-4c33-b62f-7e0a31a9b351" name="New CategoryLink" hidden="false" targetId="1bfd7c23-4ad7-418a-8351-828b2da671e6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7f428019-daa5-402e-8147-b691f0ba9a7b" name="Knight Lancer" hidden="false" collective="false" import="true" targetId="a57ac2fa-1951-4210-bc27-55c097e7618a" type="selectionEntry">
+      <modifiers>
+        <modifier type="add" field="category" value="a52b8023-d6f9-4955-a156-b8c24c94c874">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e4d27aa2-344f-46ac-a67b-75d7802dff80" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="58a7-8821-3cd9-c73" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="add" value="5f7-c0fa-4d3-180c" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="4648990f-38d1-4047-bd06-2e026c15d949" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="1c1cf38a-4298-4810-b40a-a6bbe012a7ef" name="New CategoryLink" hidden="false" targetId="266ef4b9-8d43-4618-8e6f-aad3dd30ee90" primary="true"/>
+        <categoryLink id="32b3f18f-a5e3-4be3-a700-33be73dde26d" name="Vehicle Unit:" hidden="false" targetId="451232c8-6963-43cd-8af6-fd506055598b" primary="false"/>
+        <categoryLink id="02546c3c-589b-412d-a378-8aa8fa162f00" name="Unit:" hidden="false" targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3affe6f1-3a89-404d-8b75-c2024f56eda2" name="Knight Castigator" hidden="false" collective="false" import="true" targetId="c24cdc06-a442-4967-bfbd-44f5874c680b" type="selectionEntry">
+      <modifiers>
+        <modifier type="add" field="category" value="a52b8023-d6f9-4955-a156-b8c24c94c874">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e4d27aa2-344f-46ac-a67b-75d7802dff80" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="58a7-8821-3cd9-c73" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="add" value="5f7-c0fa-4d3-180c" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="4648990f-38d1-4047-bd06-2e026c15d949" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="8c46190d-47f4-4297-8471-b7f39463513c" name="New CategoryLink" hidden="false" targetId="266ef4b9-8d43-4618-8e6f-aad3dd30ee90" primary="true"/>
+        <categoryLink id="a7d40b43-ed6b-44df-839e-ab4ee4bce95c" name="Vehicle Unit:" hidden="false" targetId="451232c8-6963-43cd-8af6-fd506055598b" primary="false"/>
+        <categoryLink id="b2a40aa9-63c5-4883-a4a8-3f9e0b3f84b6" name="Unit:" hidden="false" targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="443c50cf-2f9b-41f2-a5c1-fda90765b1a0" name="Knight Acheron" hidden="false" collective="false" import="true" targetId="7da6b7b4-6f74-4fba-be95-049f8466bc4e" type="selectionEntry">
+      <modifiers>
+        <modifier type="add" field="category" value="a52b8023-d6f9-4955-a156-b8c24c94c874">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e4d27aa2-344f-46ac-a67b-75d7802dff80" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="58a7-8821-3cd9-c73" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="add" value="5f7-c0fa-4d3-180c" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="4648990f-38d1-4047-bd06-2e026c15d949" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="242e7757-a591-4eba-90cc-1e439cba046f" name="New CategoryLink" hidden="false" targetId="266ef4b9-8d43-4618-8e6f-aad3dd30ee90" primary="true"/>
+        <categoryLink id="61a2b477-08ca-4b28-b19a-1081176782c2" name="Vehicle Unit:" hidden="false" targetId="451232c8-6963-43cd-8af6-fd506055598b" primary="false"/>
+        <categoryLink id="4351cedf-65cc-4ee1-957f-5732d0771271" name="Unit:" hidden="false" targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="157ecc06-a547-428d-8397-13abb7e1c43e" name="Acastus Knight Porphyrion" hidden="false" collective="false" import="true" targetId="6ae5e113-5565-4b96-b20c-59a5dd892bfa" type="selectionEntry">
+      <modifiers>
+        <modifier type="add" field="category" value="a52b8023-d6f9-4955-a156-b8c24c94c874">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e4d27aa2-344f-46ac-a67b-75d7802dff80" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="58a7-8821-3cd9-c73" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="add" value="5f7-c0fa-4d3-180c" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="4648990f-38d1-4047-bd06-2e026c15d949" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="2a2b332b-b5b0-45d8-b9c7-62e5ae76fc9f" name="New CategoryLink" hidden="false" targetId="266ef4b9-8d43-4618-8e6f-aad3dd30ee90" primary="true"/>
+        <categoryLink id="af4c8e42-262f-41e8-8f1a-b1e4fdc1385d" name="Vehicle Unit:" hidden="false" targetId="451232c8-6963-43cd-8af6-fd506055598b" primary="false"/>
+        <categoryLink id="fd42a1c0-2eaa-429c-9f33-b06f229f5d5f" name="Unit:" hidden="false" targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="33ec24f2-ed58-4fd2-bfd2-7f7067f874de" name="Questoris Knight Styrix" hidden="false" collective="false" import="true" targetId="f86ba198-47e3-4e31-99af-2db0b0c5a6c2" type="selectionEntry">
+      <modifiers>
+        <modifier type="add" field="category" value="a52b8023-d6f9-4955-a156-b8c24c94c874">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e4d27aa2-344f-46ac-a67b-75d7802dff80" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="58a7-8821-3cd9-c73" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="add" value="5f7-c0fa-4d3-180c" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="4648990f-38d1-4047-bd06-2e026c15d949" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="61c1decd-fd9c-4db1-9b42-fb1f77f4b75b" name="New CategoryLink" hidden="false" targetId="266ef4b9-8d43-4618-8e6f-aad3dd30ee90" primary="true"/>
+        <categoryLink id="bd7c3eb0-df83-4cb2-bedc-872361315769" name="Vehicle Unit:" hidden="false" targetId="451232c8-6963-43cd-8af6-fd506055598b" primary="false"/>
+        <categoryLink id="10360045-0ae7-491f-b20c-429071f71c2a" name="Unit:" hidden="false" targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e3727274-3393-4621-8e11-bc2aa2a27f42" name="Questoris Knight Magaera" hidden="false" collective="false" import="true" targetId="51f43d3a-be89-44fe-9f8e-148aef368ffd" type="selectionEntry">
+      <modifiers>
+        <modifier type="add" field="category" value="a52b8023-d6f9-4955-a156-b8c24c94c874">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e4d27aa2-344f-46ac-a67b-75d7802dff80" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="58a7-8821-3cd9-c73" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="add" value="5f7-c0fa-4d3-180c" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="4648990f-38d1-4047-bd06-2e026c15d949" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="2f92e52b-54d9-4a1f-b526-7238c98d7802" name="New CategoryLink" hidden="false" targetId="266ef4b9-8d43-4618-8e6f-aad3dd30ee90" primary="true"/>
+        <categoryLink id="345eee22-e9e1-4ef7-ada3-d5ac4e8c6a4c" name="Vehicle Unit:" hidden="false" targetId="451232c8-6963-43cd-8af6-fd506055598b" primary="false"/>
+        <categoryLink id="a89c5c9a-a3a6-436a-95b8-010b7ce61a92" name="Unit:" hidden="false" targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d79f23cf-5117-432a-ad65-4eed0cf4b7df" name="Questoris Knight Atrapos" hidden="false" collective="false" import="true" targetId="9b4fa4ba-ed07-4ddb-a169-345573d99f14" type="selectionEntry">
+      <modifiers>
+        <modifier type="add" field="category" value="a52b8023-d6f9-4955-a156-b8c24c94c874">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e4d27aa2-344f-46ac-a67b-75d7802dff80" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="58a7-8821-3cd9-c73" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="add" value="5f7-c0fa-4d3-180c" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="4648990f-38d1-4047-bd06-2e026c15d949" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="2269f948-0d94-460d-b6b2-cb5e0f08ea8e" name="New CategoryLink" hidden="false" targetId="266ef4b9-8d43-4618-8e6f-aad3dd30ee90" primary="true"/>
+        <categoryLink id="30922dda-a98d-4ebd-ae38-aaad8ac7049d" name="Vehicle Unit:" hidden="false" targetId="451232c8-6963-43cd-8af6-fd506055598b" primary="false"/>
+        <categoryLink id="156a2faf-9c5b-4d5b-aaf9-018b74306811" name="Unit:" hidden="false" targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7e12512d-3a27-4711-a125-f44274ca84bd" name="Questoris Acastus Knight Asterius" hidden="false" collective="false" import="true" targetId="30b9b606-e87d-4224-bba9-bfade13b2d6a" type="selectionEntry">
+      <modifiers>
+        <modifier type="add" field="category" value="a52b8023-d6f9-4955-a156-b8c24c94c874">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e4d27aa2-344f-46ac-a67b-75d7802dff80" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="58a7-8821-3cd9-c73" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="add" value="5f7-c0fa-4d3-180c" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="4648990f-38d1-4047-bd06-2e026c15d949" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="adf7fb54-b0ed-4b3a-96b6-51a575989c5a" name="New CategoryLink" hidden="false" targetId="266ef4b9-8d43-4618-8e6f-aad3dd30ee90" primary="true"/>
+        <categoryLink id="34e5ae0b-9505-4403-9c16-47e6e9218dec" name="Vehicle Unit:" hidden="false" targetId="451232c8-6963-43cd-8af6-fd506055598b" primary="false"/>
+        <categoryLink id="cbd875c5-80c0-4399-b17e-ca39a8469312" name="Unit:" hidden="false" targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ceee3af2-782f-4f96-8048-41490c468954" name="Castellax Battle-Automata Maniple" hidden="true" collective="false" import="false" targetId="2311d71c-3684-4a0d-a936-ef4d4459fb61" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3414df13-c6eb-48ba-bed8-71eac536ca94" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="1b0e261e-68a0-47e4-b473-6019c11a2b48" name="Unit:" hidden="false" targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" primary="false"/>
+        <categoryLink id="0765cc8e-d7f7-4e67-be1a-6d6732fc3463" name="New CategoryLink" hidden="false" targetId="1bfd7c23-4ad7-418a-8351-828b2da671e6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ac6083c6-099c-40fc-98c3-836220844c32" name="Vorax Battle-automata Maniple" hidden="true" collective="false" import="false" targetId="bd649f52-f590-4685-8220-ff6f103ecc8f" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3414df13-c6eb-48ba-bed8-71eac536ca94" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="1834048b-e89c-4284-91ca-866397ae1d01" name="Unit:" hidden="false" targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" primary="false"/>
+        <categoryLink id="523718cc-15b4-4763-bc53-df9c1c436ef2" name="New CategoryLink" hidden="false" targetId="1bfd7c23-4ad7-418a-8351-828b2da671e6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b7677394-b450-402b-916e-426fe9f91567" name="Archmagos Draykavac" hidden="false" collective="false" import="false" targetId="3414df13-c6eb-48ba-bed8-71eac536ca94" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="dc8ac62c-ade2-4c1c-8058-fe9ba47e2ad7" name="Unit:" hidden="false" targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" primary="false"/>
+        <categoryLink id="ca446916-f06f-4737-950b-296923ee3ad7" name="New CategoryLink" hidden="false" targetId="1bfd7c23-4ad7-418a-8351-828b2da671e6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b015be45-3b89-4dfd-9fe9-a5826ee1f804" name="Cults Abominatio" hidden="false" collective="false" import="true" targetId="a62cfdab-cca6-4c3b-9f50-de9f91aa402f" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6802b834-26db-4b63-9587-d3b5dc3a201c" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="04313a26-2ab1-4171-9d2a-c25857fb5b34" name="Unit:" hidden="false" targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" primary="false"/>
+        <categoryLink id="a91ecf11-fb78-488b-9aae-37134a0530cf" name="HQ:" hidden="false" targetId="57062715-ec54-4808-9960-07ba13cc51e9" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <catalogueLinks>
+    <catalogueLink id="cbf1d8a4-3ab3-4cc4-8c82-75cb78057111" name="2022 - Mech Library" targetId="9db47c25-f72b-415b-b6f2-ffeb17606a4b" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="e123-456e-507c-5trb" name="2022 - Daemons - Bound Daemons" targetId="ca2e79ce-8028-47cb-b158-3eb9617eb58f" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="28643a50-b4eb-4c67-90de-d3381e7c3967" name="2022 - LI - Assassins" targetId="46be64f1-4306-474b-9c01-461e0b948831" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+</catalogue>

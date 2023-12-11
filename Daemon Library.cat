@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="true" id="31bf-eb23-33a-3d65" name="2022 - Daemon Library" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="77" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="adb9c6b5-550c-4bb9-b96b-18ef3ab38755" name="The Ætheric Dominion (X)" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="285d4419-e2f0-4691-848c-d74fd89db9f7" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6da1a2d4-a3c2-4c49-8fa2-d6705bc131d4" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="a1b4e018-6315-4945-abde-f906b7053efa" name="The Ætheric Dominion (X)" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" hidden="false">
+          <description>An Ætheric Dominion represents one of the innumerable hosts of daemonkind, each of which is sworn to a greater entity that resides within the Warp. Those encompassed by the same dominion share similar features and behaviours, embodying a primordial force or idea given physical form. Most will share identifying features that link them with the inscrutable patron they serve, providing the smallest sense of unity across a daemonic host.
+Any unit with the Ætheric Dominion (X) special rule will have a number of additional special rules and abilities specific to their Ætheric Dominion. A unit which includes models with this special rule may only have one variation of the Ætheric Dominion special rule, e.g., Ætheric Dominion (Encroaching Ruin), and no model with this special rule may join a unit which includes any models with a different variation of the Ætheric Dominion (X) special rule.
+A unit which includes models with this special rule without a specific Ætheric Dominion listed in brackets must select one Ætheric Dominion from the list that follows during the army selection process (before the start of a battle) for no additional cost and is thereafter treated as having that variation of this special rule. All units within a Detachment must have the same Ætheric Dominion (X) special rule. A Lords of War choice taken from the Ruinstorm Daemon Army List may select any Ætheric Dominion (X) special rule, even if it is different from the one selected by the Primary Detachment.</description>
+        </rule>
+      </rules>
+      <selectionEntries>
+        <selectionEntry id="c1644f22-aea5-4949-8d24-f112c8b463e9" name="Encroaching Ruin" hidden="false" collective="false" import="true" type="upgrade" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="3">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d127bfd-2370-4d7c-bb90-5bcf72bcd1dc" type="max"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="7f62b9bd-a143-4193-a531-988ea25a5eaf"/>
+          </constraints>
+          <rules>
+            <rule id="4438-874e-901d-f86" name="Encroaching Ruin" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="3" hidden="false">
+              <description>When a unit entirely composed of models with this special rule and the Daemon Unit Type fails a Morale check, it only suffers 1 automatic Wound with no Saves of any kind allowed instead of D3 Wounds as specified in the Daemon Unit Type. In addition, models with this special rule gain the Move Through Cover special rule.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="3444-b4fd-578d-804" name="Move Through Cover" hidden="false" targetId="124ebb40-5baf-46b1-9e21-a4cbf4b3cedb" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="1" field="7f62b9bd-a143-4193-a531-988ea25a5eaf">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="c42-1919-c37e-51f0" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="c1644f22-aea5-4949-8d24-f112c8b463e9" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="0" field="5d127bfd-2370-4d7c-bb90-5bcf72bcd1dc">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="e0195d7c-d381-40cb-973b-ae17defdfb8b" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="2a99d2b7-f72b-4609-ade3-d049ccf9682e" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="850b8d60-5882-4c37-9871-6ed2a0c9f323" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="28d13894-ec24-45c2-87c1-5c620c965177" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="301215de-00bd-4e22-a60a-b7fb3c74c57c" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="ebdb1870-c8b4-4023-bc57-89b55e500b00" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="0d218d8f-c299-4381-bce6-f5e6cfb37f1d" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <categoryLinks>
+            <categoryLink targetId="c42-1919-c37e-51f0" id="27a13f7b-a311-4085-b6ce-7645d63a9b6d" primary="false" name="Encroaching Ruin"/>
+          </categoryLinks>
+        </selectionEntry>
+        <selectionEntry id="2a99d2b7-f72b-4609-ade3-d049ccf9682e" name="Heedless Slaughter" hidden="false" collective="false" import="true" type="upgrade" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="3">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15a6-3993-5dd2-b14" type="max"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="60720de1-eb82-4bef-b445-9ad65c28cc6b"/>
+          </constraints>
+          <rules>
+            <rule id="60c3daae-8f44-45c8-99d7-1beaab8b287c" name="Heedless Slaughter" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="3" hidden="false">
+              <description>A unit entirely composed of models with this special rule must declare a Charge if able when they begin the Assault phase within 8&quot; of an enemy unit. If there is more than one eligible target, the controlling player chooses the target of any Charges made so long as that target is within 8&quot;. Note that this does not allow models with this special rule to Charge a different unit to one that they made a Shooting Attack against in the previous Shooting phase, even if they have made Shooting Attacks against a unit which is further than 8&quot; away and there are eligible targets for a Charge within 8&quot;.
+Additionally, a unit entirely composed of models with this special rule adds +1 to the score used to determine if they win a Combat in the Assault phase (this modifier is cumulative with other modifiers to Combat Resolution) and adds +1 to the value of any rolls made to determine the result of a Sweeping Advance.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="1" field="60720de1-eb82-4bef-b445-9ad65c28cc6b">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="53046ee5-6c89-4b0b-9b40-f2508fcf73d0" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="2a99d2b7-f72b-4609-ade3-d049ccf9682e" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="0" field="15a6-3993-5dd2-b14">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="c1644f22-aea5-4949-8d24-f112c8b463e9" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="e0195d7c-d381-40cb-973b-ae17defdfb8b" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="850b8d60-5882-4c37-9871-6ed2a0c9f323" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="28d13894-ec24-45c2-87c1-5c620c965177" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="301215de-00bd-4e22-a60a-b7fb3c74c57c" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="ebdb1870-c8b4-4023-bc57-89b55e500b00" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="0d218d8f-c299-4381-bce6-f5e6cfb37f1d" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <categoryLinks>
+            <categoryLink targetId="53046ee5-6c89-4b0b-9b40-f2508fcf73d0" id="c7c9acc4-24e2-4228-8e0a-c057f72d5e31" primary="false" name="Heedless Slaughter"/>
+          </categoryLinks>
+        </selectionEntry>
+        <selectionEntry id="e0195d7c-d381-40cb-973b-ae17defdfb8b" name="Formless Distortion" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="4" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b89-dc3-165b-e9ce" type="max"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="48b24f04-d5dd-4a5b-9aa1-760e03205a9f"/>
+          </constraints>
+          <rules>
+            <rule id="ba5aaeab-5ce7-4609-bae3-6a1fecce8db6" name="Formless Distortion" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="4" hidden="false">
+              <description>When selecting a combat at the beginning of the Fight sub-phase, roll a D3 for each unit entirely composed of models with this special rule that is locked in combat. All close combat attacks made by models in the combat with this special rule gain additional special rules corresponding to the D3 roll until the end of that combat phase:
+D3 - Result
+1 - Coruscating Ectoplasma: Concussive (1), Lance
+2 - Lashing Pseudopods: Reach (1)
+3 - Vorpal Talons: Shred, Sunder</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="71bb894c-aa8b-4883-bfa6-e9a323709c5e" name="Concussive (X)" hidden="false" targetId="aa8e3798-eded-47cf-b832-896a03b15a2b" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Concussive (1) (Formless Distortion)"/>
+              </modifiers>
+            </infoLink>
+            <infoLink id="fc0e8008-69a8-406e-8e24-37b59395f941" name="Lance" hidden="false" targetId="99cf6deb-73a8-43c6-bed1-fb7b1006b76c" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Lance (Formless Distortion)"/>
+              </modifiers>
+            </infoLink>
+            <infoLink id="892ab2d7-6373-4845-b0d7-a5b4346aa73c" name="Reach (X)" hidden="false" targetId="5a1e975d-f719-414f-ba10-10ea945d71a0" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Reach (1) (Formless Distortion)"/>
+              </modifiers>
+            </infoLink>
+            <infoLink id="9e517294-2523-4c52-b17d-bd1fe4eab162" name="Shred" hidden="false" targetId="72874fc6-4842-426a-a359-e2d87663ad67" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Shred (Formless Distortion)"/>
+              </modifiers>
+            </infoLink>
+            <infoLink id="bcde38dc-f131-45fe-a816-f30dd88ddfa6" name="Sunder" hidden="false" targetId="b856617a-b392-496c-a898-f09ae49d1d94" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Sunder (Formless Distortion)"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <costs>
+            <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="1" field="48b24f04-d5dd-4a5b-9aa1-760e03205a9f">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="e0195d7c-d381-40cb-973b-ae17defdfb8b" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="0" field="3b89-dc3-165b-e9ce">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="c1644f22-aea5-4949-8d24-f112c8b463e9" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="2a99d2b7-f72b-4609-ade3-d049ccf9682e" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="850b8d60-5882-4c37-9871-6ed2a0c9f323" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="28d13894-ec24-45c2-87c1-5c620c965177" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="301215de-00bd-4e22-a60a-b7fb3c74c57c" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="ebdb1870-c8b4-4023-bc57-89b55e500b00" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="0d218d8f-c299-4381-bce6-f5e6cfb37f1d" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry id="301215de-00bd-4e22-a60a-b7fb3c74c57c" name="Putrid Corruption" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="3" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb2774b5-88d0-4e46-bbf0-cc38fa32b588" type="max"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="c8dfd351-e678-4cd9-b193-87becdd7d25e"/>
+          </constraints>
+          <rules>
+            <rule id="94eb-7da4-953-529f" name="Putrid Corruption" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="3" hidden="false">
+              <description>Models with this special rule gain the Heavy Unit Sub-type and may make a special Corrupted Resilience roll to avoid being Wounded (this is a Damage Mitigation roll which is made after unsaved Wounds are suffered). Corrupted Resilience rolls may not be taken against unsaved Wounds that have the Instant Death, Psychic Focus or Force special rule. To make a  Corrupted Resilience roll, roll a D6 each time an unsaved Wound is suffered. On a result of 5+, the unsaved Wound is discounted – treat it as having been saved. On any other result the Wound is taken as normal.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="1" field="c8dfd351-e678-4cd9-b193-87becdd7d25e">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="aa0dd183-aac7-4c9e-babe-f7e55435990b" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="301215de-00bd-4e22-a60a-b7fb3c74c57c" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="0" field="fb2774b5-88d0-4e46-bbf0-cc38fa32b588">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="c1644f22-aea5-4949-8d24-f112c8b463e9" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="e0195d7c-d381-40cb-973b-ae17defdfb8b" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="2a99d2b7-f72b-4609-ade3-d049ccf9682e" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="850b8d60-5882-4c37-9871-6ed2a0c9f323" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="28d13894-ec24-45c2-87c1-5c620c965177" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="ebdb1870-c8b4-4023-bc57-89b55e500b00" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="0d218d8f-c299-4381-bce6-f5e6cfb37f1d" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <categoryLinks>
+            <categoryLink targetId="aa0dd183-aac7-4c9e-babe-f7e55435990b" id="479b6534-2d52-4054-aa1c-bda56619bba9" primary="false" name="Putrid Corruption"/>
+          </categoryLinks>
+        </selectionEntry>
+        <selectionEntry id="0d218d8f-c299-4381-bce6-f5e6cfb37f1d" name="Ravenous Dissolution" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fc337d9-f178-4c41-8552-f8221d5c00a2" type="max"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="fe6fa443-0209-418f-9d71-7477e1c34535"/>
+          </constraints>
+          <rules>
+            <rule id="47b3e7d4-6b30-44d9-9c62-091b190ffa77" name="Ravenous Dissolution" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="4" hidden="false">
+              <description>Any model with this special rule adds +1 to all To Hit rolls during the first round of any close combat where they are locked in combat with a unit containing at least one enemy model with either the Daemon Unit Type, Corrupted or Psyker Unit Sub-type, or the Independent Character special rule. If an enemy unit Charges this unit when it is already locked in combat then that does count as a new ‘first’ round of combat for the effects of this special rule.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="1" field="fe6fa443-0209-418f-9d71-7477e1c34535">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="0d218d8f-c299-4381-bce6-f5e6cfb37f1d" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="0" field="fe6fa443-0209-418f-9d71-7477e1c34535">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="c1644f22-aea5-4949-8d24-f112c8b463e9" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="e0195d7c-d381-40cb-973b-ae17defdfb8b" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="2a99d2b7-f72b-4609-ade3-d049ccf9682e" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="850b8d60-5882-4c37-9871-6ed2a0c9f323" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="28d13894-ec24-45c2-87c1-5c620c965177" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="301215de-00bd-4e22-a60a-b7fb3c74c57c" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="ebdb1870-c8b4-4023-bc57-89b55e500b00" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry id="ebdb1870-c8b4-4023-bc57-89b55e500b00" name="Rapturous Sensation" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="3" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37939c4c-efd8-4304-b3d0-d6c2b8cb0b2a" type="max"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="20dd51cf-1d7b-423a-8d35-16e926a476b7"/>
+          </constraints>
+          <rules>
+            <rule id="da00fbc7-9c87-4330-8aca-33fe2fe6262e" name="Rapturous Sensation" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="3" hidden="false">
+              <description>On a turn in which they make a successful Charge, unless that Charge is Disordered, models with this special rule make their attacks in an assault at one Initiative step higher than normal – after any Initiative modifiers from other special rules have been taken into account.
+
+Additionally, units entirely composed of models with this special rule must re-roll all failed Initiative tests to determine if they suffer the effects of the Blind special rule as well as all failed Leadership tests to determine if they suffer the effects of the Concussive (X) special rule.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="1" field="20dd51cf-1d7b-423a-8d35-16e926a476b7">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="ebdb1870-c8b4-4023-bc57-89b55e500b00" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="0" field="20dd51cf-1d7b-423a-8d35-16e926a476b7">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="c1644f22-aea5-4949-8d24-f112c8b463e9" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="e0195d7c-d381-40cb-973b-ae17defdfb8b" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="2a99d2b7-f72b-4609-ade3-d049ccf9682e" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="850b8d60-5882-4c37-9871-6ed2a0c9f323" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="28d13894-ec24-45c2-87c1-5c620c965177" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="301215de-00bd-4e22-a60a-b7fb3c74c57c" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="0d218d8f-c299-4381-bce6-f5e6cfb37f1d" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry id="28d13894-ec24-45c2-87c1-5c620c965177" name="Malevolent Artifice" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="531f18b2-c477-4cd3-835f-e3665f498b90" type="max"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="533f9548-6f84-4535-b6bf-2140a63d7f36"/>
+          </constraints>
+          <rules>
+            <rule id="c488-ac28-c303-57b" name="Malevolent Artifice" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="4" hidden="false">
+              <description>Models with this special rule may re-roll all failed Armour Saves taken against any Wounds resolved at a Strength value lower than their Toughness Characteristic. This special rule has no effect on Cover Saves or Invulnerable Saves.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="1" field="533f9548-6f84-4535-b6bf-2140a63d7f36">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="9ae796db-4f9e-46a8-9294-fe41e041331a" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="28d13894-ec24-45c2-87c1-5c620c965177" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="0" field="531f18b2-c477-4cd3-835f-e3665f498b90">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="c1644f22-aea5-4949-8d24-f112c8b463e9" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="e0195d7c-d381-40cb-973b-ae17defdfb8b" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="2a99d2b7-f72b-4609-ade3-d049ccf9682e" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="850b8d60-5882-4c37-9871-6ed2a0c9f323" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="301215de-00bd-4e22-a60a-b7fb3c74c57c" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="ebdb1870-c8b4-4023-bc57-89b55e500b00" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="0d218d8f-c299-4381-bce6-f5e6cfb37f1d" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <categoryLinks>
+            <categoryLink targetId="9ae796db-4f9e-46a8-9294-fe41e041331a" id="66cc2e7d-6c26-4566-ae75-d0d1d82953b5" primary="false" name="Malevolent Artifice"/>
+          </categoryLinks>
+        </selectionEntry>
+        <selectionEntry id="850b8d60-5882-4c37-9871-6ed2a0c9f323" name="Infernal Tempest" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f95a306-87a9-4257-98fd-2c8a5955a0ab" type="max"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="4808e158-6255-43f8-8e7a-f7fd668b920a"/>
+          </constraints>
+          <rules>
+            <rule id="29cd2366-561f-4fd4-b5cd-c33e6e043d8b" name="Infernal Tempest" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="4" hidden="false">
+              <description>Models with this special rule gain the Hammer of Wrath (1) special rule or, if they already have a version of the Hammer of Wrath (X) special rule, they increase the value in brackets by +1. All wounds inflicted by any variant of the Hammer of Wrath (X) special rule possessed by a unit with this special rule also gain the Deflagrate special rule.
+Additionally, models with this special rule gain a Shooting Attack with the following profile: (Elemental Eruption)</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="fb4ca3fa-3b61-4043-8dcd-1f18c0622702" name="Deflagrate" hidden="false" targetId="fb2d4435-8f2b-4911-9bba-1ac8a168321f" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Deflagrate (Hammer of Wrath)"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <selectionEntries>
+            <selectionEntry id="6949c274-b5de-458f-a537-a4817f9d88ed" name="Elemental Eruption" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ad2b262-685f-4ecd-944e-137c5bc41d9b" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ae073ef-15ca-4104-9a51-24c0bf248119" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="903bfc3f-3b7e-451a-a879-967fc3ed1a21" name="Elemental Eruption" hidden="false" typeId="6525dede-e40b-4bd7-939d-60de13a16105" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">8&quot;</characteristic>
+                    <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">User</characteristic>
+                    <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">5</characteristic>
+                    <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Assault 2, Deflagrate, Retaliation</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="1f43-512-5a44-b56" name="Retaliation" publicationId="4df9eded-8726-4b4b-ba51-c0527cd0c769" page="4" hidden="false">
+                  <description>Attacks may only be made using weapons with this special rule as part of a Reaction and automatically hit the target unit without needing to roll To Hit.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="1" field="4808e158-6255-43f8-8e7a-f7fd668b920a">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="850b8d60-5882-4c37-9871-6ed2a0c9f323" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="0" field="4f95a306-87a9-4257-98fd-2c8a5955a0ab">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="c1644f22-aea5-4949-8d24-f112c8b463e9" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="e0195d7c-d381-40cb-973b-ae17defdfb8b" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="2a99d2b7-f72b-4609-ade3-d049ccf9682e" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="28d13894-ec24-45c2-87c1-5c620c965177" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="301215de-00bd-4e22-a60a-b7fb3c74c57c" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="ebdb1870-c8b4-4023-bc57-89b55e500b00" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="0d218d8f-c299-4381-bce6-f5e6cfb37f1d" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="The Ætheric Dominion (Unit)" hidden="false" id="d4f3cb16-5405-4564-bb9f-f9125c44200c" defaultSelectionEntryId="7a3bcc33-bb5b-4fa4-907a-e68fd9fc44c2">
+      <entryLinks>
+        <entryLink import="true" name="Encroaching Ruin" hidden="false" type="selectionEntry" id="bc659949-584e-4e56-a574-05ba90e5dcf6" targetId="c1644f22-aea5-4949-8d24-f112c8b463e9">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="e0195d7c-d381-40cb-973b-ae17defdfb8b" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="2a99d2b7-f72b-4609-ade3-d049ccf9682e" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="850b8d60-5882-4c37-9871-6ed2a0c9f323" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="28d13894-ec24-45c2-87c1-5c620c965177" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="301215de-00bd-4e22-a60a-b7fb3c74c57c" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="ebdb1870-c8b4-4023-bc57-89b55e500b00" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="0d218d8f-c299-4381-bce6-f5e6cfb37f1d" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Formless Distortion" hidden="false" type="selectionEntry" id="fae345ec-1a5c-45e5-a348-16ccc229418b" targetId="e0195d7c-d381-40cb-973b-ae17defdfb8b">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="c1644f22-aea5-4949-8d24-f112c8b463e9" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="2a99d2b7-f72b-4609-ade3-d049ccf9682e" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="850b8d60-5882-4c37-9871-6ed2a0c9f323" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="28d13894-ec24-45c2-87c1-5c620c965177" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="301215de-00bd-4e22-a60a-b7fb3c74c57c" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="ebdb1870-c8b4-4023-bc57-89b55e500b00" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="0d218d8f-c299-4381-bce6-f5e6cfb37f1d" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Heedless Slaughter" hidden="false" type="selectionEntry" id="f5473011-7c83-4204-9134-b84ce127e33d" targetId="2a99d2b7-f72b-4609-ade3-d049ccf9682e">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="c1644f22-aea5-4949-8d24-f112c8b463e9" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="e0195d7c-d381-40cb-973b-ae17defdfb8b" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="850b8d60-5882-4c37-9871-6ed2a0c9f323" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="28d13894-ec24-45c2-87c1-5c620c965177" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="301215de-00bd-4e22-a60a-b7fb3c74c57c" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="ebdb1870-c8b4-4023-bc57-89b55e500b00" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="0d218d8f-c299-4381-bce6-f5e6cfb37f1d" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Infernal Tempest" hidden="false" type="selectionEntry" id="cf55-b3e-407c-753" targetId="850b8d60-5882-4c37-9871-6ed2a0c9f323">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="c1644f22-aea5-4949-8d24-f112c8b463e9" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="e0195d7c-d381-40cb-973b-ae17defdfb8b" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="2a99d2b7-f72b-4609-ade3-d049ccf9682e" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="28d13894-ec24-45c2-87c1-5c620c965177" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="301215de-00bd-4e22-a60a-b7fb3c74c57c" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="ebdb1870-c8b4-4023-bc57-89b55e500b00" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="0d218d8f-c299-4381-bce6-f5e6cfb37f1d" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Putrid Corruption" hidden="false" type="selectionEntry" id="8f6-6f06-6105-ed3e" targetId="301215de-00bd-4e22-a60a-b7fb3c74c57c">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="c1644f22-aea5-4949-8d24-f112c8b463e9" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="e0195d7c-d381-40cb-973b-ae17defdfb8b" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="2a99d2b7-f72b-4609-ade3-d049ccf9682e" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="850b8d60-5882-4c37-9871-6ed2a0c9f323" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="28d13894-ec24-45c2-87c1-5c620c965177" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="ebdb1870-c8b4-4023-bc57-89b55e500b00" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="0d218d8f-c299-4381-bce6-f5e6cfb37f1d" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Malevolent Artifice" hidden="false" type="selectionEntry" id="86876d40-ed85-414c-b1f1-8de9cf1112c3" targetId="28d13894-ec24-45c2-87c1-5c620c965177">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="c1644f22-aea5-4949-8d24-f112c8b463e9" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="e0195d7c-d381-40cb-973b-ae17defdfb8b" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="2a99d2b7-f72b-4609-ade3-d049ccf9682e" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="850b8d60-5882-4c37-9871-6ed2a0c9f323" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="301215de-00bd-4e22-a60a-b7fb3c74c57c" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="ebdb1870-c8b4-4023-bc57-89b55e500b00" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="0d218d8f-c299-4381-bce6-f5e6cfb37f1d" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Rapturous Sensation" hidden="false" type="selectionEntry" id="8186-6ff8-79d-83cc" targetId="ebdb1870-c8b4-4023-bc57-89b55e500b00">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="c1644f22-aea5-4949-8d24-f112c8b463e9" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="e0195d7c-d381-40cb-973b-ae17defdfb8b" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="2a99d2b7-f72b-4609-ade3-d049ccf9682e" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="850b8d60-5882-4c37-9871-6ed2a0c9f323" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="28d13894-ec24-45c2-87c1-5c620c965177" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="301215de-00bd-4e22-a60a-b7fb3c74c57c" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="0d218d8f-c299-4381-bce6-f5e6cfb37f1d" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Ravenous Dissolution" hidden="false" type="selectionEntry" id="ca389343-7fd8-4efa-9e3f-5c477bf9860f" targetId="0d218d8f-c299-4381-bce6-f5e6cfb37f1d">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="c1644f22-aea5-4949-8d24-f112c8b463e9" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="e0195d7c-d381-40cb-973b-ae17defdfb8b" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="2a99d2b7-f72b-4609-ade3-d049ccf9682e" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="850b8d60-5882-4c37-9871-6ed2a0c9f323" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="28d13894-ec24-45c2-87c1-5c620c965177" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="301215de-00bd-4e22-a60a-b7fb3c74c57c" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="ebdb1870-c8b4-4023-bc57-89b55e500b00" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b4521ef2-0565-4cb1-8011-819e37a24f8e"/>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="56c-50b1-e156-305"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="None (Use this to switch between if you change your Whole Army Dominion)" hidden="false" id="7a3bcc33-bb5b-4fa4-907a-e68fd9fc44c2">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e18673c5-96ab-4d17-b140-433584f5dabd"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <categoryEntries>
+    <categoryEntry name="Encroaching Ruin" hidden="false" id="c42-1919-c37e-51f0"/>
+    <categoryEntry name="Heedless Slaughter" hidden="false" id="53046ee5-6c89-4b0b-9b40-f2508fcf73d0"/>
+    <categoryEntry name="Malevolent Artifice" hidden="false" id="9ae796db-4f9e-46a8-9294-fe41e041331a"/>
+    <categoryEntry name="Putrid Corruption" hidden="false" id="aa0dd183-aac7-4c9e-babe-f7e55435990b"/>
+  </categoryEntries>
+  <sharedRules>
+    <rule id="3f6b6f63-44f0-40bf-96e6-bb5979a82ba2" name="Æthereal Invulnerability (X)" publicationId="656d16f0-92e4-424e-975e-ee128bc8ae57" page="Various" hidden="false">
+      <description>A model with this special rule gains an Invulnerable Save equal to the value listed in brackets. This Invulnerable Save cannot be taken against attacks made with weapons with the Force special rule.</description>
+    </rule>
+    <rule id="c694-20c8-455-baca" name="Empyrean Avatar" publicationId="656d16f0-92e4-424e-975e-ee128bc8ae57" page="16" hidden="false">
+      <description>When a model with this special rule suffers an unsaved Wound with the Instant Death special rule, it is not immediately removed as a casualty, but instead loses D3 Wounds instead of one for each unsaved Wound with the Instant Death special rule inflicted on it.</description>
+    </rule>
+  </sharedRules>
+</catalogue>
