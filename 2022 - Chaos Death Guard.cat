@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="77a7-4620-5791-42cd" name="2022 - Chaos Death Guard" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="86" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="77a7-4620-5791-42cd" name="2022 - Chaos Death Guard" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="86" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="94b5-ee13-a2b6-221a" name="Plague Marine Squad" hidden="false" collective="false" import="true" targetId="41ac-0dde-a938-7dc4" type="selectionEntry">
       <categoryLinks>
@@ -128,6 +128,19 @@
                     </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
+                <selectionEntryGroup id="839c-1aa4-466e-95d9" name="Plague Knife" hidden="false" collective="false" import="true" defaultSelectionEntryId="91d6-91db-55cb-c5fa">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe8c-87c7-3735-42bc" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="979c-d5aa-d154-d9cd" type="min"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="91d6-91db-55cb-c5fa" name="Plague Knife" hidden="false" collective="false" import="true" targetId="1e23-ba26-15fd-adba" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6873-5952-c1f8-ded6" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
                 <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="16.0"/>
@@ -166,7 +179,19 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8b4-6071-fbda-755a" type="max"/>
                       </constraints>
                     </entryLink>
-                    <entryLink id="74ae-cce2-9813-70d9" name="Plague Knife" hidden="false" collective="false" import="true" targetId="1e23-ba26-15fd-adba" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="d1f4-96a8-5ff5-710f" name="Plague Knife" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ca1-1f2a-6670-4875" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e662-1b9e-326f-fa19" type="min"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="c873-1f5b-014e-df56" name="Plague Knife" hidden="false" collective="false" import="true" targetId="1e23-ba26-15fd-adba" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ae8-e7d3-4c9a-8ca4" type="max"/>
+                      </constraints>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
