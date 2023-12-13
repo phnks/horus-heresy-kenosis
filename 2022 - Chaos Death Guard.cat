@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="77a7-4620-5791-42cd" name="2022 - Chaos Death Guard" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="86" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="77a7-4620-5791-42cd" name="2022 - Chaos Death Guard" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="86" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="94b5-ee13-a2b6-221a" name="Plague Marine Squad" hidden="false" collective="false" import="true" targetId="41ac-0dde-a938-7dc4" type="selectionEntry">
       <categoryLinks>
@@ -10,9 +10,9 @@
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="41ac-0dde-a938-7dc4" name="Plague Marine Squad" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="41ac-0dde-a938-7dc4" name="Plague Marine Squad" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
-        <selectionEntry id="53d4-91b0-aba9-b6e2" name="Plague Marine Champion" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="53d4-91b0-aba9-b6e2" name="Plague Marine Champion" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a9a-fbef-4e62-da27" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc2a-36b0-e41c-b33a" type="min"/>
@@ -35,7 +35,7 @@
             </profile>
           </profiles>
           <selectionEntryGroups>
-            <selectionEntryGroup id="d4e6-2931-3da0-71b8" name="1) Bolter:" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="d4e6-2931-3da0-71b8" name="1) Bolter:" hidden="false" collective="false" import="true" defaultSelectionEntryId="ff77-d28b-e96a-a50b">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2ec-c0ce-ea34-76e9" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="971f-dd24-31db-4c71" type="min"/>
@@ -61,7 +61,7 @@
                 <entryLink id="ff77-d28b-e96a-a50b" name="Bolter" hidden="false" collective="false" import="true" targetId="0127e3ce-2975-47c5-964c-dec06a3ba44b" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="e8ff-e595-5e1f-f76a" name="2) Melee Weapon" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="e8ff-e595-5e1f-f76a" name="2) Melee Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="7a0e-3089-da3b-abb3">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18f6-962c-46fe-a702" type="max"/>
               </constraints>
@@ -72,9 +72,18 @@
                     <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="9.0"/>
                   </costs>
                 </entryLink>
+                <entryLink id="7a0e-3089-da3b-abb3" name="Plague Knife" hidden="false" collective="false" import="true" targetId="1e23-ba26-15fd-adba" type="selectionEntry"/>
+                <entryLink id="86b8-91c2-1a2c-d6db" name="Daemonic Plague Blade" hidden="false" collective="false" import="true" targetId="7166-bff3-25cd-5ce5" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="1.0"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <costs>
+            <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -84,7 +93,7 @@
             <constraint field="selections" scope="parent" value="19.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1522-9dab-bf82-363f" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="ecb9-4d85-0efb-46f1" name="Plague Marines" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="ecb9-4d85-0efb-46f1" name="Plague Marines" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="19.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b396-3571-92f2-21b3" type="max"/>
               </constraints>
@@ -106,7 +115,7 @@
                 </profile>
               </profiles>
               <selectionEntryGroups>
-                <selectionEntryGroup id="4073-8a39-1ad5-6090" name="Bolter" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="4073-8a39-1ad5-6090" name="Bolter" hidden="false" collective="false" import="true" defaultSelectionEntryId="9fde-08a5-cc5d-d2ef">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c00-acdf-1765-398c" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0486-7844-d1ec-7228" type="min"/>
@@ -120,10 +129,92 @@
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="16.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4417-46e2-e5ce-9915" name="Plague Marines w/ Options" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="19.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a90-ee58-d3eb-2dc3" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="67a8-fb1c-67da-d181" name="Plague Marine" hidden="false" typeId="2b6e799b-8afd-4ae9-b80a-234103442598" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="Unit Type" typeId="36ce3f10-11e9-4add-ae15-3062f27946e7">Infantry (Line)</characteristic>
+                    <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">6</characteristic>
+                    <characteristic name="WS" typeId="d5a82d3a-18d1-48d0-a9e0-f752cb09e068">4</characteristic>
+                    <characteristic name="BS" typeId="253b2a0a-577c-437a-9898-bfc1d22dcef8">4</characteristic>
+                    <characteristic name="S" typeId="94c4fa7b-8480-4e99-84ad-92c9768f1472">4</characteristic>
+                    <characteristic name="T" typeId="8a92af2d-103b-4847-b535-181cc323038e">5</characteristic>
+                    <characteristic name="W" typeId="5e57eecc-4078-4b3a-9087-1cf0055bbabd">1</characteristic>
+                    <characteristic name="I" typeId="ed32b28f-9bdc-4312-ba9b-e16cbc61db41">3</characteristic>
+                    <characteristic name="A" typeId="4e9d7106-4cea-4d16-a7ea-f2f8f2957234">1</characteristic>
+                    <characteristic name="Ld" typeId="9c8deb64-055e-4d01-b341-924389963feb">8</characteristic>
+                    <characteristic name="Save" typeId="d8f3cf40-ebb8-45e1-8f50-074a0475a7ed">3+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="ed5f-7779-fb2d-27a6" name="Bolter" hidden="false" collective="false" import="true" defaultSelectionEntryId="2b1b-9a4a-d16c-4150">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f1e-26b7-db05-555a" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8956-df5f-3c51-6825" type="min"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="2b1b-9a4a-d16c-4150" name="Bolter" hidden="false" collective="false" import="true" targetId="0127e3ce-2975-47c5-964c-dec06a3ba44b" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8b4-6071-fbda-755a" type="max"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink id="74ae-cce2-9813-70d9" name="Plague Knife" hidden="false" collective="false" import="true" targetId="1e23-ba26-15fd-adba" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="10.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="16.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1e23-ba26-15fd-adba" name="Plague Knife" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="1e1e-eeff-ed70-c310" name="Plague Knife" hidden="false" typeId="6525dede-e40b-4bd7-939d-60de13a16105" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">-</characteristic>
+            <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">User</characteristic>
+            <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">6</characteristic>
+            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Melee, Plague Weapon</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d53d-75d8-9a0c-c5c1" name="Plague Weapon" hidden="false" targetId="10b0-7806-fad3-f87a" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="7166-bff3-25cd-5ce5" name="Daemonic Plague Blade" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="6ad5-2d75-b471-9d39" name="Daemonic Plague Blade" hidden="false" typeId="6525dede-e40b-4bd7-939d-60de13a16105" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">-</characteristic>
+            <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">User</characteristic>
+            <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">6</characteristic>
+            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Melee, Shred</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f19e-b8c2-eeb4-0cc7" name="Shred" hidden="false" targetId="72874fc6-4842-426a-a359-e2d87663ad67" type="rule"/>
+      </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
+  <sharedRules>
+    <rule id="10b0-7806-fad3-f87a" name="Plague Weapon" hidden="false">
+      <description>You can re-roll wound rolls of 1 for a weapon with this ability.</description>
+    </rule>
+  </sharedRules>
 </catalogue>
