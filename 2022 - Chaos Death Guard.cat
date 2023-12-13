@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="77a7-4620-5791-42cd" name="2022 - Chaos Death Guard" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="86" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="94b5-ee13-a2b6-221a" name="Plague Marine Squad" hidden="false" collective="false" import="true" targetId="41ac-0dde-a938-7dc4" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="402d-fdcc-1263-518a" name="Compulsory Troops:" hidden="false" targetId="a9ded219-d94d-4bd0-b6a9-dd75915a39ad" primary="false"/>
+        <categoryLink id="47fb-8941-cbd3-ebd4" name="Troops:" hidden="false" targetId="1bfd7c23-4ad7-418a-8351-828b2da671e6" primary="true"/>
+        <categoryLink id="8c5d-eb81-5d3e-7ceb" name="Unit:" hidden="false" targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="41ac-0dde-a938-7dc4" name="Plague Marine Squad" hidden="false" collective="false" import="true" type="upgrade">
+      <selectionEntries>
+        <selectionEntry id="53d4-91b0-aba9-b6e2" name="Plague Marine Champion" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a9a-fbef-4e62-da27" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc2a-36b0-e41c-b33a" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="2377-c918-5365-ed3f" name="Plague Marine Champion" hidden="false" typeId="2b6e799b-8afd-4ae9-b80a-234103442598" typeName="Unit">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="36ce3f10-11e9-4add-ae15-3062f27946e7">Infantry (Character, Line)</characteristic>
+                <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">6</characteristic>
+                <characteristic name="WS" typeId="d5a82d3a-18d1-48d0-a9e0-f752cb09e068">4</characteristic>
+                <characteristic name="BS" typeId="253b2a0a-577c-437a-9898-bfc1d22dcef8">4</characteristic>
+                <characteristic name="S" typeId="94c4fa7b-8480-4e99-84ad-92c9768f1472">4</characteristic>
+                <characteristic name="T" typeId="8a92af2d-103b-4847-b535-181cc323038e">5</characteristic>
+                <characteristic name="W" typeId="5e57eecc-4078-4b3a-9087-1cf0055bbabd">1</characteristic>
+                <characteristic name="I" typeId="ed32b28f-9bdc-4312-ba9b-e16cbc61db41">3</characteristic>
+                <characteristic name="A" typeId="4e9d7106-4cea-4d16-a7ea-f2f8f2957234">2</characteristic>
+                <characteristic name="Ld" typeId="9c8deb64-055e-4d01-b341-924389963feb">9</characteristic>
+                <characteristic name="Save" typeId="d8f3cf40-ebb8-45e1-8f50-074a0475a7ed">3+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="d4e6-2931-3da0-71b8" name="1) Bolter:" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2ec-c0ce-ea34-76e9" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="971f-dd24-31db-4c71" type="min"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="6d1c-2d1f-b8fd-065a" name="Bolt Pistol" hidden="false" collective="false" import="true" targetId="18b6fbf7-b2eb-4122-aefb-e48e661d4eb3" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="81d1-1319-a7ec-204d" name="Plasma Gun" hidden="false" collective="false" import="true" targetId="26d315cc-eed8-41db-a2c5-54aa6797c378" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10.0"/>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="11.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="7fbc-8235-3070-820b" name="Plasma Pistol" hidden="false" collective="false" import="true" targetId="dc4c7aaf-d16d-4a1a-92a7-48145457cc5f" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5.0"/>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="5.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="ff77-d28b-e96a-a50b" name="Bolter" hidden="false" collective="false" import="true" targetId="0127e3ce-2975-47c5-964c-dec06a3ba44b" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="e8ff-e595-5e1f-f76a" name="2) Melee Weapon" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18f6-962c-46fe-a702" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="6246-6030-9dde-44d7" name="Power Fist" hidden="false" collective="false" import="true" targetId="41c0a306-6f22-43bc-bb94-d50be41c10e9" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10.0"/>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="9.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4d24-44c8-e773-8a9a" name="0) Plague Marines" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c45b-4e41-5ce5-d0f5" type="min"/>
+            <constraint field="selections" scope="parent" value="19.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1522-9dab-bf82-363f" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="ecb9-4d85-0efb-46f1" name="Plague Marines" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="19.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b396-3571-92f2-21b3" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="ebba-dc49-ccd0-9cb2" name="Plague Marine" hidden="false" typeId="2b6e799b-8afd-4ae9-b80a-234103442598" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="Unit Type" typeId="36ce3f10-11e9-4add-ae15-3062f27946e7">Infantry (Line)</characteristic>
+                    <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">6</characteristic>
+                    <characteristic name="WS" typeId="d5a82d3a-18d1-48d0-a9e0-f752cb09e068">4</characteristic>
+                    <characteristic name="BS" typeId="253b2a0a-577c-437a-9898-bfc1d22dcef8">4</characteristic>
+                    <characteristic name="S" typeId="94c4fa7b-8480-4e99-84ad-92c9768f1472">4</characteristic>
+                    <characteristic name="T" typeId="8a92af2d-103b-4847-b535-181cc323038e">5</characteristic>
+                    <characteristic name="W" typeId="5e57eecc-4078-4b3a-9087-1cf0055bbabd">1</characteristic>
+                    <characteristic name="I" typeId="ed32b28f-9bdc-4312-ba9b-e16cbc61db41">3</characteristic>
+                    <characteristic name="A" typeId="4e9d7106-4cea-4d16-a7ea-f2f8f2957234">1</characteristic>
+                    <characteristic name="Ld" typeId="9c8deb64-055e-4d01-b341-924389963feb">8</characteristic>
+                    <characteristic name="Save" typeId="d8f3cf40-ebb8-45e1-8f50-074a0475a7ed">3+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="4073-8a39-1ad5-6090" name="Bolter" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c00-acdf-1765-398c" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0486-7844-d1ec-7228" type="min"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="9fde-08a5-cc5d-d2ef" name="Bolter" hidden="false" collective="false" import="true" targetId="0127e3ce-2975-47c5-964c-dec06a3ba44b" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c5c-d80f-b4ad-8067" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>
