@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="77a7-4620-5791-42cd" name="2022 - Chaos Death Guard" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="86" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="77a7-4620-5791-42cd" name="2022 - Chaos Death Guard" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="86" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="94b5-ee13-a2b6-221a" name="Plague Marine Squad" hidden="false" collective="false" import="true" targetId="41ac-0dde-a938-7dc4" type="selectionEntry">
       <categoryLinks>
@@ -17,6 +17,7 @@
             <modifier type="set" field="name" value="Feel No Pain (5+)"/>
           </modifiers>
         </infoLink>
+        <infoLink id="db28-4956-7382-b7a0" name="Inexorable" hidden="false" targetId="b8932bc5-ce64-423f-8352-7ddef814a894" type="rule"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="48ea-9a8a-027a-e25d" name="Plague Marine Champion" hidden="false" collective="false" import="true" type="model">
@@ -221,6 +222,54 @@
                             <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="11.0"/>
                           </costs>
                         </entryLink>
+                        <entryLink id="eccd-e1be-19e0-1416" name="Plague Spewer" hidden="false" collective="false" import="true" targetId="b510-c896-8108-7658" type="selectionEntry">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebe6-bd7c-f9a7-0009" type="max"/>
+                          </constraints>
+                          <costs>
+                            <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="15.0"/>
+                          </costs>
+                        </entryLink>
+                        <entryLink id="49e0-c370-dfe4-3830" name="Plague Belcher" hidden="false" collective="false" import="true" targetId="6474-eeef-15e0-9d64" type="selectionEntry">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2eb-df0a-69f3-7688" type="max"/>
+                          </constraints>
+                          <costs>
+                            <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="7.0"/>
+                          </costs>
+                        </entryLink>
+                        <entryLink id="072a-e80d-f37d-90e8" name="Blight Launcher" hidden="false" collective="false" import="true" targetId="0015-035f-054a-60fe" type="selectionEntry">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="984c-8e98-07df-8cce" type="max"/>
+                          </constraints>
+                          <costs>
+                            <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="10.0"/>
+                          </costs>
+                        </entryLink>
+                      </entryLinks>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup id="5f4c-62e7-af8d-fcdd" name="2 may exchange their Bolters for:" hidden="false" collective="false" import="true">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3ae-9e76-85fb-bde3" type="max"/>
+                        <constraint field="selections" scope="41ac-0dde-a938-7dc4" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11dd-f71e-7377-692f" type="max"/>
+                      </constraints>
+                      <entryLinks>
+                        <entryLink id="fb2e-66fe-8d26-a2c8" name="Flail of Corruption" hidden="false" collective="false" import="true" targetId="2fe9-22a1-53a2-4167" type="selectionEntry">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2a4-466e-3743-4ace" type="max"/>
+                          </constraints>
+                          <costs>
+                            <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="10.0"/>
+                          </costs>
+                        </entryLink>
+                        <entryLink id="a244-e764-cdcc-d50d" name="Great Plague Cleaver" hidden="false" collective="false" import="true" targetId="215e-9ad9-ea85-1824" type="selectionEntry">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f7a-cd6c-8d89-fc03" type="max"/>
+                          </constraints>
+                          <costs>
+                            <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="15.0"/>
+                          </costs>
+                        </entryLink>
                       </entryLinks>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
@@ -250,11 +299,41 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a23-926f-53fc-95f0" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abc8-1278-74a1-5613" type="min"/>
                   </constraints>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup id="d6f0-54dc-5a59-bff8" name="2 may exchange their Plague Knife for:" hidden="false" collective="false" import="true">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac1a-2d11-b357-2304" type="max"/>
+                        <constraint field="selections" scope="41ac-0dde-a938-7dc4" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbe6-952a-9cad-7d32" type="max"/>
+                      </constraints>
+                      <entryLinks>
+                        <entryLink id="d58c-b4aa-3549-265c" name="Mace of Contagion" hidden="false" collective="false" import="true" targetId="bc64-b292-fc13-a762" type="selectionEntry">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9190-e063-87d4-b378" type="max"/>
+                          </constraints>
+                          <costs>
+                            <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="7.0"/>
+                          </costs>
+                        </entryLink>
+                      </entryLinks>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
                   <entryLinks>
                     <entryLink id="0896-7d80-6f68-daf6" name="Plague Knife" hidden="false" collective="false" import="true" targetId="1e23-ba26-15fd-adba" type="selectionEntry">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d2f-1c77-b7cd-32ee" type="max"/>
                       </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="db3f-2c89-5ab7-1a62" name="3) Icon of Despair" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="a417-9b2b-33a8-c2b0" name="Icon of Despair" hidden="false" collective="false" import="true" targetId="771d-35d5-e913-5f4d" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3b3-d9ae-c239-5724" type="max"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="10.0"/>
+                      </costs>
                     </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
@@ -285,6 +364,12 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76f3-3383-6f29-4c2c" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="7cdb-9713-9e00-a3fb" name="Blight Grenades" hidden="false" collective="false" import="true" targetId="3a93-0662-39a2-abc0" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0143-009c-ad3f-01ea" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69b1-7c58-cfc7-54d9" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="16.0"/>
@@ -297,12 +382,16 @@
             <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">-</characteristic>
             <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">User</characteristic>
             <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">6</characteristic>
-            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Melee, Plague Weapon</characteristic>
+            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Melee, Poisoned (4+)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="d53d-75d8-9a0c-c5c1" name="Plague Weapon" hidden="false" targetId="10b0-7806-fad3-f87a" type="rule"/>
+        <infoLink id="9cd6-b57f-8337-86a9" name="Poisoned (X)" hidden="false" targetId="8587b4ea-39cf-49d2-b43c-c87d31ae4e05" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Poisoned (4+)"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
     </selectionEntry>
     <selectionEntry id="7166-bff3-25cd-5ce5" name="Daemonic Plague Blade" hidden="false" collective="false" import="true" type="upgrade">
@@ -312,12 +401,17 @@
             <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">-</characteristic>
             <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">User</characteristic>
             <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">6</characteristic>
-            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Melee, Shred</characteristic>
+            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Melee, Shred, Poisoned (4+)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="f19e-b8c2-eeb4-0cc7" name="Shred" hidden="false" targetId="72874fc6-4842-426a-a359-e2d87663ad67" type="rule"/>
+        <infoLink id="0737-cc63-2ff5-7990" name="Poisoned (X)" hidden="false" targetId="8587b4ea-39cf-49d2-b43c-c87d31ae4e05" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Poisoned (4+)"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
     </selectionEntry>
     <selectionEntry id="0c38-6635-0329-cd07" name="Bubotic Axe" hidden="false" collective="false" import="true" type="upgrade">
@@ -327,12 +421,159 @@
             <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">-</characteristic>
             <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">+1</characteristic>
             <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">4</characteristic>
-            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Melee, Plague Weapon</characteristic>
+            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Melee, Poisoned (4+)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="ff6b-5248-6fbf-2588" name="Plague Weapon" hidden="false" targetId="10b0-7806-fad3-f87a" type="rule"/>
+        <infoLink id="bf11-45f5-e105-2c02" name="Poisoned (X)" hidden="false" targetId="8587b4ea-39cf-49d2-b43c-c87d31ae4e05" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Poisoned (4+)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="b510-c896-8108-7658" name="Plague Spewer" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="38c4-d217-14be-f587" name="Plague Spewer" hidden="false" typeId="6525dede-e40b-4bd7-939d-60de13a16105" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">Template</characteristic>
+            <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">5</characteristic>
+            <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">5</characteristic>
+            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Heavy 1, Poisoned (4+)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f6c2-c028-0edf-1182" name="Poisoned (X)" hidden="false" targetId="8587b4ea-39cf-49d2-b43c-c87d31ae4e05" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Poisoned (4+)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="6474-eeef-15e0-9d64" name="Plague Belcher" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="7c69-e3d0-afda-3576" name="Plague Belcher" hidden="false" typeId="6525dede-e40b-4bd7-939d-60de13a16105" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">Template</characteristic>
+            <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">4</characteristic>
+            <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">6</characteristic>
+            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Assault 1, Poisoned (4+)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6672-de4a-d17d-59a3" name="Poisoned (X)" hidden="false" targetId="8587b4ea-39cf-49d2-b43c-c87d31ae4e05" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Poisoned (4+)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="0015-035f-054a-60fe" name="Blight Launcher" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="54d2-aad0-3725-76a4" name="Blight Launcher" hidden="false" typeId="6525dede-e40b-4bd7-939d-60de13a16105" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">24&quot;</characteristic>
+            <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">6</characteristic>
+            <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">4</characteristic>
+            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Assault 2, Poisoned (4+)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9ca4-0563-08cd-49d6" name="Poisoned (X)" hidden="false" targetId="8587b4ea-39cf-49d2-b43c-c87d31ae4e05" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Poisoned (4+)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="bc64-b292-fc13-a762" name="Mace of Contagion" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="3fea-855c-2582-9e6a" name="Mace of Contagion" hidden="false" typeId="6525dede-e40b-4bd7-939d-60de13a16105" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">-</characteristic>
+            <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">+2</characteristic>
+            <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">5</characteristic>
+            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Melee, Poisoned (4+), Unwiedly</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6e1e-7111-9d46-9066" name="Poisoned (X)" hidden="false" targetId="8587b4ea-39cf-49d2-b43c-c87d31ae4e05" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Poisoned (4+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="fc35-1867-b096-d252" name="Unwieldy" hidden="false" targetId="b7840f2c-55f9-4706-9d08-8d2244a6670a" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="215e-9ad9-ea85-1824" name="Great Plague Cleaver" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="4e33-828c-69f9-eec4" name="Great Plague Cleaver" hidden="false" typeId="6525dede-e40b-4bd7-939d-60de13a16105" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">-</characteristic>
+            <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">x2</characteristic>
+            <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">3</characteristic>
+            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Melee, Poisoned (4+), Unwieldly, Two-Handed</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d47c-02a5-8fe2-38a6" name="Unwieldy" hidden="false" targetId="b7840f2c-55f9-4706-9d08-8d2244a6670a" type="rule"/>
+        <infoLink id="5461-6210-78a3-12ae" name="Poisoned (X)" hidden="false" targetId="8587b4ea-39cf-49d2-b43c-c87d31ae4e05" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Poisoned (4+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="46e8-e423-4570-fe37" name="Two-handed" hidden="false" targetId="3dbdb43d-6d66-4b3e-ba30-d356f27563dc" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="2fe9-22a1-53a2-4167" name="Flail of Corruption" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="736a-a8eb-60d0-5b00" name="Flail of Corruption" hidden="false" typeId="6525dede-e40b-4bd7-939d-60de13a16105" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">-</characteristic>
+            <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">+2</characteristic>
+            <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">4</characteristic>
+            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Melee, Poisoned (4+), Reaping Blow (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f6c7-1efa-377d-14e3" name="Poisoned (X)" hidden="false" targetId="8587b4ea-39cf-49d2-b43c-c87d31ae4e05" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Poisoned (4+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="5731-e6a9-70d7-2e75" name="Reaping Blow (X)" hidden="false" targetId="64281c71-7fe2-4659-9a91-8386a898c365" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Reaping Blow (1)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="771d-35d5-e913-5f4d" name="Icon of Despair" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="d48f-5dda-8249-00a2" name="Icon of Despair" hidden="false" typeId="04ae4d9f-9a14-4ace-8f86-56ec1229c5a1" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="b041e7a3-08e8-4a60-a7e7-e50e963bc010">Units that are within 6&quot; of any enemy units with an Icon of Despair must subtract 1 from their Leadership characteristic.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="3a93-0662-39a2-abc0" name="Blight Grenades" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="b99a-abf8-5885-2f2d" name="Blight Grenades" hidden="false" typeId="04ae4d9f-9a14-4ace-8f86-56ec1229c5a1" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="b041e7a3-08e8-4a60-a7e7-e50e963bc010">The controlling player may choose to have a model with blight grenades that is Engaged or otherwise in base contact during the Assault phase with a model not of the Vehicle, Dreadnought or Automata Unit Type, inflict one automatic Str 6, AP 3 Hit on the target in Initiative Step 1 instead of attacking normally. Any model in a unit that is chosen to inflict Hits using blight grenades may not otherwise attack or make use of any other special rule or item of Wargear that inflicts Hits or Wounds on a model in the same Assault phase (but may participate in Sweeping Advances as normal).</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a4fd-dba9-b9af-0192" name="Grenades" hidden="false" targetId="8a68df53-5dc6-47e2-9399-17c5b6e4637b" type="rule"/>
       </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
