@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="77a7-4620-5791-42cd" name="2022 - Chaos Death Guard" revision="8" battleScribeVersion="2.03" library="false" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="86" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="77a7-4620-5791-42cd" name="2022 - Chaos Death Guard" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="86" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="94b5-ee13-a2b6-221a" name="Plague Marine Squad" hidden="false" collective="false" import="true" targetId="41ac-0dde-a938-7dc4" type="selectionEntry">
       <categoryLinks>
@@ -613,6 +613,11 @@
       </profiles>
       <infoLinks>
         <infoLink id="a4fd-dba9-b9af-0192" name="Grenades" hidden="false" targetId="8a68df53-5dc6-47e2-9399-17c5b6e4637b" type="rule"/>
+        <infoLink id="4864-910b-2c5e-8733" name="Poisoned (X)" hidden="false" targetId="8587b4ea-39cf-49d2-b43c-c87d31ae4e05" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Poisoned (4+)"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
@@ -640,11 +645,14 @@
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="f27c-b40c-2992-6fba" name="Blightlord Champion" hidden="false" collective="false" import="true" defaultSelectionEntryId="9c04-6ab3-5956-be70">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11f6-1f46-4f2f-d6f3" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dca2-1ce5-dae9-5c8c" type="max"/>
+          </constraints>
           <selectionEntries>
             <selectionEntry id="9c04-6ab3-5956-be70" name="Blightlord Champion" hidden="false" collective="false" import="true" type="model">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef48-20fa-c4d1-c794" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33e3-d00f-b1a2-7f1f" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b68-31e7-31cc-16d4" type="max"/>
               </constraints>
               <profiles>
                 <profile id="4f38-040b-3d3e-adc1" name="Blightlord Champion" hidden="false" typeId="2b6e799b-8afd-4ae9-b80a-234103442598" typeName="Unit">
@@ -666,8 +674,122 @@
               <categoryLinks>
                 <categoryLink id="424a-520f-7562-b506" name="Character" hidden="false" targetId="546a8d3f-47d4-4c80-b30e-e6addf1298f2" primary="false"/>
               </categoryLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="8d15-d0cb-f861-6754" name="Melee Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="6e3f-f809-c67d-456f">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="307e-f7a0-f747-49a8" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e974-e684-fef0-a282" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="6e3f-f809-c67d-456f" name="Bubotic Axe" hidden="false" collective="false" import="true" targetId="0c38-6635-0329-cd07" type="selectionEntry">
+                      <costs>
+                        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="5.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="8643-d8bd-c2cf-0ce4" name="Balesword" hidden="false" collective="false" import="true" targetId="9888-d610-c899-2914" type="selectionEntry">
+                      <costs>
+                        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="6.0"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="7fa8-c4b3-7c04-3442" name="Ranged Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="6a94-9b2e-0ea0-6cf7">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7e0-a4c3-dba4-1631" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbbb-2858-8835-9df1" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="82d1-d1b7-eb9b-264c" name="Blight Launcher" hidden="false" collective="false" import="true" targetId="0015-035f-054a-60fe" type="selectionEntry">
+                      <costs>
+                        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="10.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="6a94-9b2e-0ea0-6cf7" name="Combi-Bolter" hidden="false" collective="false" import="true" targetId="8eb1924b-5770-46c3-ba7b-d3d88af3f686" type="selectionEntry">
+                      <costs>
+                        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="2.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="5588-40e1-5560-374e" name="Minor Combi-Weapon - Flamer" hidden="false" collective="false" import="true" targetId="3011903a-8d52-458a-9c56-e06e8afad35d" type="selectionEntry">
+                      <costs>
+                        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="8.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="da41-d238-f5d3-b8c5" name="Magna Combi-Weapon - Meltagun" hidden="false" collective="false" import="true" targetId="4ed99db5-d1a0-49ed-874d-aaafda9796ae" type="selectionEntry">
+                      <costs>
+                        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="15.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="7209-54d3-54bc-d603" name="Magna Combi-Weapon - Plasma Gun" hidden="false" collective="false" import="true" targetId="85e12b17-523d-4e1b-b692-c81b9a2fdcc8" type="selectionEntry">
+                      <costs>
+                        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="11.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="e2d2-e0e7-74bd-333f" name="Plague Spewer" hidden="false" collective="false" import="true" targetId="b510-c896-8108-7658" type="selectionEntry">
+                      <costs>
+                        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="15.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="e214-955f-7a6b-b7c3" name="Reaper Autocannon" hidden="false" collective="false" import="true" targetId="06ee89a9-65d2-4bc2-a378-914cadc1e280" type="selectionEntry">
+                      <costs>
+                        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="10.0"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks>
+                <entryLink id="f76e-14c5-6467-5b4e" name="Grenade Harness" hidden="false" collective="false" import="true" targetId="f0f01e5e-ef5d-4d01-af83-fd87964c7eb6" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf5b-c01f-25ad-d186" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="5.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
               <costs>
                 <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8ad2-4f1f-d3a7-9b08" name="Blightlord Champion w/Flail of Corruption" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b57-f88d-dda3-1531" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="cd3b-bb76-6b3f-4c50" name="Blightlord Champion" hidden="false" typeId="2b6e799b-8afd-4ae9-b80a-234103442598" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="Unit Type" typeId="36ce3f10-11e9-4add-ae15-3062f27946e7">Infantry (Heavy, Character)</characteristic>
+                    <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">5</characteristic>
+                    <characteristic name="WS" typeId="d5a82d3a-18d1-48d0-a9e0-f752cb09e068">4</characteristic>
+                    <characteristic name="BS" typeId="253b2a0a-577c-437a-9898-bfc1d22dcef8">4</characteristic>
+                    <characteristic name="S" typeId="94c4fa7b-8480-4e99-84ad-92c9768f1472">4</characteristic>
+                    <characteristic name="T" typeId="8a92af2d-103b-4847-b535-181cc323038e">5</characteristic>
+                    <characteristic name="W" typeId="5e57eecc-4078-4b3a-9087-1cf0055bbabd">2</characteristic>
+                    <characteristic name="I" typeId="ed32b28f-9bdc-4312-ba9b-e16cbc61db41">3</characteristic>
+                    <characteristic name="A" typeId="4e9d7106-4cea-4d16-a7ea-f2f8f2957234">3</characteristic>
+                    <characteristic name="Ld" typeId="9c8deb64-055e-4d01-b341-924389963feb">9</characteristic>
+                    <characteristic name="Save" typeId="d8f3cf40-ebb8-45e1-8f50-074a0475a7ed">2+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <entryLinks>
+                <entryLink id="5634-34d7-7c07-38df" name="Flail of Corruption" hidden="false" collective="false" import="true" targetId="2fe9-22a1-53a2-4167" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="65df-cd66-21ea-70b7" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8dad-dbf9-05bc-885f" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="bf1c-3d9f-08a2-596c" name="Grenade Harness" hidden="false" collective="false" import="true" targetId="f0f01e5e-ef5d-4d01-af83-fd87964c7eb6" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d27-0cc7-424e-e80b" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="5.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="10.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -699,15 +821,149 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="0567-55ae-3125-6c13" name="Ranged Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="6b5d-e630-c752-6eee">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36f2-0a32-f420-f950" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4772-3ac1-5f4a-8b99" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="e54f-a22c-7a50-8f22" name="Blight Launcher" hidden="false" collective="false" import="true" targetId="0015-035f-054a-60fe" type="selectionEntry">
+                      <costs>
+                        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="10.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="6b5d-e630-c752-6eee" name="Combi-Bolter" hidden="false" collective="false" import="true" targetId="8eb1924b-5770-46c3-ba7b-d3d88af3f686" type="selectionEntry">
+                      <costs>
+                        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="2.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="58f7-3c1b-82b9-4094" name="Minor Combi-Weapon - Flamer" hidden="false" collective="false" import="true" targetId="3011903a-8d52-458a-9c56-e06e8afad35d" type="selectionEntry">
+                      <costs>
+                        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="8.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="70c5-a55b-351b-77fc" name="Magna Combi-Weapon - Meltagun" hidden="false" collective="false" import="true" targetId="4ed99db5-d1a0-49ed-874d-aaafda9796ae" type="selectionEntry">
+                      <costs>
+                        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="15.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="3d97-d76d-a6da-3d70" name="Magna Combi-Weapon - Plasma Gun" hidden="false" collective="false" import="true" targetId="85e12b17-523d-4e1b-b692-c81b9a2fdcc8" type="selectionEntry">
+                      <costs>
+                        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="11.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="89fe-ffc3-be86-c282" name="Plague Spewer" hidden="false" collective="false" import="true" targetId="b510-c896-8108-7658" type="selectionEntry">
+                      <costs>
+                        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="15.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="ac58-656b-f13a-58ce" name="Reaper Autocannon" hidden="false" collective="false" import="true" targetId="06ee89a9-65d2-4bc2-a378-914cadc1e280" type="selectionEntry">
+                      <costs>
+                        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="10.0"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="800d-1cac-f2f2-a767" name="Melee Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="288b-d51a-be16-59d8">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc74-d5f3-8cba-6c5d" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3df-5e3a-73a2-f656" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="288b-d51a-be16-59d8" name="Bubotic Axe" hidden="false" collective="false" import="true" targetId="0c38-6635-0329-cd07" type="selectionEntry">
+                      <costs>
+                        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="5.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="fb4a-6908-f992-3635" name="Balesword" hidden="false" collective="false" import="true" targetId="9888-d610-c899-2914" type="selectionEntry">
+                      <costs>
+                        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="6.0"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <costs>
                 <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="34.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="78af-b036-0d56-ef33" name="Blightlord w/Flail of Corruption" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12e6-aad8-16b5-79df" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="5b4a-ef42-e12b-7195" name="Blightlord Terminator" hidden="false" typeId="2b6e799b-8afd-4ae9-b80a-234103442598" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="Unit Type" typeId="36ce3f10-11e9-4add-ae15-3062f27946e7">Infantry (Heavy)</characteristic>
+                    <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">5</characteristic>
+                    <characteristic name="WS" typeId="d5a82d3a-18d1-48d0-a9e0-f752cb09e068">4</characteristic>
+                    <characteristic name="BS" typeId="253b2a0a-577c-437a-9898-bfc1d22dcef8">4</characteristic>
+                    <characteristic name="S" typeId="94c4fa7b-8480-4e99-84ad-92c9768f1472">4</characteristic>
+                    <characteristic name="T" typeId="8a92af2d-103b-4847-b535-181cc323038e">5</characteristic>
+                    <characteristic name="W" typeId="5e57eecc-4078-4b3a-9087-1cf0055bbabd">2</characteristic>
+                    <characteristic name="I" typeId="ed32b28f-9bdc-4312-ba9b-e16cbc61db41">3</characteristic>
+                    <characteristic name="A" typeId="4e9d7106-4cea-4d16-a7ea-f2f8f2957234">2</characteristic>
+                    <characteristic name="Ld" typeId="9c8deb64-055e-4d01-b341-924389963feb">8</characteristic>
+                    <characteristic name="Save" typeId="d8f3cf40-ebb8-45e1-8f50-074a0475a7ed">2+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <entryLinks>
+                <entryLink id="d991-67b5-d1af-66fb" name="Flail of Corruption" hidden="false" collective="false" import="true" targetId="2fe9-22a1-53a2-4167" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4e76-b302-6e31-5d2a" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3d23-79d6-0453-69f4" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="44.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="0f71-a61c-c115-39c9" name="Cataphractii Terminator Armour" hidden="false" collective="false" import="true" targetId="970e-4cb6-3a3f-1881" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0aca-f463-2961-0432" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d7a-c1ab-0348-420e" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="34.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9888-d610-c899-2914" name="Balesword" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="8e02-336f-5df3-a8dd" name="Balesword" hidden="false" typeId="6525dede-e40b-4bd7-939d-60de13a16105" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">-</characteristic>
+            <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">User</characteristic>
+            <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">3</characteristic>
+            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Melee, Poisoned (4+)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="b5ea-dfed-f6c1-085f" name="Poisoned (X)" hidden="false" targetId="8587b4ea-39cf-49d2-b43c-c87d31ae4e05" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Poisoned (4+)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="970e-4cb6-3a3f-1881" name="Cataphractii Terminator Armour" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="498c-fe83-de5c-11b9" name="Cataphractii Terminator Armour" hidden="false" targetId="5478c007-7a6b-4d57-9f65-7a17b1e82533" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="dbcb-66d4-6126-8f07" name="Terminators:" hidden="false" targetId="7a115212-670a-4067-b4f4-51b8387f277e" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
