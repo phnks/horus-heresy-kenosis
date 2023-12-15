@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="77a7-4620-5791-42cd" name="2022 - Chaos Death Guard" revision="10" battleScribeVersion="2.03" library="false" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="86" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="77a7-4620-5791-42cd" name="2022 - Chaos Death Guard" revision="11" battleScribeVersion="2.03" library="false" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="86" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="94b5-ee13-a2b6-221a" name="Plague Marine Squad" hidden="false" collective="false" import="true" targetId="41ac-0dde-a938-7dc4" type="selectionEntry">
       <categoryLinks>
@@ -12,6 +12,12 @@
       <categoryLinks>
         <categoryLink id="a36e-a461-dd47-f42f" name="Troops:" hidden="false" targetId="1bfd7c23-4ad7-418a-8351-828b2da671e6" primary="true"/>
         <categoryLink id="15c9-cf72-51f8-6b35" name="Unit:" hidden="false" targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6170-f712-a5e1-2883" name="Deathshroud Terminator Squad" hidden="false" collective="false" import="true" targetId="1afc-8937-ba69-d7b3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5d99-6d19-579c-f0ec" name="Elites:" hidden="false" targetId="c142153b-5c2c-443d-9502-2c00888474ef" primary="false"/>
+        <categoryLink id="9ba2-d14a-4075-683c" name="Unit:" hidden="false" targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" primary="false"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -35,7 +41,7 @@
             <profile id="6e19-cdb4-a205-7a5d" name="Plague Marine Champion" hidden="false" typeId="2b6e799b-8afd-4ae9-b80a-234103442598" typeName="Unit">
               <characteristics>
                 <characteristic name="Unit Type" typeId="36ce3f10-11e9-4add-ae15-3062f27946e7">Infantry (Character, Line)</characteristic>
-                <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">6</characteristic>
+                <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">6&quot;</characteristic>
                 <characteristic name="WS" typeId="d5a82d3a-18d1-48d0-a9e0-f752cb09e068">4</characteristic>
                 <characteristic name="BS" typeId="253b2a0a-577c-437a-9898-bfc1d22dcef8">4</characteristic>
                 <characteristic name="S" typeId="94c4fa7b-8480-4e99-84ad-92c9768f1472">4</characteristic>
@@ -136,7 +142,7 @@
                 <profile id="67a8-fb1c-67da-d181" name="Plague Marine" hidden="false" typeId="2b6e799b-8afd-4ae9-b80a-234103442598" typeName="Unit">
                   <characteristics>
                     <characteristic name="Unit Type" typeId="36ce3f10-11e9-4add-ae15-3062f27946e7">Infantry (Line)</characteristic>
-                    <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">6</characteristic>
+                    <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">6&quot;</characteristic>
                     <characteristic name="WS" typeId="d5a82d3a-18d1-48d0-a9e0-f752cb09e068">4</characteristic>
                     <characteristic name="BS" typeId="253b2a0a-577c-437a-9898-bfc1d22dcef8">4</characteristic>
                     <characteristic name="S" typeId="94c4fa7b-8480-4e99-84ad-92c9768f1472">4</characteristic>
@@ -189,7 +195,7 @@
                 <profile id="7a9d-08dd-6068-ffa2" name="Plague Marine" hidden="false" typeId="2b6e799b-8afd-4ae9-b80a-234103442598" typeName="Unit">
                   <characteristics>
                     <characteristic name="Unit Type" typeId="36ce3f10-11e9-4add-ae15-3062f27946e7">Infantry (Line)</characteristic>
-                    <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">6</characteristic>
+                    <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">6&quot;</characteristic>
                     <characteristic name="WS" typeId="d5a82d3a-18d1-48d0-a9e0-f752cb09e068">4</characteristic>
                     <characteristic name="BS" typeId="253b2a0a-577c-437a-9898-bfc1d22dcef8">4</characteristic>
                     <characteristic name="S" typeId="94c4fa7b-8480-4e99-84ad-92c9768f1472">4</characteristic>
@@ -666,7 +672,7 @@
                 <profile id="4f38-040b-3d3e-adc1" name="Blightlord Champion" hidden="false" typeId="2b6e799b-8afd-4ae9-b80a-234103442598" typeName="Unit">
                   <characteristics>
                     <characteristic name="Unit Type" typeId="36ce3f10-11e9-4add-ae15-3062f27946e7">Infantry (Heavy, Character)</characteristic>
-                    <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">5</characteristic>
+                    <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">5&quot;</characteristic>
                     <characteristic name="WS" typeId="d5a82d3a-18d1-48d0-a9e0-f752cb09e068">4</characteristic>
                     <characteristic name="BS" typeId="253b2a0a-577c-437a-9898-bfc1d22dcef8">4</characteristic>
                     <characteristic name="S" typeId="94c4fa7b-8480-4e99-84ad-92c9768f1472">4</characteristic>
@@ -767,7 +773,7 @@
                 <profile id="cd3b-bb76-6b3f-4c50" name="Blightlord Champion" hidden="false" typeId="2b6e799b-8afd-4ae9-b80a-234103442598" typeName="Unit">
                   <characteristics>
                     <characteristic name="Unit Type" typeId="36ce3f10-11e9-4add-ae15-3062f27946e7">Infantry (Heavy, Character)</characteristic>
-                    <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">5</characteristic>
+                    <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">5&quot;</characteristic>
                     <characteristic name="WS" typeId="d5a82d3a-18d1-48d0-a9e0-f752cb09e068">4</characteristic>
                     <characteristic name="BS" typeId="253b2a0a-577c-437a-9898-bfc1d22dcef8">4</characteristic>
                     <characteristic name="S" typeId="94c4fa7b-8480-4e99-84ad-92c9768f1472">4</characteristic>
@@ -816,7 +822,7 @@
                 <profile id="b340-a848-d6df-b1e8" name="Blightlord Terminator" hidden="false" typeId="2b6e799b-8afd-4ae9-b80a-234103442598" typeName="Unit">
                   <characteristics>
                     <characteristic name="Unit Type" typeId="36ce3f10-11e9-4add-ae15-3062f27946e7">Infantry (Heavy)</characteristic>
-                    <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">5</characteristic>
+                    <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">5&quot;</characteristic>
                     <characteristic name="WS" typeId="d5a82d3a-18d1-48d0-a9e0-f752cb09e068">4</characteristic>
                     <characteristic name="BS" typeId="253b2a0a-577c-437a-9898-bfc1d22dcef8">4</characteristic>
                     <characteristic name="S" typeId="94c4fa7b-8480-4e99-84ad-92c9768f1472">4</characteristic>
@@ -904,7 +910,7 @@
                 <profile id="5b4a-ef42-e12b-7195" name="Blightlord Terminator" hidden="false" typeId="2b6e799b-8afd-4ae9-b80a-234103442598" typeName="Unit">
                   <characteristics>
                     <characteristic name="Unit Type" typeId="36ce3f10-11e9-4add-ae15-3062f27946e7">Infantry (Heavy)</characteristic>
-                    <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">5</characteristic>
+                    <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">5&quot;</characteristic>
                     <characteristic name="WS" typeId="d5a82d3a-18d1-48d0-a9e0-f752cb09e068">4</characteristic>
                     <characteristic name="BS" typeId="253b2a0a-577c-437a-9898-bfc1d22dcef8">4</characteristic>
                     <characteristic name="S" typeId="94c4fa7b-8480-4e99-84ad-92c9768f1472">4</characteristic>
@@ -965,6 +971,180 @@
       <costs>
         <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="1afc-8937-ba69-d7b3" name="Deathshroud Terminator Squad" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="918e-7d73-c0fc-706e" name="Relentless" hidden="false" targetId="2800305f-2d6f-4e0e-8d3f-f5e05b31560e" type="rule"/>
+        <infoLink id="6c28-0522-211c-4afc" name="Stubborn" hidden="false" targetId="4000d119-e086-43d5-9e3c-4533e72072ee" type="rule"/>
+        <infoLink id="bdf7-c76a-bc67-85ad" name="Battle-Hardened (X)" hidden="false" targetId="136115ad-a1a9-4abb-8ee7-71e9ff015531" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Battle-hardened (1)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="e0dd-1345-c0de-bafc" name="Bulky (X)" hidden="false" targetId="1e7612dc-20f4-4c63-9297-8884e8c765e6" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Bulky (2)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="ccee-ee24-8f89-347e" name="Chosen Warriors" hidden="false" targetId="bc365bcf-5c54-4126-8c45-dfec4b8e6bd5" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9edb-ccb9-017e-9362" name="Infantry:" hidden="false" targetId="b9c46d78-0d4c-44b4-85a3-d59364156c36" primary="false"/>
+        <categoryLink id="d8e3-acd9-ac37-c3c1" name="Terminators:" hidden="false" targetId="7a115212-670a-4067-b4f4-51b8387f277e" primary="false"/>
+        <categoryLink id="d194-4105-3a70-10c4" name="Heavy Sub-type:" hidden="false" targetId="11eb08d3-52e5-4c7a-823b-de5c08945939" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="4c03-7ee9-8f24-880a" name="Deathshroud" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6df7-491a-befa-eee8" type="min"/>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="dd4e-934b-ecbf-67de" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="d3e0-dd7b-d57d-67e6" name="Deathshroud" hidden="false" typeId="2b6e799b-8afd-4ae9-b80a-234103442598" typeName="Unit">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="36ce3f10-11e9-4add-ae15-3062f27946e7">Infantry (Heavy)</characteristic>
+                <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">5&quot;</characteristic>
+                <characteristic name="WS" typeId="d5a82d3a-18d1-48d0-a9e0-f752cb09e068">5</characteristic>
+                <characteristic name="BS" typeId="253b2a0a-577c-437a-9898-bfc1d22dcef8">5</characteristic>
+                <characteristic name="S" typeId="94c4fa7b-8480-4e99-84ad-92c9768f1472">4</characteristic>
+                <characteristic name="T" typeId="8a92af2d-103b-4847-b535-181cc323038e">5</characteristic>
+                <characteristic name="W" typeId="5e57eecc-4078-4b3a-9087-1cf0055bbabd">3</characteristic>
+                <characteristic name="I" typeId="ed32b28f-9bdc-4312-ba9b-e16cbc61db41">3</characteristic>
+                <characteristic name="A" typeId="4e9d7106-4cea-4d16-a7ea-f2f8f2957234">3</characteristic>
+                <characteristic name="Ld" typeId="9c8deb64-055e-4d01-b341-924389963feb">9</characteristic>
+                <characteristic name="Save" typeId="d8f3cf40-ebb8-45e1-8f50-074a0475a7ed">2+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <entryLinks>
+            <entryLink id="a2cf-16be-e31a-2f28" name="Plaguespurt Gauntlet" hidden="false" collective="false" import="true" targetId="542d-cc75-7547-aabb" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1494-1bb6-d022-f398" type="min"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ebd-eb76-47d0-0d34" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="8463-4e98-7081-62f9" name="Manreaper" hidden="false" collective="false" import="true" targetId="921e-79c5-13f5-8943" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66c9-0851-4db2-d7b6" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62a2-a291-c151-6c2c" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="17.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="30eb-6f56-4f98-1441" name="Cataphractii Terminator Armour" hidden="false" collective="false" import="true" targetId="ac5a0aab-4f2d-40df-9ba9-93079b749eb7" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a20-4840-5e4f-37f9" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc1f-e46e-84fd-aab7" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="25.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c96b-d1ce-ed10-2af5" name="Deathshroud Champion" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ca95-e302-cbcf-aa15" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1e85-fcb7-921c-b2a7" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="63d0-6449-1603-ad6e" name="Deathshroud" hidden="false" typeId="2b6e799b-8afd-4ae9-b80a-234103442598" typeName="Unit">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="36ce3f10-11e9-4add-ae15-3062f27946e7">Infantry (Heavy)</characteristic>
+                <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">5&quot;</characteristic>
+                <characteristic name="WS" typeId="d5a82d3a-18d1-48d0-a9e0-f752cb09e068">5</characteristic>
+                <characteristic name="BS" typeId="253b2a0a-577c-437a-9898-bfc1d22dcef8">5</characteristic>
+                <characteristic name="S" typeId="94c4fa7b-8480-4e99-84ad-92c9768f1472">4</characteristic>
+                <characteristic name="T" typeId="8a92af2d-103b-4847-b535-181cc323038e">5</characteristic>
+                <characteristic name="W" typeId="5e57eecc-4078-4b3a-9087-1cf0055bbabd">3</characteristic>
+                <characteristic name="I" typeId="ed32b28f-9bdc-4312-ba9b-e16cbc61db41">3</characteristic>
+                <characteristic name="A" typeId="4e9d7106-4cea-4d16-a7ea-f2f8f2957234">4</characteristic>
+                <characteristic name="Ld" typeId="9c8deb64-055e-4d01-b341-924389963feb">10</characteristic>
+                <characteristic name="Save" typeId="d8f3cf40-ebb8-45e1-8f50-074a0475a7ed">2+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="4b42-947e-bad9-e228" name="Character" hidden="false" targetId="546a8d3f-47d4-4c80-b30e-e6addf1298f2" primary="false"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink id="89c1-502f-b5ec-51e4" name="Plaguespurt Gauntlet" hidden="false" collective="false" import="true" targetId="542d-cc75-7547-aabb" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="690b-c4c0-a01d-6937" type="min"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c407-2bd3-1455-3b3f" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="229f-b14c-394c-f8ac" name="Manreaper" hidden="false" collective="false" import="true" targetId="921e-79c5-13f5-8943" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1670-fca3-0137-30e8" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6fa-5eda-4fbf-3bd9" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="17.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="af5d-b853-ee5b-5c1c" name="Cataphractii Terminator Armour" hidden="false" collective="false" import="true" targetId="ac5a0aab-4f2d-40df-9ba9-93079b749eb7" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45f5-5002-3b48-25c5" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e09-586f-1857-9481" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="921e-79c5-13f5-8943" name="Manreaper" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="4cfe-5c79-b541-a96e" name="Manreaper" hidden="false" typeId="6525dede-e40b-4bd7-939d-60de13a16105" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">-</characteristic>
+            <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">+3</characteristic>
+            <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">3</characteristic>
+            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Melee, Poisoned (4+), Rending (6+), Two-handed, Reaping Blows (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2866-5513-d681-0f11" name="Poisoned (X)" hidden="false" targetId="8587b4ea-39cf-49d2-b43c-c87d31ae4e05" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Poisoned (4+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="5c13-af84-54b1-525f" name="Two-handed" hidden="false" targetId="3dbdb43d-6d66-4b3e-ba30-d356f27563dc" type="rule"/>
+        <infoLink id="f9d9-819c-3155-ff87" name="Reaping Blow (X)" hidden="false" targetId="64281c71-7fe2-4659-9a91-8386a898c365" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Reaping Blow (1)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="54c4-7b17-a3ca-dadc" name="Rending (X)" hidden="false" targetId="2ec1d6f7-91d8-4fbe-9795-b3d9a894781f" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Rending (6+)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="542d-cc75-7547-aabb" name="Plaguespurt Gauntlet" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="235a-606d-5fa1-0546" name="Plaguespurt Gauntlet" hidden="false" typeId="6525dede-e40b-4bd7-939d-60de13a16105" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">Template</characteristic>
+            <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">3</characteristic>
+            <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">6</characteristic>
+            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Pistol 1, Poisoned (4+)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ec7e-7ad8-4520-6bcb" name="Poisoned (X)" hidden="false" targetId="8587b4ea-39cf-49d2-b43c-c87d31ae4e05" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Poisoned (4+)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
