@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="77a7-4620-5791-42cd" name="2022 - Chaos Death Guard" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="86" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="77a7-4620-5791-42cd" name="2022 - Chaos Death Guard" revision="8" battleScribeVersion="2.03" library="false" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="86" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="94b5-ee13-a2b6-221a" name="Plague Marine Squad" hidden="false" collective="false" import="true" targetId="41ac-0dde-a938-7dc4" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="402d-fdcc-1263-518a" name="Compulsory Troops:" hidden="false" targetId="a9ded219-d94d-4bd0-b6a9-dd75915a39ad" primary="false"/>
         <categoryLink id="47fb-8941-cbd3-ebd4" name="Troops:" hidden="false" targetId="1bfd7c23-4ad7-418a-8351-828b2da671e6" primary="true"/>
         <categoryLink id="8c5d-eb81-5d3e-7ceb" name="Unit:" hidden="false" targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="00c0-3c86-2764-1b28" name="Blightlord Terminator Squad" hidden="false" collective="false" import="true" targetId="cc89-c124-5d4c-0f12" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a36e-a461-dd47-f42f" name="Troops:" hidden="false" targetId="1bfd7c23-4ad7-418a-8351-828b2da671e6" primary="true"/>
+        <categoryLink id="15c9-cf72-51f8-6b35" name="Unit:" hidden="false" targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" primary="false"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -110,6 +116,9 @@
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <costs>
+            <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -281,7 +290,7 @@
                     </entryLink>
                     <entryLink id="c656-b608-5887-7d26" name="Plague Knife" hidden="false" collective="false" import="true" targetId="1e23-ba26-15fd-adba" type="selectionEntry">
                       <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="216a-cf6c-b23f-7b8c" type="max"/>
+                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="216a-cf6c-b23f-7b8c" type="max"/>
                       </constraints>
                     </entryLink>
                     <entryLink id="e297-a226-1ac3-5972" name="Bubotic Axe" hidden="false" collective="false" import="true" targetId="0c38-6635-0329-cd07" type="selectionEntry">
@@ -320,7 +329,7 @@
                   <entryLinks>
                     <entryLink id="0896-7d80-6f68-daf6" name="Plague Knife" hidden="false" collective="false" import="true" targetId="1e23-ba26-15fd-adba" type="selectionEntry">
                       <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d2f-1c77-b7cd-32ee" type="max"/>
+                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d2f-1c77-b7cd-32ee" type="max"/>
                       </constraints>
                     </entryLink>
                   </entryLinks>
@@ -393,6 +402,9 @@
           </modifiers>
         </infoLink>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7166-bff3-25cd-5ce5" name="Daemonic Plague Blade" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -413,6 +425,9 @@
           </modifiers>
         </infoLink>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0c38-6635-0329-cd07" name="Bubotic Axe" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -432,6 +447,9 @@
           </modifiers>
         </infoLink>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b510-c896-8108-7658" name="Plague Spewer" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -451,6 +469,9 @@
           </modifiers>
         </infoLink>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6474-eeef-15e0-9d64" name="Plague Belcher" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -470,6 +491,9 @@
           </modifiers>
         </infoLink>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0015-035f-054a-60fe" name="Blight Launcher" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -489,6 +513,9 @@
           </modifiers>
         </infoLink>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="bc64-b292-fc13-a762" name="Mace of Contagion" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -509,6 +536,9 @@
         </infoLink>
         <infoLink id="fc35-1867-b096-d252" name="Unwieldy" hidden="false" targetId="b7840f2c-55f9-4706-9d08-8d2244a6670a" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="215e-9ad9-ea85-1824" name="Great Plague Cleaver" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -530,6 +560,9 @@
         </infoLink>
         <infoLink id="46e8-e423-4570-fe37" name="Two-handed" hidden="false" targetId="3dbdb43d-6d66-4b3e-ba30-d356f27563dc" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2fe9-22a1-53a2-4167" name="Flail of Corruption" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -554,6 +587,9 @@
           </modifiers>
         </infoLink>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="771d-35d5-e913-5f4d" name="Icon of Despair" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -563,18 +599,116 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3a93-0662-39a2-abc0" name="Blight Grenades" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="b99a-abf8-5885-2f2d" name="Blight Grenades" hidden="false" typeId="04ae4d9f-9a14-4ace-8f86-56ec1229c5a1" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="b041e7a3-08e8-4a60-a7e7-e50e963bc010">The controlling player may choose to have a model with blight grenades that is Engaged or otherwise in base contact during the Assault phase with a model not of the Vehicle, Dreadnought or Automata Unit Type, inflict one automatic Str 6, AP 3 Hit on the target in Initiative Step 1 instead of attacking normally. Any model in a unit that is chosen to inflict Hits using blight grenades may not otherwise attack or make use of any other special rule or item of Wargear that inflicts Hits or Wounds on a model in the same Assault phase (but may participate in Sweeping Advances as normal).</characteristic>
+            <characteristic name="Description" typeId="b041e7a3-08e8-4a60-a7e7-e50e963bc010">The controlling player may choose to have a model with blight grenades that is Engaged or otherwise in base contact during the Assault phase with a model not of the Vehicle, Dreadnought or Automata Unit Type, inflict one automatic Str 4, AP 5 Hit on the target and each model in base contact with that target in Initiative Step 1 instead of attacking normally. Any model in a unit that is chosen to inflict Hits using blight grenades may not otherwise attack or make use of any other special rule or item of Wargear that inflicts Hits or Wounds on a model in the same Assault phase (but may participate in Sweeping Advances as normal).</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="a4fd-dba9-b9af-0192" name="Grenades" hidden="false" targetId="8a68df53-5dc6-47e2-9399-17c5b6e4637b" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cc89-c124-5d4c-0f12" name="Blightlord Terminator Squad" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="58c9-9e60-b557-88ee" name="Inexorable" hidden="false" targetId="b8932bc5-ce64-423f-8352-7ddef814a894" type="rule"/>
+        <infoLink id="905d-76a0-d5fc-9610" name="Feel No Pain (X)" hidden="false" targetId="dbe120b1-50cf-4716-b69d-c9d9379e2251" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Feel No Pain (5+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="55f8-7500-a84a-9c70" name="Relentless" hidden="false" targetId="2800305f-2d6f-4e0e-8d3f-f5e05b31560e" type="rule"/>
+        <infoLink id="7530-00b2-4fbb-bd34" name="Bulky (X)" hidden="false" targetId="1e7612dc-20f4-4c63-9297-8884e8c765e6" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Bulky (2)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7cf0-fdb7-c091-fbdc" name="Heavy Sub-type:" hidden="false" targetId="11eb08d3-52e5-4c7a-823b-de5c08945939" primary="false"/>
+        <categoryLink id="7291-fd75-d761-2a22" name="Infantry:" hidden="false" targetId="b9c46d78-0d4c-44b4-85a3-d59364156c36" primary="false"/>
+        <categoryLink id="bded-7ac3-a3e7-5fd5" name="Terminators:" hidden="false" targetId="7a115212-670a-4067-b4f4-51b8387f277e" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f27c-b40c-2992-6fba" name="Blightlord Champion" hidden="false" collective="false" import="true" defaultSelectionEntryId="9c04-6ab3-5956-be70">
+          <selectionEntries>
+            <selectionEntry id="9c04-6ab3-5956-be70" name="Blightlord Champion" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef48-20fa-c4d1-c794" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33e3-d00f-b1a2-7f1f" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="4f38-040b-3d3e-adc1" name="Blightlord Champion" hidden="false" typeId="2b6e799b-8afd-4ae9-b80a-234103442598" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="Unit Type" typeId="36ce3f10-11e9-4add-ae15-3062f27946e7">Infantry (Heavy, Character)</characteristic>
+                    <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">5</characteristic>
+                    <characteristic name="WS" typeId="d5a82d3a-18d1-48d0-a9e0-f752cb09e068">4</characteristic>
+                    <characteristic name="BS" typeId="253b2a0a-577c-437a-9898-bfc1d22dcef8">4</characteristic>
+                    <characteristic name="S" typeId="94c4fa7b-8480-4e99-84ad-92c9768f1472">4</characteristic>
+                    <characteristic name="T" typeId="8a92af2d-103b-4847-b535-181cc323038e">5</characteristic>
+                    <characteristic name="W" typeId="5e57eecc-4078-4b3a-9087-1cf0055bbabd">2</characteristic>
+                    <characteristic name="I" typeId="ed32b28f-9bdc-4312-ba9b-e16cbc61db41">3</characteristic>
+                    <characteristic name="A" typeId="4e9d7106-4cea-4d16-a7ea-f2f8f2957234">3</characteristic>
+                    <characteristic name="Ld" typeId="9c8deb64-055e-4d01-b341-924389963feb">9</characteristic>
+                    <characteristic name="Save" typeId="d8f3cf40-ebb8-45e1-8f50-074a0475a7ed">2+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="424a-520f-7562-b506" name="Character" hidden="false" targetId="546a8d3f-47d4-4c80-b30e-e6addf1298f2" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="c156-ad1f-77e6-fcf3" name="Blightlord Terminators" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b88-80a5-7ef1-9b45" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5a8-fa3c-d7b0-41f9" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="c250-e326-c7b1-d182" name="Blightlord Terminator" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb5b-5352-e745-9e0a" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="b340-a848-d6df-b1e8" name="Blightlord Terminator" hidden="false" typeId="2b6e799b-8afd-4ae9-b80a-234103442598" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="Unit Type" typeId="36ce3f10-11e9-4add-ae15-3062f27946e7">Infantry (Heavy)</characteristic>
+                    <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">5</characteristic>
+                    <characteristic name="WS" typeId="d5a82d3a-18d1-48d0-a9e0-f752cb09e068">4</characteristic>
+                    <characteristic name="BS" typeId="253b2a0a-577c-437a-9898-bfc1d22dcef8">4</characteristic>
+                    <characteristic name="S" typeId="94c4fa7b-8480-4e99-84ad-92c9768f1472">4</characteristic>
+                    <characteristic name="T" typeId="8a92af2d-103b-4847-b535-181cc323038e">5</characteristic>
+                    <characteristic name="W" typeId="5e57eecc-4078-4b3a-9087-1cf0055bbabd">2</characteristic>
+                    <characteristic name="I" typeId="ed32b28f-9bdc-4312-ba9b-e16cbc61db41">3</characteristic>
+                    <characteristic name="A" typeId="4e9d7106-4cea-4d16-a7ea-f2f8f2957234">2</characteristic>
+                    <characteristic name="Ld" typeId="9c8deb64-055e-4d01-b341-924389963feb">8</characteristic>
+                    <characteristic name="Save" typeId="d8f3cf40-ebb8-45e1-8f50-074a0475a7ed">2+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="34.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="34.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
