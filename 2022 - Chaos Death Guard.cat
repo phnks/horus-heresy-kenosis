@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="77a7-4620-5791-42cd" name="2022 - Chaos Death Guard" revision="13" battleScribeVersion="2.03" library="false" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="86" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="77a7-4620-5791-42cd" name="2022 - Chaos Death Guard" revision="14" battleScribeVersion="2.03" library="false" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="86" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="94b5-ee13-a2b6-221a" name="Plague Marine Squad" hidden="false" collective="false" import="true" targetId="41ac-0dde-a938-7dc4" type="selectionEntry">
       <categoryLinks>
@@ -25,6 +25,13 @@
         <categoryLink id="d3fc-861e-dbd3-30c8" name="Compulsory HQ:" hidden="false" targetId="19f64928-a1cc-433d-885c-6ebefbe8c517" primary="false"/>
         <categoryLink id="1ccd-6a92-35bb-be77" name="HQ:" hidden="false" targetId="57062715-ec54-4808-9960-07ba13cc51e9" primary="true"/>
         <categoryLink id="d649-422a-e655-ee9e" name="Unit:" hidden="false" targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b200-70fe-8fb6-2cd0" name="Death Guard Chaos Lord" hidden="false" collective="false" import="true" targetId="f701-b851-374d-1b3f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2cfd-8dcc-72b3-6864" name="HQ:" hidden="false" targetId="57062715-ec54-4808-9960-07ba13cc51e9" primary="true"/>
+        <categoryLink id="2437-585a-0614-a926" name="Compulsory HQ:" hidden="false" targetId="19f64928-a1cc-433d-885c-6ebefbe8c517" primary="false"/>
+        <categoryLink id="a9d8-1b75-929b-f2c9" name="Unit:" hidden="false" targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" primary="false"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -1334,7 +1341,8 @@
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b69-698f-7ccc-2b4d" type="min"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="722b-e135-14e8-6619" name="Legiones Astartes" hidden="false" targetId="c90b3c42-87b4-4753-9f90-63597b20a604" primary="false"/>
+        <categoryLink id="2ed3-63c2-1f27-c895" name="Infantry:" hidden="false" targetId="b9c46d78-0d4c-44b4-85a3-d59364156c36" primary="false"/>
+        <categoryLink id="57be-dc03-e4d6-e3d8" name="Infantry Only" hidden="false" targetId="c73c8789-13b1-438e-bdd2-08da6b447f28" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="27f8-ffb3-e61b-f0a5" name="Death Guard Chaos Lord" publicationId="e950ec53-50f2-45ba-be2f-99b19f3aab26" page="22" hidden="false" collective="false" import="true" type="model">
