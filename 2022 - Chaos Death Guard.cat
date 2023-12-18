@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="77a7-4620-5791-42cd" name="2022 - Chaos Death Guard" revision="11" battleScribeVersion="2.03" library="false" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="86" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="77a7-4620-5791-42cd" name="2022 - Chaos Death Guard" revision="12" battleScribeVersion="2.03" library="false" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="86" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="94b5-ee13-a2b6-221a" name="Plague Marine Squad" hidden="false" collective="false" import="true" targetId="41ac-0dde-a938-7dc4" type="selectionEntry">
       <categoryLinks>
@@ -16,8 +16,15 @@
     </entryLink>
     <entryLink id="6170-f712-a5e1-2883" name="Deathshroud Terminator Squad" hidden="false" collective="false" import="true" targetId="1afc-8937-ba69-d7b3" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="5d99-6d19-579c-f0ec" name="Elites:" hidden="false" targetId="c142153b-5c2c-443d-9502-2c00888474ef" primary="false"/>
+        <categoryLink id="5d99-6d19-579c-f0ec" name="Elites:" hidden="false" targetId="c142153b-5c2c-443d-9502-2c00888474ef" primary="true"/>
         <categoryLink id="9ba2-d14a-4075-683c" name="Unit:" hidden="false" targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="138e-396c-96ee-600e" name="Lord of Contagion" hidden="false" collective="false" import="true" targetId="0698-fe89-5081-d8c4" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="d3fc-861e-dbd3-30c8" name="Compulsory HQ:" hidden="false" targetId="19f64928-a1cc-433d-885c-6ebefbe8c517" primary="false"/>
+        <categoryLink id="1ccd-6a92-35bb-be77" name="HQ:" hidden="false" targetId="57062715-ec54-4808-9960-07ba13cc51e9" primary="true"/>
+        <categoryLink id="d649-422a-e655-ee9e" name="Unit:" hidden="false" targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" primary="false"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -621,7 +628,7 @@
       <profiles>
         <profile id="b99a-abf8-5885-2f2d" name="Blight Grenades" hidden="false" typeId="04ae4d9f-9a14-4ace-8f86-56ec1229c5a1" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="b041e7a3-08e8-4a60-a7e7-e50e963bc010">The controlling player may choose to have a model with blight grenades that is Engaged or otherwise in base contact during the Assault phase with a model not of the Vehicle, Dreadnought or Automata Unit Type, inflict one automatic Str 4, AP 5 Hit on the target and each model in base contact with that target in Initiative Step 1 instead of attacking normally. Any model in a unit that is chosen to inflict Hits using blight grenades may not otherwise attack or make use of any other special rule or item of Wargear that inflicts Hits or Wounds on a model in the same Assault phase (but may participate in Sweeping Advances as normal).</characteristic>
+            <characteristic name="Description" typeId="b041e7a3-08e8-4a60-a7e7-e50e963bc010">The controlling player may choose to have a unit with blight grenades that is Engaged or otherwise in base contact during the Assault phase with a model not of the Vehicle, Dreadnought or Automata Unit Type, inflict one automatic Str 4, AP 5 Hit on a target model and each model in base contact with that target model in Initiative Step 1 instead of attacking normally. Any unit that is chosen to inflict Hits using blight grenades may not otherwise attack or make use of any other special rule or item of Wargear that inflicts Hits or Wounds on a model in the same Assault phase (but may participate in Sweeping Advances as normal).</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -975,7 +982,6 @@
     <selectionEntry id="1afc-8937-ba69-d7b3" name="Deathshroud Terminator Squad" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="918e-7d73-c0fc-706e" name="Relentless" hidden="false" targetId="2800305f-2d6f-4e0e-8d3f-f5e05b31560e" type="rule"/>
-        <infoLink id="6c28-0522-211c-4afc" name="Stubborn" hidden="false" targetId="4000d119-e086-43d5-9e3c-4533e72072ee" type="rule"/>
         <infoLink id="bdf7-c76a-bc67-85ad" name="Battle-Hardened (X)" hidden="false" targetId="136115ad-a1a9-4abb-8ee7-71e9ff015531" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Battle-hardened (1)"/>
@@ -987,6 +993,12 @@
           </modifiers>
         </infoLink>
         <infoLink id="ccee-ee24-8f89-347e" name="Chosen Warriors" hidden="false" targetId="bc365bcf-5c54-4126-8c45-dfec4b8e6bd5" type="rule"/>
+        <infoLink id="797e-4650-4a7a-b149" name="Inexorable" hidden="false" targetId="b8932bc5-ce64-423f-8352-7ddef814a894" type="rule"/>
+        <infoLink id="eba3-90a1-6eb3-763f" name="Feel No Pain (X)" hidden="false" targetId="dbe120b1-50cf-4716-b69d-c9d9379e2251" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Feel No Pain (5+)"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="9edb-ccb9-017e-9362" name="Infantry:" hidden="false" targetId="b9c46d78-0d4c-44b4-85a3-d59364156c36" primary="false"/>
@@ -1019,7 +1031,7 @@
           <entryLinks>
             <entryLink id="a2cf-16be-e31a-2f28" name="Plaguespurt Gauntlet" hidden="false" collective="false" import="true" targetId="542d-cc75-7547-aabb" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1494-1bb6-d022-f398" type="min"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1494-1bb6-d022-f398" type="min"/>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ebd-eb76-47d0-0d34" type="max"/>
               </constraints>
             </entryLink>
@@ -1049,7 +1061,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1e85-fcb7-921c-b2a7" type="max"/>
           </constraints>
           <profiles>
-            <profile id="63d0-6449-1603-ad6e" name="Deathshroud" hidden="false" typeId="2b6e799b-8afd-4ae9-b80a-234103442598" typeName="Unit">
+            <profile id="63d0-6449-1603-ad6e" name="Deathshroud Champion" hidden="false" typeId="2b6e799b-8afd-4ae9-b80a-234103442598" typeName="Unit">
               <characteristics>
                 <characteristic name="Unit Type" typeId="36ce3f10-11e9-4add-ae15-3062f27946e7">Infantry (Heavy)</characteristic>
                 <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">5&quot;</characteristic>
@@ -1071,7 +1083,7 @@
           <entryLinks>
             <entryLink id="89c1-502f-b5ec-51e4" name="Plaguespurt Gauntlet" hidden="false" collective="false" import="true" targetId="542d-cc75-7547-aabb" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="690b-c4c0-a01d-6937" type="min"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="690b-c4c0-a01d-6937" type="min"/>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c407-2bd3-1455-3b3f" type="max"/>
               </constraints>
             </entryLink>
@@ -1144,6 +1156,239 @@
             <modifier type="set" field="name" value="Poisoned (4+)"/>
           </modifiers>
         </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="0698-fe89-5081-d8c4" name="Lord of Contagion" publicationId="e950ec53-50f2-45ba-be2f-99b19f3aab26" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="7357-bffd-029e-1821" name="Heavy" hidden="false" targetId="11eb08d3-52e5-4c7a-823b-de5c08945939" primary="false"/>
+        <categoryLink id="9c01-0e8c-83f1-4d20" name="Infantry:" hidden="false" targetId="b9c46d78-0d4c-44b4-85a3-d59364156c36" primary="false"/>
+        <categoryLink id="1bc2-7008-ef5d-6d00" name="Terminators:" hidden="false" targetId="7a115212-670a-4067-b4f4-51b8387f277e" primary="false"/>
+        <categoryLink id="e546-0af2-f632-9c00" name="Infantry Only" hidden="false" targetId="c73c8789-13b1-438e-bdd2-08da6b447f28" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="7ffb-0ae2-e90b-293b" name="Lord of Contagion" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d8e6-0992-5caa-44a1" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="794e-06ec-7d9d-c728" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="4b24-c2c8-6431-dc41" name="Lord of Contagion" hidden="false" typeId="2b6e799b-8afd-4ae9-b80a-234103442598" typeName="Unit">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="36ce3f10-11e9-4add-ae15-3062f27946e7">Infantry (Heavy, Character)</characteristic>
+                <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">5</characteristic>
+                <characteristic name="WS" typeId="d5a82d3a-18d1-48d0-a9e0-f752cb09e068">5</characteristic>
+                <characteristic name="BS" typeId="253b2a0a-577c-437a-9898-bfc1d22dcef8">5</characteristic>
+                <characteristic name="S" typeId="94c4fa7b-8480-4e99-84ad-92c9768f1472">4</characteristic>
+                <characteristic name="T" typeId="8a92af2d-103b-4847-b535-181cc323038e">5</characteristic>
+                <characteristic name="W" typeId="5e57eecc-4078-4b3a-9087-1cf0055bbabd">3</characteristic>
+                <characteristic name="I" typeId="ed32b28f-9bdc-4312-ba9b-e16cbc61db41">4</characteristic>
+                <characteristic name="A" typeId="4e9d7106-4cea-4d16-a7ea-f2f8f2957234">4</characteristic>
+                <characteristic name="Ld" typeId="9c8deb64-055e-4d01-b341-924389963feb">10</characteristic>
+                <characteristic name="Save" typeId="d8f3cf40-ebb8-45e1-8f50-074a0475a7ed">2+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="0312-01f6-45e5-7c25" name="Relentless" hidden="false" targetId="2800305f-2d6f-4e0e-8d3f-f5e05b31560e" type="rule"/>
+            <infoLink id="56be-2edf-f2d1-1eb9" name="Inexorable" hidden="false" targetId="b8932bc5-ce64-423f-8352-7ddef814a894" type="rule"/>
+            <infoLink id="45fd-edf4-e983-db42" name="Bulky (X)" hidden="false" targetId="1e7612dc-20f4-4c63-9297-8884e8c765e6" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Bulky (2)"/>
+              </modifiers>
+            </infoLink>
+            <infoLink id="52b0-699f-875c-611d" name="Feel No Pain (X)" hidden="false" targetId="dbe120b1-50cf-4716-b69d-c9d9379e2251" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Feel No Pain (5+)"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="e08d-4529-3a40-596c" name="Independant Character" hidden="false" targetId="725d715e-4c30-4e65-8215-9da23b9b5c1f" primary="false"/>
+            <categoryLink id="1503-e6e7-c12f-1b62" name="Character" hidden="false" targetId="546a8d3f-47d4-4c80-b30e-e6addf1298f2" primary="false"/>
+          </categoryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="e249-c96d-10c1-f24f" name="2) Ranged Options" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b14f-d547-329f-0993" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="36be-3465-aaef-0078" type="min"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="8886-9245-3cb3-93d1" name="Orb of Desiccation" hidden="false" collective="false" import="true" targetId="43e8-fb91-29e4-829c" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="10.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="bba2-486a-7381-9b4d" name="1) Melee Options" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f9af-573d-3673-d7a7" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e421-6be6-9b61-e115" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="376a-b9ea-135d-bd1c" name="Manreaper" hidden="false" collective="false" import="true" targetId="921e-79c5-13f5-8943" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="17.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="5887-bd1d-3831-7675" name="Plaguereaper" hidden="false" collective="false" import="true" targetId="7d56-3103-0f2f-5599" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="20.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="de68-c789-b28f-4fa3" name="3) May take:" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="519e-30db-cb9f-6471" name="Grenade Harness" hidden="false" collective="false" import="true" targetId="f0f01e5e-ef5d-4d01-af83-fd87964c7eb6" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bf6c-fb81-76fd-5e25" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="5.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="2687-2750-2f49-dac9" name="0) Legion-specific upgrades" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="7d92-64bf-5e12-a671" name="Master-craft one weapon" hidden="false" collective="false" import="true" targetId="4481625a-07c8-41a8-a443-8db9597324c2" type="selectionEntry"/>
+                <entryLink id="082e-45d9-6994-ad07" name="Teleport Strike" hidden="false" collective="false" import="true" targetId="a68f4d99-8aea-41fa-a8e6-bba63fe0295b" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4491-a30b-7ed8-3efb" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="20.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="b582-2f7d-7105-a78f" name="Toxin Bombs" hidden="false" collective="false" import="true" targetId="14aed850-d8a7-454d-8979-049682312320" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7255-15a8-b6d3-7f39" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="10.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="8de9-88b4-c610-c9da" name="Preysight" hidden="false" collective="false" import="true" targetId="956d462a-10c4-48cb-b726-d5de5a4cea9a" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73ed-cb96-d145-0bbd" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="15.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="43de-68bd-67ab-f47e" name="Trophies of Judgement" hidden="false" collective="false" import="true" targetId="ace823f2-f534-44cb-99c1-55f368743bf5" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ee1-6681-e39e-2883" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="10.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="8cba-3573-efc3-7007" name="Lords of Murder" hidden="false" collective="false" import="true" targetId="c244670d-2b0a-41d2-8ba5-89f65f0bba76" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1b89-188f-dc16-86b4" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="5.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="dab8-49e3-9049-a405" name="Infravisor" hidden="false" collective="false" import="true" targetId="8a01bcce-caca-49ea-974b-563b6a4f5756" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="898f-aede-e20c-02ec" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="10.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="f82b-eb25-b650-9c37" name="Venom Spheres" hidden="false" collective="false" import="true" targetId="abda97fb-0f71-417d-9019-e5f8c9779318" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ba5-cf5e-e20d-5671" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="10.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="d5f7-cfdf-9e73-77ae" name="Dark Channeling" hidden="false" collective="false" import="true" targetId="235600a1-60e4-4d59-8f5a-d3447b3b294f" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4aee-3e4a-df3a-a9b5" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="25.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="c4a7-dbc9-3fd9-06dc" name="The Spreading Corruption" hidden="false" collective="false" import="true" targetId="59bca46f-92a0-458a-9690-e18064e004fc" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="8f7c-15ec-e737-29f5" name="Cataphractii Terminator Armour" hidden="false" collective="false" import="true" targetId="ac5a0aab-4f2d-40df-9ba9-93079b749eb7" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="0285-1c8d-a2a5-5707" name="Warlord" hidden="false" collective="false" import="true" targetId="1887d318-5716-41f5-8b3e-1e6dff0c8e4c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61b3-60b1-869b-d291" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="95.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7d56-3103-0f2f-5599" name="Plaguereaper" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="9af0-66e9-90df-ff43" name="Plaguereaper" hidden="false" typeId="6525dede-e40b-4bd7-939d-60de13a16105" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">-</characteristic>
+            <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">+2</characteristic>
+            <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">3</characteristic>
+            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Melee, Poisoned (4+), Brutal (2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c6e7-4911-655d-b419" name="Poisoned (X)" hidden="false" targetId="8587b4ea-39cf-49d2-b43c-c87d31ae4e05" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Poisoned (4+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="273b-6eaa-6fd2-45af" name="Two-handed" hidden="false" targetId="3dbdb43d-6d66-4b3e-ba30-d356f27563dc" type="rule"/>
+        <infoLink id="c230-42b1-d9fb-c80d" name="Rending (X)" hidden="false" targetId="2ec1d6f7-91d8-4fbe-9795-b3d9a894781f" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Rending (6+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="9b13-e386-fd6d-d5dd" name="Brutal (X)" hidden="false" targetId="d3e7a32a-93be-4480-a8e4-d3af5d4cb856" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Brutal (2)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="43e8-fb91-29e4-829c" name="Orb of Desiccation" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="0199-ea86-e429-8e61" name="Orb of Desiccation" hidden="false" typeId="6525dede-e40b-4bd7-939d-60de13a16105" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">6&quot;</characteristic>
+            <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">4</characteristic>
+            <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">5</characteristic>
+            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Assault 1, Blast (3&quot;), Poisoned (4+), One Shot</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="326e-3259-92b7-5b46" name="Poisoned (X)" hidden="false" targetId="8587b4ea-39cf-49d2-b43c-c87d31ae4e05" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Poisoned (4+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="bc2d-f6a3-1845-e44f" name="Blast" hidden="false" targetId="73191d9c-a0f7-4892-b200-af0a1e88a14b" type="rule"/>
+        <infoLink id="aa01-a78f-1e0a-730d" name="One Use/One Shot" hidden="false" targetId="e072e44a-97ab-43ad-a317-addfef8595d6" type="rule"/>
       </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
