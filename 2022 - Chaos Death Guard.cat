@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="77a7-4620-5791-42cd" name="2022 - Chaos Death Guard" revision="19" battleScribeVersion="2.03" library="false" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="86" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="77a7-4620-5791-42cd" name="2022 - Chaos Death Guard" revision="20" battleScribeVersion="2.03" library="false" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="86" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="94b5-ee13-a2b6-221a" name="Plague Marine Squad" hidden="false" collective="false" import="true" targetId="41ac-0dde-a938-7dc4" type="selectionEntry">
       <categoryLinks>
@@ -2175,13 +2175,12 @@
             <infoLink id="0089-dc0f-3222-ec5e" name="Inexorable" hidden="false" targetId="b8932bc5-ce64-423f-8352-7ddef814a894" type="rule"/>
             <infoLink id="4ff1-ecff-00d1-e49f" name="Bulky (X)" hidden="false" targetId="1e7612dc-20f4-4c63-9297-8884e8c765e6" type="rule">
               <modifiers>
-                <modifier type="set" field="name" value="Bulky (3)"/>
+                <modifier type="set" field="name" value="Bulky (6)"/>
               </modifiers>
             </infoLink>
-            <infoLink id="9cbf-e3bd-c17d-c7ab" name="Stubborn" hidden="false" targetId="4000d119-e086-43d5-9e3c-4533e72072ee" type="rule"/>
             <infoLink id="1c3f-2861-6722-dede" name="Shrouded (X)" hidden="false" targetId="185d5534-d6c2-466f-a3eb-0ce5b6ae2a2c" type="rule">
               <modifiers>
-                <modifier type="set" field="name" value="Shrouded (6+)"/>
+                <modifier type="set" field="name" value="Shrouded (5+)"/>
               </modifiers>
             </infoLink>
             <infoLink id="e10a-ab76-24f8-6e0e" name="Feel No Pain (X)" hidden="false" targetId="dbe120b1-50cf-4716-b69d-c9d9379e2251" type="rule">
@@ -2189,18 +2188,16 @@
                 <modifier type="set" field="name" value="Feel No Pain (5+)"/>
               </modifiers>
             </infoLink>
+            <infoLink id="655a-dcbe-f46b-bc66" name="Fearless" hidden="false" targetId="a8b0b982-b521-4b68-8328-a2cccc69bb3c" type="rule"/>
           </infoLinks>
           <categoryLinks>
             <categoryLink id="7a45-f817-68a1-dde6" name="Independent Character" hidden="false" targetId="725d715e-4c30-4e65-8215-9da23b9b5c1f" primary="false"/>
-            <categoryLink id="2015-311e-ee5b-553f" name="Corrupted Engine Sub-type" hidden="false" targetId="1fa32485-454c-4ea2-b468-12540d7c206f" primary="false"/>
             <categoryLink id="34aa-cad1-2b11-68b3" name="Corrupted Sub-type:" hidden="false" targetId="e9163d72-5e1f-4a8b-91b6-4b29ea94196b" primary="false"/>
-            <categoryLink id="0af6-29fb-5a9d-7d0a" name="Daemon Primarch Unit Type" hidden="false" targetId="a3935604-ea91-4238-a288-50a86d07739d" primary="false"/>
-            <categoryLink id="9f5f-c391-ae9b-5e2c" name="Daemon Unit-type:" hidden="false" targetId="477c7f82-c21d-4df4-ac10-fe28ce47df1f" primary="false"/>
             <categoryLink id="4747-3ea8-2e40-4528" name="Flyer Sub-type:" hidden="false" targetId="5e5fcfb5-8af4-41d9-bf9f-4a3583ed2e81" primary="false"/>
             <categoryLink id="6e36-6b37-4376-ed96" name="Unique Sub-type" hidden="false" targetId="6eb1062b-2fae-49d2-aaa7-569c39fa3324" primary="false"/>
           </categoryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup id="c40b-1270-6362-48a1" name="Psychic Powers" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="c40b-1270-6362-48a1" name="Psychic Powers" hidden="false" collective="false" import="true" defaultSelectionEntryId="1af0-6355-8410-2f44">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="302d-245d-fb92-8328" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06cd-2e19-6623-b525" type="min"/>
@@ -2251,7 +2248,6 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="968a-0201-d2aa-ab69" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="5cbd-b303-2b4c-0f14" name="Daemon" hidden="false" collective="false" import="true" targetId="36ed9721-77f3-432f-a5dd-a9e5094a1807" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
