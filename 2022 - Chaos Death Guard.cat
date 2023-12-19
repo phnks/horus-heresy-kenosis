@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="77a7-4620-5791-42cd" name="2022 - Chaos Death Guard" revision="15" battleScribeVersion="2.03" library="false" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="86" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="77a7-4620-5791-42cd" name="2022 - Chaos Death Guard" revision="16" battleScribeVersion="2.03" library="false" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="86" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="94b5-ee13-a2b6-221a" name="Plague Marine Squad" hidden="false" collective="false" import="true" targetId="41ac-0dde-a938-7dc4" type="selectionEntry">
       <categoryLinks>
@@ -38,6 +38,12 @@
       <categoryLinks>
         <categoryLink id="8cb8-a67c-c6fb-fb55" name="Elites:" hidden="false" targetId="c142153b-5c2c-443d-9502-2c00888474ef" primary="true"/>
         <categoryLink id="a859-5d85-2306-19ac" name="Unit:" hidden="false" targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6b10-fd58-ccf7-5693" name="Tallyman" hidden="false" collective="false" import="true" targetId="ef17-1662-fdd1-bbd2" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e843-45fa-1af9-e881" name="Elites:" hidden="false" targetId="c142153b-5c2c-443d-9502-2c00888474ef" primary="true"/>
+        <categoryLink id="93a5-e479-1042-a587" name="Unit:" hidden="false" targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" primary="false"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -1755,6 +1761,117 @@
           </modifiers>
         </infoLink>
         <infoLink id="31a7-fe44-1d75-0a67" name="One Use/One Shot" hidden="false" targetId="e072e44a-97ab-43ad-a317-addfef8595d6" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="ef17-1662-fdd1-bbd2" name="Tallyman" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5608-7c7d-214e-3eb4" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9e0-be97-f50a-5941" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="fb54-fdf3-2d99-2b73" name="Infantry Only" hidden="false" targetId="c73c8789-13b1-438e-bdd2-08da6b447f28" primary="false"/>
+        <categoryLink id="99a9-f323-30ee-41ad" name="Infantry:" hidden="false" targetId="b9c46d78-0d4c-44b4-85a3-d59364156c36" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a97e-cc5c-1411-fd2f" name="Tallyman" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c37e-c8e7-2b4b-f77a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2193-0638-1edc-fa38" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="14b4-f278-dd6f-20f4" name="Tallyman" hidden="false" typeId="2b6e799b-8afd-4ae9-b80a-234103442598" typeName="Unit">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="36ce3f10-11e9-4add-ae15-3062f27946e7">Infantry (Character)</characteristic>
+                <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">6&quot;</characteristic>
+                <characteristic name="WS" typeId="d5a82d3a-18d1-48d0-a9e0-f752cb09e068">4</characteristic>
+                <characteristic name="BS" typeId="253b2a0a-577c-437a-9898-bfc1d22dcef8">4</characteristic>
+                <characteristic name="S" typeId="94c4fa7b-8480-4e99-84ad-92c9768f1472">4</characteristic>
+                <characteristic name="T" typeId="8a92af2d-103b-4847-b535-181cc323038e">5</characteristic>
+                <characteristic name="W" typeId="5e57eecc-4078-4b3a-9087-1cf0055bbabd">2</characteristic>
+                <characteristic name="I" typeId="ed32b28f-9bdc-4312-ba9b-e16cbc61db41">4</characteristic>
+                <characteristic name="A" typeId="4e9d7106-4cea-4d16-a7ea-f2f8f2957234">3</characteristic>
+                <characteristic name="Ld" typeId="9c8deb64-055e-4d01-b341-924389963feb">9</characteristic>
+                <characteristic name="Save" typeId="d8f3cf40-ebb8-45e1-8f50-074a0475a7ed">3+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="1958-7f52-80c2-79ee" name="Feel No Pain (X)" hidden="false" targetId="dbe120b1-50cf-4716-b69d-c9d9379e2251" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Feel No Pain (5+)"/>
+              </modifiers>
+            </infoLink>
+            <infoLink id="3147-98e1-f542-442b" name="Inexorable" hidden="false" targetId="b8932bc5-ce64-423f-8352-7ddef814a894" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="5afc-261c-3a52-943f" name="Character" hidden="false" targetId="546a8d3f-47d4-4c80-b30e-e6addf1298f2" primary="false"/>
+            <categoryLink id="66c3-8bcb-b04c-629f" name="Independent Character" hidden="false" targetId="725d715e-4c30-4e65-8215-9da23b9b5c1f" primary="false"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink id="0d27-4fd5-29e3-649b" name="Krak Grenades" hidden="false" collective="false" import="true" targetId="336eab77-ba50-475c-8547-b03834cd5256" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0922-d89d-a70d-ec31" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c43-236f-f61a-32bf" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="99cc-9a38-524c-e157" name="Blight Grenades" hidden="false" collective="false" import="true" targetId="3a93-0662-39a2-abc0" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13c9-4e54-a1df-db97" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e0e-3677-d6cb-be53" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="2fe9-6009-e81b-7d91" name="Plasma Pistol" hidden="false" collective="false" import="true" targetId="dc4c7aaf-d16d-4a1a-92a7-48145457cc5f" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ac1-017e-6730-872b" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c13-4d94-fa53-bcdc" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="a407-7d15-b564-720d" name="Tome of Woes" hidden="false" collective="false" import="true" targetId="61ce-7efe-2021-cb63" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="527f-1029-e7d9-9b8c" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31cf-ff87-1d99-498c" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="9413-d331-ac10-db8d" name="Power Armour" hidden="false" collective="false" import="true" targetId="6a4952ff-8213-4dde-b062-aacfa2c883a8" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed2f-164d-b716-a9b4" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3358-c810-7777-ec9a" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="50.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry id="61ce-7efe-2021-cb63" name="Tome of Woes" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="5342-fb2b-106a-6af8" name="Tome of Woes" hidden="false" typeId="35e924b5-bf48-496a-9950-420b93b8efed" typeName="Ability">
+          <characteristics>
+            <characteristic name="Description" typeId="e4e4d75b-9f76-4d17-9e2c-1eba0afdace3">The controlling player may choose to have a unit with Tome of Woes confer it&apos;s abilities to the entire unit</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d867-6059-c47b-bcac" name="Precision Shots (X)" hidden="false" targetId="4007addc-b29c-4a65-8cdb-6dd1905244aa" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Precision Shots (4+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="1dff-9f52-6ba5-e95c" name="Precision Strikes (X)" hidden="false" targetId="ff6c6e67-42a8-42a6-be8b-46ced1d0402a" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Precision Strikes (4+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="56fd-6139-2e42-5d8f" name="Preferred Enemy (X)" hidden="false" targetId="1b83646e-43e4-4e5e-8a9d-8bda13d58f21" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Preferred Enemy (Everything)"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
