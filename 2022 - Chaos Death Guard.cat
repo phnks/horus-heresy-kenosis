@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="77a7-4620-5791-42cd" name="2022 - Chaos Death Guard" revision="18" battleScribeVersion="2.03" library="false" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="86" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="77a7-4620-5791-42cd" name="2022 - Chaos Death Guard" revision="19" battleScribeVersion="2.03" library="false" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="86" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="94b5-ee13-a2b6-221a" name="Plague Marine Squad" hidden="false" collective="false" import="true" targetId="41ac-0dde-a938-7dc4" type="selectionEntry">
       <categoryLinks>
@@ -57,6 +57,13 @@
         <categoryLink id="d44b-313e-179c-d7ed" name="Unit:" hidden="false" targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" primary="false"/>
         <categoryLink id="dc34-caef-9416-efe6" name="New CategoryLink" hidden="false" targetId="57062715-ec54-4808-9960-07ba13cc51e9" primary="true"/>
         <categoryLink id="88cb-2051-ae07-a9b1" name="Compulsory HQ:" hidden="false" targetId="19f64928-a1cc-433d-885c-6ebefbe8c517" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="5fce-2596-dedd-51d4" name="Malum Ferrugine" hidden="false" collective="false" import="true" targetId="c37f-e0f6-988f-0574" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f369-0858-e32a-5d84" name="Compulsory HQ:" hidden="false" targetId="19f64928-a1cc-433d-885c-6ebefbe8c517" primary="false"/>
+        <categoryLink id="3fde-4e57-d736-6114" name="HQ:" hidden="false" targetId="57062715-ec54-4808-9960-07ba13cc51e9" primary="true"/>
+        <categoryLink id="6cc3-9ea5-6f43-c88c" name="Unit:" hidden="false" targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" primary="false"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -2031,7 +2038,7 @@
             <categoryLink id="aab8-af47-183e-b24e" name="Independent Character" hidden="false" targetId="725d715e-4c30-4e65-8215-9da23b9b5c1f" primary="false"/>
           </categoryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup id="7b5e-0440-92a7-e1c7" name="Psychic Powers" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="7b5e-0440-92a7-e1c7" name="Psychic Powers" hidden="false" collective="false" import="true" defaultSelectionEntryId="ee3e-97dd-6aa5-1a87">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40df-e1bf-0231-5fee" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbf4-c275-eec5-b0da" type="min"/>
@@ -2079,7 +2086,12 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03cd-cdac-2ab5-9c0c" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="80d6-4a2d-35df-9a87" name="Power Armour" hidden="false" collective="false" import="true" targetId="6a4952ff-8213-4dde-b062-aacfa2c883a8" type="selectionEntry"/>
+            <entryLink id="80d6-4a2d-35df-9a87" name="Power Armour" hidden="false" collective="false" import="true" targetId="6a4952ff-8213-4dde-b062-aacfa2c883a8" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="592b-c465-8572-52ae" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91b2-fc58-534e-c4e2" type="min"/>
+              </constraints>
+            </entryLink>
             <entryLink id="53be-c21e-f779-b5c2" name="Krak Grenades" hidden="false" collective="false" import="true" targetId="336eab77-ba50-475c-8547-b03834cd5256" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c05-e80d-d06b-16cd" type="max"/>
@@ -2120,6 +2132,185 @@
           </characteristics>
         </profile>
       </profiles>
+    </selectionEntry>
+    <selectionEntry id="c37f-e0f6-988f-0574" name="Malum Ferrugine" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6873-f843-9e0f-5293" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="f407-b588-2667-af47" name="Infantry:" hidden="false" targetId="b9c46d78-0d4c-44b4-85a3-d59364156c36" primary="false"/>
+        <categoryLink id="77cd-f0da-8547-d4b0" name="Character" hidden="false" targetId="546a8d3f-47d4-4c80-b30e-e6addf1298f2" primary="false"/>
+        <categoryLink id="b042-b43c-21b7-d421" name="Psyker:" hidden="false" targetId="6882c586-9de3-4f18-97e4-edc841825a02" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="12b6-9c57-2f9e-56ac" name="Malum Ferrugine" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be2b-ef4b-1402-0fc1" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b21-5e38-6f99-6829" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="07f9-dfb3-41b1-2368" name="Malum Ferrugine" hidden="false" typeId="2b6e799b-8afd-4ae9-b80a-234103442598" typeName="Unit">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="36ce3f10-11e9-4add-ae15-3062f27946e7">Infantry (Character, Unique, Psyker, Flyer)</characteristic>
+                <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">13&quot;</characteristic>
+                <characteristic name="WS" typeId="d5a82d3a-18d1-48d0-a9e0-f752cb09e068">6</characteristic>
+                <characteristic name="BS" typeId="253b2a0a-577c-437a-9898-bfc1d22dcef8">5</characteristic>
+                <characteristic name="S" typeId="94c4fa7b-8480-4e99-84ad-92c9768f1472">7</characteristic>
+                <characteristic name="T" typeId="8a92af2d-103b-4847-b535-181cc323038e">6</characteristic>
+                <characteristic name="W" typeId="5e57eecc-4078-4b3a-9087-1cf0055bbabd">4</characteristic>
+                <characteristic name="I" typeId="ed32b28f-9bdc-4312-ba9b-e16cbc61db41">5</characteristic>
+                <characteristic name="A" typeId="4e9d7106-4cea-4d16-a7ea-f2f8f2957234">4</characteristic>
+                <characteristic name="Ld" typeId="9c8deb64-055e-4d01-b341-924389963feb">10</characteristic>
+                <characteristic name="Save" typeId="d8f3cf40-ebb8-45e1-8f50-074a0475a7ed">2+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="3d89-6328-2e01-fa04" name="Witchblood" hidden="false">
+              <description>Malum Ferrugine has the Witchsense Psychic Power and Toxin Cloud Psychic Weapon and does not gain access to any other Disciplines:</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="bf37-5275-2967-7494" name="Relentless" hidden="false" targetId="2800305f-2d6f-4e0e-8d3f-f5e05b31560e" type="rule"/>
+            <infoLink id="0089-dc0f-3222-ec5e" name="Inexorable" hidden="false" targetId="b8932bc5-ce64-423f-8352-7ddef814a894" type="rule"/>
+            <infoLink id="4ff1-ecff-00d1-e49f" name="Bulky (X)" hidden="false" targetId="1e7612dc-20f4-4c63-9297-8884e8c765e6" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Bulky (3)"/>
+              </modifiers>
+            </infoLink>
+            <infoLink id="9cbf-e3bd-c17d-c7ab" name="Stubborn" hidden="false" targetId="4000d119-e086-43d5-9e3c-4533e72072ee" type="rule"/>
+            <infoLink id="1c3f-2861-6722-dede" name="Shrouded (X)" hidden="false" targetId="185d5534-d6c2-466f-a3eb-0ce5b6ae2a2c" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Shrouded (6+)"/>
+              </modifiers>
+            </infoLink>
+            <infoLink id="e10a-ab76-24f8-6e0e" name="Feel No Pain (X)" hidden="false" targetId="dbe120b1-50cf-4716-b69d-c9d9379e2251" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Feel No Pain (5+)"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="7a45-f817-68a1-dde6" name="Independent Character" hidden="false" targetId="725d715e-4c30-4e65-8215-9da23b9b5c1f" primary="false"/>
+            <categoryLink id="2015-311e-ee5b-553f" name="Corrupted Engine Sub-type" hidden="false" targetId="1fa32485-454c-4ea2-b468-12540d7c206f" primary="false"/>
+            <categoryLink id="34aa-cad1-2b11-68b3" name="Corrupted Sub-type:" hidden="false" targetId="e9163d72-5e1f-4a8b-91b6-4b29ea94196b" primary="false"/>
+            <categoryLink id="0af6-29fb-5a9d-7d0a" name="Daemon Primarch Unit Type" hidden="false" targetId="a3935604-ea91-4238-a288-50a86d07739d" primary="false"/>
+            <categoryLink id="9f5f-c391-ae9b-5e2c" name="Daemon Unit-type:" hidden="false" targetId="477c7f82-c21d-4df4-ac10-fe28ce47df1f" primary="false"/>
+            <categoryLink id="4747-3ea8-2e40-4528" name="Flyer Sub-type:" hidden="false" targetId="5e5fcfb5-8af4-41d9-bf9f-4a3583ed2e81" primary="false"/>
+            <categoryLink id="6e36-6b37-4376-ed96" name="Unique Sub-type" hidden="false" targetId="6eb1062b-2fae-49d2-aaa7-569c39fa3324" primary="false"/>
+          </categoryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="c40b-1270-6362-48a1" name="Psychic Powers" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="302d-245d-fb92-8328" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06cd-2e19-6623-b525" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="1af0-6355-8410-2f44" name="Psychic Powers" hidden="false" collective="false" import="true" type="upgrade">
+                  <profiles>
+                    <profile id="408e-0100-eb2c-c04c" name="Witchsense" hidden="false" typeId="30c6f28b-2ce5-416e-985a-95f8b066f0aa" typeName="Psychic Power">
+                      <characteristics>
+                        <characteristic name="Description" typeId="329e2e8a-351d-4e3b-af55-a0883b0ca6e3">At the start of any Assault Phase Calas Typhon’s controlling player may choose to make a Psychic check for him. If that Check is passed then Calas Typhon’s Weapon Skill Characteristic is increased by +1 and his Attacks Characteristic is increased by D3 for the duration of that Assault Phase. If the Check is failed then Calas Typhon suffers Perils of the Warp.</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile id="fff1-e83a-4a74-98e0" name="Toxin Cloud" hidden="false" typeId="9504c24c-dc04-4a9c-8d8a-d86468943dd6" typeName="Psychic Weapon">
+                      <comment>Psychic Focus: Before making any To Hit rolls with this weapon, the Psyker must make a Psychic check. If the Check is passed then the Psyker may attack as normal using the profile shown for this weapon. If the Check is failed then the Psyker suffers Perils of the Warp, and if the model is not removed as a casualty then it may attack as normal but may not use this weapon.</comment>
+                      <characteristics>
+                        <characteristic name="Range" typeId="f8dab760-4891-41f3-902e-d516f407d272">24&quot;</characteristic>
+                        <characteristic name="Strength" typeId="7139d99c-5439-47f8-aa41-c38a67bc1e14">1</characteristic>
+                        <characteristic name="AP" typeId="8b95b3d8-f3cb-4a7c-825a-302cc79b590c">4</characteristic>
+                        <characteristic name="Type" typeId="a3362678-4ada-4992-988d-034ddc5d17db">Assault 1, Large Blast (5&quot;), Fleshbane, Pinning, Psychic Focus</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="9361-25f1-13dc-d091" name="Fleshbane" hidden="false" targetId="92dabf82-d6aa-4b74-a8ac-273c68b2ffce" type="rule"/>
+                    <infoLink id="ea21-9ddc-84f8-82f8" name="Pinning" hidden="false" targetId="932be210-d2df-4c82-a8c8-41b30d389267" type="rule"/>
+                    <infoLink id="005b-6c63-c672-1790" name="Psychic Focus" hidden="false" targetId="d33ea3e0-be46-4c20-85b5-baba336b3ff9" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="6cfe-1a98-c8ef-b79f" name="Hellforged Sword" hidden="false" collective="false" import="true" targetId="897f-d62b-a3e1-8dea" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63eb-e00d-1256-52b7" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db13-6381-c515-ac6c" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="2e0e-b8ae-2fac-9f8c" name="Malefic Talons" hidden="false" collective="false" import="true" targetId="ac9c-9f21-4998-a4df" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b7e-73b2-dcca-4e7c" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="968a-0201-d2aa-ab69" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="5cbd-b303-2b4c-0f14" name="Daemon" hidden="false" collective="false" import="true" targetId="36ed9721-77f3-432f-a5dd-a9e5094a1807" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="e7f4-a664-74d6-17e1" name="Warlord" hidden="false" collective="false" import="true" targetId="1887d318-5716-41f5-8b3e-1e6dff0c8e4c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bedd-786a-7733-1ff9" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="170.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="897f-d62b-a3e1-8dea" name="Hellforged Sword" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="cb68-699a-dd9f-128d" name="Hellforged Sword" hidden="false" typeId="6525dede-e40b-4bd7-939d-60de13a16105" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">-</characteristic>
+            <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">User</characteristic>
+            <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">4</characteristic>
+            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Melee, Brutal (2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="077f-c959-c50f-abcb" name="Brutal (X)" hidden="false" targetId="d3e7a32a-93be-4480-a8e4-d3af5d4cb856" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Brutal (2)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="43b0-c08b-88d1-98a7" name="Rending (X)" hidden="false" targetId="2ec1d6f7-91d8-4fbe-9795-b3d9a894781f" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Rending (5+)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="ac9c-9f21-4998-a4df" name="Malefic Talons" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="98a9-e635-3cb3-5e01" name="Malefic Talons" hidden="false" typeId="6525dede-e40b-4bd7-939d-60de13a16105" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">-</characteristic>
+            <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">User</characteristic>
+            <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">4</characteristic>
+            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Melee, </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="bb23-91b4-dc52-9c4b" name="Reaping Blow (X)" hidden="false" targetId="64281c71-7fe2-4659-9a91-8386a898c365" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Reaping Blow (1)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
