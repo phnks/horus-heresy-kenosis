@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="77a7-4620-5791-42cd" name="2022 - Chaos Death Guard" revision="17" battleScribeVersion="2.03" library="false" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="86" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="77a7-4620-5791-42cd" name="2022 - Chaos Death Guard" revision="18" battleScribeVersion="2.03" library="false" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="86" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="94b5-ee13-a2b6-221a" name="Plague Marine Squad" hidden="false" collective="false" import="true" targetId="41ac-0dde-a938-7dc4" type="selectionEntry">
       <categoryLinks>
@@ -50,6 +50,13 @@
       <categoryLinks>
         <categoryLink id="6c74-5898-7edb-42b3" name="Elites:" hidden="false" targetId="c142153b-5c2c-443d-9502-2c00888474ef" primary="true"/>
         <categoryLink id="94e8-4046-f11a-4af1" name="Unit:" hidden="false" targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4242-eacb-2d35-209d" name="Malignant Plaguecaster" hidden="false" collective="false" import="true" targetId="896c-c5fd-4c02-7d81" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="d44b-313e-179c-d7ed" name="Unit:" hidden="false" targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" primary="false"/>
+        <categoryLink id="dc34-caef-9416-efe6" name="New CategoryLink" hidden="false" targetId="57062715-ec54-4808-9960-07ba13cc51e9" primary="true"/>
+        <categoryLink id="88cb-2051-ae07-a9b1" name="Compulsory HQ:" hidden="false" targetId="19f64928-a1cc-433d-885c-6ebefbe8c517" primary="false"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -1080,7 +1087,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="70.0"/>
+            <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="74.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c96b-d1ce-ed10-2af5" name="Deathshroud Champion" hidden="false" collective="false" import="true" type="model">
@@ -1134,7 +1141,7 @@
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="70.0"/>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="74.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="921e-79c5-13f5-8943" name="Manreaper" hidden="false" collective="false" import="true" type="upgrade">
@@ -1669,8 +1676,8 @@
                 <characteristic name="BS" typeId="253b2a0a-577c-437a-9898-bfc1d22dcef8">4</characteristic>
                 <characteristic name="S" typeId="94c4fa7b-8480-4e99-84ad-92c9768f1472">4</characteristic>
                 <characteristic name="T" typeId="8a92af2d-103b-4847-b535-181cc323038e">5</characteristic>
-                <characteristic name="W" typeId="5e57eecc-4078-4b3a-9087-1cf0055bbabd">2</characteristic>
-                <characteristic name="I" typeId="ed32b28f-9bdc-4312-ba9b-e16cbc61db41">4</characteristic>
+                <characteristic name="W" typeId="5e57eecc-4078-4b3a-9087-1cf0055bbabd">1</characteristic>
+                <characteristic name="I" typeId="ed32b28f-9bdc-4312-ba9b-e16cbc61db41">3</characteristic>
                 <characteristic name="A" typeId="4e9d7106-4cea-4d16-a7ea-f2f8f2957234">3</characteristic>
                 <characteristic name="Ld" typeId="9c8deb64-055e-4d01-b341-924389963feb">9</characteristic>
                 <characteristic name="Save" typeId="d8f3cf40-ebb8-45e1-8f50-074a0475a7ed">3+</characteristic>
@@ -1793,8 +1800,8 @@
                 <characteristic name="BS" typeId="253b2a0a-577c-437a-9898-bfc1d22dcef8">4</characteristic>
                 <characteristic name="S" typeId="94c4fa7b-8480-4e99-84ad-92c9768f1472">4</characteristic>
                 <characteristic name="T" typeId="8a92af2d-103b-4847-b535-181cc323038e">5</characteristic>
-                <characteristic name="W" typeId="5e57eecc-4078-4b3a-9087-1cf0055bbabd">2</characteristic>
-                <characteristic name="I" typeId="ed32b28f-9bdc-4312-ba9b-e16cbc61db41">4</characteristic>
+                <characteristic name="W" typeId="5e57eecc-4078-4b3a-9087-1cf0055bbabd">1</characteristic>
+                <characteristic name="I" typeId="ed32b28f-9bdc-4312-ba9b-e16cbc61db41">3</characteristic>
                 <characteristic name="A" typeId="4e9d7106-4cea-4d16-a7ea-f2f8f2957234">3</characteristic>
                 <characteristic name="Ld" typeId="9c8deb64-055e-4d01-b341-924389963feb">9</characteristic>
                 <characteristic name="Save" typeId="d8f3cf40-ebb8-45e1-8f50-074a0475a7ed">3+</characteristic>
@@ -1904,8 +1911,8 @@
                 <characteristic name="BS" typeId="253b2a0a-577c-437a-9898-bfc1d22dcef8">4</characteristic>
                 <characteristic name="S" typeId="94c4fa7b-8480-4e99-84ad-92c9768f1472">4</characteristic>
                 <characteristic name="T" typeId="8a92af2d-103b-4847-b535-181cc323038e">5</characteristic>
-                <characteristic name="W" typeId="5e57eecc-4078-4b3a-9087-1cf0055bbabd">2</characteristic>
-                <characteristic name="I" typeId="ed32b28f-9bdc-4312-ba9b-e16cbc61db41">4</characteristic>
+                <characteristic name="W" typeId="5e57eecc-4078-4b3a-9087-1cf0055bbabd">1</characteristic>
+                <characteristic name="I" typeId="ed32b28f-9bdc-4312-ba9b-e16cbc61db41">3</characteristic>
                 <characteristic name="A" typeId="4e9d7106-4cea-4d16-a7ea-f2f8f2957234">3</characteristic>
                 <characteristic name="Ld" typeId="9c8deb64-055e-4d01-b341-924389963feb">8</characteristic>
                 <characteristic name="Save" typeId="d8f3cf40-ebb8-45e1-8f50-074a0475a7ed">3+</characteristic>
@@ -1970,6 +1977,146 @@
         <profile id="703a-630d-5575-c63a" name="Tainted Narthecium" hidden="false" typeId="04ae4d9f-9a14-4ace-8f86-56ec1229c5a1" typeName="Wargear Item">
           <characteristics>
             <characteristic name="Description" typeId="b041e7a3-08e8-4a60-a7e7-e50e963bc010">All models with the Infantry or Cavalry Unit Types in a unit that includes at least one model with a tainted narthecium reroll 1s for any Feel No Pain (X) special rule rolls. Units that include more than one tainted narthecium do not stack the rerolls of the Feel No Pain (X) special rule and gain no additional benefit. Models with the Artillery Sub-type are not affected by this special rule and do not gain the rerolls of the Feel No Pain (X) special rule.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="896c-c5fd-4c02-7d81" name="Malignant Plaguecaster" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="77b3-2b36-3197-6dfb" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="1547-2ca7-9497-fbf9" name="Infantry:" hidden="false" targetId="b9c46d78-0d4c-44b4-85a3-d59364156c36" primary="false"/>
+        <categoryLink id="a1a0-ddc2-1a30-b199" name="Character" hidden="false" targetId="546a8d3f-47d4-4c80-b30e-e6addf1298f2" primary="false"/>
+        <categoryLink id="8901-dd05-f452-fb01" name="Psyker:" hidden="false" targetId="6882c586-9de3-4f18-97e4-edc841825a02" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="ea45-fc0b-6698-9103" name="Malignant Plaguecaster" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="367a-dce4-1528-fa69" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e109-b722-755a-6c9a" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="55d9-e907-a0d6-9e24" name="Malignant Plaguecaster" hidden="false" typeId="2b6e799b-8afd-4ae9-b80a-234103442598" typeName="Unit">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="36ce3f10-11e9-4add-ae15-3062f27946e7">Infantry (Character, Psyker)</characteristic>
+                <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">6&quot;</characteristic>
+                <characteristic name="WS" typeId="d5a82d3a-18d1-48d0-a9e0-f752cb09e068">4</characteristic>
+                <characteristic name="BS" typeId="253b2a0a-577c-437a-9898-bfc1d22dcef8">4</characteristic>
+                <characteristic name="S" typeId="94c4fa7b-8480-4e99-84ad-92c9768f1472">4</characteristic>
+                <characteristic name="T" typeId="8a92af2d-103b-4847-b535-181cc323038e">5</characteristic>
+                <characteristic name="W" typeId="5e57eecc-4078-4b3a-9087-1cf0055bbabd">1</characteristic>
+                <characteristic name="I" typeId="ed32b28f-9bdc-4312-ba9b-e16cbc61db41">3</characteristic>
+                <characteristic name="A" typeId="4e9d7106-4cea-4d16-a7ea-f2f8f2957234">3</characteristic>
+                <characteristic name="Ld" typeId="9c8deb64-055e-4d01-b341-924389963feb">8</characteristic>
+                <characteristic name="Save" typeId="d8f3cf40-ebb8-45e1-8f50-074a0475a7ed">2+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="bd9d-d6b8-1a2b-389d" name="Witchblood" hidden="false">
+              <description>Malignant Plaguecaster has the Witchsense Psychic Power and Toxin Cloud Psychic Weapon and does not gain access to any other Disciplines:</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="3a1e-b417-977b-f3c1" name="Relentless" hidden="false" targetId="2800305f-2d6f-4e0e-8d3f-f5e05b31560e" type="rule"/>
+            <infoLink id="2218-5ab6-ef0a-da78" name="Inexorable" hidden="false" targetId="b8932bc5-ce64-423f-8352-7ddef814a894" type="rule"/>
+            <infoLink id="e826-faee-fc43-c02e" name="Feel No Pain (X)" hidden="false" targetId="dbe120b1-50cf-4716-b69d-c9d9379e2251" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Feel No Pain (5+)"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="aab8-af47-183e-b24e" name="Independent Character" hidden="false" targetId="725d715e-4c30-4e65-8215-9da23b9b5c1f" primary="false"/>
+          </categoryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="7b5e-0440-92a7-e1c7" name="Psychic Powers" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40df-e1bf-0231-5fee" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbf4-c275-eec5-b0da" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="ee3e-97dd-6aa5-1a87" name="Psychic Powers" hidden="false" collective="false" import="true" type="upgrade">
+                  <profiles>
+                    <profile id="7674-c6c7-e978-7754" name="Witchsense" hidden="false" typeId="30c6f28b-2ce5-416e-985a-95f8b066f0aa" typeName="Psychic Power">
+                      <characteristics>
+                        <characteristic name="Description" typeId="329e2e8a-351d-4e3b-af55-a0883b0ca6e3">At the start of any Assault Phase Malignant Plaguecaster’s controlling player may choose to make a Psychic check for him. If that Check is passed then Malignant Plaguecaster’s Weapon Skill Characteristic is increased by +1 and his Attacks Characteristic is increased by D3 for the duration of that Assault Phase. If the Check is failed then Malignant Plaguecaster suffers Perils of the Warp.</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile id="be10-96e7-7b01-2d5b" name="Toxin Cloud" hidden="false" typeId="9504c24c-dc04-4a9c-8d8a-d86468943dd6" typeName="Psychic Weapon">
+                      <comment>Psychic Focus: Before making any To Hit rolls with this weapon, the Psyker must make a Psychic check. If the Check is passed then the Psyker may attack as normal using the profile shown for this weapon. If the Check is failed then the Psyker suffers Perils of the Warp, and if the model is not removed as a casualty then it may attack as normal but may not use this weapon.</comment>
+                      <characteristics>
+                        <characteristic name="Range" typeId="f8dab760-4891-41f3-902e-d516f407d272">24&quot;</characteristic>
+                        <characteristic name="Strength" typeId="7139d99c-5439-47f8-aa41-c38a67bc1e14">1</characteristic>
+                        <characteristic name="AP" typeId="8b95b3d8-f3cb-4a7c-825a-302cc79b590c">4</characteristic>
+                        <characteristic name="Type" typeId="a3362678-4ada-4992-988d-034ddc5d17db">Assault 1, Large Blast (5&quot;), Fleshbane, Pinning, Psychic Focus</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="784c-ea1d-0323-47f1" name="Fleshbane" hidden="false" targetId="92dabf82-d6aa-4b74-a8ac-273c68b2ffce" type="rule"/>
+                    <infoLink id="1afb-460a-1ebb-f5e3" name="Pinning" hidden="false" targetId="932be210-d2df-4c82-a8c8-41b30d389267" type="rule"/>
+                    <infoLink id="d537-b581-978f-b635" name="Psychic Focus" hidden="false" targetId="d33ea3e0-be46-4c20-85b5-baba336b3ff9" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="1c03-fb6a-8ce1-e51d" name="Blight Grenades" hidden="false" collective="false" import="true" targetId="3a93-0662-39a2-abc0" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7fd-4da3-5623-1ced" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32fe-5f98-17e1-4603" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="fca9-4cfa-2c7a-5085" name="Bolt Pistol" hidden="false" collective="false" import="true" targetId="18b6fbf7-b2eb-4122-aefb-e48e661d4eb3" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84a5-88ed-2595-67f1" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03cd-cdac-2ab5-9c0c" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="80d6-4a2d-35df-9a87" name="Power Armour" hidden="false" collective="false" import="true" targetId="6a4952ff-8213-4dde-b062-aacfa2c883a8" type="selectionEntry"/>
+            <entryLink id="53be-c21e-f779-b5c2" name="Krak Grenades" hidden="false" collective="false" import="true" targetId="336eab77-ba50-475c-8547-b03834cd5256" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c05-e80d-d06b-16cd" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b67-7fd5-2693-a43b" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="58fb-63ed-f6aa-fd0a" name="Corrupted Staff" hidden="false" collective="false" import="true" targetId="702b-2b6e-d29a-db59" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26ba-70d5-3b51-bee3" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="046a-1aa0-dc6e-5b10" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="bb58-c90b-7b1e-927e" name="Warlord" hidden="false" collective="false" import="true" targetId="1887d318-5716-41f5-8b3e-1e6dff0c8e4c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="165a-d555-6c21-eee1" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="95.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="702b-2b6e-d29a-db59" name="Corrupted Staff" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="a0a2-a4de-f632-53f3" name="Corrupted Staff" hidden="false" typeId="6525dede-e40b-4bd7-939d-60de13a16105" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">-</characteristic>
+            <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">+2</characteristic>
+            <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">5</characteristic>
+            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Melee</characteristic>
           </characteristics>
         </profile>
       </profiles>
