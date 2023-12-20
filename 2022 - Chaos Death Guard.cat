@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="77a7-4620-5791-42cd" name="2022 - Chaos Death Guard" revision="22" battleScribeVersion="2.03" library="false" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="87" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="77a7-4620-5791-42cd" name="2022 - Chaos Death Guard" revision="23" battleScribeVersion="2.03" library="false" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="87" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="94b5-ee13-a2b6-221a" name="Plague Marine Squad" hidden="false" collective="false" import="true" targetId="41ac-0dde-a938-7dc4" type="selectionEntry">
       <categoryLinks>
@@ -2068,6 +2068,17 @@
           <categoryLinks>
             <categoryLink id="aab8-af47-183e-b24e" name="Independent Character" hidden="false" targetId="725d715e-4c30-4e65-8215-9da23b9b5c1f" primary="false"/>
           </categoryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="04e6-aad9-3176-4e63" name="Psychic Disciplines" hidden="false" collective="false" import="true" defaultSelectionEntryId="dad0-2759-045e-2646">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be25-bc12-550a-fbbf" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0afd-6692-e091-b7dd" type="min"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="dad0-2759-045e-2646" name="Psychic Discipline: Discipline of Nurgle" hidden="false" collective="false" import="true" targetId="afc8-1d72-ef3a-aaf2" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
           <entryLinks>
             <entryLink id="1c03-fb6a-8ce1-e51d" name="Blight Grenades" hidden="false" collective="false" import="true" targetId="3a93-0662-39a2-abc0" type="selectionEntry">
               <constraints>
@@ -2098,15 +2109,6 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26ba-70d5-3b51-bee3" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="046a-1aa0-dc6e-5b10" type="max"/>
               </constraints>
-            </entryLink>
-            <entryLink id="aeba-35c9-ccbd-06df" name="Psychic Disciplines" hidden="false" collective="false" import="true" targetId="e6eb5140-60ee-469c-8808-793ac841a171" type="selectionEntryGroup">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf86-bcac-a12d-055a" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f257-eeab-5929-49eb" type="min"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="49a7-4727-d0b1-0c63" name="Psychic Discipline: Discipline of Nurgle" hidden="false" collective="false" import="true" targetId="afc8-1d72-ef3a-aaf2" type="selectionEntry"/>
-              </entryLinks>
             </entryLink>
           </entryLinks>
           <costs>
@@ -2338,9 +2340,6 @@
 
 Curse of the Leper (Psychic Power)
 Plague Wind (Psychic Weapon)</description>
-        </rule>
-        <rule id="9e3d-4257-35ae-ac45" name="Pyromantic Desolation" publicationId="0dd4f866-b0f1-4486-9dfe-6f1795c88cac" page="324" hidden="false">
-          <description>In addition to attacking normally in the Assault Phase, at the beginning of the Initiative Step at which the model using this Psychic Weapon would normally attack, but before any Pile-in moves or attacks are made, place a Blast (3&quot;) marker centred on the attacking model. All other models wholly or partially under the marker, friendly or enemy, suffer an automatic Hit with the profile shown. These Hits are resolved immediately and do not count for the purpose of resolving the winner of an assault. Once they are resolved, the attacking model may Pile-in and make any other attacks as normal.</description>
         </rule>
       </rules>
       <infoLinks>
