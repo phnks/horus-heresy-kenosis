@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="77a7-4620-5791-42cd" name="2022 - Chaos Death Guard" revision="24" battleScribeVersion="2.03" library="false" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="87" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="77a7-4620-5791-42cd" name="2022 - Chaos Death Guard" revision="25" battleScribeVersion="2.03" library="false" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="88" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="94b5-ee13-a2b6-221a" name="Plague Marine Squad" hidden="false" collective="false" import="true" targetId="41ac-0dde-a938-7dc4" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="402d-fdcc-1263-518a" name="Compulsory Troops:" hidden="false" targetId="a9ded219-d94d-4bd0-b6a9-dd75915a39ad" primary="false"/>
         <categoryLink id="47fb-8941-cbd3-ebd4" name="Troops:" hidden="false" targetId="1bfd7c23-4ad7-418a-8351-828b2da671e6" primary="true"/>
         <categoryLink id="8c5d-eb81-5d3e-7ceb" name="Unit:" hidden="false" targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" primary="false"/>
       </categoryLinks>
@@ -22,7 +21,6 @@
     </entryLink>
     <entryLink id="138e-396c-96ee-600e" name="Lord of Contagion" hidden="false" collective="false" import="true" targetId="0698-fe89-5081-d8c4" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="d3fc-861e-dbd3-30c8" name="Compulsory HQ:" hidden="false" targetId="19f64928-a1cc-433d-885c-6ebefbe8c517" primary="false"/>
         <categoryLink id="1ccd-6a92-35bb-be77" name="HQ:" hidden="false" targetId="57062715-ec54-4808-9960-07ba13cc51e9" primary="true"/>
         <categoryLink id="d649-422a-e655-ee9e" name="Unit:" hidden="false" targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" primary="false"/>
       </categoryLinks>
@@ -30,7 +28,6 @@
     <entryLink id="b200-70fe-8fb6-2cd0" name="Death Guard Chaos Lord" hidden="false" collective="false" import="true" targetId="f701-b851-374d-1b3f" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="2cfd-8dcc-72b3-6864" name="HQ:" hidden="false" targetId="57062715-ec54-4808-9960-07ba13cc51e9" primary="true"/>
-        <categoryLink id="2437-585a-0614-a926" name="Compulsory HQ:" hidden="false" targetId="19f64928-a1cc-433d-885c-6ebefbe8c517" primary="false"/>
         <categoryLink id="a9d8-1b75-929b-f2c9" name="Unit:" hidden="false" targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" primary="false"/>
       </categoryLinks>
     </entryLink>
@@ -56,19 +53,16 @@
       <categoryLinks>
         <categoryLink id="d44b-313e-179c-d7ed" name="Unit:" hidden="false" targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" primary="false"/>
         <categoryLink id="dc34-caef-9416-efe6" name="New CategoryLink" hidden="false" targetId="57062715-ec54-4808-9960-07ba13cc51e9" primary="true"/>
-        <categoryLink id="88cb-2051-ae07-a9b1" name="Compulsory HQ:" hidden="false" targetId="19f64928-a1cc-433d-885c-6ebefbe8c517" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="5fce-2596-dedd-51d4" name="Malum Ferrugine" hidden="false" collective="false" import="true" targetId="c37f-e0f6-988f-0574" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="f369-0858-e32a-5d84" name="Compulsory HQ:" hidden="false" targetId="19f64928-a1cc-433d-885c-6ebefbe8c517" primary="false"/>
         <categoryLink id="3fde-4e57-d736-6114" name="HQ:" hidden="false" targetId="57062715-ec54-4808-9960-07ba13cc51e9" primary="true"/>
         <categoryLink id="6cc3-9ea5-6f43-c88c" name="Unit:" hidden="false" targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="945f-e949-c3c3-2939" name="Poxwalkers" hidden="false" collective="false" import="true" targetId="2305-e25c-07ad-1638" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="ec23-7156-a85f-1626" name="Compulsory Troops:" hidden="false" targetId="a9ded219-d94d-4bd0-b6a9-dd75915a39ad" primary="false"/>
         <categoryLink id="010f-c36c-6521-bd18" name="Troops:" hidden="false" targetId="1bfd7c23-4ad7-418a-8351-828b2da671e6" primary="true"/>
         <categoryLink id="9d89-63a4-c4ad-b2a2" name="Unit:" hidden="false" targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" primary="false"/>
       </categoryLinks>
@@ -2368,7 +2362,7 @@ Plague Wind (Psychic Weapon)</description>
       <infoLinks>
         <infoLink id="380e-8719-4811-9bc0" name="Feel No Pain (X)" hidden="false" targetId="dbe120b1-50cf-4716-b69d-c9d9379e2251" type="rule">
           <modifiers>
-            <modifier type="set" field="name" value="Feel No Pain (6+)"/>
+            <modifier type="set" field="name" value="Feel No Pain (5+)"/>
           </modifiers>
         </infoLink>
         <infoLink id="0370-635d-3c8a-9121" name="Fearless" hidden="false" targetId="a8b0b982-b521-4b68-8328-a2cccc69bb3c" type="rule"/>
@@ -2397,7 +2391,12 @@ Plague Wind (Psychic Weapon)</description>
             </profile>
           </profiles>
           <entryLinks>
-            <entryLink id="0b99-721d-bb82-0ea1" name="Close Combat Weapon" hidden="false" collective="false" import="true" targetId="dafed1d4-7a4a-416a-af1d-ace6fd6e49ca" type="selectionEntry"/>
+            <entryLink id="0b99-721d-bb82-0ea1" name="Close Combat Weapon" hidden="false" collective="false" import="true" targetId="dafed1d4-7a4a-416a-af1d-ace6fd6e49ca" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="960a-95bf-6b3d-e672" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d431-829d-6b43-207c" type="max"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="5.0"/>
@@ -2405,8 +2404,262 @@ Plague Wind (Psychic Weapon)</description>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="50.0"/>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="4cb4-764a-7da8-aa37" name="Helbrute Talon" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="bdf4-3258-5d30-4cae" name="Dreadnought Talon" hidden="false" targetId="dcdb22ce-065d-40ad-98ec-e29549713538" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0f69-8ee8-f2a6-493c" name="Heavy Sub-type:" hidden="false" targetId="11eb08d3-52e5-4c7a-823b-de5c08945939" primary="false"/>
+        <categoryLink id="a839-9f87-04c6-ea31" name="Dreadnought Unit-type:" hidden="false" targetId="e2f7bb4e-6004-4fa0-9adb-3f9a50a93025" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="34d4-b2ff-b1d0-f19a" name="Helbrute" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2304-fa3d-f99c-e007" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2740-971e-a600-928e" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="da5e-8137-22f2-9906" name="Ferromantic Deflector" hidden="false" typeId="04ae4d9f-9a14-4ace-8f86-56ec1229c5a1" typeName="Wargear Item">
+              <characteristics>
+                <characteristic name="Description" typeId="b041e7a3-08e8-4a60-a7e7-e50e963bc010">A model with an ferromantic deflector gains a 5+ Invulnerable Save and any model with a ferromantic deflector and a Wounds Characteristic that suffers an unsaved Wound with the Instant Death special rule is not immediately removed as a casualty, but instead loses three Wounds instead of one for each unsaved Wound with the Instant Death special rule inflicted on it. In addition, when a model with a ferromantic deflector loses its last Wound or Hull Point, but before it is removed as a casualty or replaced with a Wreck, all models both friendly and enemy within D6&quot; suffer an automatic Hit at Str 6, AP -.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="6f3a-03e8-90c7-e55f" name="Helbrute" hidden="false" typeId="2b6e799b-8afd-4ae9-b80a-234103442598" typeName="Unit">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="36ce3f10-11e9-4add-ae15-3062f27946e7">Dreadnought (Heavy)</characteristic>
+                <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">8&quot;</characteristic>
+                <characteristic name="WS" typeId="d5a82d3a-18d1-48d0-a9e0-f752cb09e068">4</characteristic>
+                <characteristic name="BS" typeId="253b2a0a-577c-437a-9898-bfc1d22dcef8">4</characteristic>
+                <characteristic name="S" typeId="94c4fa7b-8480-4e99-84ad-92c9768f1472">6</characteristic>
+                <characteristic name="T" typeId="8a92af2d-103b-4847-b535-181cc323038e">6</characteristic>
+                <characteristic name="W" typeId="5e57eecc-4078-4b3a-9087-1cf0055bbabd">5</characteristic>
+                <characteristic name="I" typeId="ed32b28f-9bdc-4312-ba9b-e16cbc61db41">4</characteristic>
+                <characteristic name="A" typeId="4e9d7106-4cea-4d16-a7ea-f2f8f2957234">3</characteristic>
+                <characteristic name="Ld" typeId="9c8deb64-055e-4d01-b341-924389963feb">9</characteristic>
+                <characteristic name="Save" typeId="d8f3cf40-ebb8-45e1-8f50-074a0475a7ed">2+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="3115-9b8d-5e2b-93b2" name="Rampage (X)" hidden="false" targetId="f839bcc8-df11-440d-b5ee-6da40b0a3d51" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Rampage (1)"/>
+              </modifiers>
+            </infoLink>
+            <infoLink id="29b0-84fb-2d41-eff2" name="Rage (X)" hidden="false" targetId="0cc8c1af-d222-450e-85b2-710155b7787f" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Rage (2)"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="8ecf-c72c-0d63-6e5f" name="4) May take:" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f3f-6ff2-b959-9b8e" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="62b4-a854-7545-ea4b" name="Searchlights" hidden="false" collective="false" import="true" targetId="8cdfbd2f-9196-4c6d-94e4-e57c56aaf1c6" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="349f-a9f2-db94-dd35" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="5.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="d39b-e62b-150b-071a" name="3) May replace an in-built combi-bolter with one of the following:" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9015-dce8-f3fe-71f9" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c003-5736-97ae-fc24" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="8796-2892-084d-efd6" name="Combi-Bolter" hidden="false" collective="false" import="true" targetId="8eb1924b-5770-46c3-ba7b-d3d88af3f686" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6943-3b92-a585-dfdd" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="2.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="9331-ddb3-913d-4caf" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="c60dbb35-cf8e-4604-bf0a-ce8b2831c2c5" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93a2-f5c9-b643-8621" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="14.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="bcaa-756b-f8f5-d963" name="1) Weapon Option 1" hidden="false" collective="false" import="true" defaultSelectionEntryId="a09a-57de-f6cf-ab47">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d34e-a183-1527-c12b" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5a0-00a5-09c7-457f" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="a09a-57de-f6cf-ab47" name="Multi-Melta" hidden="false" collective="false" import="true" targetId="86bb5849-4d26-493a-a46f-eff7bbfd4011" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="20.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="ee02-cec8-2eb7-7ae9" name="Twin-linked Heavy Bolter" hidden="false" collective="false" import="true" targetId="6ce09fd0-41da-4954-b6e8-e8d8668996fd" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="17.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="62c8-88e9-6281-a990" name="Twin-linked Lascannon" hidden="false" collective="false" import="true" targetId="b1d6593c-0c08-4691-81f3-5af597345a2b" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="40.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="8489-88fb-06d7-4a22" name="Reaper Autocannon" hidden="false" collective="false" import="true" targetId="06ee89a9-65d2-4bc2-a378-914cadc1e280" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="10.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="51ab-8a22-2817-f3c7" name="Helbrute Fist" hidden="false" collective="false" import="true" targetId="0e2c-4e93-a845-2208" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="20.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="0c7e-f991-0491-d993" name="Helbrute Plasma Cannon" hidden="false" collective="false" import="true" targetId="4d93-6500-0284-18ee" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="16.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="eb3c-7ef1-1766-f88b" name="2) Weapon Option 2" hidden="false" collective="false" import="true" defaultSelectionEntryId="ac0b-47f3-4d4c-0903">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a982-4172-6b5c-7d4b" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7dc-b152-47cf-2b66" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="ac0b-47f3-4d4c-0903" name="Helbrute Fist" hidden="false" collective="false" import="true" targetId="0e2c-4e93-a845-2208" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="10.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="da0b-be5c-5a86-ea68" name="Missile Launcher" hidden="false" collective="false" import="true" targetId="361f5c29-3611-4215-a564-64ea4e066a89" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="20.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="adf0-d036-e412-18af" name="Helbrute Hammer" hidden="false" collective="false" import="true" targetId="df77-82c6-0508-e769" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="30.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="4062-1184-cc27-0fdd" name="Power Scourge" hidden="false" collective="false" import="true" targetId="037c-51a2-8848-22df" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="25.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="60.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="415f-f99c-e277-ee70" name="Dedicated Transport" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="1ff3-105a-9abe-720e" name="Dreadclaw Drop Pod" hidden="false" collective="false" import="true" targetId="ddf8de80-43dd-4f3b-9c9b-e0d2c1947b9c" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63b8-addb-4ae9-b7eb" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="5fdd-741f-15fd-7c96" name="Dreadnought Drop Pod" hidden="false" collective="false" import="true" targetId="e9a86042-6898-4830-9895-0a2864167efe" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac1e-0d19-042e-55ad" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0e2c-4e93-a845-2208" name="Helbrute Fist" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="0173-2099-8ed0-5f6e" name="Helbrute Fist" hidden="false" typeId="6525dede-e40b-4bd7-939d-60de13a16105" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">-</characteristic>
+            <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">x2</characteristic>
+            <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">3</characteristic>
+            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Melee, Brutal (2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="217c-8046-a0cf-55ff" name="Brutal (X)" hidden="false" targetId="d3e7a32a-93be-4480-a8e4-d3af5d4cb856" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Brutal (2)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="4d93-6500-0284-18ee" name="Helbrute Plasma Cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="340a-bdd9-f45c-aee6" name="Helbrute Plasma Cannon" hidden="false" typeId="6525dede-e40b-4bd7-939d-60de13a16105" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">36&quot;</characteristic>
+            <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">8</characteristic>
+            <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">3</characteristic>
+            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Heavy 1, Blast (3&quot;), Gets Hot</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c905-5a50-ed31-5bcf" name="Blast" hidden="false" targetId="73191d9c-a0f7-4892-b200-af0a1e88a14b" type="rule"/>
+        <infoLink id="2624-9845-9035-1d92" name="Gets Hot" hidden="false" targetId="73957c88-0160-421b-951f-4f343f993618" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="df77-82c6-0508-e769" name="Helbrute Hammer" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="1f67-bee3-d3da-2339" name="Helbrute Hammer" hidden="false" typeId="6525dede-e40b-4bd7-939d-60de13a16105" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">-</characteristic>
+            <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">x2</characteristic>
+            <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">2</characteristic>
+            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Melee, Unweidly, Brutal (2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="69be-380a-9b74-aef3" name="Unwieldy" hidden="false" targetId="b7840f2c-55f9-4706-9d08-8d2244a6670a" type="rule"/>
+        <infoLink id="09c2-250c-ec3c-5344" name="Brutal (X)" hidden="false" targetId="d3e7a32a-93be-4480-a8e4-d3af5d4cb856" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Brutal (2)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="037c-51a2-8848-22df" name="Power Scourge" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="16a5-196b-8223-d570" name="Power Scourge" hidden="false" typeId="6525dede-e40b-4bd7-939d-60de13a16105" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">-</characteristic>
+            <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">+2</characteristic>
+            <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">4</characteristic>
+            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Melee, Reaping Blow (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8fe5-3439-5f23-58eb" name="Reaping Blow (X)" hidden="false" targetId="64281c71-7fe2-4659-9a91-8386a898c365" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Reaping Blow (2)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>

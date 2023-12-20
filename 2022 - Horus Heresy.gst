@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="fc677dc3-39c6-46fc-ad8c-b60c895e8833" name="Warhammer 30,000 Kenosis Edition" revision="87" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="fc677dc3-39c6-46fc-ad8c-b60c895e8833" name="Warhammer 30,000 Kenosis Edition" revision="88" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="0dd4f866-b0f1-4486-9dfe-6f1795c88cac" name="Warhammer: The Horus Heresy - Age of Darkness Rulebook" shortName="Main Rules" publicationDate="June 2022"/>
     <publication id="01fdea1b-c915-4b5a-bde3-d155ce0c5e07" name="Liber Astartes – Loyalist Legiones Astartes Army Book" shortName="LA - Loyalist" publicationDate="June 2022"/>
@@ -1576,14 +1576,14 @@ Reactions:
         </categoryLink>
         <categoryLink id="31e881fe-f564-41ef-8c06-7dc12193c1c7" name="Compulsory HQ:" hidden="false" targetId="19f64928-a1cc-433d-885c-6ebefbe8c517" primary="false">
           <modifiers>
-            <modifier type="increment" field="a56b5f8a-4241-4ba8-9db4-f62b1926280f" value="1">
+            <modifier type="increment" field="a56b5f8a-4241-4ba8-9db4-f62b1926280f" value="1.0">
               <conditions>
                 <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bb7b0db8-14fc-4112-8f94-35fea5d5a842" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a56b5f8a-4241-4ba8-9db4-f62b1926280f" type="min"/>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a56b5f8a-4241-4ba8-9db4-f62b1926280f" type="min"/>
           </constraints>
         </categoryLink>
         <categoryLink id="be2defe4-6064-4c31-956e-e52a94903088" name="Compulsory Troops:" hidden="false" targetId="a9ded219-d94d-4bd0-b6a9-dd75915a39ad" primary="false">
@@ -1595,7 +1595,7 @@ Reactions:
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="35a22754-1a78-4829-8f45-940680916bf9" type="min"/>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="35a22754-1a78-4829-8f45-940680916bf9" type="min"/>
           </constraints>
         </categoryLink>
         <categoryLink id="9331de6e-65aa-435d-9b12-6ff4faf6e64f" name="Infantry:" hidden="false" targetId="b9c46d78-0d4c-44b4-85a3-d59364156c36" primary="false"/>
@@ -6813,7 +6813,7 @@ Diviner’s Dart (Psychic Weapon)</description>
         <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a4d5b368-a0e4-4cf2-bbed-623d0f5fb70f" name="Psychic Discipline: Pyromancy" publicationId="0dd4f866-b0f1-4486-9dfe-6f1795c88cac" page="324" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="a4d5b368-a0e4-4cf2-bbed-623d0f5fb70f" name="Psychic Discipline: Discipline of Nurgle" publicationId="0dd4f866-b0f1-4486-9dfe-6f1795c88cac" page="324" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="038a5858-c192-4f76-9725-bfebc84cffdb" name="Pyromantic Combustion" publicationId="0dd4f866-b0f1-4486-9dfe-6f1795c88cac" page="324" hidden="false" typeId="30c6f28b-2ce5-416e-985a-95f8b066f0aa" typeName="Psychic Power">
           <characteristics>
