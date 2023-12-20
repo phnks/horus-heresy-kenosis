@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="77a7-4620-5791-42cd" name="2022 - Chaos Death Guard" revision="23" battleScribeVersion="2.03" library="false" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="87" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="77a7-4620-5791-42cd" name="2022 - Chaos Death Guard" revision="24" battleScribeVersion="2.03" library="false" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="87" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="94b5-ee13-a2b6-221a" name="Plague Marine Squad" hidden="false" collective="false" import="true" targetId="41ac-0dde-a938-7dc4" type="selectionEntry">
       <categoryLinks>
@@ -64,6 +64,13 @@
         <categoryLink id="f369-0858-e32a-5d84" name="Compulsory HQ:" hidden="false" targetId="19f64928-a1cc-433d-885c-6ebefbe8c517" primary="false"/>
         <categoryLink id="3fde-4e57-d736-6114" name="HQ:" hidden="false" targetId="57062715-ec54-4808-9960-07ba13cc51e9" primary="true"/>
         <categoryLink id="6cc3-9ea5-6f43-c88c" name="Unit:" hidden="false" targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="945f-e949-c3c3-2939" name="Poxwalkers" hidden="false" collective="false" import="true" targetId="2305-e25c-07ad-1638" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ec23-7156-a85f-1626" name="Compulsory Troops:" hidden="false" targetId="a9ded219-d94d-4bd0-b6a9-dd75915a39ad" primary="false"/>
+        <categoryLink id="010f-c36c-6521-bd18" name="Troops:" hidden="false" targetId="1bfd7c23-4ad7-418a-8351-828b2da671e6" primary="true"/>
+        <categoryLink id="9d89-63a4-c4ad-b2a2" name="Unit:" hidden="false" targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" primary="false"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -2350,6 +2357,55 @@ Plague Wind (Psychic Weapon)</description>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2305-e25c-07ad-1638" name="Poxwalkers" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="71f8-4f66-7af5-7643" name="Curse of the Walking Pox" hidden="false">
+          <description>Each time an enemy Infantry model is slain by a Poxwalker in the Fight sub-phase, one of this unit’s destroyed models is added back to it with 1 wound remaining. Models added back to this unit in this way can be set up within Engagement Range of enemy units that are already within Engagement Range of this unit.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="380e-8719-4811-9bc0" name="Feel No Pain (X)" hidden="false" targetId="dbe120b1-50cf-4716-b69d-c9d9379e2251" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Feel No Pain (6+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="0370-635d-3c8a-9121" name="Fearless" hidden="false" targetId="a8b0b982-b521-4b68-8328-a2cccc69bb3c" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="a07e-63ca-d086-04e4" name="Poxwalker" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9220-ec0c-cc16-97f9" type="min"/>
+            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7ec5-77df-bce8-c71d" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="16cf-be06-c233-806f" name="Poxwalker" hidden="false" typeId="2b6e799b-8afd-4ae9-b80a-234103442598" typeName="Unit">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="36ce3f10-11e9-4add-ae15-3062f27946e7">Infantry (Line)</characteristic>
+                <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">5&quot;</characteristic>
+                <characteristic name="WS" typeId="d5a82d3a-18d1-48d0-a9e0-f752cb09e068">3</characteristic>
+                <characteristic name="BS" typeId="253b2a0a-577c-437a-9898-bfc1d22dcef8">1</characteristic>
+                <characteristic name="S" typeId="94c4fa7b-8480-4e99-84ad-92c9768f1472">3</characteristic>
+                <characteristic name="T" typeId="8a92af2d-103b-4847-b535-181cc323038e">4</characteristic>
+                <characteristic name="W" typeId="5e57eecc-4078-4b3a-9087-1cf0055bbabd">1</characteristic>
+                <characteristic name="I" typeId="ed32b28f-9bdc-4312-ba9b-e16cbc61db41">3</characteristic>
+                <characteristic name="A" typeId="4e9d7106-4cea-4d16-a7ea-f2f8f2957234">1</characteristic>
+                <characteristic name="Ld" typeId="9c8deb64-055e-4d01-b341-924389963feb">4</characteristic>
+                <characteristic name="Save" typeId="d8f3cf40-ebb8-45e1-8f50-074a0475a7ed">6+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <entryLinks>
+            <entryLink id="0b99-721d-bb82-0ea1" name="Close Combat Weapon" hidden="false" collective="false" import="true" targetId="dafed1d4-7a4a-416a-af1d-ace6fd6e49ca" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="5.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="50.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
