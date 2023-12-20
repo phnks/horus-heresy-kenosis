@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="77a7-4620-5791-42cd" name="2022 - Chaos Death Guard" revision="20" battleScribeVersion="2.03" library="false" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="86" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="77a7-4620-5791-42cd" name="2022 - Chaos Death Guard" revision="21" battleScribeVersion="2.03" library="false" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="87" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="94b5-ee13-a2b6-221a" name="Plague Marine Squad" hidden="false" collective="false" import="true" targetId="41ac-0dde-a938-7dc4" type="selectionEntry">
       <categoryLinks>
@@ -1145,6 +1145,9 @@
               </constraints>
             </entryLink>
           </entryLinks>
+          <costs>
+            <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -1180,6 +1183,9 @@
           </modifiers>
         </infoLink>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="542d-cc75-7547-aabb" name="Plaguespurt Gauntlet" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1199,6 +1205,9 @@
           </modifiers>
         </infoLink>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0698-fe89-5081-d8c4" name="Lord of Contagion" publicationId="e950ec53-50f2-45ba-be2f-99b19f3aab26" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -1346,6 +1355,9 @@
           </modifiers>
         </infoLink>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="43e8-fb91-29e4-829c" name="Orb of Desiccation" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1367,6 +1379,9 @@
         <infoLink id="bc2d-f6a3-1845-e44f" name="Blast" hidden="false" targetId="73191d9c-a0f7-4892-b200-af0a1e88a14b" type="rule"/>
         <infoLink id="aa01-a78f-1e0a-730d" name="One Use/One Shot" hidden="false" targetId="e072e44a-97ab-43ad-a317-addfef8595d6" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="f701-b851-374d-1b3f" name="Death Guard Chaos Lord" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -1745,6 +1760,9 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6496-5522-fdbe-2e73" name="Plague Sprayer" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1764,6 +1782,9 @@
           </modifiers>
         </infoLink>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8843-bea3-3bd2-f495" name="Unholy Death&apos;s Head Grenade" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1782,6 +1803,9 @@
         </infoLink>
         <infoLink id="31a7-fe44-1d75-0a67" name="One Use/One Shot" hidden="false" targetId="e072e44a-97ab-43ad-a317-addfef8595d6" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ef17-1662-fdd1-bbd2" name="Tallyman" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -1867,6 +1891,9 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="61ce-7efe-2021-cb63" name="Tome of Woes" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1893,6 +1920,9 @@
           </modifiers>
         </infoLink>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="4496-52ed-2c88-cd90" name="Plague Surgeon" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -1978,6 +2008,9 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="97e3-399e-58f6-19dd" name="Tainted Narthecium" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1987,6 +2020,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="896c-c5fd-4c02-7d81" name="Malignant Plaguecaster" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -2020,11 +2056,6 @@
               </characteristics>
             </profile>
           </profiles>
-          <rules>
-            <rule id="bd9d-d6b8-1a2b-389d" name="Witchblood" hidden="false">
-              <description>Malignant Plaguecaster has the Witchsense Psychic Power and Toxin Cloud Psychic Weapon and does not gain access to any other Disciplines:</description>
-            </rule>
-          </rules>
           <infoLinks>
             <infoLink id="3a1e-b417-977b-f3c1" name="Relentless" hidden="false" targetId="2800305f-2d6f-4e0e-8d3f-f5e05b31560e" type="rule"/>
             <infoLink id="2218-5ab6-ef0a-da78" name="Inexorable" hidden="false" targetId="b8932bc5-ce64-423f-8352-7ddef814a894" type="rule"/>
@@ -2037,42 +2068,6 @@
           <categoryLinks>
             <categoryLink id="aab8-af47-183e-b24e" name="Independent Character" hidden="false" targetId="725d715e-4c30-4e65-8215-9da23b9b5c1f" primary="false"/>
           </categoryLinks>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="7b5e-0440-92a7-e1c7" name="Psychic Powers" hidden="false" collective="false" import="true" defaultSelectionEntryId="ee3e-97dd-6aa5-1a87">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40df-e1bf-0231-5fee" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbf4-c275-eec5-b0da" type="min"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="ee3e-97dd-6aa5-1a87" name="Psychic Powers" hidden="false" collective="false" import="true" type="upgrade">
-                  <profiles>
-                    <profile id="7674-c6c7-e978-7754" name="Witchsense" hidden="false" typeId="30c6f28b-2ce5-416e-985a-95f8b066f0aa" typeName="Psychic Power">
-                      <characteristics>
-                        <characteristic name="Description" typeId="329e2e8a-351d-4e3b-af55-a0883b0ca6e3">At the start of any Assault Phase Malignant Plaguecaster’s controlling player may choose to make a Psychic check for him. If that Check is passed then Malignant Plaguecaster’s Weapon Skill Characteristic is increased by +1 and his Attacks Characteristic is increased by D3 for the duration of that Assault Phase. If the Check is failed then Malignant Plaguecaster suffers Perils of the Warp.</characteristic>
-                      </characteristics>
-                    </profile>
-                    <profile id="be10-96e7-7b01-2d5b" name="Toxin Cloud" hidden="false" typeId="9504c24c-dc04-4a9c-8d8a-d86468943dd6" typeName="Psychic Weapon">
-                      <comment>Psychic Focus: Before making any To Hit rolls with this weapon, the Psyker must make a Psychic check. If the Check is passed then the Psyker may attack as normal using the profile shown for this weapon. If the Check is failed then the Psyker suffers Perils of the Warp, and if the model is not removed as a casualty then it may attack as normal but may not use this weapon.</comment>
-                      <characteristics>
-                        <characteristic name="Range" typeId="f8dab760-4891-41f3-902e-d516f407d272">24&quot;</characteristic>
-                        <characteristic name="Strength" typeId="7139d99c-5439-47f8-aa41-c38a67bc1e14">1</characteristic>
-                        <characteristic name="AP" typeId="8b95b3d8-f3cb-4a7c-825a-302cc79b590c">4</characteristic>
-                        <characteristic name="Type" typeId="a3362678-4ada-4992-988d-034ddc5d17db">Assault 1, Large Blast (5&quot;), Fleshbane, Pinning, Psychic Focus</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <infoLinks>
-                    <infoLink id="784c-ea1d-0323-47f1" name="Fleshbane" hidden="false" targetId="92dabf82-d6aa-4b74-a8ac-273c68b2ffce" type="rule"/>
-                    <infoLink id="1afb-460a-1ebb-f5e3" name="Pinning" hidden="false" targetId="932be210-d2df-4c82-a8c8-41b30d389267" type="rule"/>
-                    <infoLink id="d537-b581-978f-b635" name="Psychic Focus" hidden="false" targetId="d33ea3e0-be46-4c20-85b5-baba336b3ff9" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
           <entryLinks>
             <entryLink id="1c03-fb6a-8ce1-e51d" name="Blight Grenades" hidden="false" collective="false" import="true" targetId="3a93-0662-39a2-abc0" type="selectionEntry">
               <constraints>
@@ -2104,6 +2099,15 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="046a-1aa0-dc6e-5b10" type="max"/>
               </constraints>
             </entryLink>
+            <entryLink id="aeba-35c9-ccbd-06df" name="Psychic Disciplines" hidden="true" collective="false" import="true" targetId="e6eb5140-60ee-469c-8808-793ac841a171" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf86-bcac-a12d-055a" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f257-eeab-5929-49eb" type="min"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="49a7-4727-d0b1-0c63" name="Psychic Discipline: Discipline of Nurgle" hidden="false" collective="false" import="true" targetId="afc8-1d72-ef3a-aaf2" type="selectionEntry"/>
+              </entryLinks>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
@@ -2132,6 +2136,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c37f-e0f6-988f-0574" name="Malum Ferrugine" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -2153,13 +2160,13 @@
               <characteristics>
                 <characteristic name="Unit Type" typeId="36ce3f10-11e9-4add-ae15-3062f27946e7">Infantry (Character, Unique, Psyker, Flyer)</characteristic>
                 <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">13&quot;</characteristic>
-                <characteristic name="WS" typeId="d5a82d3a-18d1-48d0-a9e0-f752cb09e068">6</characteristic>
+                <characteristic name="WS" typeId="d5a82d3a-18d1-48d0-a9e0-f752cb09e068">9</characteristic>
                 <characteristic name="BS" typeId="253b2a0a-577c-437a-9898-bfc1d22dcef8">5</characteristic>
-                <characteristic name="S" typeId="94c4fa7b-8480-4e99-84ad-92c9768f1472">7</characteristic>
+                <characteristic name="S" typeId="94c4fa7b-8480-4e99-84ad-92c9768f1472">6</characteristic>
                 <characteristic name="T" typeId="8a92af2d-103b-4847-b535-181cc323038e">6</characteristic>
                 <characteristic name="W" typeId="5e57eecc-4078-4b3a-9087-1cf0055bbabd">4</characteristic>
                 <characteristic name="I" typeId="ed32b28f-9bdc-4312-ba9b-e16cbc61db41">5</characteristic>
-                <characteristic name="A" typeId="4e9d7106-4cea-4d16-a7ea-f2f8f2957234">4</characteristic>
+                <characteristic name="A" typeId="4e9d7106-4cea-4d16-a7ea-f2f8f2957234">5</characteristic>
                 <characteristic name="Ld" typeId="9c8deb64-055e-4d01-b341-924389963feb">10</characteristic>
                 <characteristic name="Save" typeId="d8f3cf40-ebb8-45e1-8f50-074a0475a7ed">2+</characteristic>
               </characteristics>
@@ -2176,11 +2183,6 @@
             <infoLink id="4ff1-ecff-00d1-e49f" name="Bulky (X)" hidden="false" targetId="1e7612dc-20f4-4c63-9297-8884e8c765e6" type="rule">
               <modifiers>
                 <modifier type="set" field="name" value="Bulky (6)"/>
-              </modifiers>
-            </infoLink>
-            <infoLink id="1c3f-2861-6722-dede" name="Shrouded (X)" hidden="false" targetId="185d5534-d6c2-466f-a3eb-0ce5b6ae2a2c" type="rule">
-              <modifiers>
-                <modifier type="set" field="name" value="Shrouded (5+)"/>
               </modifiers>
             </infoLink>
             <infoLink id="e10a-ab76-24f8-6e0e" name="Feel No Pain (X)" hidden="false" targetId="dbe120b1-50cf-4716-b69d-c9d9379e2251" type="rule">
@@ -2207,7 +2209,7 @@
                   <profiles>
                     <profile id="408e-0100-eb2c-c04c" name="Witchsense" hidden="false" typeId="30c6f28b-2ce5-416e-985a-95f8b066f0aa" typeName="Psychic Power">
                       <characteristics>
-                        <characteristic name="Description" typeId="329e2e8a-351d-4e3b-af55-a0883b0ca6e3">At the start of any Assault Phase Calas Typhon’s controlling player may choose to make a Psychic check for him. If that Check is passed then Calas Typhon’s Weapon Skill Characteristic is increased by +1 and his Attacks Characteristic is increased by D3 for the duration of that Assault Phase. If the Check is failed then Calas Typhon suffers Perils of the Warp.</characteristic>
+                        <characteristic name="Description" typeId="329e2e8a-351d-4e3b-af55-a0883b0ca6e3">At the start of any Assault Phase Malum Ferrugine’s controlling player may choose to make a Psychic check for him. If that Check is passed then Malum Ferrugine’s Weapon Skill Characteristic is increased by +1 and his Attacks Characteristic is increased by D3 for the duration of that Assault Phase. If the Check is failed then Malum Ferrugine suffers Perils of the Warp.</characteristic>
                       </characteristics>
                     </profile>
                     <profile id="fff1-e83a-4a74-98e0" name="Toxin Cloud" hidden="false" typeId="9504c24c-dc04-4a9c-8d8a-d86468943dd6" typeName="Psychic Weapon">
@@ -2272,7 +2274,7 @@
             <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">-</characteristic>
             <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">User</characteristic>
             <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">4</characteristic>
-            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Melee, Brutal (2)</characteristic>
+            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Melee, Brutal (2), Rending (5+)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2288,6 +2290,9 @@
           </modifiers>
         </infoLink>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ac9c-9f21-4998-a4df" name="Malefic Talons" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2296,7 +2301,7 @@
             <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">-</characteristic>
             <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">User</characteristic>
             <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">4</characteristic>
-            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Melee, </characteristic>
+            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Melee, Reaping Blow (1)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2307,6 +2312,46 @@
           </modifiers>
         </infoLink>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="afc8-1d72-ef3a-aaf2" name="Psychic Discipline: Discipline of Nurgle" publicationId="0dd4f866-b0f1-4486-9dfe-6f1795c88cac" page="324" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="7fab-954c-0f0b-1cfd" name="Curse of the Leper" publicationId="0dd4f866-b0f1-4486-9dfe-6f1795c88cac" page="324" hidden="false" typeId="30c6f28b-2ce5-416e-985a-95f8b066f0aa" typeName="Psychic Power">
+          <characteristics>
+            <characteristic name="Description" typeId="329e2e8a-351d-4e3b-af55-a0883b0ca6e3">Instead of moving during the Movement phase, a Psyker with this Psychic Power may instead activate this Psychic Power. It must target a single unit within 21&quot; of the Psyker. If Curse of the Leper is used to target a friendly unit, all models in that unit add 1 to their Strength and Toughness characteristics whilst this power is in effect; if used to target an enemy unit, all models in that unit must reduce their Strength and Toughness characteristic by 1 whilst this power is in effect. When initially using the Psychic Power, or at the start of any of the controlling player’s subsequent Movement phase while it is in effect, the controlling player may choose to have the Psyker take a Psychic check. If the Check is passed then for friendly models affected by this Psychic Power; the Melee weapons of all models in the target unit have the Poisoned (4+) special rule whilst this power is in effect. Any models that already had the Poisoned special rule on their Melee weapons or attacks instead have the Poisoned (2+) special rule whilst this power is in effect. If the Check is failed then the Psyker suffers Perils of the Warp and the Psychic Power immediately ends.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="dae0-8eba-a564-9bdc" name="Plague Wind" hidden="false" typeId="9504c24c-dc04-4a9c-8d8a-d86468943dd6" typeName="Psychic Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="f8dab760-4891-41f3-902e-d516f407d272">12&quot;</characteristic>
+            <characteristic name="Strength" typeId="7139d99c-5439-47f8-aa41-c38a67bc1e14">1</characteristic>
+            <characteristic name="AP" typeId="8b95b3d8-f3cb-4a7c-825a-302cc79b590c">2</characteristic>
+            <characteristic name="Type" typeId="a3362678-4ada-4992-988d-034ddc5d17db">Assault 1, Large Blast (5&quot;), Poisoned (4+), Psychic Focus</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="bff1-a5fe-7db9-88c8" name="Psychic Discipline: Discipline of Nurgle" publicationId="0dd4f866-b0f1-4486-9dfe-6f1795c88cac" page="324" hidden="false">
+          <description>A Psyker with this Discipline gains all the listed Powers, weapons and other special rules, as well as the Aetheric Lightning Psychic Weapon.
+
+Curse of the Leper (Psychic Power)
+Plague Wind (Psychic Weapon)</description>
+        </rule>
+        <rule id="9e3d-4257-35ae-ac45" name="Pyromantic Desolation" publicationId="0dd4f866-b0f1-4486-9dfe-6f1795c88cac" page="324" hidden="false">
+          <description>In addition to attacking normally in the Assault Phase, at the beginning of the Initiative Step at which the model using this Psychic Weapon would normally attack, but before any Pile-in moves or attacks are made, place a Blast (3&quot;) marker centred on the attacking model. All other models wholly or partially under the marker, friendly or enemy, suffer an automatic Hit with the profile shown. These Hits are resolved immediately and do not count for the purpose of resolving the winner of an assault. Once they are resolved, the attacking model may Pile-in and make any other attacks as normal.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="e89c-7b4d-447e-e441" name="Blast" hidden="false" targetId="73191d9c-a0f7-4892-b200-af0a1e88a14b" type="rule"/>
+        <infoLink id="6841-a1a9-380d-7f60" name="Psychic Focus" hidden="false" targetId="d33ea3e0-be46-4c20-85b5-baba336b3ff9" type="rule"/>
+        <infoLink id="50ee-1c88-78e7-14df" name="Aetheric Lightning" hidden="false" targetId="ecba9701-8b55-4c9a-a4d9-9b7fdeeb2ceb" type="profile"/>
+        <infoLink id="b1ca-8db8-17d9-7efd" name="Force" hidden="false" targetId="8b6900ea-d652-4075-a820-795bd86aa7ac" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
