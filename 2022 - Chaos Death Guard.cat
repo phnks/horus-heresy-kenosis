@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="77a7-4620-5791-42cd" name="2022 - Chaos Death Guard" revision="25" battleScribeVersion="2.03" library="false" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="88" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="77a7-4620-5791-42cd" name="2022 - Chaos Death Guard" revision="26" battleScribeVersion="2.03" library="false" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="88" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="94b5-ee13-a2b6-221a" name="Plague Marine Squad" hidden="false" collective="false" import="true" targetId="41ac-0dde-a938-7dc4" type="selectionEntry">
       <categoryLinks>
@@ -65,6 +65,12 @@
       <categoryLinks>
         <categoryLink id="010f-c36c-6521-bd18" name="Troops:" hidden="false" targetId="1bfd7c23-4ad7-418a-8351-828b2da671e6" primary="true"/>
         <categoryLink id="9d89-63a4-c4ad-b2a2" name="Unit:" hidden="false" targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="89e4-0ac3-a90a-bfd3" name="Helbrute Talon" hidden="false" collective="false" import="true" targetId="4cb4-764a-7da8-aa37" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="9271-4b87-7763-3daf" name="Elites:" hidden="false" targetId="c142153b-5c2c-443d-9502-2c00888474ef" primary="true"/>
+        <categoryLink id="590b-d22b-3958-8d0a" name="Unit:" hidden="false" targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" primary="false"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
