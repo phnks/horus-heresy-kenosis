@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="fc677dc3-39c6-46fc-ad8c-b60c895e8833" name="Warhammer 30,000 Kenosis Edition" revision="90" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="fc677dc3-39c6-46fc-ad8c-b60c895e8833" name="Warhammer 30,000 Kenosis Edition" revision="92" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="0dd4f866-b0f1-4486-9dfe-6f1795c88cac" name="Warhammer: The Horus Heresy - Age of Darkness Rulebook" shortName="Main Rules" publicationDate="June 2022"/>
     <publication id="01fdea1b-c915-4b5a-bde3-d155ce0c5e07" name="Liber Astartes – Loyalist Legiones Astartes Army Book" shortName="LA - Loyalist" publicationDate="June 2022"/>
@@ -1337,8 +1337,8 @@ Reactions:
         <categoryLink id="5f068043-89bd-4814-a8ba-fc49d2d46298" name="Expanded Army Lists" hidden="false" targetId="aac8ccc7-565c-411a-9168-c9b60725c329" primary="false"/>
         <categoryLink id="662cafaf-82a2-4292-93f5-a2e58a04208b" name="Allegiance:" hidden="false" targetId="96aaefc9-bb4f-4101-8899-fc6c4ca4e102" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="22350b45-ee55-4a75-888a-c3a54f86b994" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="284c2d31-ff28-4b0c-8d29-45ba26c22ec6" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="22350b45-ee55-4a75-888a-c3a54f86b994" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="284c2d31-ff28-4b0c-8d29-45ba26c22ec6" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="dc3ec1e7-a660-4265-9531-a7539a85bcc6" name="Rite of War:" hidden="false" targetId="8706608b-25c5-4367-b9ed-ee564d8790bf" primary="false"/>
@@ -1385,7 +1385,7 @@ Reactions:
         </categoryLink>
         <categoryLink id="9740fb68-2254-4b5d-b682-c146b4c63a8e" name="HQ:" hidden="false" targetId="57062715-ec54-4808-9960-07ba13cc51e9" primary="false">
           <modifiers>
-            <modifier type="set" field="05be465a-4903-4242-8637-e4dbe3e1fbbd" value="5">
+            <modifier type="set" field="05be465a-4903-4242-8637-e4dbe3e1fbbd" value="5.0">
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
@@ -2192,7 +2192,7 @@ Reactions:
     </selectionEntry>
     <selectionEntry id="00801396-6c9a-43f2-a6b7-2379c22f1b2d" name="Expanded Army List Profiles:" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
-        <modifier type="set" field="7d3ae0f2-8021-47a3-a6f9-65e3a9a52bcc" value="0">
+        <modifier type="set" field="7d3ae0f2-8021-47a3-a6f9-65e3a9a52bcc" value="0.0">
           <conditions>
             <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b5581b50-a1a5-4e1b-baa0-e92b0fa8e5c4" type="instanceOf"/>
           </conditions>
