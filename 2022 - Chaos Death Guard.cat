@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="77a7-4620-5791-42cd" name="2022 - Chaos Death Guard" revision="28" battleScribeVersion="2.03" library="false" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="92" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="77a7-4620-5791-42cd" name="2022 - Chaos Death Guard" revision="29" battleScribeVersion="2.03" library="false" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="92" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="94b5-ee13-a2b6-221a" name="Plague Marine Squad" hidden="false" collective="false" import="true" targetId="41ac-0dde-a938-7dc4" type="selectionEntry">
       <categoryLinks>
@@ -73,16 +73,22 @@
         <categoryLink id="590b-d22b-3958-8d0a" name="Unit:" hidden="false" targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="480d-0c6f-9500-3ef5" name="Foetid Bloat-Drone" hidden="false" collective="false" import="true" targetId="27ee-1798-e1c1-a337" type="selectionEntry">
+    <entryLink id="480d-0c6f-9500-3ef5" name="Plagueburst Crawler" hidden="false" collective="false" import="true" targetId="6532-7d7c-e930-2bf9" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="553b-b136-5eec-6f09" name="Fast Attack:" hidden="false" targetId="cadd8cf5-0564-4094-b367-3bf6222ad576" primary="true"/>
         <categoryLink id="70e9-0a23-ac1a-8b01" name="Vehicle Unit:" hidden="false" targetId="451232c8-6963-43cd-8af6-fd506055598b" primary="false"/>
+        <categoryLink id="6135-19d3-31f8-8725" name="Heavy Support:" hidden="false" targetId="39ee736f-bb6b-4c3d-a25d-7a905107d65a" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="d55f-a17c-0848-96ea" name="Myphitic Blight-Haulers" hidden="false" collective="false" import="true" targetId="d4c2-2057-1281-e567" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="e171-b9d0-bdab-8a52" name="Fast Attack:" hidden="false" targetId="cadd8cf5-0564-4094-b367-3bf6222ad576" primary="true"/>
         <categoryLink id="37ee-3031-c5af-b91d" name="Vehicle Unit:" hidden="false" targetId="451232c8-6963-43cd-8af6-fd506055598b" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8b3f-69e2-9899-f6c1" name="Foetid Bloat-Drone" hidden="false" collective="false" import="true" targetId="27ee-1798-e1c1-a337" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="bef9-3a64-2fba-67ff" name="Fast Attack:" hidden="false" targetId="cadd8cf5-0564-4094-b367-3bf6222ad576" primary="true"/>
+        <categoryLink id="4efc-3d0e-c150-22b7" name="Vehicle Unit:" hidden="false" targetId="451232c8-6963-43cd-8af6-fd506055598b" primary="false"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -2216,8 +2222,8 @@
           <categoryLinks>
             <categoryLink id="7a45-f817-68a1-dde6" name="Independent Character" hidden="false" targetId="725d715e-4c30-4e65-8215-9da23b9b5c1f" primary="false"/>
             <categoryLink id="34aa-cad1-2b11-68b3" name="Corrupted Sub-type:" hidden="false" targetId="e9163d72-5e1f-4a8b-91b6-4b29ea94196b" primary="false"/>
-            <categoryLink id="4747-3ea8-2e40-4528" name="Flyer Sub-type:" hidden="false" targetId="5e5fcfb5-8af4-41d9-bf9f-4a3583ed2e81" primary="false"/>
             <categoryLink id="6e36-6b37-4376-ed96" name="Unique Sub-type" hidden="false" targetId="6eb1062b-2fae-49d2-aaa7-569c39fa3324" primary="false"/>
+            <categoryLink id="2a60-8817-27f8-a67e" name="Hover Sub-type" hidden="false" targetId="1db99a65-6ec5-48bd-9450-85407380a29b" primary="false"/>
           </categoryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup id="c40b-1270-6362-48a1" name="Psychic Powers" hidden="false" collective="false" import="true" defaultSelectionEntryId="1af0-6355-8410-2f44">
@@ -2695,6 +2701,7 @@ Plague Wind (Psychic Weapon)</description>
       <categoryLinks>
         <categoryLink id="8449-98dc-f38c-9651" name="Vehicle Unit:" hidden="false" targetId="451232c8-6963-43cd-8af6-fd506055598b" primary="false"/>
         <categoryLink id="322c-e8d5-c0e1-6599" name="Daemon Engine Sub-type" hidden="false" targetId="1fa32485-454c-4ea2-b468-12540d7c206f" primary="false"/>
+        <categoryLink id="447f-6202-887c-999e" name="Hover Sub-type" hidden="false" targetId="1db99a65-6ec5-48bd-9450-85407380a29b" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="25e3-1954-9a5c-c202" name="Foetid Bloat-Drone" hidden="false" collective="false" import="true" type="upgrade">
@@ -2728,7 +2735,7 @@ Plague Wind (Psychic Weapon)</description>
             <categoryLink id="779f-4dd5-acc1-4381" name="Vehicle:" hidden="false" targetId="b2f8dc6c-2bbb-4fb4-9fd8-f38cb7b7f001" primary="false"/>
           </categoryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup id="c469-5860-134d-29a2" name="1) Hull Weapon" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="c469-5860-134d-29a2" name="1) Hull Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="58aa-6322-b72f-289b">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8417-baf8-a22c-a97f" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c591-f74e-cbf5-4358" type="min"/>
@@ -2870,8 +2877,8 @@ Plague Wind (Psychic Weapon)</description>
       <selectionEntries>
         <selectionEntry id="7ee7-d433-d0b8-6ca1" name="Myphitic Blight-Hauler" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5256-5cbe-ca8c-d7aa" type="min"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da8d-09e7-716b-d37c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5256-5cbe-ca8c-d7aa" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da8d-09e7-716b-d37c" type="max"/>
           </constraints>
           <profiles>
             <profile id="a681-8b77-a7e6-143f" name="Myphitic Blight-Hauler" hidden="false" typeId="33e8f817-cd5f-4a34-a41e-129f5a10b80f" typeName="Vehicle">
@@ -2948,9 +2955,6 @@ Plague Wind (Psychic Weapon)</description>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13f1-c9a3-c61d-682e" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7bf-d74d-e649-4795" type="min"/>
               </constraints>
-              <costs>
-                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="22.0"/>
-              </costs>
             </entryLink>
             <entryLink id="85c1-8826-8e5c-b856" name="Gnashing Maw" hidden="false" collective="false" import="true" targetId="17e5-97dc-467a-9722" type="selectionEntry">
               <modifiers>
@@ -2960,9 +2964,6 @@ Plague Wind (Psychic Weapon)</description>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3a7-08ff-e097-2322" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5592-ad3c-a5e7-893c" type="min"/>
               </constraints>
-              <costs>
-                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="22.0"/>
-              </costs>
             </entryLink>
           </entryLinks>
           <costs>
@@ -3014,6 +3015,193 @@ Plague Wind (Psychic Weapon)</description>
       <costs>
         <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="6532-7d7c-e930-2bf9" name="Plagueburst Crawler" publicationId="e950ec53-50f2-45ba-be2f-99b19f3aab26" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="c9aa-5660-0d84-c137" name="Vehicle Unit:" hidden="false" targetId="451232c8-6963-43cd-8af6-fd506055598b" primary="false"/>
+        <categoryLink id="a281-3a9e-3c6f-ce0c" name="Daemon Engine Sub-type" hidden="false" targetId="1fa32485-454c-4ea2-b468-12540d7c206f" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="4726-821b-c4ab-9e5c" name="Plagueburst Crawler" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbb8-4da5-84c8-8abc" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5a5-ce50-ffac-881e" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="a2a2-5397-d072-f599" name="Plagueburst Crawler" publicationId="e950ec53-50f2-45ba-be2f-99b19f3aab26" page="79" hidden="false" typeId="33e8f817-cd5f-4a34-a41e-129f5a10b80f" typeName="Vehicle">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="21020919-490d-493b-a179-6b7d89dca3d6">Vehicle (Daemon Engine)</characteristic>
+                <characteristic name="Move" typeId="1cca1c40-5e12-4b6e-80d8-df406de6422e">12</characteristic>
+                <characteristic name="BS" typeId="36a1f635-7ab7-4164-b9d7-01c79695e499">4</characteristic>
+                <characteristic name="Front" typeId="3070d03e-86cd-4b14-a202-b1c3138a2f9a">13</characteristic>
+                <characteristic name="Side" typeId="ef4a6a82-8c1f-4609-ac8a-fcb7ae3cff5e">11</characteristic>
+                <characteristic name="Rear" typeId="55c5e7f5-6831-4705-8660-f5c157072e0c">10</characteristic>
+                <characteristic name="HP" typeId="d4001943-9cc6-45f4-a834-8a9a1e69b70a">3</characteristic>
+                <characteristic name="Transport Capacity" typeId="3b2ad327-c62b-45c3-a6fa-af2691415dfa">-</characteristic>
+                <characteristic name="Access Points" typeId="4470b912-c58a-4073-8782-4dc43f01adb4">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="167c-296b-7017-57b2" name="Feel No Pain (X)" hidden="false" targetId="dbe120b1-50cf-4716-b69d-c9d9379e2251" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Feel No Pain (5+)"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="58eb-914a-93e6-fd77" name="Vehicle:" hidden="false" targetId="b2f8dc6c-2bbb-4fb4-9fd8-f38cb7b7f001" primary="false"/>
+          </categoryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="34e5-bf4c-1cc2-d6dd" name="2) Centerline Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="511d-3634-f9ac-01ef">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e59-53c2-16a3-2d86" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9cb9-05b7-724d-5d92" type="min"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="a7c2-38ea-527a-0394" name="Entropy Cannon" hidden="false" collective="false" import="true" targetId="4a77-f49e-9eec-849f" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Centerline Mounted Entropy Cannon"/>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b9e-cc9a-2ea0-8361" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="15.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="511d-3634-f9ac-01ef" name="Plaguespitter" hidden="false" collective="false" import="true" targetId="2d13-eef3-51c5-d83a" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Centerline Mounted Plaguespitter"/>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79b5-bdd6-8770-5e3a" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="17.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="5489-71c1-a7fe-97f6" name="3) May take any of the following:" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="4ce4-1cca-974b-4a3d" name="Searchlights" hidden="false" collective="false" import="true" targetId="8cdfbd2f-9196-4c6d-94e4-e57c56aaf1c6" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2138-7d5c-4d73-da32" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="5.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="1089-87a5-2f27-cb61" name="1) Hull Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="76f7-1412-8611-54b9">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2797-1e72-5398-852d" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="601a-d362-6b25-e9a9" type="min"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="76f7-1412-8611-54b9" name="Heavy Slugger" hidden="false" collective="false" import="true" targetId="2da5-9043-56fd-72a7" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Hull (Front) Mounted Heavy Slugger"/>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27f9-e1f7-aa98-d76e" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="6.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="1ff3-ce44-c87e-1e70" name="Rothail Volley Gun" hidden="false" collective="false" import="true" targetId="86c7-74c6-186d-bc27" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Hull (Front) Mounted Rothail Volley Gun"/>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="060a-cf89-cc2a-c172" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="12.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="6163-bd71-dea9-76cc" name="Plagueburst Mortar" hidden="false" collective="false" import="true" targetId="46a1-4bfd-b251-45f8" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="name" value="Hull (Front) Mounted Plagueburst Mortar"/>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef41-5619-0c30-1b08" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f8a-6e80-04e4-3a91" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="100.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="46a1-4bfd-b251-45f8" name="Plagueburst Mortar" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="c2d2-5dd5-622e-7b05" name="Plagueburst Mortar" hidden="false" typeId="6525dede-e40b-4bd7-939d-60de13a16105" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">12&quot;-48&quot;</characteristic>
+            <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">8</characteristic>
+            <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">4</characteristic>
+            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Ordnance 1, Barrage, Large Blast (5&quot;), Poisoned (4+)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0e5a-b205-58d2-ed25" name="Poisoned (X)" hidden="false" targetId="8587b4ea-39cf-49d2-b43c-c87d31ae4e05" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Poisoned (4+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="5d12-5c81-0bfb-8d21" name="Blast" hidden="false" targetId="73191d9c-a0f7-4892-b200-af0a1e88a14b" type="rule"/>
+        <infoLink id="781e-fe9e-dd5c-c95f" name="Barrage" hidden="false" targetId="43aaeb73-7c99-46f6-81e5-5ec1230cd8b8" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="2da5-9043-56fd-72a7" name="Heavy Slugger" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="d8b5-4149-3fb9-370a" name="Heavy Slugger" hidden="false" typeId="6525dede-e40b-4bd7-939d-60de13a16105" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">36&quot;</characteristic>
+            <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">5</characteristic>
+            <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">5</characteristic>
+            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Heavy 4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="86c7-74c6-186d-bc27" name="Rothail Volley Gun" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="d071-85d6-0c55-9e57" name="Rothail Volley Gun" hidden="false" typeId="6525dede-e40b-4bd7-939d-60de13a16105" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">24&quot;</characteristic>
+            <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">6</characteristic>
+            <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">5</characteristic>
+            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Rapid Fire 3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="4a77-f49e-9eec-849f" name="Entropy Cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="08de-36f5-869e-3f51" name="Entropy Cannon" hidden="false" typeId="6525dede-e40b-4bd7-939d-60de13a16105" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">36&quot;</characteristic>
+            <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">8</characteristic>
+            <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">2</characteristic>
+            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Heavy 1 </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
