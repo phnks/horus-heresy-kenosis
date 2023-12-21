@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="77a7-4620-5791-42cd" name="2022 - Chaos Death Guard" revision="26" battleScribeVersion="2.03" library="false" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="88" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="77a7-4620-5791-42cd" name="2022 - Chaos Death Guard" revision="27" battleScribeVersion="2.03" library="false" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="90" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="94b5-ee13-a2b6-221a" name="Plague Marine Squad" hidden="false" collective="false" import="true" targetId="41ac-0dde-a938-7dc4" type="selectionEntry">
       <categoryLinks>
@@ -71,6 +71,12 @@
       <categoryLinks>
         <categoryLink id="9271-4b87-7763-3daf" name="Elites:" hidden="false" targetId="c142153b-5c2c-443d-9502-2c00888474ef" primary="true"/>
         <categoryLink id="590b-d22b-3958-8d0a" name="Unit:" hidden="false" targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="480d-0c6f-9500-3ef5" name="Foetid Bloat-Drone" hidden="false" collective="false" import="true" targetId="27ee-1798-e1c1-a337" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="553b-b136-5eec-6f09" name="Fast Attack:" hidden="false" targetId="cadd8cf5-0564-4094-b367-3bf6222ad576" primary="true"/>
+        <categoryLink id="70e9-0a23-ac1a-8b01" name="Vehicle Unit:" hidden="false" targetId="451232c8-6963-43cd-8af6-fd506055598b" primary="false"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -2169,7 +2175,7 @@
               <characteristics>
                 <characteristic name="Unit Type" typeId="36ce3f10-11e9-4add-ae15-3062f27946e7">Infantry (Character, Unique, Psyker, Flyer)</characteristic>
                 <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">13&quot;</characteristic>
-                <characteristic name="WS" typeId="d5a82d3a-18d1-48d0-a9e0-f752cb09e068">9</characteristic>
+                <characteristic name="WS" typeId="d5a82d3a-18d1-48d0-a9e0-f752cb09e068">6</characteristic>
                 <characteristic name="BS" typeId="253b2a0a-577c-437a-9898-bfc1d22dcef8">5</characteristic>
                 <characteristic name="S" typeId="94c4fa7b-8480-4e99-84ad-92c9768f1472">6</characteristic>
                 <characteristic name="T" typeId="8a92af2d-103b-4847-b535-181cc323038e">6</characteristic>
@@ -2611,6 +2617,9 @@ Plague Wind (Psychic Weapon)</description>
           </modifiers>
         </infoLink>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="4d93-6500-0284-18ee" name="Helbrute Plasma Cannon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2627,6 +2636,9 @@ Plague Wind (Psychic Weapon)</description>
         <infoLink id="c905-5a50-ed31-5bcf" name="Blast" hidden="false" targetId="73191d9c-a0f7-4892-b200-af0a1e88a14b" type="rule"/>
         <infoLink id="2624-9845-9035-1d92" name="Gets Hot" hidden="false" targetId="73957c88-0160-421b-951f-4f343f993618" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="df77-82c6-0508-e769" name="Helbrute Hammer" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2647,6 +2659,9 @@ Plague Wind (Psychic Weapon)</description>
           </modifiers>
         </infoLink>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="037c-51a2-8848-22df" name="Power Scourge" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2666,6 +2681,174 @@ Plague Wind (Psychic Weapon)</description>
           </modifiers>
         </infoLink>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="27ee-1798-e1c1-a337" name="Foetid Bloat-Drone" publicationId="e950ec53-50f2-45ba-be2f-99b19f3aab26" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="8449-98dc-f38c-9651" name="Vehicle Unit:" hidden="false" targetId="451232c8-6963-43cd-8af6-fd506055598b" primary="false"/>
+        <categoryLink id="322c-e8d5-c0e1-6599" name="Daemon Engine Sub-type" hidden="false" targetId="1fa32485-454c-4ea2-b468-12540d7c206f" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="25e3-1954-9a5c-c202" name="Foetid Bloat-Drone" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16b1-beb8-b476-ac31" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69cb-4225-125f-3bf6" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="6399-d00f-c1fe-5ff8" name="Foetid Bloat-Drone" publicationId="e950ec53-50f2-45ba-be2f-99b19f3aab26" page="79" hidden="false" typeId="33e8f817-cd5f-4a34-a41e-129f5a10b80f" typeName="Vehicle">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="21020919-490d-493b-a179-6b7d89dca3d6">Vehicle (Daemon Engine, Flyer)</characteristic>
+                <characteristic name="Move" typeId="1cca1c40-5e12-4b6e-80d8-df406de6422e">12</characteristic>
+                <characteristic name="BS" typeId="36a1f635-7ab7-4164-b9d7-01c79695e499">4</characteristic>
+                <characteristic name="Front" typeId="3070d03e-86cd-4b14-a202-b1c3138a2f9a">13</characteristic>
+                <characteristic name="Side" typeId="ef4a6a82-8c1f-4609-ac8a-fcb7ae3cff5e">12</characteristic>
+                <characteristic name="Rear" typeId="55c5e7f5-6831-4705-8660-f5c157072e0c">10</characteristic>
+                <characteristic name="HP" typeId="d4001943-9cc6-45f4-a834-8a9a1e69b70a">3</characteristic>
+                <characteristic name="Transport Capacity" typeId="3b2ad327-c62b-45c3-a6fa-af2691415dfa">-</characteristic>
+                <characteristic name="Access Points" typeId="4470b912-c58a-4073-8782-4dc43f01adb4">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="324b-3b94-0706-336d" name="Feel No Pain (X)" hidden="false" targetId="dbe120b1-50cf-4716-b69d-c9d9379e2251" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Feel No Pain (5+)"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="779f-4dd5-acc1-4381" name="Vehicle:" hidden="false" targetId="b2f8dc6c-2bbb-4fb4-9fd8-f38cb7b7f001" primary="false"/>
+          </categoryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="c469-5860-134d-29a2" name="1) Hull Weapon" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8417-baf8-a22c-a97f" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c591-f74e-cbf5-4358" type="min"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="58aa-6322-b72f-289b" name="Fleshmower" hidden="false" collective="false" import="true" targetId="ad9e-61bc-12fc-9ff5" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Hull (Front) Mounted Fleshmower"/>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5290-2ed4-aaae-d3c5" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="12.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="8a46-dd30-b571-13a2" name="Heavy Blight Launcher" hidden="false" collective="false" import="true" targetId="a92a-1330-c068-d50b" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Hull (Front) Mounted Heavy Blight Launcher"/>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04c2-9940-ab13-205c" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="35.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="de9a-639a-303b-de36" name="Plaguespitter" hidden="false" collective="false" import="true" targetId="2d13-eef3-51c5-d83a" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Hull (Front) Mounted Plaguespitter"/>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01ce-c540-ceb3-9490" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="17.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="4610-5a60-5b86-e10d" name="2) May take any of the following:" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="efcd-5584-ac43-19cf" name="Searchlights" hidden="false" collective="false" import="true" targetId="8cdfbd2f-9196-4c6d-94e4-e57c56aaf1c6" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8d7-f6ea-b609-5a14" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="5.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="99.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a92a-1330-c068-d50b" name="Heavy Blight Launcher" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="19e9-8583-4890-7850" name="Heavy Blight Launcher" hidden="false" typeId="6525dede-e40b-4bd7-939d-60de13a16105" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">36&quot;</characteristic>
+            <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">6</characteristic>
+            <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">4</characteristic>
+            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Assault 6, Poisoned (4+)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="94eb-7dc5-402f-8184" name="Poisoned (X)" hidden="false" targetId="8587b4ea-39cf-49d2-b43c-c87d31ae4e05" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Poisoned (4+)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="2d13-eef3-51c5-d83a" name="Plaguespitter" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="4653-d285-022f-72b8" name="Plaguespitter" hidden="false" typeId="6525dede-e40b-4bd7-939d-60de13a16105" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">Template</characteristic>
+            <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">User</characteristic>
+            <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">5</characteristic>
+            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Template, Poisoned (4+)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="3379-4569-c629-474f" name="Poisoned (X)" hidden="false" targetId="8587b4ea-39cf-49d2-b43c-c87d31ae4e05" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Poisoned (4+)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="ad9e-61bc-12fc-9ff5" name="Fleshmower" publicationId="16158ee1-85d1-4039-9c96-dbe44c68ab93" page="123" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="fba5-74de-ea78-8671" name="Fleshmower" publicationId="16158ee1-85d1-4039-9c96-dbe44c68ab93" page="123" hidden="false" typeId="6525dede-e40b-4bd7-939d-60de13a16105" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">-</characteristic>
+            <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">8</characteristic>
+            <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">4</characteristic>
+            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Melee, Ram (D6), Poisoned (4+)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6c46-026b-5cd2-2bf5" name="Ram (X)" hidden="false" targetId="b3f92ea6-52ab-463c-860c-1e964a98d070" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Ram (D6)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="a3f9-d31e-3a33-5126" name="Poisoned (X)" hidden="false" targetId="8587b4ea-39cf-49d2-b43c-c87d31ae4e05" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Poisoned (4+)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>

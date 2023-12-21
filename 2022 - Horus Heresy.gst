@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="fc677dc3-39c6-46fc-ad8c-b60c895e8833" name="Warhammer 30,000 Kenosis Edition" revision="88" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="fc677dc3-39c6-46fc-ad8c-b60c895e8833" name="Warhammer 30,000 Kenosis Edition" revision="90" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="0dd4f866-b0f1-4486-9dfe-6f1795c88cac" name="Warhammer: The Horus Heresy - Age of Darkness Rulebook" shortName="Main Rules" publicationDate="June 2022"/>
     <publication id="01fdea1b-c915-4b5a-bde3-d155ce0c5e07" name="Liber Astartes – Loyalist Legiones Astartes Army Book" shortName="LA - Loyalist" publicationDate="June 2022"/>
@@ -1219,15 +1219,16 @@ Brace - The Reacting unit must make a Morale check. If the Check is failed, the 
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5778e98c-ddbc-4612-aae8-2e01e0befc47" type="max"/>
       </constraints>
     </categoryEntry>
-    <categoryEntry id="1fa32485-454c-4ea2-b468-12540d7c206f" name="Corrupted Engine Sub-type" hidden="false">
+    <categoryEntry id="1fa32485-454c-4ea2-b468-12540d7c206f" name="Daemon Engine Sub-type" hidden="false">
       <rules>
-        <rule id="630e300f-c21c-4e09-a0b5-24ecd9f54a4e" name="Corrupted Engine Sub-type" publicationId="67da0965-9eed-4344-beb0-24907521eb4a" page="8" hidden="false">
-          <description>• All models with the Corrupted Engine Sub-type gain the Fear (1) special rule, or if it already has the Fear (X) special rule, it increases the value of X by 1 instead. 
-• Any rule, effect or modifier that would affect a model with the Corrupted Unit Sub-type also affects a model with the Corrupted Engine Unit Sub-type (e.g., the Anathema Sub-type special rules or the Inexorable special rule).
-• Any unit composed entirely of models with the Corrupted Engine Unit Sub-type is immune to the effects of the Fear (X) special rule, automatically passes Regroup tests and cannot choose to fail a Morale check due to the Our Weapons Are Useless special rule. When a unit composed entirely of models with the Corrupted Engine Unit Sub-type fails a Morale check, it does not Fall Back as per the standard rules, but instead suffers D3 automatic Wounds with no saves or Damage Mitigation rolls of any kind allowed.
-• Any Hits inflicted on a model with the Corrupted Engine Unit Sub-type by a weapon with the Force or Psychic Focus special rules gain the Instant Death special rule.
-• If a model with the Corrupted Engine Sub-type has a Wound characteristic and suffers an unsaved Wound with the Instant Death special rule it is not immediately removed as a casualty, but instead loses D3 Wounds instead of one for each unsaved Wound with the Instant Death special rule inflicted on it.
-• No model that does not also have the Corrupted Engine Sub-type may join a unit that includes one or more models with the Corrupted Engine Unit Sub-type.</description>
+        <rule id="630e300f-c21c-4e09-a0b5-24ecd9f54a4e" name="Daemon Engine Sub-type" publicationId="67da0965-9eed-4344-beb0-24907521eb4a" page="8" hidden="false">
+          <description>• All models with the Daemon Engine Sub-type gain the Fear (1) special rule, or if it already has the Fear (X) special rule, it increases the value of X by 1 instead. 
+• Any rule, effect or modifier that would affect a model with the Corrupted Unit Sub-type also affects a model with the Daemon Engine Unit Sub-type (e.g., the Anathema Sub-type special rules or the Inexorable special rule).
+• Any unit composed entirely of models with the Daemon Engine Unit Sub-type is immune to the effects of the Fear (X) special rule, automatically passes Regroup tests and cannot choose to fail a Morale check due to the Our Weapons Are Useless special rule. When a unit composed entirely of models with the Daemon Engine Unit Sub-type fails a Morale check, it does not Fall Back as per the standard rules, but instead suffers D3 automatic Wounds with no saves or Damage Mitigation rolls of any kind allowed.
+• A model with the Daemon Engine Sub-type ignores the effects of any Crew Shaken or Crew Stunned result on the Vehicle Damage table
+• Any Hits inflicted on a model with the Daemon Engine Unit Sub-type by a weapon with the Force or Psychic Focus special rules gain the Instant Death special rule.
+• If a model with the Daemon Engine Sub-type has a Wound characteristic and suffers an unsaved Wound with the Instant Death special rule it is not immediately removed as a casualty, but instead loses D3 Wounds instead of one for each unsaved Wound with the Instant Death special rule inflicted on it.
+• No model that does not also have the Daemon Engine Sub-type may join a unit that includes one or more models with the Daemon Engine Unit Sub-type.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1307,6 +1308,25 @@ Reactions:
       </infoLinks>
     </categoryEntry>
     <categoryEntry id="e74d1af7-92b1-4780-a9ed-137adbc15053" name="Legiones Hereticus" hidden="false"/>
+    <categoryEntry id="ab80-5f27-2753-740a" name="Corrupted Engine Sub-type" hidden="false">
+      <rules>
+        <rule id="4467-b9cf-7573-21cc" name="Corrupted Engine Sub-type" publicationId="67da0965-9eed-4344-beb0-24907521eb4a" page="8" hidden="false">
+          <description>• All models with the Corrupted Engine Sub-type gain the Fear (1) special rule, or if it already has the Fear (X) special rule, it increases the value of X by 1 instead. 
+• Any rule, effect or modifier that would affect a model with the Corrupted Unit Sub-type also affects a model with the Corrupted Engine Unit Sub-type (e.g., the Anathema Sub-type special rules or the Inexorable special rule).
+• Any unit composed entirely of models with the Corrupted Engine Unit Sub-type is immune to the effects of the Fear (X) special rule, automatically passes Regroup tests and cannot choose to fail a Morale check due to the Our Weapons Are Useless special rule. When a unit composed entirely of models with the Corrupted Engine Unit Sub-type fails a Morale check, it does not Fall Back as per the standard rules, but instead suffers D3 automatic Wounds with no saves or Damage Mitigation rolls of any kind allowed.
+• Any Hits inflicted on a model with the Corrupted Engine Unit Sub-type by a weapon with the Force or Psychic Focus special rules gain the Instant Death special rule.
+• If a model with the Corrupted Engine Sub-type has a Wound characteristic and suffers an unsaved Wound with the Instant Death special rule it is not immediately removed as a casualty, but instead loses D3 Wounds instead of one for each unsaved Wound with the Instant Death special rule inflicted on it.
+• No model that does not also have the Corrupted Engine Sub-type may join a unit that includes one or more models with the Corrupted Engine Unit Sub-type.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="874f-6e1a-7d19-d6b9" name="Fear (X)" hidden="false" targetId="8ed505e6-2708-4711-b744-df639a25d8f8" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Fear (1)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </categoryEntry>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="e4d27aa2-344f-46ac-a67b-75d7802dff80" name="Crusade Force Organisation Chart" hidden="false">
