@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="77a7-4620-5791-42cd" name="2022 - Chaos Death Guard" revision="29" battleScribeVersion="2.03" library="false" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="92" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="77a7-4620-5791-42cd" name="2022 - Chaos Death Guard" revision="30" battleScribeVersion="2.03" library="false" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="93" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="94b5-ee13-a2b6-221a" name="Plague Marine Squad" hidden="false" collective="false" import="true" targetId="41ac-0dde-a938-7dc4" type="selectionEntry">
       <categoryLinks>
@@ -55,7 +55,7 @@
         <categoryLink id="dc34-caef-9416-efe6" name="New CategoryLink" hidden="false" targetId="57062715-ec54-4808-9960-07ba13cc51e9" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="5fce-2596-dedd-51d4" name="Malum Ferrugine" hidden="false" collective="false" import="true" targetId="c37f-e0f6-988f-0574" type="selectionEntry">
+    <entryLink id="5fce-2596-dedd-51d4" name="Mortarion" hidden="false" collective="false" import="true" targetId="d5e4-3744-f2ae-9e71" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="3fde-4e57-d736-6114" name="HQ:" hidden="false" targetId="57062715-ec54-4808-9960-07ba13cc51e9" primary="true"/>
         <categoryLink id="6cc3-9ea5-6f43-c88c" name="Unit:" hidden="false" targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" primary="false"/>
@@ -89,6 +89,12 @@
       <categoryLinks>
         <categoryLink id="bef9-3a64-2fba-67ff" name="Fast Attack:" hidden="false" targetId="cadd8cf5-0564-4094-b367-3bf6222ad576" primary="true"/>
         <categoryLink id="4efc-3d0e-c150-22b7" name="Vehicle Unit:" hidden="false" targetId="451232c8-6963-43cd-8af6-fd506055598b" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e00d-45af-dc7c-6434" name="Malum Ferrugine" hidden="false" collective="false" import="true" targetId="c37f-e0f6-988f-0574" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5f86-3bf7-1bee-a2e9" name="HQ:" hidden="false" targetId="57062715-ec54-4808-9960-07ba13cc51e9" primary="true"/>
+        <categoryLink id="e056-dfaa-6cee-0710" name="Unit:" hidden="false" targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" primary="false"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -1346,6 +1352,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61b3-60b1-869b-d291" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="ea01-a9b6-6b2b-2faf" name="Retinue" hidden="false" collective="false" import="true" targetId="a304-37b0-1cfc-65c4" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="95.0"/>
@@ -1694,6 +1701,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a655-3a53-1b5a-b96a" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="9fa9-b302-e794-8205" name="Retinue" hidden="false" collective="false" import="true" targetId="a304-37b0-1cfc-65c4" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
@@ -2147,6 +2155,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="165a-d555-6c21-eee1" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="bc7d-5742-e553-43ff" name="Retinue" hidden="false" collective="false" import="true" targetId="a304-37b0-1cfc-65c4" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="95.0"/>
@@ -2173,7 +2182,6 @@
       </constraints>
       <categoryLinks>
         <categoryLink id="f407-b588-2667-af47" name="Infantry:" hidden="false" targetId="b9c46d78-0d4c-44b4-85a3-d59364156c36" primary="false"/>
-        <categoryLink id="77cd-f0da-8547-d4b0" name="Character" hidden="false" targetId="546a8d3f-47d4-4c80-b30e-e6addf1298f2" primary="false"/>
         <categoryLink id="b042-b43c-21b7-d421" name="Psyker:" hidden="false" targetId="6882c586-9de3-4f18-97e4-edc841825a02" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -2185,7 +2193,7 @@
           <profiles>
             <profile id="07f9-dfb3-41b1-2368" name="Malum Ferrugine" hidden="false" typeId="2b6e799b-8afd-4ae9-b80a-234103442598" typeName="Unit">
               <characteristics>
-                <characteristic name="Unit Type" typeId="36ce3f10-11e9-4add-ae15-3062f27946e7">Infantry (Character, Unique, Psyker, Flyer)</characteristic>
+                <characteristic name="Unit Type" typeId="36ce3f10-11e9-4add-ae15-3062f27946e7">Infantry (Unique, Corrupted, Psyker, Hover)</characteristic>
                 <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">13&quot;</characteristic>
                 <characteristic name="WS" typeId="d5a82d3a-18d1-48d0-a9e0-f752cb09e068">6</characteristic>
                 <characteristic name="BS" typeId="253b2a0a-577c-437a-9898-bfc1d22dcef8">5</characteristic>
@@ -2200,8 +2208,8 @@
             </profile>
           </profiles>
           <rules>
-            <rule id="3d89-6328-2e01-fa04" name="Witchblood" hidden="false">
-              <description>Malum Ferrugine has the Witchsense Psychic Power and Toxin Cloud Psychic Weapon and does not gain access to any other Disciplines:</description>
+            <rule id="3d89-6328-2e01-fa04" name="Plaguesmith of Nurgle" hidden="false">
+              <description>Malum Ferrugine has the Weapon Virus Psychic Power and Ferromortis Psychic Weapon and does not gain access to any other Disciplines:</description>
             </rule>
           </rules>
           <infoLinks>
@@ -2224,6 +2232,7 @@
             <categoryLink id="34aa-cad1-2b11-68b3" name="Corrupted Sub-type:" hidden="false" targetId="e9163d72-5e1f-4a8b-91b6-4b29ea94196b" primary="false"/>
             <categoryLink id="6e36-6b37-4376-ed96" name="Unique Sub-type" hidden="false" targetId="6eb1062b-2fae-49d2-aaa7-569c39fa3324" primary="false"/>
             <categoryLink id="2a60-8817-27f8-a67e" name="Hover Sub-type" hidden="false" targetId="1db99a65-6ec5-48bd-9450-85407380a29b" primary="false"/>
+            <categoryLink id="3f80-119b-5990-372f" name="Skimmer Sub-type:" hidden="false" targetId="d394-ba3b-bf2f-bdd8" primary="false"/>
           </categoryLinks>
           <selectionEntryGroups>
             <selectionEntryGroup id="c40b-1270-6362-48a1" name="Psychic Powers" hidden="false" collective="false" import="true" defaultSelectionEntryId="1af0-6355-8410-2f44">
@@ -2234,25 +2243,23 @@
               <selectionEntries>
                 <selectionEntry id="1af0-6355-8410-2f44" name="Psychic Powers" hidden="false" collective="false" import="true" type="upgrade">
                   <profiles>
-                    <profile id="408e-0100-eb2c-c04c" name="Witchsense" hidden="false" typeId="30c6f28b-2ce5-416e-985a-95f8b066f0aa" typeName="Psychic Power">
+                    <profile id="5b79-81c6-fb47-c447" name="Weapon Virus" hidden="false" typeId="30c6f28b-2ce5-416e-985a-95f8b066f0aa" typeName="Psychic Power">
                       <characteristics>
-                        <characteristic name="Description" typeId="329e2e8a-351d-4e3b-af55-a0883b0ca6e3">At the start of any Assault Phase Malum Ferrugine’s controlling player may choose to make a Psychic check for him. If that Check is passed then Malum Ferrugine’s Weapon Skill Characteristic is increased by +1 and his Attacks Characteristic is increased by D3 for the duration of that Assault Phase. If the Check is failed then Malum Ferrugine suffers Perils of the Warp.</characteristic>
+                        <characteristic name="Description" typeId="329e2e8a-351d-4e3b-af55-a0883b0ca6e3">Instead of moving during the Movement phase, Malum Ferrugine may instead activate this Psychic Power. Target a single enemy unit within 24&quot;. All of the target unit’s ranged weapons have the Gets Hot special rule whilst the power is in effect. When initially using the Psychic Power, or at the start of any of the controlling player’s subsequent Movement phase while it is in effect, the controlling player may choose to have Malum Ferrugine take a Psychic check. If the Check is passed then the enemy unit suffers -1 strength, -1 toughness, -1 attacks, and may not run.</characteristic>
                       </characteristics>
                     </profile>
-                    <profile id="fff1-e83a-4a74-98e0" name="Toxin Cloud" hidden="false" typeId="9504c24c-dc04-4a9c-8d8a-d86468943dd6" typeName="Psychic Weapon">
-                      <comment>Psychic Focus: Before making any To Hit rolls with this weapon, the Psyker must make a Psychic check. If the Check is passed then the Psyker may attack as normal using the profile shown for this weapon. If the Check is failed then the Psyker suffers Perils of the Warp, and if the model is not removed as a casualty then it may attack as normal but may not use this weapon.</comment>
+                    <profile id="4302-8c28-660d-3b75" name="Ferromortis" hidden="false" typeId="9504c24c-dc04-4a9c-8d8a-d86468943dd6" typeName="Psychic Weapon">
                       <characteristics>
-                        <characteristic name="Range" typeId="f8dab760-4891-41f3-902e-d516f407d272">24&quot;</characteristic>
+                        <characteristic name="Range" typeId="f8dab760-4891-41f3-902e-d516f407d272">18&quot;</characteristic>
                         <characteristic name="Strength" typeId="7139d99c-5439-47f8-aa41-c38a67bc1e14">1</characteristic>
-                        <characteristic name="AP" typeId="8b95b3d8-f3cb-4a7c-825a-302cc79b590c">4</characteristic>
-                        <characteristic name="Type" typeId="a3362678-4ada-4992-988d-034ddc5d17db">Assault 1, Large Blast (5&quot;), Fleshbane, Pinning, Psychic Focus</characteristic>
+                        <characteristic name="AP" typeId="8b95b3d8-f3cb-4a7c-825a-302cc79b590c">-</characteristic>
+                        <characteristic name="Type" typeId="a3362678-4ada-4992-988d-034ddc5d17db">Assault 1, Haywire, Psychic Focus</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink id="9361-25f1-13dc-d091" name="Fleshbane" hidden="false" targetId="92dabf82-d6aa-4b74-a8ac-273c68b2ffce" type="rule"/>
-                    <infoLink id="ea21-9ddc-84f8-82f8" name="Pinning" hidden="false" targetId="932be210-d2df-4c82-a8c8-41b30d389267" type="rule"/>
                     <infoLink id="005b-6c63-c672-1790" name="Psychic Focus" hidden="false" targetId="d33ea3e0-be46-4c20-85b5-baba336b3ff9" type="rule"/>
+                    <infoLink id="b3bf-6dd8-7ca2-223a" name="Haywire" hidden="false" targetId="cec25350-be69-47ae-9875-c18a6c4ac3c7" type="rule"/>
                   </infoLinks>
                   <costs>
                     <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
@@ -2288,7 +2295,15 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bedd-786a-7733-1ff9" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="12b7-bb11-98c0-9a98" name="Architect of Doom" hidden="false" typeId="76330902-abd6-45ce-aaa8-e2a11b820e1e" typeName="Warlord Trait">
+              <characteristics>
+                <characteristic name="Text" typeId="73a9dc44-a6eb-4b9b-9e3c-7961608831a8">When making attacks as part of a Shooting Attack or during an Assault with any weapon that has the Poison (X) special rule, Malum Ferrugine and any unit with the Chaos Death Guard and at least one model within 12” of Malum Ferrugine, increase the value of the Poison Special rule by 1 (I.e, from 3+ to 2+) and may reroll failed To Wound rolls for weapons with the Fleshbane special rule. In addition, an army whose Warlord has this Trait may make an additional Reaction in the Movement phase as long as Malum Ferrugine has not been removed as a casualty.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
         </entryLink>
+        <entryLink id="9a47-b674-d497-7e1e" name="Retinue" hidden="false" collective="false" import="true" targetId="a304-37b0-1cfc-65c4" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="170.0"/>
@@ -2702,6 +2717,7 @@ Plague Wind (Psychic Weapon)</description>
         <categoryLink id="8449-98dc-f38c-9651" name="Vehicle Unit:" hidden="false" targetId="451232c8-6963-43cd-8af6-fd506055598b" primary="false"/>
         <categoryLink id="322c-e8d5-c0e1-6599" name="Daemon Engine Sub-type" hidden="false" targetId="1fa32485-454c-4ea2-b468-12540d7c206f" primary="false"/>
         <categoryLink id="447f-6202-887c-999e" name="Hover Sub-type" hidden="false" targetId="1db99a65-6ec5-48bd-9450-85407380a29b" primary="false"/>
+        <categoryLink id="34ee-e081-a026-e604" name="Skimmer Sub-type:" hidden="false" targetId="d394-ba3b-bf2f-bdd8" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="25e3-1954-9a5c-c202" name="Foetid Bloat-Drone" hidden="false" collective="false" import="true" type="upgrade">
@@ -2712,7 +2728,7 @@ Plague Wind (Psychic Weapon)</description>
           <profiles>
             <profile id="6399-d00f-c1fe-5ff8" name="Foetid Bloat-Drone" publicationId="e950ec53-50f2-45ba-be2f-99b19f3aab26" page="79" hidden="false" typeId="33e8f817-cd5f-4a34-a41e-129f5a10b80f" typeName="Vehicle">
               <characteristics>
-                <characteristic name="Unit Type" typeId="21020919-490d-493b-a179-6b7d89dca3d6">Vehicle (Daemon Engine, Flyer)</characteristic>
+                <characteristic name="Unit Type" typeId="21020919-490d-493b-a179-6b7d89dca3d6">Vehicle (Daemon Engine, Hover)</characteristic>
                 <characteristic name="Move" typeId="1cca1c40-5e12-4b6e-80d8-df406de6422e">12</characteristic>
                 <characteristic name="BS" typeId="36a1f635-7ab7-4164-b9d7-01c79695e499">4</characteristic>
                 <characteristic name="Front" typeId="3070d03e-86cd-4b14-a202-b1c3138a2f9a">13</characteristic>
@@ -2993,6 +3009,9 @@ Plague Wind (Psychic Weapon)</description>
           </modifiers>
         </infoLink>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="17e5-97dc-467a-9722" name="Gnashing Maw" publicationId="16158ee1-85d1-4039-9c96-dbe44c68ab93" page="123" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -3166,6 +3185,9 @@ Plague Wind (Psychic Weapon)</description>
         <infoLink id="5d12-5c81-0bfb-8d21" name="Blast" hidden="false" targetId="73191d9c-a0f7-4892-b200-af0a1e88a14b" type="rule"/>
         <infoLink id="781e-fe9e-dd5c-c95f" name="Barrage" hidden="false" targetId="43aaeb73-7c99-46f6-81e5-5ec1230cd8b8" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2da5-9043-56fd-72a7" name="Heavy Slugger" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -3178,6 +3200,9 @@ Plague Wind (Psychic Weapon)</description>
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="86c7-74c6-186d-bc27" name="Rothail Volley Gun" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -3190,6 +3215,9 @@ Plague Wind (Psychic Weapon)</description>
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="4a77-f49e-9eec-849f" name="Entropy Cannon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -3202,8 +3230,330 @@ Plague Wind (Psychic Weapon)</description>
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d5e4-3744-f2ae-9e71" name="Mortarion" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="403a-8faa-1558-0afb" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4841-aa77-8e18-fb75" name="LoW &amp; Primarchs" hidden="false" targetId="a52b8023-d6f9-4955-a156-b8c24c94c874" primary="false"/>
+        <categoryLink id="a4fa-e4ef-f566-bd77" name="Hover Sub-type" hidden="false" targetId="1db99a65-6ec5-48bd-9450-85407380a29b" primary="false"/>
+        <categoryLink id="9a3b-077a-6faa-f2ff" name="Skimmer Sub-type:" hidden="false" targetId="d394-ba3b-bf2f-bdd8" primary="false"/>
+        <categoryLink id="6422-92d3-bf6a-6261" name="Psyker:" hidden="false" targetId="6882c586-9de3-4f18-97e4-edc841825a02" primary="false"/>
+        <categoryLink id="be72-76a3-e3e5-2563" name="Daemon Primarch Unit Type" hidden="false" targetId="a3935604-ea91-4238-a288-50a86d07739d" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="fcb1-fab9-848e-fab9" name="Mortarion" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile id="8b15-1b62-f7b1-5e07" name="Mortarion" hidden="false" typeId="2b6e799b-8afd-4ae9-b80a-234103442598" typeName="Unit">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="36ce3f10-11e9-4add-ae15-3062f27946e7">Primarch (Daemon Primarch Sub-Type, Unique, Psyker, Hover)</characteristic>
+                <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">13&quot;</characteristic>
+                <characteristic name="WS" typeId="d5a82d3a-18d1-48d0-a9e0-f752cb09e068">7</characteristic>
+                <characteristic name="BS" typeId="253b2a0a-577c-437a-9898-bfc1d22dcef8">6</characteristic>
+                <characteristic name="S" typeId="94c4fa7b-8480-4e99-84ad-92c9768f1472">8</characteristic>
+                <characteristic name="T" typeId="8a92af2d-103b-4847-b535-181cc323038e">7</characteristic>
+                <characteristic name="W" typeId="5e57eecc-4078-4b3a-9087-1cf0055bbabd">7</characteristic>
+                <characteristic name="I" typeId="ed32b28f-9bdc-4312-ba9b-e16cbc61db41">5</characteristic>
+                <characteristic name="A" typeId="4e9d7106-4cea-4d16-a7ea-f2f8f2957234">6</characteristic>
+                <characteristic name="Ld" typeId="9c8deb64-055e-4d01-b341-924389963feb">10</characteristic>
+                <characteristic name="Save" typeId="d8f3cf40-ebb8-45e1-8f50-074a0475a7ed">2+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="b9d7-3d5c-514f-a16a" name="Shadow of the Reaper" hidden="false">
+              <description>So long as Mortarion is not Embarked on any model, in Reserves, locked in combat or part of a unit with the Retinue or Deathshroud Retinue special rules, in the player&apos;s Shooting phase in lieu of making a Shooting Attack, Mortarion may be redeployed by his controlling player, this counts as an alternative form of Movement.
+
+If this option is used then Mortarion is removed from the battlefield, leaving any unit that he was part of. The controlling player must then redeploy Mortarion to any point on the battlefield that is within 10&quot; of his original position, as long as there is space for his model and the chosen position is not within 3&quot; of an enemy model. He may not be placed within Impassable Terrain or inside a Vehicle or Building. This is not counted as a move as such, and the intervening terrain does not affect him in any way. Mortarion may Charge normally in a turn that he is redeployed in this way, but counts as making a Disordered Charge if doing so.</description>
+            </rule>
+            <rule id="9718-2d4e-0a81-3e7a" name="Prenatural Resilience" hidden="false">
+              <description>Any Hits allocated to Mortarion with the Poisoned (X), Rending (X), or Fleshbane special rules only affect Mortarion on a D6 roll of a 6 instead of their usual effect.</description>
+            </rule>
+            <rule id="6d0b-81c2-0df0-f889" name="The Death Lord" hidden="false">
+              <description>Mortarion has the Witchsense Psychic Power and Toxin Cloud Psychic Weapon and does not gain access to any other Disciplines:</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="c207-8b2e-2acc-f94b" name="Hatred (X)" hidden="false" targetId="157baf1d-d9be-4198-ada7-4894c84796fe" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Hatred (Psykers)"/>
+              </modifiers>
+            </infoLink>
+            <infoLink id="71b2-3c37-49ef-e703" name="Adamantium Will (X+)" hidden="false" targetId="89c5a987-2605-4b27-bf6e-6a31025e5577" type="rule"/>
+            <infoLink id="fcac-32fb-f4ea-5d90" name="Fear (X)" hidden="false" targetId="8ed505e6-2708-4711-b744-df639a25d8f8" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Fear (2)"/>
+              </modifiers>
+            </infoLink>
+            <infoLink id="f5a9-a7d7-70db-d2dc" name="It Will Not Die (X)" hidden="false" targetId="6cfc9354-2a62-43ec-87aa-137862c8c7bb" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="It Will Not Die (4+)"/>
+              </modifiers>
+            </infoLink>
+            <infoLink id="d184-65fb-601d-6c53" name="Bulky (X)" hidden="false" targetId="1e7612dc-20f4-4c63-9297-8884e8c765e6" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Bulky (6)"/>
+              </modifiers>
+            </infoLink>
+            <infoLink id="815b-aa80-62e3-0638" name="Fearless" hidden="false" targetId="a8b0b982-b521-4b68-8328-a2cccc69bb3c" type="rule"/>
+            <infoLink id="b1ff-d7d7-2745-e82c" name="Inexorable" hidden="false" targetId="b8932bc5-ce64-423f-8352-7ddef814a894" type="rule"/>
+            <infoLink id="6161-fc43-240f-b7b1" name="Feel No Pain (X)" hidden="false" targetId="dbe120b1-50cf-4716-b69d-c9d9379e2251" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Feel No Pain (5+)"/>
+              </modifiers>
+            </infoLink>
+            <infoLink id="3c60-17ca-f929-b3d6" name="Relentless" hidden="false" targetId="2800305f-2d6f-4e0e-8d3f-f5e05b31560e" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="b331-3759-c6ef-3b44" name="Independent Character" hidden="false" targetId="725d715e-4c30-4e65-8215-9da23b9b5c1f" primary="false"/>
+            <categoryLink id="d900-2569-6725-2270" name="Unique Sub-type" hidden="false" targetId="6eb1062b-2fae-49d2-aaa7-569c39fa3324" primary="false"/>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="417b-cdae-4b23-f359" name="Silence" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="deec-4f04-bcc4-a6a4" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c8f2-f2e4-cedf-31c3" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="ab40-7125-b0f5-eddb" name="Silence" hidden="false" typeId="6525dede-e40b-4bd7-939d-60de13a16105" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">-</characteristic>
+                    <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">+1</characteristic>
+                    <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">2</characteristic>
+                    <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Melee, Instant Death, Sunder, Two-handed, Reaping Blow (2)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="16a0-92a8-24b1-6d03" name="Instant Death" hidden="false" targetId="4003fcc5-bc42-4b99-9542-647cc20acaf6" type="rule"/>
+                <infoLink id="ba71-d103-bd37-3523" name="Sunder" hidden="false" targetId="b856617a-b392-496c-a898-f09ae49d1d94" type="rule"/>
+                <infoLink id="e524-5324-4760-dd0c" name="Two-handed" hidden="false" targetId="3dbdb43d-6d66-4b3e-ba30-d356f27563dc" type="rule"/>
+                <infoLink id="84fe-9394-5971-a42a" name="Reaping Blow (X)" hidden="false" targetId="64281c71-7fe2-4659-9a91-8386a898c365" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Reaping Blow (2)"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f73f-d89f-b6a0-9ec0" name="The Lantern" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6af0-404f-6472-2b8b" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6e09-4130-eea0-6bf1" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="91fd-0ec4-9f56-7a1f" name="The Lantern" hidden="false" typeId="6525dede-e40b-4bd7-939d-60de13a16105" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">18&quot;</characteristic>
+                    <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">8</characteristic>
+                    <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">2</characteristic>
+                    <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Assault 1, Sunder</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="8fb4-9bd1-362c-b08e" name="Sunder" hidden="false" targetId="b856617a-b392-496c-a898-f09ae49d1d94" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="45b0-efdd-8dbe-60d7" name="The Barbaran Plate" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9c8e-05f2-5f43-34c4" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="49fa-6be1-fa6c-480e" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="7f6c-b8a9-f73e-fc32" name="The Barbaran Plate" hidden="false" typeId="04ae4d9f-9a14-4ace-8f86-56ec1229c5a1" typeName="Wargear Item">
+                  <characteristics>
+                    <characteristic name="Description" typeId="b041e7a3-08e8-4a60-a7e7-e50e963bc010">The Barbaran Plate provides a 2+ Armour Save and a 4+ Invulnerable Save.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="2a95-c431-07c9-af20" name="Psychic Powers" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6001-0069-7ffb-a955" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06dc-c72a-c5c3-b413" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="9697-da44-46aa-83d5" name="Psychic Powers" hidden="false" collective="false" import="true" type="upgrade">
+                  <profiles>
+                    <profile id="07fc-f403-0191-5143" name="Toxin Cloud" hidden="false" typeId="9504c24c-dc04-4a9c-8d8a-d86468943dd6" typeName="Psychic Weapon">
+                      <comment>Psychic Focus: Before making any To Hit rolls with this weapon, the Psyker must make a Psychic check. If the Check is passed then the Psyker may attack as normal using the profile shown for this weapon. If the Check is failed then the Psyker suffers Perils of the Warp, and if the model is not removed as a casualty then it may attack as normal but may not use this weapon.</comment>
+                      <characteristics>
+                        <characteristic name="Range" typeId="f8dab760-4891-41f3-902e-d516f407d272">24&quot;</characteristic>
+                        <characteristic name="Strength" typeId="7139d99c-5439-47f8-aa41-c38a67bc1e14">1</characteristic>
+                        <characteristic name="AP" typeId="8b95b3d8-f3cb-4a7c-825a-302cc79b590c">4</characteristic>
+                        <characteristic name="Type" typeId="a3362678-4ada-4992-988d-034ddc5d17db">Assault 1, Large Blast (5&quot;), Fleshbane, Pinning, Psychic Focus</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile id="8892-992d-94aa-804b" name="Witchsense" hidden="false" typeId="30c6f28b-2ce5-416e-985a-95f8b066f0aa" typeName="Psychic Power">
+                      <characteristics>
+                        <characteristic name="Description" typeId="329e2e8a-351d-4e3b-af55-a0883b0ca6e3">At the start of any Assault Phase Mortarion’s controlling player may choose to make a Psychic check for him. If that Check is passed then Mortarion’s Weapon Skill Characteristic is increased by +1 and his Attacks Characteristic is increased by D3 for the duration of that Assault Phase. If the Check is failed then Mortarion suffers Perils of the Warp.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="0ee7-5e0b-3703-81e3" name="Fleshbane" hidden="false" targetId="92dabf82-d6aa-4b74-a8ac-273c68b2ffce" type="rule"/>
+                    <infoLink id="5b1b-7660-2c85-4404" name="Pinning" hidden="false" targetId="932be210-d2df-4c82-a8c8-41b30d389267" type="rule"/>
+                    <infoLink id="28df-7112-07c0-1abd" name="Psychic Focus" hidden="false" targetId="d33ea3e0-be46-4c20-85b5-baba336b3ff9" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="73dd-b0a2-14e8-0588" name="Frag Grenades" hidden="false" collective="false" import="true" targetId="5acce3b0-125c-4ecd-868c-1fdad8c7112d" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fdb0-7528-2cd9-2a70" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e70d-7579-3a34-5691" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="8a78-6e15-63c0-b58b" name="Phosphex Bomb" hidden="false" collective="false" import="true" targetId="75f334bc-ceea-412f-bf03-bee74e58fa76" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="7.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8aca-acef-ffcd-7de6" type="min"/>
+                <constraint field="selections" scope="parent" value="7.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="07ce-01ea-0678-6f41" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="a341-5630-055f-096b" name="Master of the Legion" hidden="false" collective="false" import="true" targetId="8ba88182-adf2-4fe1-8307-3a91625a94cb" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8fcf-587e-a8bd-7614" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="002f-22bb-66ff-8fc7" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="d722-3c52-f5ab-6f77" name="Warlord" hidden="false" collective="false" import="true" targetId="1887d318-5716-41f5-8b3e-1e6dff0c8e4c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcad-0ed8-66d7-4a71" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d945-565b-365b-04bf" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="5f50-7dcf-0a7a-ccd5" name="Sire of the Death Guard" hidden="false" typeId="76330902-abd6-45ce-aaa8-e2a11b820e1e" typeName="Warlord Trait">
+              <characteristics>
+                <characteristic name="Text" typeId="73a9dc44-a6eb-4b9b-9e3c-7961608831a8">All friendly units composed entirely of models with the Chaos Death Guard in the same army as Mortarion, including Mortarion himself, ignore all penalties to their Leadership caused by the Fear and Shell Shock (X) special rules and when locked in combat suffer no penaltry to their Leadership Characteristics due to casualties suffered during an assault. In addition, an army with Mortarion as its Warlord may take an additional Reaction in the opposing player&apos;s Assault phase as long as Mortarion has not been removed as a casualty.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </entryLink>
+        <entryLink id="d615-067b-08dd-09a5" name="Retinue" hidden="false" collective="false" import="true" targetId="a304-37b0-1cfc-65c4" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="470.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="a304-37b0-1cfc-65c4" name="Retinue" hidden="false" collective="false" import="true">
+      <comment>template_id_be38-a066-4f8e-ae54</comment>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="159b-ddc4-a7f4-e4bb" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="4db4-977a-a9de-f7f2" name="Deathshroud Terminator Squad" hidden="false" collective="false" import="true" targetId="1afc-8937-ba69-d7b3" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="f8c3-fcd5-5217-fe4b" name="Warlord Traits" hidden="false" collective="false" import="true">
+      <comment>template_id_7dee-602c-4b47-be09</comment>
+      <modifiers>
+        <modifier type="set" field="f971-0b50-fc35-b348" value="1.0">
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1887d318-5716-41f5-8b3e-1e6dff0c8e4c" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1887d318-5716-41f5-8b3e-1e6dff0c8e4c" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="13bb-7b38-953a-58aa" type="max"/>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f971-0b50-fc35-b348" type="min"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2ebb-69df-7f28-84fa" name="Chaos Death Guard" publicationId="6b35175a-3972-4f4e-a27a-55255adca082" page="234" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d718-cb57-7e4a-5f59" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ce9d-c229-f150-820f" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="d4e2-974b-e73c-244f" name="The Reaper’s Visage" publicationId="6b35175a-3972-4f4e-a27a-55255adca082" page="234" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4656-1c23-366e-ef8d" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1e43-e1e9-c362-8ac8" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="62ff-f2cf-3c7e-4d8a" name="The Reaper’s Visage" publicationId="6b35175a-3972-4f4e-a27a-55255adca082" page="234" hidden="false" typeId="76330902-abd6-45ce-aaa8-e2a11b820e1e" typeName="Warlord Trait">
+                  <characteristics>
+                    <characteristic name="Text" typeId="73a9dc44-a6eb-4b9b-9e3c-7961608831a8">Any enemy unit with at least one model within 12&quot; of a Warlord with this Trait must reduce the Leadership of all models in that unit by -2 whenever making a Leadership test, a Morale check, or attempting to Regroup – unless that unit also includes at least one model with the Independent Character special rule or the Primarch Unit Type. In addition, an army whose Warlord has this Trait may make an additional Reaction during the opposing player’s Assault phase as long as the Warlord has not been removed as a casualty.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="62f1-7712-980e-fa37" name="Witch Hunter" publicationId="6b35175a-3972-4f4e-a27a-55255adca082" page="234" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f2e1-d1f8-20a9-f7fd" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="085a-9290-d843-f258" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="e467-5063-751c-0eac" name="Witch Hunter" publicationId="6b35175a-3972-4f4e-a27a-55255adca082" page="234" hidden="false" typeId="76330902-abd6-45ce-aaa8-e2a11b820e1e" typeName="Warlord Trait">
+                  <characteristics>
+                    <characteristic name="Text" typeId="73a9dc44-a6eb-4b9b-9e3c-7961608831a8">A Warlord with this Trait gains +1 to his Toughness and Weapon Skill when locked in combat with any unit that includes at least one model with the Psyker Sub-type. All friendly units composed entirely of models with the Legiones Astartes (Death Guard) special rule, and with at least one model within 12&quot; of the Warlord gain a 6+ Invulnerable Save against any Hits inflicted by a Psychic Weapon, Psychic Power or Perils of the Warp. In addition, an army whose Warlord has this Trait may make an additional Reaction during the opposing player’s Assault phase as long as the Warlord has not been removed as a casualty.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8f50-173a-0a63-5c54" name="The Blood of Barbarus" publicationId="6b35175a-3972-4f4e-a27a-55255adca082" page="234" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9c54-24ed-7a16-90f4" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="37c0-5b23-53b0-1dec" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="01b7-3360-94df-ccf6" name="The Blood of Barbarus" publicationId="6b35175a-3972-4f4e-a27a-55255adca082" page="234" hidden="false" typeId="76330902-abd6-45ce-aaa8-e2a11b820e1e" typeName="Warlord Trait">
+                  <characteristics>
+                    <characteristic name="Text" typeId="73a9dc44-a6eb-4b9b-9e3c-7961608831a8">Any Hits with the Rending (X), Murderous Strike (X), Poisoned (X) or Fleshbane special rule allocated to a Warlord with this Trait, or any model part of Chaos Death Guard force in a unit he joins, only gain the benefit of those special rules on a D6 roll of a 6 instead of the value listed as part of that special rule. In addition, an army whose Warlord has this Trait may make an additional Reaction during the opposing player’s Shooting phase as long as the Warlord has not been removed as a casualty.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="7fb9-2fa5-83fa-357b" name="Generic Warlord Traits" hidden="false" collective="false" import="true" targetId="98f4bc71-e80b-4c38-b9f4-2ac899826727" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="10b0-7806-fad3-f87a" name="Plague Weapon" hidden="false">
       <description>You can re-roll wound rolls of 1 for a weapon with this ability.</description>
