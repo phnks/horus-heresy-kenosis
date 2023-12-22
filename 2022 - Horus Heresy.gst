@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="fc677dc3-39c6-46fc-ad8c-b60c895e8833" name="Warhammer 30,000 Kenosis Edition" revision="95" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="fc677dc3-39c6-46fc-ad8c-b60c895e8833" name="Warhammer 30,000 Kenosis Edition" revision="98" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="0dd4f866-b0f1-4486-9dfe-6f1795c88cac" name="Warhammer: The Horus Heresy - Age of Darkness Rulebook" shortName="Main Rules" publicationDate="June 2022"/>
     <publication id="01fdea1b-c915-4b5a-bde3-d155ce0c5e07" name="Liber Astartes – Loyalist Legiones Astartes Army Book" shortName="LA - Loyalist" publicationDate="June 2022"/>
@@ -1345,7 +1345,7 @@ Reactions:
         <categoryLink id="662cafaf-82a2-4292-93f5-a2e58a04208b" name="Allegiance:" hidden="false" targetId="96aaefc9-bb4f-4101-8899-fc6c4ca4e102" primary="false">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="22350b45-ee55-4a75-888a-c3a54f86b994" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="284c2d31-ff28-4b0c-8d29-45ba26c22ec6" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="284c2d31-ff28-4b0c-8d29-45ba26c22ec6" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="dc3ec1e7-a660-4265-9531-a7539a85bcc6" name="Rite of War:" hidden="false" targetId="8706608b-25c5-4367-b9ed-ee564d8790bf" primary="false"/>
@@ -1659,7 +1659,7 @@ Reactions:
         <categoryLink id="add5b65e-95dd-4c11-99e5-d26676d3857d" name="Allegiance:" hidden="false" targetId="96aaefc9-bb4f-4101-8899-fc6c4ca4e102" primary="false">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a17007e5-200d-461d-bcef-8736e36c1f5f" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="36b56a80-94fa-4bf1-a3b6-8444d2fda0d6" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="36b56a80-94fa-4bf1-a3b6-8444d2fda0d6" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="36a3565c-d65b-4018-875a-d56d11f07645" name="Rite of War:" hidden="false" targetId="8706608b-25c5-4367-b9ed-ee564d8790bf" primary="false"/>
@@ -2135,7 +2135,7 @@ Reactions:
         <categoryLink id="a0cf9183-c443-44f6-9b93-65b0785d5b0e" name="Allegiance:" hidden="false" targetId="96aaefc9-bb4f-4101-8899-fc6c4ca4e102" primary="false">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="84790e2d-7b49-4fde-93af-7539165a10a6" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="034e46e5-c8c5-4c34-84f7-a600e50776fc" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="034e46e5-c8c5-4c34-84f7-a600e50776fc" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="5801d66e-34c1-4b5c-980a-6859caf95188" name="Lords of War:" hidden="false" targetId="266ef4b9-8d43-4618-8e6f-aad3dd30ee90" primary="false">
@@ -7051,8 +7051,9 @@ Thaumaturge’s Cleansing (Psychic Weapon)</description>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7d795026-4be5-4f10-9781-18bd5d46cb7e" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3cd26d58-aa0f-4233-9e1d-d17ac2eec014" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3cd26d58-aa0f-4233-9e1d-d17ac2eec014" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0dc86982-9cc1-4b4e-b4c9-cef8287d4774" type="min"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7e2e-a690-af84-5d38" type="max"/>
       </constraints>
       <costs>
         <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
