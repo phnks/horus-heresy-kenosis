@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="fc677dc3-39c6-46fc-ad8c-b60c895e8833" name="Warhammer 30,000 Kenosis Edition" revision="94" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="fc677dc3-39c6-46fc-ad8c-b60c895e8833" name="Warhammer 30,000 Kenosis Edition" revision="95" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="0dd4f866-b0f1-4486-9dfe-6f1795c88cac" name="Warhammer: The Horus Heresy - Age of Darkness Rulebook" shortName="Main Rules" publicationDate="June 2022"/>
     <publication id="01fdea1b-c915-4b5a-bde3-d155ce0c5e07" name="Liber Astartes – Loyalist Legiones Astartes Army Book" shortName="LA - Loyalist" publicationDate="June 2022"/>
@@ -1402,7 +1402,7 @@ Reactions:
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="increment" field="05be465a-4903-4242-8637-e4dbe3e1fbbd" value="1">
+            <modifier type="increment" field="05be465a-4903-4242-8637-e4dbe3e1fbbd" value="1.0">
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
@@ -1412,7 +1412,7 @@ Reactions:
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="increment" field="9a6c1edd-7654-4f9d-a7eb-73fb446d5a3d" value="1">
+            <modifier type="increment" field="9a6c1edd-7654-4f9d-a7eb-73fb446d5a3d" value="1.0">
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
@@ -1421,7 +1421,7 @@ Reactions:
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="increment" field="05be465a-4903-4242-8637-e4dbe3e1fbbd" value="1">
+            <modifier type="increment" field="05be465a-4903-4242-8637-e4dbe3e1fbbd" value="1.0">
               <conditions>
                 <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a4e9c530-49f5-491a-8470-15471567a898" type="atLeast"/>
               </conditions>
@@ -2140,7 +2140,7 @@ Reactions:
         </categoryLink>
         <categoryLink id="5801d66e-34c1-4b5c-980a-6859caf95188" name="Lords of War:" hidden="false" targetId="266ef4b9-8d43-4618-8e6f-aad3dd30ee90" primary="false">
           <modifiers>
-            <modifier type="set" field="ff8-b5b1-7226-6a49" value="0">
+            <modifier type="set" field="ff8-b5b1-7226-6a49" value="0.0">
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
@@ -2150,6 +2150,11 @@ Reactions:
                 </conditionGroup>
               </conditionGroups>
             </modifier>
+            <modifier type="set" field="7d2c3e35-4d0d-4f58-a5d0-3e5a7e14cc4c" value="0.0">
+              <conditions>
+                <condition field="selections" scope="58a7-8821-3cd9-c73" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a52b8023-d6f9-4955-a156-b8c24c94c874" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7d2c3e35-4d0d-4f58-a5d0-3e5a7e14cc4c" type="min"/>
@@ -2158,14 +2163,20 @@ Reactions:
         </categoryLink>
         <categoryLink id="997dd924-4fb8-43aa-b90c-c6ed6a2975ca" name="LoW &amp; Primarchs (25% Limit)" hidden="false" targetId="a52b8023-d6f9-4955-a156-b8c24c94c874" primary="false">
           <modifiers>
-            <modifier type="increment" field="d601fa3f-0608-40e2-8c6b-051ea80af12f" value="1">
+            <modifier type="increment" field="d601fa3f-0608-40e2-8c6b-051ea80af12f" value="1.0">
               <repeats>
                 <repeat field="1c476931-8303-47b7-ac43-7eff8c4583c4" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
+            <modifier type="set" field="cd77-2cd9-2710-745e" value="0.0">
+              <conditions>
+                <condition field="selections" scope="58a7-8821-3cd9-c73" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="266ef4b9-8d43-4618-8e6f-aad3dd30ee90" type="atLeast"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint field="1c476931-8303-47b7-ac43-7eff8c4583c4" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d601fa3f-0608-40e2-8c6b-051ea80af12f" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cd77-2cd9-2710-745e" type="min"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -7041,7 +7052,7 @@ Thaumaturge’s Cleansing (Psychic Weapon)</description>
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7d795026-4be5-4f10-9781-18bd5d46cb7e" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3cd26d58-aa0f-4233-9e1d-d17ac2eec014" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0dc86982-9cc1-4b4e-b4c9-cef8287d4774" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0dc86982-9cc1-4b4e-b4c9-cef8287d4774" type="min"/>
       </constraints>
       <costs>
         <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
