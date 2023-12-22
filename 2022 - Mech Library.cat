@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9db47c25-f72b-415b-b6f2-ffeb17606a4b" name="2022 - Mech Library" revision="38" battleScribeVersion="2.03" library="true" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="97" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9db47c25-f72b-415b-b6f2-ffeb17606a4b" name="2022 - Mech Library" revision="39" battleScribeVersion="2.03" library="true" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="98" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="2c564ea6-42ce-4bea-bf71-ff9f189228fc" name="Titan Legion Min Troop/LoW" hidden="false"/>
     <categoryEntry id="e7ede208-1539-45b4-b9d6-6b672dd37a86" name="Cybertheurgist" publicationId="16158ee1-85d1-4039-9c96-dbe44c68ab93" page="92-96" hidden="false"/>
@@ -6375,11 +6375,11 @@ A unit composed entirely of models with Utan jump boosters may not Run. During R
             <entryLink id="c787c58a-831d-436a-a4c7-ac162bd8b9ef" name="Triaros Armoured Conveyor" hidden="false" collective="false" import="true" targetId="a40f2712-3b8e-4f01-a238-920688a46f1a" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="fa4fe354-5c39-4781-86f9-6082bb0268fe" name="1 in 3 models may exchange their lightning gun for one of the following:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="fa4fe354-5c39-4781-86f9-6082bb0268fe" name="Models may exchange their lightning gun for one of the following:" hidden="false" collective="false" import="true">
           <modifiers>
-            <modifier type="increment" field="2174b225-3c9d-4646-8a88-67719b691531" value="1">
+            <modifier type="increment" field="2174b225-3c9d-4646-8a88-67719b691531" value="1.0">
               <repeats>
-                <repeat field="selections" scope="dbde9c0a-6d28-47ce-9b13-5561a1141778" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="dbde9c0a-6d28-47ce-9b13-5561a1141778" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
           </modifiers>

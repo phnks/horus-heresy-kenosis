@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8f476ede-33bd-41e2-a64e-0a49fd5d88b7" name="2022 - Mechanicum" revision="34" battleScribeVersion="2.03" library="false" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="97" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8f476ede-33bd-41e2-a64e-0a49fd5d88b7" name="2022 - Mechanicum" revision="35" battleScribeVersion="2.03" library="false" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="98" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="e57d0ebd-fef3-4644-9e20-46618b0487d0" name="Mechanicum" hidden="false" collective="false" import="false" targetId="1d33f58a-2c5f-4730-9177-8911df5a25bb" type="selectionEntry">
       <modifiers>
@@ -1428,7 +1428,11 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="eb43d34d-5047-46c2-b5b1-e90037767ce9" name="Warlord" hidden="false" collective="false" import="true" targetId="1887d318-5716-41f5-8b3e-1e6dff0c8e4c" type="selectionEntry"/>
+        <entryLink id="eb43d34d-5047-46c2-b5b1-e90037767ce9" name="Warlord" hidden="false" collective="false" import="true" targetId="1887d318-5716-41f5-8b3e-1e6dff0c8e4c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1573-0f81-bf8f-0470" type="max"/>
+          </constraints>
+        </entryLink>
         <entryLink id="57021de7-6cf7-4249-a875-de5b6d543528" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="0f896861-9eb4-49bf-9249-c42155778aa6" type="selectionEntryGroup"/>
         <entryLink id="15746e67-1a9e-4837-8128-e3ae2fa06390" name="Mechanicum Protectiva" hidden="false" collective="false" import="true" targetId="0661b489-a899-48ad-afa7-38df77b42cd8" type="selectionEntry">
           <constraints>
@@ -1652,7 +1656,11 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="70768a9c-70d7-4d31-9aa9-4a928959af1c" name="Warlord" hidden="false" collective="false" import="true" targetId="1887d318-5716-41f5-8b3e-1e6dff0c8e4c" type="selectionEntry"/>
+        <entryLink id="70768a9c-70d7-4d31-9aa9-4a928959af1c" name="Warlord" hidden="false" collective="false" import="true" targetId="1887d318-5716-41f5-8b3e-1e6dff0c8e4c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8e1-c0e4-34c2-60e3" type="max"/>
+          </constraints>
+        </entryLink>
         <entryLink id="7bbeec33-b49c-4ca1-97fa-68da01ab6789" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="0f896861-9eb4-49bf-9249-c42155778aa6" type="selectionEntryGroup"/>
         <entryLink id="6d2a4e52-c5f2-46f0-b1d9-d8068c7ee8e6" name="Mechanicum Protectiva" hidden="false" collective="false" import="true" targetId="0661b489-a899-48ad-afa7-38df77b42cd8" type="selectionEntry">
           <constraints>
@@ -2122,16 +2130,33 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef2a-f2fd-7f65-7183" type="max"/>
                   </constraints>
                 </entryLink>
+                <entryLink id="e275-584a-d742-a8ed" name="Omnissian Axe" hidden="false" collective="false" import="true" targetId="08ff-87c1-3bd2-658c" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11ab-9c52-eb8d-249f" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="9ae7-aefa-c974-e0d3" name="Ranged Weapon Options" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fab8-7a5a-79a1-9aca" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf3f-646f-49c9-c010" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="09a2-d1fe-881c-5522" name="Laspistol" hidden="false" collective="false" import="true" targetId="c38db6e3-07cf-4424-8a8a-e085f061ba26" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e779-ce46-8b17-936e" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="87ab-3e17-67e5-9b61" name="Mechanicus Pistol" hidden="false" collective="false" import="true" targetId="78c1-c16e-4aef-6326" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e356-7752-a1c3-1704" type="max"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="66b321b7-7234-4ffa-9368-db4189a51588" name="Laspistol" hidden="false" collective="false" import="true" targetId="c38db6e3-07cf-4424-8a8a-e085f061ba26" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7eddc0ab-5dc2-4e09-9dba-6b1b1639b507" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="787bb70d-a9f8-4e0c-b741-807ff4f7764a" type="min"/>
-              </constraints>
-            </entryLink>
             <entryLink id="0f330345-fb6b-4aa8-98d7-b83f21fe8d2f" name="Cybertheurgic Arcana" hidden="false" collective="false" import="true" targetId="72ed0ddf-7363-44d7-8284-71dfa99047d7" type="selectionEntryGroup">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
@@ -6714,6 +6739,9 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7a91-ecaf-49e4-b378" name="Magnarail Lance" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -6723,6 +6751,33 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
             <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">7</characteristic>
             <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">3</characteristic>
             <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Heavy 1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="78c1-c16e-4aef-6326" name="Mechanicus Pistol" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="6817-3c56-bb5c-6281" name="Mechanicus Pistol" hidden="false" typeId="6525dede-e40b-4bd7-939d-60de13a16105" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">12&quot;</characteristic>
+            <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">4</characteristic>
+            <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">4</characteristic>
+            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Pistol 2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="08ff-87c1-3bd2-658c" name="Omnissian Axe" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="2e59-3a68-ab80-c388" name="Omnissian Axe" hidden="false" typeId="6525dede-e40b-4bd7-939d-60de13a16105" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">-</characteristic>
+            <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">+2</characteristic>
+            <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">4</characteristic>
+            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Melee</characteristic>
           </characteristics>
         </profile>
       </profiles>
