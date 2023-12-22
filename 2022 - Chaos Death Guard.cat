@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="77a7-4620-5791-42cd" name="2022 - Chaos Death Guard" revision="33" battleScribeVersion="2.03" library="false" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="93" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="77a7-4620-5791-42cd" name="2022 - Chaos Death Guard" revision="35" battleScribeVersion="2.03" library="false" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="94" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="94b5-ee13-a2b6-221a" name="Plague Marine Squad" hidden="false" collective="false" import="true" targetId="41ac-0dde-a938-7dc4" type="selectionEntry">
       <categoryLinks>
@@ -1417,10 +1417,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="83a9-6814-665a-031e" name="Foul Blightspawn" hidden="false" collective="false" import="true" type="unit">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6af-8866-3860-8e50" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f383-01dc-d778-512f" type="max"/>
-      </constraints>
       <categoryLinks>
         <categoryLink id="5563-befd-f767-04cf" name="Infantry Only" hidden="false" targetId="c73c8789-13b1-438e-bdd2-08da6b447f28" primary="false"/>
         <categoryLink id="7c3d-1308-e699-cbd1" name="Infantry:" hidden="false" targetId="b9c46d78-0d4c-44b4-85a3-d59364156c36" primary="false"/>
@@ -1550,10 +1546,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="ef17-1662-fdd1-bbd2" name="Tallyman" hidden="false" collective="false" import="true" type="unit">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5608-7c7d-214e-3eb4" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9e0-be97-f50a-5941" type="max"/>
-      </constraints>
       <categoryLinks>
         <categoryLink id="fb54-fdf3-2d99-2b73" name="Infantry Only" hidden="false" targetId="c73c8789-13b1-438e-bdd2-08da6b447f28" primary="false"/>
         <categoryLink id="99a9-f323-30ee-41ad" name="Infantry:" hidden="false" targetId="b9c46d78-0d4c-44b4-85a3-d59364156c36" primary="false"/>
@@ -1667,10 +1659,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="4496-52ed-2c88-cd90" name="Plague Surgeon" hidden="false" collective="false" import="true" type="unit">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ebf-028b-adee-e675" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1dc9-55b7-0289-d5ee" type="max"/>
-      </constraints>
       <categoryLinks>
         <categoryLink id="ac99-7a04-3ff2-d5c9" name="Infantry Only" hidden="false" targetId="c73c8789-13b1-438e-bdd2-08da6b447f28" primary="false"/>
         <categoryLink id="3482-9be9-5bb5-e1e2" name="Infantry:" hidden="false" targetId="b9c46d78-0d4c-44b4-85a3-d59364156c36" primary="false"/>
@@ -3454,6 +3442,9 @@ If this option is used then Mortarion is removed from the battlefield, leaving a
         <entryLink id="66f4-8a11-6ad9-2121" name="Retinue" hidden="false" collective="false" import="true" targetId="a304-37b0-1cfc-65c4" type="selectionEntryGroup"/>
         <entryLink id="371a-ba1e-9e36-b829" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="f8c3-fcd5-5217-fe4b" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>

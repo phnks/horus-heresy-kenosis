@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="fc677dc3-39c6-46fc-ad8c-b60c895e8833" name="Warhammer 30,000 Kenosis Edition" revision="93" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="fc677dc3-39c6-46fc-ad8c-b60c895e8833" name="Warhammer 30,000 Kenosis Edition" revision="94" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="0dd4f866-b0f1-4486-9dfe-6f1795c88cac" name="Warhammer: The Horus Heresy - Age of Darkness Rulebook" shortName="Main Rules" publicationDate="June 2022"/>
     <publication id="01fdea1b-c915-4b5a-bde3-d155ce0c5e07" name="Liber Astartes – Loyalist Legiones Astartes Army Book" shortName="LA - Loyalist" publicationDate="June 2022"/>
@@ -1586,7 +1586,7 @@ Reactions:
         </categoryLink>
         <categoryLink id="8c7916e5-605d-4030-8d5d-e1afa8cd8df1" name="Primarch:" hidden="false" targetId="48d02839-81a4-45b2-8155-2a3ed3ebde04" primary="false">
           <modifiers>
-            <modifier type="set" field="644e9d91-deea-462a-a460-a889ada95b01" value="0">
+            <modifier type="set" field="644e9d91-deea-462a-a460-a889ada95b01" value="0.0">
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
@@ -1658,8 +1658,8 @@ Reactions:
       <categoryLinks>
         <categoryLink id="add5b65e-95dd-4c11-99e5-d26676d3857d" name="Allegiance:" hidden="false" targetId="96aaefc9-bb4f-4101-8899-fc6c4ca4e102" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a17007e5-200d-461d-bcef-8736e36c1f5f" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="36b56a80-94fa-4bf1-a3b6-8444d2fda0d6" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a17007e5-200d-461d-bcef-8736e36c1f5f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="36b56a80-94fa-4bf1-a3b6-8444d2fda0d6" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="36a3565c-d65b-4018-875a-d56d11f07645" name="Rite of War:" hidden="false" targetId="8706608b-25c5-4367-b9ed-ee564d8790bf" primary="false"/>
@@ -1843,7 +1843,7 @@ Reactions:
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a93cebd6-272a-48f0-bb52-e0af26de7d21" type="min"/>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a93cebd6-272a-48f0-bb52-e0af26de7d21" type="min"/>
           </constraints>
         </categoryLink>
         <categoryLink id="6fb64837-7536-4e3b-941b-bfffe94f95b8" name="Compulsory Troops:" hidden="false" targetId="a9ded219-d94d-4bd0-b6a9-dd75915a39ad" primary="false">
@@ -1855,7 +1855,7 @@ Reactions:
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e15bf174-d11b-4fdc-9c25-dc5593bf50c5" type="min"/>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e15bf174-d11b-4fdc-9c25-dc5593bf50c5" type="min"/>
           </constraints>
         </categoryLink>
         <categoryLink id="3ae56a24-1abb-4559-884a-94248524a023" name="Infantry:" hidden="false" targetId="b9c46d78-0d4c-44b4-85a3-d59364156c36" primary="false"/>
@@ -2086,7 +2086,7 @@ Reactions:
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b82633c8-9680-4508-8977-c10c888187f4" type="min"/>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b82633c8-9680-4508-8977-c10c888187f4" type="min"/>
           </constraints>
         </categoryLink>
         <categoryLink id="13783721-c4b3-4051-99c2-18db97b639f0" name="Compulsory Troops:" hidden="false" targetId="a9ded219-d94d-4bd0-b6a9-dd75915a39ad" primary="false">
@@ -2098,7 +2098,7 @@ Reactions:
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="aed64d96-de4d-4bd0-bf86-6d47a742b158" type="min"/>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="aed64d96-de4d-4bd0-bf86-6d47a742b158" type="min"/>
           </constraints>
         </categoryLink>
         <categoryLink id="36863757-d510-4864-9a35-e4466de88c1f" name="Infantry:" hidden="false" targetId="b9c46d78-0d4c-44b4-85a3-d59364156c36" primary="false"/>
@@ -2134,8 +2134,8 @@ Reactions:
         <categoryLink id="697a0b02-802c-42f5-8346-6a26d3bc835f" name="Expanded Army Lists" hidden="false" targetId="aac8ccc7-565c-411a-9168-c9b60725c329" primary="false"/>
         <categoryLink id="a0cf9183-c443-44f6-9b93-65b0785d5b0e" name="Allegiance:" hidden="false" targetId="96aaefc9-bb4f-4101-8899-fc6c4ca4e102" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="84790e2d-7b49-4fde-93af-7539165a10a6" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="034e46e5-c8c5-4c34-84f7-a600e50776fc" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="84790e2d-7b49-4fde-93af-7539165a10a6" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="034e46e5-c8c5-4c34-84f7-a600e50776fc" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="5801d66e-34c1-4b5c-980a-6859caf95188" name="Lords of War:" hidden="false" targetId="266ef4b9-8d43-4618-8e6f-aad3dd30ee90" primary="false">
