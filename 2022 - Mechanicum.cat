@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8f476ede-33bd-41e2-a64e-0a49fd5d88b7" name="2022 - Mechanicum" revision="38" battleScribeVersion="2.03" library="false" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="98" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8f476ede-33bd-41e2-a64e-0a49fd5d88b7" name="2022 - Mechanicum" revision="39" battleScribeVersion="2.03" library="false" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="98" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="e57d0ebd-fef3-4644-9e20-46618b0487d0" name="Mechanicum" hidden="false" collective="false" import="false" targetId="1d33f58a-2c5f-4730-9177-8911df5a25bb" type="selectionEntry">
       <modifiers>
@@ -6951,26 +6951,41 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
             <selectionEntryGroup id="af20-2be3-73ec-3e3d" name="1) Melee weapon options:" hidden="false" collective="false" import="true">
               <entryLinks>
                 <entryLink id="e239-cbfc-582c-68d3" name="Taser Goad" hidden="false" collective="false" import="true" targetId="c1b2-b578-afbb-2406" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c8e-2597-11ea-bdbf" type="max"/>
+                  </constraints>
                   <costs>
                     <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="5.0"/>
                   </costs>
                 </entryLink>
                 <entryLink id="c035-501b-e2b1-7931" name="Arc Maul" hidden="false" collective="false" import="true" targetId="5282bf2b-bca0-4fc5-b2d9-e007574a610b" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad72-8ac1-67e0-9d62" type="max"/>
+                  </constraints>
                   <costs>
                     <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="5.0"/>
                   </costs>
                 </entryLink>
                 <entryLink id="3b3b-0a23-6f9e-c321" name="Power Sword" hidden="false" collective="false" import="true" targetId="250fb186-e755-43d1-bcd9-864a073416b7" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dde4-bb51-d95e-6e94" type="max"/>
+                  </constraints>
                   <costs>
                     <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="10.0"/>
                   </costs>
                 </entryLink>
                 <entryLink id="de30-8aec-9e32-5789" name="Transonic Razor" hidden="false" collective="false" import="true" targetId="7d6f-0a0c-6b52-2811" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="208f-0fe0-b1c0-6e9a" type="max"/>
+                  </constraints>
                   <costs>
                     <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="10.0"/>
                   </costs>
                 </entryLink>
                 <entryLink id="1d7d-61b5-4683-acdd" name="Power Fist" hidden="false" collective="false" import="true" targetId="41c0a306-6f22-43bc-bb94-d50be41c10e9" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="092c-9500-d437-8790" type="max"/>
+                  </constraints>
                   <costs>
                     <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="15.0"/>
                   </costs>
@@ -6980,16 +6995,25 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
             <selectionEntryGroup id="2351-8af0-5b88-7640" name="2) Ranged weapon options:" hidden="false" collective="false" import="true">
               <entryLinks>
                 <entryLink id="3262-4831-6868-5bbe" name="Radium Pistol" hidden="false" collective="false" import="true" targetId="be5a748a-d3c1-48e7-8491-60b169ad444a" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3dd7-cec0-7738-1433" type="max"/>
+                  </constraints>
                   <costs>
                     <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="2.0"/>
                   </costs>
                 </entryLink>
                 <entryLink id="3a3e-6db3-33de-2bc7" name="Phosphor Blast Pistol" hidden="false" collective="false" import="true" targetId="d75e-a783-db4f-b1a9" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3887-8eb8-4ec1-731b" type="max"/>
+                  </constraints>
                   <costs>
                     <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="10.0"/>
                   </costs>
                 </entryLink>
                 <entryLink id="def4-1e38-7f04-7c97" name="Arc Pistol" hidden="false" collective="false" import="true" targetId="22b4c3f7-1313-4a01-95d7-80e7daa44ea3" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c25-401f-e40a-355f" type="max"/>
+                  </constraints>
                   <costs>
                     <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="10.0"/>
                   </costs>
@@ -7346,26 +7370,41 @@ In addition, whenever a unit with this Special Rule is targeted by any attack, r
             <selectionEntryGroup id="0dbd-abe3-a00c-f3f2" name="1) Melee weapon options:" hidden="false" collective="false" import="true">
               <entryLinks>
                 <entryLink id="791d-223e-8fc7-ec26" name="Taser Goad" hidden="false" collective="false" import="true" targetId="c1b2-b578-afbb-2406" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b768-11d1-e808-239d" type="max"/>
+                  </constraints>
                   <costs>
                     <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="5.0"/>
                   </costs>
                 </entryLink>
                 <entryLink id="6b1d-bb8c-04ea-be2c" name="Arc Maul" hidden="false" collective="false" import="true" targetId="5282bf2b-bca0-4fc5-b2d9-e007574a610b" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e1d-fdf1-2bcc-85ff" type="max"/>
+                  </constraints>
                   <costs>
                     <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="5.0"/>
                   </costs>
                 </entryLink>
                 <entryLink id="cc4e-6647-21e3-a049" name="Power Sword" hidden="false" collective="false" import="true" targetId="250fb186-e755-43d1-bcd9-864a073416b7" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e88-2d6d-59a9-238c" type="max"/>
+                  </constraints>
                   <costs>
                     <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="10.0"/>
                   </costs>
                 </entryLink>
                 <entryLink id="af0f-7a73-e5cd-498d" name="Transonic Razor" hidden="false" collective="false" import="true" targetId="7d6f-0a0c-6b52-2811" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3183-507d-b7fb-a51f" type="max"/>
+                  </constraints>
                   <costs>
                     <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="10.0"/>
                   </costs>
                 </entryLink>
                 <entryLink id="26dd-c290-984d-1059" name="Power Fist" hidden="false" collective="false" import="true" targetId="41c0a306-6f22-43bc-bb94-d50be41c10e9" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1a5-f2a2-d2c4-9d84" type="max"/>
+                  </constraints>
                   <costs>
                     <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="15.0"/>
                   </costs>
@@ -7375,16 +7414,25 @@ In addition, whenever a unit with this Special Rule is targeted by any attack, r
             <selectionEntryGroup id="1a1b-8042-18b6-e25d" name="2) Ranged weapon options:" hidden="false" collective="false" import="true">
               <entryLinks>
                 <entryLink id="9436-2fd4-726c-21e8" name="Radium Pistol" hidden="false" collective="false" import="true" targetId="be5a748a-d3c1-48e7-8491-60b169ad444a" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf9e-bb6e-ae36-9460" type="max"/>
+                  </constraints>
                   <costs>
                     <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="2.0"/>
                   </costs>
                 </entryLink>
                 <entryLink id="3789-fb19-7daf-fd3a" name="Phosphor Blast Pistol" hidden="false" collective="false" import="true" targetId="d75e-a783-db4f-b1a9" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36aa-579e-20df-09b3" type="max"/>
+                  </constraints>
                   <costs>
                     <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="10.0"/>
                   </costs>
                 </entryLink>
                 <entryLink id="c71b-03b0-94ee-a091" name="Arc Pistol" hidden="false" collective="false" import="true" targetId="22b4c3f7-1313-4a01-95d7-80e7daa44ea3" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cf3-78c4-efb2-bcf3" type="max"/>
+                  </constraints>
                   <costs>
                     <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="10.0"/>
                   </costs>
@@ -7437,7 +7485,7 @@ In addition, whenever a unit with this Special Rule is targeted by any attack, r
                 <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="8.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="8d53-2cf1-403d-13f8" name="Skitarii Vanguard w/ Options" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="8d53-2cf1-403d-13f8" name="Skitarii Ranger w/ Options" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="19.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45de-871b-61a5-cb3b" type="max"/>
               </constraints>
