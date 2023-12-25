@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8f476ede-33bd-41e2-a64e-0a49fd5d88b7" name="2022 - Mechanicum" revision="36" battleScribeVersion="2.03" library="false" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="98" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8f476ede-33bd-41e2-a64e-0a49fd5d88b7" name="2022 - Mechanicum" revision="37" battleScribeVersion="2.03" library="false" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="98" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="e57d0ebd-fef3-4644-9e20-46618b0487d0" name="Mechanicum" hidden="false" collective="false" import="false" targetId="1d33f58a-2c5f-4730-9177-8911df5a25bb" type="selectionEntry">
       <modifiers>
@@ -640,6 +640,12 @@
         <categoryLink id="a3ec851a-5c92-4a88-9217-d1949f790a54" name="Unit:" hidden="false" targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" primary="false">
           <comment>template_id_4448-a712-4dd7-bf6d</comment>
         </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="cbca-8925-f6fd-3295" name="Skitarii Vanguard Cohort" hidden="false" collective="false" import="true" targetId="b116-1c01-5aad-5680" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="cff8-1b02-c0e4-9810" name="Unit:" hidden="false" targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" primary="false"/>
+        <categoryLink id="3503-9400-120c-8a18" name="New CategoryLink" hidden="false" targetId="1bfd7c23-4ad7-418a-8351-828b2da671e6" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -6849,6 +6855,9 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="e3b1-0b9f-7911-08e6" name="Phosphor Serpenta" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -6864,6 +6873,9 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
       <infoLinks>
         <infoLink id="df72-223d-67f5-a7c7" name="Ignores Cover" hidden="false" targetId="5e110794-d866-440a-8ac1-f79be51e7bb7" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5c40-73df-fe1e-bf99" name="Eradication Ray" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -6895,6 +6907,9 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
       <infoLinks>
         <infoLink id="f440-3918-eb54-8118" name="Blind" hidden="false" targetId="bf8e8b64-1f1a-4492-9f6f-9726db5b9241" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b116-1c01-5aad-5680" name="Skitarii Vanguard Cohort" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -6909,13 +6924,13 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
           <profiles>
             <profile id="3755-10d0-f1a2-74fb" name="Skitarii Vanguard Alpha" hidden="false" typeId="2b6e799b-8afd-4ae9-b80a-234103442598" typeName="Unit">
               <characteristics>
-                <characteristic name="Unit Type" typeId="36ce3f10-11e9-4add-ae15-3062f27946e7">Infantry (Character)</characteristic>
+                <characteristic name="Unit Type" typeId="36ce3f10-11e9-4add-ae15-3062f27946e7">Infantry (Character, Line)</characteristic>
                 <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">7</characteristic>
                 <characteristic name="WS" typeId="d5a82d3a-18d1-48d0-a9e0-f752cb09e068">3</characteristic>
                 <characteristic name="BS" typeId="253b2a0a-577c-437a-9898-bfc1d22dcef8">4</characteristic>
                 <characteristic name="S" typeId="94c4fa7b-8480-4e99-84ad-92c9768f1472">3</characteristic>
                 <characteristic name="T" typeId="8a92af2d-103b-4847-b535-181cc323038e">3</characteristic>
-                <characteristic name="W" typeId="5e57eecc-4078-4b3a-9087-1cf0055bbabd">2</characteristic>
+                <characteristic name="W" typeId="5e57eecc-4078-4b3a-9087-1cf0055bbabd">1</characteristic>
                 <characteristic name="I" typeId="ed32b28f-9bdc-4312-ba9b-e16cbc61db41">3</characteristic>
                 <characteristic name="A" typeId="4e9d7106-4cea-4d16-a7ea-f2f8f2957234">2</characteristic>
                 <characteristic name="Ld" typeId="9c8deb64-055e-4d01-b341-924389963feb">8</characteristic>
@@ -6926,6 +6941,56 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
           <categoryLinks>
             <categoryLink id="71b6-5e1c-e889-1bfe" name="Character" hidden="false" targetId="546a8d3f-47d4-4c80-b30e-e6addf1298f2" primary="false"/>
           </categoryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="af20-2be3-73ec-3e3d" name="1) Melee weapon options:" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="e239-cbfc-582c-68d3" name="Taser Goad" hidden="false" collective="false" import="true" targetId="c1b2-b578-afbb-2406" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="5.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="c035-501b-e2b1-7931" name="Arc Maul" hidden="false" collective="false" import="true" targetId="5282bf2b-bca0-4fc5-b2d9-e007574a610b" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="5.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="3b3b-0a23-6f9e-c321" name="Power Sword" hidden="false" collective="false" import="true" targetId="250fb186-e755-43d1-bcd9-864a073416b7" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="10.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="de30-8aec-9e32-5789" name="Transonic Razor" hidden="false" collective="false" import="true" targetId="7d6f-0a0c-6b52-2811" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="10.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="1d7d-61b5-4683-acdd" name="Power Fist" hidden="false" collective="false" import="true" targetId="41c0a306-6f22-43bc-bb94-d50be41c10e9" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="15.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="2351-8af0-5b88-7640" name="2) Ranged weapon options:" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="3262-4831-6868-5bbe" name="Radium Pistol" hidden="false" collective="false" import="true" targetId="be5a748a-d3c1-48e7-8491-60b169ad444a" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="2.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="3a3e-6db3-33de-2bc7" name="Phosphor Blast Pistol" hidden="false" collective="false" import="true" targetId="d75e-a783-db4f-b1a9" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="10.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="def4-1e38-7f04-7c97" name="Arc Pistol" hidden="false" collective="false" import="true" targetId="22b4c3f7-1313-4a01-95d7-80e7daa44ea3" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="10.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
           <costs>
             <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="8.0"/>
           </costs>
@@ -6960,7 +7025,12 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
                 </profile>
               </profiles>
               <entryLinks>
-                <entryLink id="efc3-2693-5f18-e62b" name="Radium Carbine" hidden="false" collective="false" import="true" targetId="5cae4bd8-cc45-468a-b429-a7a70d3f5b1e" type="selectionEntry"/>
+                <entryLink id="efc3-2693-5f18-e62b" name="Radium Carbine" hidden="false" collective="false" import="true" targetId="5cae4bd8-cc45-468a-b429-a7a70d3f5b1e" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55f0-bec0-1d10-b91b" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f159-7d4d-65f3-330c" type="max"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
               <costs>
                 <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="8.0"/>
@@ -6987,11 +7057,89 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
                   </characteristics>
                 </profile>
               </profiles>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="c865-68f8-036a-58f1" name="Weapon options:" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb3a-d07f-6704-1ba8" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a06-a4f6-d448-36d2" type="min"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="ed14-52d9-8228-0cc2" name="Plasma Gun" hidden="false" collective="false" import="true" targetId="26d315cc-eed8-41db-a2c5-54aa6797c378" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a1a-1ea7-eefe-adbe" type="max"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="11.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="588a-d84d-ed67-63bc" name="Arc Rifle" hidden="false" collective="false" import="true" targetId="c9951889-1c19-4db7-b8a5-433289b6f308" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2f5-13b7-6a88-4f8e" type="max"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="2.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="1a37-0867-9182-1fa5" name="Transuranic Arquebus" hidden="false" collective="false" import="true" targetId="440f-492a-1a8b-5972" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8951-e4d0-7684-e475" type="max"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="12.0"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <costs>
                 <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="8.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="2b85-16f3-cfeb-0078" name="May one of each of the following:" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d791-aa15-aa51-9314" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="653d-22ad-8bf0-1ddd" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="1880-c72c-e44e-4eaf" name="Augury Scanner" hidden="false" collective="false" import="true" targetId="00db098f-2522-41ca-a6ba-f599a22f452f" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d5c-fc04-2426-03f6" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b16-0d26-dc80-9dcd" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="ef83-fe8d-d3bc-c103" name="Nuncio-Vox" hidden="false" collective="false" import="true" targetId="fff45847-cac3-4507-8dd5-a8b83a77ae6e" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a35b-00d6-7565-c903" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f67-0a8a-32c6-3d89" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="4e61-d830-5468-49f8" name="Omnispex" hidden="false" collective="false" import="true" targetId="65ae-bc12-e0bf-fc0d" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="391a-a017-89c0-eb8a" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1dc6-f9d0-c30a-6260" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="e0cc-6862-c384-4d2a" name="Enhanced Data-Tether" hidden="false" collective="false" import="true" targetId="e312-0b6b-2cca-1d6d" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="990b-27e4-7654-b10b" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83d4-0f66-a0de-5440" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="5.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -7001,9 +7149,144 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="293d-32e6-2df6-456b" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="5a67-3bc7-10b0-4547" name="The Corpus Skitarii" hidden="false" collective="false" import="true" targetId="2295cf6c-432a-4c5a-a3e7-67e55807e415" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c03-eafd-17b5-88a1" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d1d-f70c-7598-053c" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="9604-bfe3-d52d-d62c" name="Rad-Saturation" hidden="false" collective="false" import="true" targetId="6663-d0cf-9267-088c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f948-b41a-e1f6-2731" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5a4-39ad-fbd8-54c8" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c1b2-b578-afbb-2406" name="Taser Goad" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="4519-73c3-5312-9183" name="Taser Goad" hidden="false" typeId="6525dede-e40b-4bd7-939d-60de13a16105" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">-</characteristic>
+            <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">+2</characteristic>
+            <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">-</characteristic>
+            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Melee, Overload (6+)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0363-3c7e-9117-b039" name="Overload" hidden="false" targetId="ef21-7dac-2d02-875e" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Overload (6+)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="7d6f-0a0c-6b52-2811" name="Transonic Razor" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="6e61-610e-acd2-398e" name="Transonic Razor" hidden="false" typeId="6525dede-e40b-4bd7-939d-60de13a16105" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">-</characteristic>
+            <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">+1</characteristic>
+            <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">3</characteristic>
+            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Melee, Breaching (5+), Specalist Weapon</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7f82-dda2-45e3-641d" name="Breaching (X)" hidden="false" targetId="c2884825-a9d0-4d52-9ebd-568065be7d37" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Breaching (6+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="56a5-aa5a-ba26-4017" name="Specialist Weapon" hidden="false" targetId="76484c23-aff3-4ae7-a9a7-0157ea1c1634" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="d75e-a783-db4f-b1a9" name="Phosphor Blast Pistol" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="be91-389b-976b-3945" name="Phosphor Blast Pistol" hidden="false" typeId="6525dede-e40b-4bd7-939d-60de13a16105" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">12&quot;</characteristic>
+            <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">4</characteristic>
+            <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">5</characteristic>
+            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Pistol 1, Blast (3&quot;), Ignores Cover</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="99df-a967-cd3b-24bc" name="Blast" hidden="false" targetId="73191d9c-a0f7-4892-b200-af0a1e88a14b" type="rule"/>
+        <infoLink id="4c9e-32c9-aeb9-73ad" name="Ignores Cover" hidden="false" targetId="5e110794-d866-440a-8ac1-f79be51e7bb7" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="65ae-bc12-e0bf-fc0d" name="Omnispex" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="ba68-839b-aa14-bed1" name="Omnispex" hidden="false" typeId="04ae4d9f-9a14-4ace-8f86-56ec1229c5a1" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="b041e7a3-08e8-4a60-a7e7-e50e963bc010">A unit with at least one model equipped with an Omnispex gains the Night Vision Special Rule.
+
+In addition, as long as the bearer is alive, Cover Saves taken against attacks made by a unit with an Omnispex are made with a -1 modifier. This effect is not cumulative if the unit has more than one Omnispex.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a901-5150-5a6c-9b26" name="Night Vision" hidden="false" targetId="bc8f4ba2-cf0e-4985-8c13-8de549985e1f" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="e312-0b6b-2cca-1d6d" name="Enhanced Data-Tether" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="1f22-9a3b-9c14-e77a" name="Enhanced Data-Tether" hidden="false" typeId="04ae4d9f-9a14-4ace-8f86-56ec1229c5a1" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="b041e7a3-08e8-4a60-a7e7-e50e963bc010">All models in a unit equipped with an Enhanced Data-Tether may add 1 to their Leadership Characteristic, to a maximum of 10. This is not cumulative with the effects of any other Data-Tethers.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="6663-d0cf-9267-088c" name="Rad-Saturation" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="2983-8daa-94e8-9a9f" name="Rad-Saturation" hidden="false" typeId="04ae4d9f-9a14-4ace-8f86-56ec1229c5a1" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="b041e7a3-08e8-4a60-a7e7-e50e963bc010">When an enemy unit is locked in combat with one or more models with this Special Rule, they must subtract 1 from their Toughness Characteristic (to a minimum of 1). This effect is not cumulative with Rad Grenades or the effects of the Rad-Phage Special Rule, but does affect Instant Death thresholds.
+
+In addition, whenever a unit with this Special Rule is targeted by any attack, reduce that attack’s Strength by -1.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="440f-492a-1a8b-5972" name="Transuranic Arquebus" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="36fc-8449-76e5-d2e3" name="Transuranic Arquebus" hidden="false" typeId="6525dede-e40b-4bd7-939d-60de13a16105" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">72&quot;</characteristic>
+            <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">7</characteristic>
+            <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">4</characteristic>
+            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Heavy 1, Rending (4+), Sniper, Pinning, Shell Shock (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="faf1-738d-4235-1132" name="Rending (X)" hidden="false" targetId="2ec1d6f7-91d8-4fbe-9795-b3d9a894781f" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Rending (4+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="3bd9-504f-9064-0212" name="Sniper" hidden="false" targetId="42ef2013-23e0-41c9-96cf-a2430776314b" type="rule"/>
+        <infoLink id="4075-d67d-2ab2-4c4a" name="Pinning" hidden="false" targetId="932be210-d2df-4c82-a8c8-41b30d389267" type="rule"/>
+        <infoLink id="8812-2952-0b80-0d8f" name="Shell Shock (X)" hidden="false" targetId="c15cd5eb-2b38-4f8d-af20-bbd09038ac15" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Shell Shock (1)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
+  <sharedRules>
+    <rule id="ef21-7dac-2d02-875e" name="Overload" hidden="false">
+      <description>Whenever a weapon with this Special Rule causes a successful hit, a hit roll of X instead inflicts three automatic hits. On weapons which use a Blast Marker or Template to hit, every successful hit inflicted is instead counted as three successful hits against the unit.</description>
+    </rule>
+  </sharedRules>
   <catalogueLinks>
     <catalogueLink id="88b3878f-04f6-45a4-992a-cc079b53f329" name="2022 - Mech Library" targetId="9db47c25-f72b-415b-b6f2-ffeb17606a4b" type="catalogue" importRootEntries="true"/>
     <catalogueLink id="955c085a-08dd-4d2f-af9b-b131d1b3207c" name="2022 - LI - Assassins" targetId="46be64f1-4306-474b-9c01-461e0b948831" type="catalogue" importRootEntries="true"/>
