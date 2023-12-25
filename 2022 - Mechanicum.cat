@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8f476ede-33bd-41e2-a64e-0a49fd5d88b7" name="2022 - Mechanicum" revision="37" battleScribeVersion="2.03" library="false" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="98" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8f476ede-33bd-41e2-a64e-0a49fd5d88b7" name="2022 - Mechanicum" revision="38" battleScribeVersion="2.03" library="false" gameSystemId="fc677dc3-39c6-46fc-ad8c-b60c895e8833" gameSystemRevision="98" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="e57d0ebd-fef3-4644-9e20-46618b0487d0" name="Mechanicum" hidden="false" collective="false" import="false" targetId="1d33f58a-2c5f-4730-9177-8911df5a25bb" type="selectionEntry">
       <modifiers>
@@ -642,10 +642,16 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="cbca-8925-f6fd-3295" name="Skitarii Vanguard Cohort" hidden="false" collective="false" import="true" targetId="b116-1c01-5aad-5680" type="selectionEntry">
+    <entryLink id="cbca-8925-f6fd-3295" name="Skitarii Ranger Cohort" hidden="false" collective="false" import="true" targetId="0e6e-c485-96b2-2341" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="cff8-1b02-c0e4-9810" name="Unit:" hidden="false" targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" primary="false"/>
         <categoryLink id="3503-9400-120c-8a18" name="New CategoryLink" hidden="false" targetId="1bfd7c23-4ad7-418a-8351-828b2da671e6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c613-e270-4938-520e" name="Skitarii Vanguard Cohort" hidden="false" collective="false" import="true" targetId="b116-1c01-5aad-5680" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e340-f493-7fc0-8a43" name="Unit:" hidden="false" targetId="0f745e7f-70c8-47b4-9837-b44aa0bccfe2" primary="false"/>
+        <categoryLink id="3556-539e-fe86-f9e4" name="New CategoryLink" hidden="false" targetId="1bfd7c23-4ad7-418a-8351-828b2da671e6" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -1384,7 +1390,7 @@
                 <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="30.0"/>
               </costs>
             </entryLink>
-            <entryLink id="b103-0756-e013-aae6" name="Volkite Charger" hidden="false" collective="false" import="true" targetId="58adf288-f397-4ba1-a9c2-67e882b7bca9" type="selectionEntry">
+            <entryLink id="b103-0756-e013-aae6" name="Volkite Culverin" hidden="false" collective="false" import="true" targetId="813ed25f-dbd5-436f-a5be-d725d0f7a5aa" type="selectionEntry">
               <costs>
                 <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="8.0"/>
               </costs>
@@ -6997,7 +7003,7 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="c7f7-33e9-88e5-605d" name="Skitarii Vanguard" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="c7f7-33e9-88e5-605d" name="Skitarii Vanguards" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70aa-0fdd-e5fb-64a2" type="min"/>
             <constraint field="selections" scope="parent" value="19.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d38-47a1-0248-2f28" type="max"/>
@@ -7184,6 +7190,9 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
           </modifiers>
         </infoLink>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7d6f-0a0c-6b52-2811" name="Transonic Razor" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -7204,6 +7213,9 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
         </infoLink>
         <infoLink id="56a5-aa5a-ba26-4017" name="Specialist Weapon" hidden="false" targetId="76484c23-aff3-4ae7-a9a7-0157ea1c1634" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="d75e-a783-db4f-b1a9" name="Phosphor Blast Pistol" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -7220,6 +7232,9 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
         <infoLink id="99df-a967-cd3b-24bc" name="Blast" hidden="false" targetId="73191d9c-a0f7-4892-b200-af0a1e88a14b" type="rule"/>
         <infoLink id="4c9e-32c9-aeb9-73ad" name="Ignores Cover" hidden="false" targetId="5e110794-d866-440a-8ac1-f79be51e7bb7" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="65ae-bc12-e0bf-fc0d" name="Omnispex" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -7234,6 +7249,9 @@ In addition, as long as the bearer is alive, Cover Saves taken against attacks m
       <infoLinks>
         <infoLink id="a901-5150-5a6c-9b26" name="Night Vision" hidden="false" targetId="bc8f4ba2-cf0e-4985-8c13-8de549985e1f" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="e312-0b6b-2cca-1d6d" name="Enhanced Data-Tether" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -7243,6 +7261,9 @@ In addition, as long as the bearer is alive, Cover Saves taken against attacks m
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6663-d0cf-9267-088c" name="Rad-Saturation" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -7254,6 +7275,9 @@ In addition, whenever a unit with this Special Rule is targeted by any attack, r
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="440f-492a-1a8b-5972" name="Transuranic Arquebus" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -7280,6 +7304,289 @@ In addition, whenever a unit with this Special Rule is targeted by any attack, r
           </modifiers>
         </infoLink>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0e6e-c485-96b2-2341" name="Skitarii Ranger Cohort" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="5dcd-1af4-944b-8581" name="Relentless" hidden="false" targetId="2800305f-2d6f-4e0e-8d3f-f5e05b31560e" type="rule"/>
+        <infoLink id="81ce-9bd8-86b2-bbef" name="Move Through Cover" hidden="false" targetId="124ebb40-5baf-46b1-9e21-a4cbf4b3cedb" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a9bf-3c91-a430-7559" name="Infantry:" hidden="false" targetId="b9c46d78-0d4c-44b4-85a3-d59364156c36" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="4e7f-9912-025c-de67" name="Skitarii Ranger Alpha" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88d3-6984-edc8-5a90" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf05-f750-1d44-2b7f" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="2848-8be9-4f6d-c4d2" name="Skitarii Ranger Alpha" hidden="false" typeId="2b6e799b-8afd-4ae9-b80a-234103442598" typeName="Unit">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="36ce3f10-11e9-4add-ae15-3062f27946e7">Infantry (Character, Line)</characteristic>
+                <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">7</characteristic>
+                <characteristic name="WS" typeId="d5a82d3a-18d1-48d0-a9e0-f752cb09e068">3</characteristic>
+                <characteristic name="BS" typeId="253b2a0a-577c-437a-9898-bfc1d22dcef8">4</characteristic>
+                <characteristic name="S" typeId="94c4fa7b-8480-4e99-84ad-92c9768f1472">3</characteristic>
+                <characteristic name="T" typeId="8a92af2d-103b-4847-b535-181cc323038e">3</characteristic>
+                <characteristic name="W" typeId="5e57eecc-4078-4b3a-9087-1cf0055bbabd">1</characteristic>
+                <characteristic name="I" typeId="ed32b28f-9bdc-4312-ba9b-e16cbc61db41">3</characteristic>
+                <characteristic name="A" typeId="4e9d7106-4cea-4d16-a7ea-f2f8f2957234">2</characteristic>
+                <characteristic name="Ld" typeId="9c8deb64-055e-4d01-b341-924389963feb">8</characteristic>
+                <characteristic name="Save" typeId="d8f3cf40-ebb8-45e1-8f50-074a0475a7ed">4+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="f24a-fec3-2216-463c" name="Character" hidden="false" targetId="546a8d3f-47d4-4c80-b30e-e6addf1298f2" primary="false"/>
+          </categoryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="0dbd-abe3-a00c-f3f2" name="1) Melee weapon options:" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="791d-223e-8fc7-ec26" name="Taser Goad" hidden="false" collective="false" import="true" targetId="c1b2-b578-afbb-2406" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="5.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="6b1d-bb8c-04ea-be2c" name="Arc Maul" hidden="false" collective="false" import="true" targetId="5282bf2b-bca0-4fc5-b2d9-e007574a610b" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="5.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="cc4e-6647-21e3-a049" name="Power Sword" hidden="false" collective="false" import="true" targetId="250fb186-e755-43d1-bcd9-864a073416b7" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="10.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="af0f-7a73-e5cd-498d" name="Transonic Razor" hidden="false" collective="false" import="true" targetId="7d6f-0a0c-6b52-2811" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="10.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="26dd-c290-984d-1059" name="Power Fist" hidden="false" collective="false" import="true" targetId="41c0a306-6f22-43bc-bb94-d50be41c10e9" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="15.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="1a1b-8042-18b6-e25d" name="2) Ranged weapon options:" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="9436-2fd4-726c-21e8" name="Radium Pistol" hidden="false" collective="false" import="true" targetId="be5a748a-d3c1-48e7-8491-60b169ad444a" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="2.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="3789-fb19-7daf-fd3a" name="Phosphor Blast Pistol" hidden="false" collective="false" import="true" targetId="d75e-a783-db4f-b1a9" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="10.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="c71b-03b0-94ee-a091" name="Arc Pistol" hidden="false" collective="false" import="true" targetId="22b4c3f7-1313-4a01-95d7-80e7daa44ea3" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="10.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="7.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3e28-0a35-0a76-c9fd" name="Skitarii Rangers" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8711-1c3e-cc80-003f" type="min"/>
+            <constraint field="selections" scope="parent" value="19.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea87-41e5-b50e-9a99" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="a366-058f-432f-28e9" name="Skitarii Ranger" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="19.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5941-d1ff-c38c-c77a" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="6432-b353-4957-cb69" name="Skitarii Ranger" hidden="false" typeId="2b6e799b-8afd-4ae9-b80a-234103442598" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="Unit Type" typeId="36ce3f10-11e9-4add-ae15-3062f27946e7">Infantry (Line)</characteristic>
+                    <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">7</characteristic>
+                    <characteristic name="WS" typeId="d5a82d3a-18d1-48d0-a9e0-f752cb09e068">3</characteristic>
+                    <characteristic name="BS" typeId="253b2a0a-577c-437a-9898-bfc1d22dcef8">4</characteristic>
+                    <characteristic name="S" typeId="94c4fa7b-8480-4e99-84ad-92c9768f1472">3</characteristic>
+                    <characteristic name="T" typeId="8a92af2d-103b-4847-b535-181cc323038e">3</characteristic>
+                    <characteristic name="W" typeId="5e57eecc-4078-4b3a-9087-1cf0055bbabd">1</characteristic>
+                    <characteristic name="I" typeId="ed32b28f-9bdc-4312-ba9b-e16cbc61db41">3</characteristic>
+                    <characteristic name="A" typeId="4e9d7106-4cea-4d16-a7ea-f2f8f2957234">1</characteristic>
+                    <characteristic name="Ld" typeId="9c8deb64-055e-4d01-b341-924389963feb">7</characteristic>
+                    <characteristic name="Save" typeId="d8f3cf40-ebb8-45e1-8f50-074a0475a7ed">4+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <entryLinks>
+                <entryLink id="c577-fc3e-c698-a932" name="Galvanic Rifle" hidden="false" collective="false" import="true" targetId="33ef-0080-c660-7b00" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62e7-a13a-4651-5156" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d492-0440-eb76-b564" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="8.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8d53-2cf1-403d-13f8" name="Skitarii Vanguard w/ Options" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="19.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45de-871b-61a5-cb3b" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="d718-c4b5-2d9f-28bd" name="Skitarii Ranger" hidden="false" typeId="2b6e799b-8afd-4ae9-b80a-234103442598" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="Unit Type" typeId="36ce3f10-11e9-4add-ae15-3062f27946e7">Infantry (Line)</characteristic>
+                    <characteristic name="Move" typeId="2c7fb038-04c4-435d-95ea-653df92ba603">7</characteristic>
+                    <characteristic name="WS" typeId="d5a82d3a-18d1-48d0-a9e0-f752cb09e068">3</characteristic>
+                    <characteristic name="BS" typeId="253b2a0a-577c-437a-9898-bfc1d22dcef8">4</characteristic>
+                    <characteristic name="S" typeId="94c4fa7b-8480-4e99-84ad-92c9768f1472">3</characteristic>
+                    <characteristic name="T" typeId="8a92af2d-103b-4847-b535-181cc323038e">3</characteristic>
+                    <characteristic name="W" typeId="5e57eecc-4078-4b3a-9087-1cf0055bbabd">1</characteristic>
+                    <characteristic name="I" typeId="ed32b28f-9bdc-4312-ba9b-e16cbc61db41">3</characteristic>
+                    <characteristic name="A" typeId="4e9d7106-4cea-4d16-a7ea-f2f8f2957234">1</characteristic>
+                    <characteristic name="Ld" typeId="9c8deb64-055e-4d01-b341-924389963feb">7</characteristic>
+                    <characteristic name="Save" typeId="d8f3cf40-ebb8-45e1-8f50-074a0475a7ed">4+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="71ac-34ae-4754-41ec" name="Weapon options:" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c719-15e6-2eb5-bbdc" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00f6-3934-ef3e-5a02" type="min"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="9f4a-bf1d-dfa9-a3ec" name="Plasma Gun" hidden="false" collective="false" import="true" targetId="26d315cc-eed8-41db-a2c5-54aa6797c378" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abc9-41b2-59b2-487d" type="max"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="11.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="56e5-2995-3014-93b5" name="Arc Rifle" hidden="false" collective="false" import="true" targetId="c9951889-1c19-4db7-b8a5-433289b6f308" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99dd-ea45-69d9-30fc" type="max"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="2.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="0002-160d-8f74-117a" name="Transuranic Arquebus" hidden="false" collective="false" import="true" targetId="440f-492a-1a8b-5972" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3627-9182-b77a-0a7d" type="max"/>
+                      </constraints>
+                      <costs>
+                        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="12.0"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="8.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="7afb-1959-c987-257f" name="May one of each of the following:" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e356-0047-dccc-9874" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b2d-bd48-a0a4-838b" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="0475-11c8-c720-5830" name="Augury Scanner" hidden="false" collective="false" import="true" targetId="00db098f-2522-41ca-a6ba-f599a22f452f" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79fc-3ab0-0f97-cdaa" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a28-8bb7-e06d-80e4" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="7621-c9a1-1f8f-7076" name="Nuncio-Vox" hidden="false" collective="false" import="true" targetId="fff45847-cac3-4507-8dd5-a8b83a77ae6e" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a53-a2c3-df00-fac1" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6b5-552c-6a1b-8394" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="6502-3bdc-a7ec-7ff0" name="Omnispex" hidden="false" collective="false" import="true" targetId="65ae-bc12-e0bf-fc0d" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba79-f830-b251-0b4f" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1eed-d6f2-f7ee-f06e" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="f545-0923-7b9d-f262" name="Enhanced Data-Tether" hidden="false" collective="false" import="true" targetId="e312-0b6b-2cca-1d6d" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8700-3415-75e2-4001" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ebd-a2c4-27c8-155b" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="5.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="b1a0-3041-6902-4bd7" name="Frag Grenades" hidden="false" collective="false" import="true" targetId="5acce3b0-125c-4ecd-868c-1fdad8c7112d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e8e-8829-f139-c344" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1ba-0b27-8c8d-5387" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="83ea-fa9e-098b-295d" name="The Corpus Skitarii" hidden="false" collective="false" import="true" targetId="2295cf6c-432a-4c5a-a3e7-67e55807e415" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cb9-43bf-618c-c775" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f05-9844-3fe9-3a1c" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="33ef-0080-c660-7b00" name="Galvanic Rifle" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="e700-f8d2-d6b5-7a14" name="Galvanic Rifle" hidden="false" typeId="6525dede-e40b-4bd7-939d-60de13a16105" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="ff22d5c8-bfa7-4732-b9f4-635c8dabb22d">30&quot;</characteristic>
+            <characteristic name="Strength" typeId="b297ee6f-01a5-46c5-8430-c567af32f8aa">4</characteristic>
+            <characteristic name="AP" typeId="5e466b30-6fd9-48ea-bed8-f2f345bedae8">5</characteristic>
+            <characteristic name="Type" typeId="62b9ab03-70db-45d5-b0e0-3eeff91d5ce7">Heavy 2, Breaching (6+), Precision Shots (6+) </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c92e-90eb-79d5-6332" name="Breaching (X)" hidden="false" targetId="c2884825-a9d0-4d52-9ebd-568065be7d37" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Breaching (6+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="93a0-7e02-8708-3227" name="Precision Shots (X)" hidden="false" targetId="4007addc-b29c-4a65-8cdb-6dd1905244aa" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Precision Shots (6+)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="1c476931-8303-47b7-ac43-7eff8c4583c4" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
